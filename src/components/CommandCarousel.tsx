@@ -7,17 +7,17 @@ const cards = [
   {
     src: "/teasers/chatbot-replies-to-serious-buyers.webp",
     title: "Replies to serious buyers",
-    body: "Your best leads don't wait. The chatbot answers in seconds — not hours, not Monday morning.",
+    body: "Your best leads don't wait. The chatbot answers in seconds. Not hours. Not Monday morning.",
   },
   {
     src: "/teasers/chatbot-turns-chats-into-leads.webp",
     title: "Turns chats into leads",
-    body: "Every conversation is a data point. Name, intent, channel, sentiment — captured before your team even opens the CRM.",
+    body: "Every conversation is a data point. Name, intent, channel, sentiment. Captured before your team even opens the CRM.",
   },
   {
     src: "/teasers/chabot-enriches-the-leads.webp",
     title: "Enriches every lead",
-    body: "Raw contacts are worthless. The chatbot adds context — what they asked, how they felt, what they almost bought.",
+    body: "Raw contacts are worthless. The chatbot adds context. What they asked, how they felt, what they almost bought.",
   },
   {
     src: "/teasers/chatbot-books-appointments.webp",
@@ -37,7 +37,7 @@ const cards = [
   {
     src: "/teasers/chatbot-reduces-no-shows.webp",
     title: "Reduces no-shows",
-    body: "Reminders, confirmations, and gentle pressure — automated. Your calendar stops lying to you.",
+    body: "Reminders, confirmations, and gentle pressure. Automated. Your calendar stops lying to you.",
   },
 ];
 

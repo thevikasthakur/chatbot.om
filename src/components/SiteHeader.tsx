@@ -24,7 +24,7 @@ export function SiteHeader() {
 
   return (
     <header className={`site-header${scrolled ? " site-header-solid" : ""}`}>
-      <a href="#top" className="site-header-logo" aria-label="chatbot.om — back to top">
+      <a href="#top" className="site-header-logo" aria-label="chatbot.om, back to top">
         <Image
           src="/chabot-logo-light.webp"
           alt="chatbot.om"

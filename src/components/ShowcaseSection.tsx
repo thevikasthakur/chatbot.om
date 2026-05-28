@@ -21,7 +21,7 @@ const showcaseItems: ShowcaseItem[] = [
     height: 1714,
     eyebrow: "Every visitor is a signal",
     headline: "",
-    body: "Names. Channels. Sentiment scored to the decimal. The chatbot doesn’t just answer people—it builds a live lead sheet while your team sleeps. WhatsApp, web chat, email—every thread becomes a row in your pipeline. No CRM tab-switching. No copy-paste. The machine does the boring work so humans can do the closing.",
+    body: "Names. Channels. Sentiment scored to the decimal. The chatbot doesn’t just answer people. It builds a live lead sheet while your team sleeps. WhatsApp, web chat, email. Every thread becomes a row in your pipeline. No CRM tab-switching. No copy-paste. The machine does the boring work so humans can do the closing.",
   },
   {
     src: "/teasers/tasks-completion.webp",
