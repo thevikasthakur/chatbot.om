@@ -15,7 +15,7 @@ type ShowcaseItem = {
 
 const showcaseItems: ShowcaseItem[] = [
   {
-    src: "/teasers/leads-sentiment.png",
+    src: "/teasers/leads-sentiment.webp",
     alt: "Lead queue showing Omani contacts with channel and sentiment scores",
     width: 2160,
     height: 1714,
@@ -24,7 +24,7 @@ const showcaseItems: ShowcaseItem[] = [
     body: "Names. Channels. Sentiment scored to the decimal. The chatbot doesn’t just answer people—it builds a live lead sheet while your team sleeps. WhatsApp, web chat, email—every thread becomes a row in your pipeline. No CRM tab-switching. No copy-paste. The machine does the boring work so humans can do the closing.",
   },
   {
-    src: "/teasers/tasks-completion.png",
+    src: "/teasers/tasks-completion.webp",
     alt: "Task completion dashboard for chatbot jobs",
     width: 1280,
     height: 2498,
@@ -33,7 +33,7 @@ const showcaseItems: ShowcaseItem[] = [
     body: "See exactly which jobs the bot nails and where it falls short. Most businesses guess. You operate.",
   },
   {
-    src: "/teasers/sentiment-trends.png",
+    src: "/teasers/sentiment-trends.webp",
     alt: "Sentiment trend chart over time",
     width: 1920,
     height: 1134,
@@ -42,7 +42,7 @@ const showcaseItems: ShowcaseItem[] = [
     body: "When the line dips, something broke. You see the shift in real time, not in next quarter’s churn report.",
   },
   {
-    src: "/teasers/sentiment-distribution.png",
+    src: "/teasers/sentiment-distribution.webp",
     alt: "Sentiment distribution donut chart",
     width: 1760,
     height: 1330,
@@ -66,6 +66,8 @@ export function ShowcaseSection() {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
               el.classList.add("sc-visible");
+            } else {
+              el.classList.remove("sc-visible");
             }
           });
         },

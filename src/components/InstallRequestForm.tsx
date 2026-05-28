@@ -69,7 +69,9 @@ export function InstallRequestForm({
     });
 
     try {
-      const response = await fetch("/api/install-request", {
+      const apiUrl =
+        process.env.NEXT_PUBLIC_API_URL ?? "";
+      const response = await fetch(`${apiUrl}/api/install-request`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
