@@ -21,7 +21,7 @@ export function VoiceSection() {
           }
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.45 }
     );
 
     observer.observe(el);

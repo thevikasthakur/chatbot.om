@@ -365,6 +365,106 @@ input {
   background: #fff7df;
 }
 
+/* ── Command Carousel (green horizontal scroll) ── */
+
+.cmd-wrap {
+  height: 400vh;
+}
+
+.cmd-section {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background: #f4f5f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 0 0 max(48px, calc((100vw - 1280px) / 2 + 48px));
+}
+
+.cmd-header {
+  margin-bottom: 48px;
+  max-width: 700px;
+}
+
+.cmd-eyebrow {
+  margin: 0 0 14px;
+  color: #10875a;
+  font-size: 0.85rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.cmd-headline {
+  margin: 0;
+  color: var(--ink);
+  font-size: 3.2rem;
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.cmd-viewport {
+  width: 100%;
+  overflow: visible;
+}
+
+.cmd-track {
+  display: flex;
+  gap: 28px;
+  will-change: transform;
+}
+
+.cmd-card {
+  flex: 0 0 340px;
+  background: white;
+  border: 1px solid rgba(8, 10, 18, 0.08);
+  border-radius: 20px;
+  padding: 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.3s, border-color 0.3s;
+  overflow: hidden;
+}
+
+.cmd-card:hover {
+  box-shadow: 0 8px 32px rgba(16, 135, 90, 0.10);
+  border-color: rgba(16, 135, 90, 0.2);
+}
+
+.cmd-card-img {
+  width: 100%;
+  aspect-ratio: 1;
+  display: block;
+  margin: 0;
+}
+
+.cmd-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cmd-card h3 {
+  margin: 0 0 10px;
+  padding: 20px 24px 0;
+  color: var(--ink);
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.cmd-card p {
+  margin: 0;
+  padding: 0 24px 24px;
+  color: rgba(8, 10, 18, 0.6);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
 .command-grid,
 .signal-grid,
 .privacy-grid,
@@ -438,6 +538,12 @@ input {
 
 /* ── One Chatbot All Channels ── */
 
+/* ── Channels: sticky scroll-through ── */
+
+.channels-wrap {
+  height: calc(100vh + 300vh);
+}
+
 .channels-hero {
   position: relative;
   min-height: 80vh;
@@ -445,6 +551,13 @@ input {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.channels-hero-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  min-height: 100vh;
 }
 
 .channels-hero-img {
@@ -478,13 +591,37 @@ input {
   max-width: 600px;
 }
 
-.channels-hero-content p {
-  margin: 24px 0 0;
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 1.2rem;
-  line-height: 1.6;
-  font-weight: 600;
-  max-width: 480px;
+/* ── Cycling lines ── */
+
+.channels-lines {
+  margin-top: 32px;
+  position: relative;
+  height: 56px;
+}
+
+.channels-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 12px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.4;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.channels-line-active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 /* ── Sovereign section ── */
@@ -1372,6 +1509,18 @@ input {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .cmd-section {
+    padding-left: 32px;
+  }
+
+  .cmd-headline {
+    font-size: 2.4rem;
+  }
+
+  .cmd-card {
+    flex: 0 0 280px;
+  }
+
   .sc-row {
     gap: 40px;
     padding: 60px 0;
@@ -1387,6 +1536,10 @@ input {
     min-height: 100svh;
   }
 
+  .channels-wrap {
+    height: calc(100vh + 200vh);
+  }
+
   .channels-hero {
     min-height: 60vh;
   }
@@ -1400,8 +1553,14 @@ input {
     font-size: 2.4rem;
   }
 
-  .channels-hero-content p {
+  .channels-line {
     font-size: 1.05rem;
+    padding: 8px 16px;
+    white-space: normal;
+  }
+
+  .channels-lines {
+    height: 48px;
   }
 
   .channels-hero-overlay {
