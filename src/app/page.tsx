@@ -8,7 +8,7 @@ import { CommandCarousel } from "@/components/CommandCarousel";
 
 const trustBadges = [
   "Sovereign cloud-hosted",
-  "Self-hosted option for enterprise",
+  "Sells while you sleep",
   "Arabic + English",
   "Sales mindset by default",
 ];
@@ -60,6 +60,10 @@ export default function Home() {
           <source src="/hero/chat-om-5fps.mp4" type="video/mp4" />
         </video>
         <div className="hero-overlay" />
+        <div className="hero-copy">
+          <h1><span className="hero-highlight">Oman&rsquo;s Own Sovereign Chatbot</span></h1>
+          <p><br/></p>
+        </div>
       </section>
 
       <section aria-label="Product promises" className="trust-strip">
@@ -71,20 +75,20 @@ export default function Home() {
         ))}
       </section>
 
-      <SovereignSection />
-
-      <VoiceSection />
+      <CommandCarousel />
 
       <ChannelsSection />
 
-      <CommandCarousel />
+      <VoiceSection />
 
       <ShowcaseSection />
+
+      <SovereignSection />
 
       <section className="final-cta" id="install">
         <div className="final-copy">
           <p className="eyebrow">Your website is quiet. Fix that.</p>
-          <h2>Install the chatbot that knows Oman.</h2>
+          <h2><span className="hero-highlight">Install the chatbot that knows Oman.</span></h2>
           <p>
             Enter your website. We review the site, connect approved data,
             and launch the chatbot. Less than two minutes to start.

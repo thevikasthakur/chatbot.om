@@ -51,18 +51,17 @@ export function CommandCarousel() {
     if (!wrap || !track) return;
 
     function onScroll() {
-      const rect = wrap.getBoundingClientRect();
+      const rect = wrap!.getBoundingClientRect();
       const viewH = window.innerHeight;
-      const totalScroll = wrap.scrollHeight - viewH;
+      const totalScroll = wrap!.scrollHeight - viewH;
       const scrolled = -rect.top;
       const progress = Math.min(Math.max(scrolled / totalScroll, 0), 1);
 
-      // Total horizontal distance to travel
-      const trackWidth = track.scrollWidth;
-      const visibleWidth = track.parentElement!.clientWidth;
+      const trackWidth = track!.scrollWidth;
+      const visibleWidth = track!.parentElement!.clientWidth;
       const maxTranslate = trackWidth - visibleWidth;
 
-      track.style.transform = `translateX(-${progress * maxTranslate}px)`;
+      track!.style.transform = `translateX(-${progress * maxTranslate}px)`;
     }
 
     window.addEventListener("scroll", onScroll, { passive: true });

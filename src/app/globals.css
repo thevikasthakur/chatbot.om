@@ -126,26 +126,31 @@ input {
   color: var(--clay);
 }
 
+.hero-copy {
+  position: absolute;
+  bottom: 120px;
+  left: max(24px, calc((100vw - 1180px) / 2));
+  z-index: 2;
+}
+
 .hero-copy h1 {
   margin: 0;
   max-width: 700px;
-  color: white;
   font-size: 4.35rem;
   font-weight: 950;
-  line-height: 0.96;
+  line-height: 1.05;
 }
 
-.hero-line {
-  margin: 20px 0 0;
-  max-width: 680px;
-  color: white;
-  font-size: 2.3rem;
-  font-weight: 900;
-  line-height: 1.04;
+.hero-highlight {
+  background: var(--saffron);
+  color: var(--ink);
+  padding: 2px 16px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .hero-subline {
-  max-width: 650px;
+  max-width: 520px;
   margin: 18px 0 0;
   color: rgba(255, 255, 255, 0.76);
   font-size: 1.12rem;
@@ -237,6 +242,95 @@ input {
   text-align: center;
 }
 
+/* ── Toast notifications ── */
+
+.toast-container {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  max-width: 420px;
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.18),
+    0 0 0 1px rgba(0, 0, 0, 0.05);
+  animation: toast-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast-exit {
+  animation: toast-out 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.toast-success {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.toast-error {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.toast-msg {
+  flex: 1;
+}
+
+.toast-close {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.toast-close:hover {
+  opacity: 1;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateX(40px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes toast-out {
+  from {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(40px) scale(0.95);
+  }
+}
+
 .install-form-compact {
   max-width: 700px;
   margin: 22px auto 0;
@@ -289,10 +383,9 @@ input {
 .section-heading h2,
 .final-copy h2 {
   margin: 0;
-  color: var(--ink);
   font-size: 3.6rem;
   font-weight: 950;
-  line-height: 0.96;
+  line-height: 1.05;
 }
 
 .section-heading p:not(.eyebrow),
@@ -586,10 +679,9 @@ input {
 
 .channels-hero-content h2 {
   margin: 0;
-  color: white;
   font-size: 3.6rem;
   font-weight: 950;
-  line-height: 0.96;
+  line-height: 1.05;
   max-width: 600px;
 }
 
@@ -1118,7 +1210,7 @@ input {
 /* ── Scroll-animated showcase ── */
 
 .sc-showcase {
-  background: var(--ink);
+  background: #002a1b;
   color: white;
   padding: 120px 0 80px;
 }
@@ -1131,10 +1223,9 @@ input {
 
 .sc-showcase-header h2 {
   margin: 0;
-  color: white;
   font-size: 3.6rem;
   font-weight: 950;
-  line-height: 0.96;
+  line-height: 1.3;
 }
 
 .sc-row {
@@ -1205,7 +1296,7 @@ input {
 
 .sc-eyebrow {
   margin: 0 0 14px;
-  color: var(--saffron);
+  color: #5DCAA5;
   font-size: 0.82rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -1214,15 +1305,14 @@ input {
 
 .sc-headline {
   margin: 0 0 20px;
-  color: white;
   font-size: 2.4rem;
   font-weight: 950;
-  line-height: 1.04;
+  line-height: 1.3;
 }
 
 .sc-body {
   margin: 0;
-  color: rgba(255, 255, 255, 0.62);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 1.05rem;
   line-height: 1.72;
   font-weight: 500;
@@ -1538,6 +1628,20 @@ input {
     min-height: 100svh;
   }
 
+  .hero-copy {
+    bottom: 100px;
+    left: 20px;
+    right: 20px;
+  }
+
+  .hero-copy h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-subline {
+    font-size: 1rem;
+  }
+
   .channels-wrap {
     height: calc(100vh + 100vh);
   }
@@ -1745,7 +1849,7 @@ input {
   .section-heading h2,
   .final-copy h2 {
     font-size: 2.65rem;
-    line-height: 1;
+    line-height: 1.3;
   }
 
   .section-heading p:not(.eyebrow),
@@ -1801,10 +1905,6 @@ input {
 @media (max-width: 420px) {
   .hero-copy h1 {
     font-size: 2.86rem;
-  }
-
-  .hero-line {
-    font-size: 1.62rem;
   }
 
   .section-heading h2,

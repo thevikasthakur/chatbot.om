@@ -60,7 +60,7 @@ export function ChannelsSection() {
         />
         <div className="channels-hero-overlay" />
         <div className="channels-hero-content">
-          <h2>One Chatbot. All Channels.</h2>
+          <h2><span className="hero-highlight">One Chatbot. All Channels.</span></h2>
           <div className="channels-lines">
             {lines.map((line, i) => (
               <p

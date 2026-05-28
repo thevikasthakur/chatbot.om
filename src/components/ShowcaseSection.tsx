@@ -84,8 +84,8 @@ export function ShowcaseSection() {
   return (
     <section className="sc-showcase">
       <div className="sc-showcase-header">
-        <p className="eyebrow dark">The dashboard that makes people lean in</p>
-        <h2>Chats become operating intelligence.</h2>
+        <p className="eyebrow">The dashboard that makes people lean in</p>
+        <h2><span className="hero-highlight">Chats become operating intelligence.</span></h2>
       </div>
 
       {showcaseItems.map((item, i) => {
@@ -100,7 +100,9 @@ export function ShowcaseSection() {
             <div className={i === 1 ? "sc-copy-wrap" : undefined}>
               <div className="sc-copy">
                 <p className="sc-eyebrow">{item.eyebrow}</p>
-                <h3 className="sc-headline">{item.headline}</h3>
+                <h3 className="sc-headline">
+                  {item.headline && <span className="hero-highlight">{item.headline}</span>}
+                </h3>
                 <p className="sc-body">{item.body}</p>
               </div>
             </div>

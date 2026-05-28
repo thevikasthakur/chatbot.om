@@ -1,7 +1,7 @@
 "use client";
 
-import { FormEvent, useId, useState } from "react";
-import { AlertCircle, CheckCircle2, Loader2, Send } from "lucide-react";
+import { FormEvent, useCallback, useEffect, useId, useRef, useState } from "react";
+import { AlertCircle, CheckCircle2, Loader2, Send, X } from "lucide-react";
 
 type InstallRequestFormProps = {
   ctaSource: string;
@@ -9,11 +9,11 @@ type InstallRequestFormProps = {
   hideIdleStatus?: boolean;
 };
 
-type FormState =
-  | { kind: "idle"; message: string }
-  | { kind: "submitting"; message: string }
-  | { kind: "success"; message: string }
-  | { kind: "error"; message: string };
+type Toast = {
+  id: number;
+  kind: "success" | "error";
+  message: string;
+};
 
 function looksLikeWebsite(value: string): boolean {
   const trimmed = value.trim();
@@ -35,6 +35,66 @@ function looksLikeWebsite(value: string): boolean {
   }
 }
 
+let toastCounter = 0;
+
+function ToastContainer({
+  toasts,
+  onDismiss,
+}: {
+  toasts: Toast[];
+  onDismiss: (id: number) => void;
+}) {
+  return (
+    <div className="toast-container" aria-live="polite">
+      {toasts.map((t) => (
+        <ToastItem key={t.id} toast={t} onDismiss={onDismiss} />
+      ))}
+    </div>
+  );
+}
+
+function ToastItem({
+  toast,
+  onDismiss,
+}: {
+  toast: Toast;
+  onDismiss: (id: number) => void;
+}) {
+  const [exiting, setExiting] = useState(false);
+  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+
+  const dismiss = useCallback(() => {
+    setExiting(true);
+    setTimeout(() => onDismiss(toast.id), 300);
+  }, [onDismiss, toast.id]);
+
+  useEffect(() => {
+    timerRef.current = setTimeout(dismiss, 5000);
+    return () => clearTimeout(timerRef.current);
+  }, [dismiss]);
+
+  return (
+    <div
+      className={`toast toast-${toast.kind}${exiting ? " toast-exit" : ""}`}
+    >
+      {toast.kind === "success" ? (
+        <CheckCircle2 aria-hidden="true" className="h-4 w-4" />
+      ) : (
+        <AlertCircle aria-hidden="true" className="h-4 w-4" />
+      )}
+      <span className="toast-msg">{toast.message}</span>
+      <button
+        className="toast-close"
+        onClick={dismiss}
+        aria-label="Dismiss"
+        type="button"
+      >
+        <X aria-hidden="true" className="h-3.5 w-3.5" />
+      </button>
+    </div>
+  );
+}
+
 export function InstallRequestForm({
   ctaSource,
   compact = false,
@@ -43,12 +103,21 @@ export function InstallRequestForm({
   const inputId = useId();
   const [domainName, setDomainName] = useState("");
   const [honeypot, setHoneypot] = useState("");
-  const [state, setState] = useState<FormState>({
-    kind: "idle",
-    message: compact
-      ? "Enter your website. We will inspect it and start the install request."
-      : "Enter your website. One click starts the install request.",
-  });
+  const [submitting, setSubmitting] = useState(false);
+  const [toasts, setToasts] = useState<Toast[]>([]);
+
+  const idleMessage = compact
+    ? "Enter your website. We will inspect it and start the install request."
+    : "Enter your website. One click starts the install request.";
+
+  function pushToast(kind: "success" | "error", message: string) {
+    const id = ++toastCounter;
+    setToasts((prev) => [...prev, { id, kind, message }]);
+  }
+
+  function dismissToast(id: number) {
+    setToasts((prev) => prev.filter((t) => t.id !== id));
+  }
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -56,17 +125,11 @@ export function InstallRequestForm({
     const trimmedDomain = domainName.trim();
 
     if (!looksLikeWebsite(trimmedDomain)) {
-      setState({
-        kind: "error",
-        message: "Enter a valid website, like brand.om or https://brand.com.",
-      });
+      pushToast("error", "Enter a valid website, like brand.om or https://brand.com.");
       return;
     }
 
-    setState({
-      kind: "submitting",
-      message: "Creating the request.",
-    });
+    setSubmitting(true);
 
     try {
       const apiUrl =
@@ -96,85 +159,69 @@ export function InstallRequestForm({
         throw new Error(body?.error || "The request could not be sent.");
       }
 
-      setState({
-        kind: "success",
-        message:
-          "Request sent. We will review the site and handle the manual install steps.",
-      });
+      pushToast(
+        "success",
+        "Request sent. We will review the site and handle the install.",
+      );
       setDomainName("");
     } catch (error) {
-      setState({
-        kind: "error",
-        message:
-          error instanceof Error
-            ? error.message
-            : "The request could not be sent. Try again in a moment.",
-      });
+      pushToast(
+        "error",
+        error instanceof Error
+          ? error.message
+          : "The request could not be sent. Try again in a moment.",
+      );
+    } finally {
+      setSubmitting(false);
     }
   }
 
-  const isSubmitting = state.kind === "submitting";
-  const statusIcon =
-    state.kind === "success" ? (
-      <CheckCircle2 aria-hidden="true" className="h-4 w-4 text-emerald-600" />
-    ) : state.kind === "error" ? (
-      <AlertCircle aria-hidden="true" className="h-4 w-4 text-signal" />
-    ) : null;
-  const shouldShowStatus = !hideIdleStatus || state.kind !== "idle";
-
   return (
-    <form
-      className={compact ? "install-form install-form-compact" : "install-form"}
-      onSubmit={handleSubmit}
-    >
-      <label className="sr-only" htmlFor={inputId}>
-        Website domain
-      </label>
-      <div className="install-form-shell">
+    <>
+      <form
+        className={compact ? "install-form install-form-compact" : "install-form"}
+        onSubmit={handleSubmit}
+      >
+        <label className="sr-only" htmlFor={inputId}>
+          Website domain
+        </label>
+        <div className="install-form-shell">
+          <input
+            id={inputId}
+            className="install-input"
+            inputMode="url"
+            name="domainName"
+            onChange={(event) => setDomainName(event.target.value)}
+            placeholder="yourcompany.om"
+            type="text"
+            value={domainName}
+          />
+          <button className="install-button" disabled={submitting} type="submit">
+            {submitting ? (
+              <Loader2 aria-hidden="true" className="h-5 w-5 animate-spin" />
+            ) : (
+              <Send aria-hidden="true" className="h-5 w-5" />
+            )}
+            <span>{compact ? "Start" : "Build my chatbot"}</span>
+          </button>
+        </div>
         <input
-          id={inputId}
-          className="install-input"
-          inputMode="url"
-          name="domainName"
-          onChange={(event) => setDomainName(event.target.value)}
-          placeholder="yourcompany.om"
+          aria-hidden="true"
+          autoComplete="off"
+          className="hidden"
+          name="companyWebsite"
+          onChange={(event) => setHoneypot(event.target.value)}
+          tabIndex={-1}
           type="text"
-          value={domainName}
+          value={honeypot}
         />
-        <button className="install-button" disabled={isSubmitting} type="submit">
-          {isSubmitting ? (
-            <Loader2 aria-hidden="true" className="h-5 w-5 animate-spin" />
-          ) : (
-            <Send aria-hidden="true" className="h-5 w-5" />
-          )}
-          <span>{compact ? "Start" : "Build my chatbot"}</span>
-        </button>
-      </div>
-      <input
-        aria-hidden="true"
-        autoComplete="off"
-        className="hidden"
-        name="companyWebsite"
-        onChange={(event) => setHoneypot(event.target.value)}
-        tabIndex={-1}
-        type="text"
-        value={honeypot}
-      />
-      {shouldShowStatus ? (
-        <p
-          aria-live="polite"
-          className={
-            state.kind === "error"
-              ? "install-status text-signal"
-              : state.kind === "success"
-                ? "install-status text-emerald-700"
-                : "install-status text-white/70"
-          }
-        >
-          {statusIcon}
-          <span>{state.message}</span>
-        </p>
-      ) : null}
-    </form>
+        {!hideIdleStatus && (
+          <p aria-live="polite" className="install-status text-white/70">
+            <span>{idleMessage}</span>
+          </p>
+        )}
+      </form>
+      <ToastContainer toasts={toasts} onDismiss={dismissToast} />
+    </>
   );
 }
