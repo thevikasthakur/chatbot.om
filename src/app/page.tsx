@@ -24,6 +24,9 @@ import {
   Workflow,
 } from "lucide-react";
 import { InstallRequestForm } from "@/components/InstallRequestForm";
+import { ShowcaseSection } from "@/components/ShowcaseSection";
+import { SovereignSection } from "@/components/SovereignSection";
+import { VoiceSection } from "@/components/VoiceSection";
 
 type IconItem = {
   icon: LucideIcon;
@@ -88,8 +91,8 @@ const omanSignals: IconItem[] = [
   },
   {
     icon: Languages,
-    title: "Arabic-English switching",
-    body: "A useful chatbot must handle bilingual questions naturally, including product names, locations, and service terms used locally.",
+    title: "Arabic, English, Omani & Gulf dialects",
+    body: "Chatbot handles all questions naturally, including tones, dialects & accents.",
   },
   {
     icon: Clock3,
@@ -149,45 +152,6 @@ const agents: IconItem[] = [
   },
 ];
 
-const teaserImages = [
-  {
-    src: "/teasers/leads-sentiment.png",
-    alt: "Lead queue showing Omani contacts with channel and sentiment scores",
-    title: "Know who is ready to buy.",
-    body: "Sentiment and source data help the sales team act before the customer disappears.",
-    width: 1672,
-    height: 941,
-    className: "teaser-card-wide",
-  },
-  {
-    src: "/teasers/tasks-completion.png",
-    alt: "Task completion dashboard for chatbot jobs",
-    title: "See what the chatbot actually did.",
-    body: "Track completed tasks, failed handoffs, and appointments that need a human owner.",
-    width: 1064,
-    height: 1364,
-    className: "teaser-card-tall",
-  },
-  {
-    src: "/teasers/sentiment-trends.png",
-    alt: "Sentiment trend chart over time",
-    title: "Watch customer mood move.",
-    body: "Complaints, price resistance, and service friction become visible trends.",
-    width: 1410,
-    height: 848,
-    className: "teaser-card-wide",
-  },
-  {
-    src: "/teasers/sentiment-distribution.png",
-    alt: "Sentiment distribution chart",
-    title: "Do not guess the market.",
-    body: "Your chat history becomes a live dataset for sales, support, and operations.",
-    width: 1390,
-    height: 850,
-    className: "teaser-card-wide",
-  },
-];
-
 const useCases = [
   "Lead qualification",
   "Customer service",
@@ -225,7 +189,7 @@ const jsonLd = {
 export default function Home() {
   return (
     <>
-    <main className="overflow-hidden bg-[#f6f3ec] text-ink">
+    <main className="bg-[#f6f3ec] text-ink" style={{ overflowX: "clip" }}>
       <script
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         type="application/ld+json"
@@ -257,32 +221,30 @@ export default function Home() {
         ))}
       </section>
 
-      <section className="section comparison-section">
-        <div className="section-heading">
-          <p className="eyebrow dark">Not a widget. A sales worker.</p>
-          <h2>Your Second Brain Online.</h2>
-          <p>
-            It answers the customer, but the target is not an answer. The
-            target is a lead captured, a booking made, a risk reduced, or a
-            human brought in at the right moment.
-          </p>
-        </div>
+      <SovereignSection />
 
-        <div className="comparison-grid">
-          <div className="comparison-head muted">Everyone else</div>
-          <div className="comparison-head strong">chatbot.om</div>
-          {comparisonRows.map((row) => (
-            <div className="comparison-row" key={row.old}>
-              <p>{row.old}</p>
-              <p>{row.new}</p>
-            </div>
-          ))}
+      <VoiceSection />
+
+      <section className="channels-hero">
+        <Image
+          alt="Omani woman using chatbot on her phone in Muscat"
+          className="channels-hero-img"
+          fill
+          priority
+          quality={84}
+          sizes="100vw"
+          src="/teasers/one-bot-for-website-whatsapp-email.webp"
+        />
+        <div className="channels-hero-overlay" />
+        <div className="channels-hero-content">
+          <h2>One Chatbot. All Channels.</h2>
+          <p>Website. WhatsApp. Email. <br/>The chatbot shows up everywhere.</p>
         </div>
       </section>
 
       <section className="section command-section">
         <div className="section-heading left">
-          <p className="eyebrow dark">One command. Real outcomes.</p>
+          <p className="eyebrow dark">Not a chatbot. A coworker</p>
           <h2>Tell it what the business needs. It works the chat.</h2>
         </div>
         <div className="command-grid">
@@ -317,62 +279,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="showcase-section">
-        <div className="section-heading">
-          <p className="eyebrow dark">The dashboard should make people lean in</p>
-          <h2>Chats become operating intelligence.</h2>
-          <p>
-            A chatbot that only replies is a cost center. A chatbot that
-            measures intent, sentiment, and completion becomes a control panel
-            for sales and service.
-          </p>
-        </div>
-        <div className="teaser-stage" aria-label="chatbot.om product previews">
-          {teaserImages.map((image) => (
-            <article
-              className={`teaser-card ${image.className}`}
-              key={image.src}
-            >
-              <Image
-                alt={image.alt}
-                className="teaser-image"
-                height={image.height}
-                quality={84}
-                sizes="(max-width: 768px) 92vw, (max-width: 1200px) 70vw, 920px"
-                src={image.src}
-                width={image.width}
-              />
-              <div className="teaser-caption">
-                <h3>{image.title}</h3>
-                <p>{image.body}</p>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
+      <ShowcaseSection />
 
-      <section className="section privacy-section" id="privacy">
-        <div className="section-heading left">
-          <p className="eyebrow dark">Sovereign by default</p>
-          <h2>Oman-first data control. Without the heavy start.</h2>
-          <p>
-            Omani businesses need AI that legal, IT, and leadership can approve.
-            chatbot.om starts with sovereign cloud-hosted deployment, clear
-            logs, and human escalation. Self-hosted is available when enterprise
-            policy makes it necessary.
-          </p>
-        </div>
-        <div className="privacy-grid">
-          {privacyItems.map((item) => (
-            <article className="privacy-card" key={item.title}>
-              <item.icon aria-hidden="true" className="h-6 w-6" />
-              <h3>{item.title}</h3>
-              <p>{item.body}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
+   
       <section className="operator-section">
         <div className="section-heading">
           <p className="eyebrow dark">Meet the AI team</p>
