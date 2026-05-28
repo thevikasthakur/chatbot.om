@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://chatbot.om"),
   title: {
-    default: "chatbot.om | Sovereign AI Sales Chatbot for Oman",
+    default: "Oman's Own Sovereign Chatbot | AI, Sales, Meetings, Bookings",
     template: "%s | chatbot.om",
   },
   description:
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Oman PDPL chatbot",
   ],
   openGraph: {
-    title: "chatbot.om | Sovereign AI Sales Chatbot for Oman",
+    title: "Oman's Own Sovereign Chatbot | AI, Sales, Meetings, Bookings",
     description:
       "Stop replying manually. Start running sales, service, bookings, and follow-ups with a private chatbot built for Oman.",
     url: "https://chatbot.om",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "chatbot.om | Sovereign AI Sales Chatbot for Oman",
+    title: "Oman's Own Sovereign Chatbot | AI, Sales, Meetings, Bookings",
     description:
       "A sovereign, privacy-first AI sales chatbot for Omani businesses.",
   },
@@ -41,6 +41,15 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export const viewport: Viewport = {

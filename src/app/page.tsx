@@ -5,6 +5,7 @@ import { SovereignSection } from "@/components/SovereignSection";
 import { VoiceSection } from "@/components/VoiceSection";
 import { ChannelsSection } from "@/components/ChannelsSection";
 import { CommandCarousel } from "@/components/CommandCarousel";
+import { SiteHeader } from "@/components/SiteHeader";
 
 const trustBadges = [
   "Sovereign cloud-hosted",
@@ -39,6 +40,7 @@ const jsonLd = {
 export default function Home() {
   return (
     <>
+    <SiteHeader />
     <main className="bg-[#f6f3ec] text-ink" style={{ overflowX: "clip" }}>
       <script
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
