@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useCallback, useEffect, useId, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { AlertCircle, CheckCircle2, Loader2, Send, X } from "lucide-react";
 
 type InstallRequestFormProps = {
@@ -44,12 +45,23 @@ function ToastContainer({
   toasts: Toast[];
   onDismiss: (id: number) => void;
 }) {
-  return (
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
+
+  return createPortal(
     <div className="toast-container" aria-live="polite">
       {toasts.map((t) => (
         <ToastItem key={t.id} toast={t} onDismiss={onDismiss} />
       ))}
-    </div>
+    </div>,
+    document.body,
   );
 }
 
