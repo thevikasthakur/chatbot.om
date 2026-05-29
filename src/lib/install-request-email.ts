@@ -241,8 +241,18 @@ function getTransportConfig(env: NodeJS.ProcessEnv) {
   const from = env.SMTP_FROM?.trim();
 
   if (!host || !portRaw || !user || !pass || !from) {
+    const missing = {
+      SMTP_HOST: !host,
+      SMTP_PORT: !portRaw,
+      SMTP_USER: !user,
+      SMTP_PASS: !pass,
+      SMTP_FROM: !from,
+    };
     throw new Error(
-      "SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, and SMTP_FROM must all be configured.",
+      `SMTP env missing: ${Object.entries(missing)
+        .filter(([, v]) => v)
+        .map(([k]) => k)
+        .join(", ")}`,
     );
   }
 
