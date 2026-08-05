@@ -2,6 +2,7 @@
 .env
 .env*.local
 .next
+.netlify
 node_modules
 out
 dist
