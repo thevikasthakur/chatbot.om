@@ -1,71 +1,121 @@
 import type { Metadata, Viewport } from "next";
+import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
+import { site } from "@/data/site";
+
+const organisation = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${site.url}/#organization`,
+  name: site.name,
+  url: site.url,
+  logo: `${site.url}/android-chrome-512x512.png`,
+  description: site.description,
+  email: site.email,
+  telephone: site.phone,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "1st Floor, Al Muzn Mall, Al Hail North",
+    addressLocality: "Muscat",
+    addressCountry: "OM",
+  },
+  areaServed: { "@type": "Country", name: "Oman" },
+  knowsLanguage: site.languages,
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "sales",
+    email: site.email,
+    telephone: site.phone,
+    areaServed: "OM",
+    availableLanguage: site.languages,
+  },
+  sameAs: [site.sister.url],
+};
+
+const website = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${site.url}/#website`,
+  name: site.name,
+  url: site.url,
+  inLanguage: "en-OM",
+  publisher: { "@id": `${site.url}/#organization` },
+};
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
+  style: ["normal", "italic"],
+  axes: ["SOFT", "WONK", "opsz"],
+});
+const jetbrains = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chatbot.om"),
+  metadataBase: new URL(site.url),
   title: {
-    default: "Oman's Own Sovereign Chatbot | AI, Sales, Meetings, Bookings",
-    template: "%s | chatbot.om",
+    default: `${site.tagline} | AI chat, tickets, follow-ups, leads`,
+    template: `%s | ${site.name}`,
   },
-  description:
-    "A sovereign, privacy-first AI sales chatbot for Omani businesses. Built for Arabic-English customers, Oman PDPL-aware workflows, bookings, follow-ups, and support.",
-  applicationName: "chatbot.om",
-  alternates: {
-    canonical: "/",
-  },
+  description: site.description,
+  applicationName: site.name,
+  alternates: { canonical: "/" },
   keywords: [
     "chatbot Oman",
     "AI chatbot Oman",
-    "private chatbot",
     "sovereign chatbot Oman",
     "Arabic chatbot Oman",
-    "sales chatbot Muscat",
-    "Oman PDPL chatbot",
+    "WhatsApp chatbot Oman",
+    "customer support chatbot Muscat",
+    "Oman Personal Data Protection Law chatbot",
   ],
-  openGraph: {
-    title: "Oman's Own Sovereign Chatbot | AI, Sales, Meetings, Bookings",
-    description:
-      "Stop replying manually. Start running sales, service, bookings, and follow-ups with a private chatbot built for Oman.",
-    url: "https://chatbot.om",
-    siteName: "chatbot.om",
-    locale: "en_OM",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Oman's Own Sovereign Chatbot | AI, Sales, Meetings, Bookings",
-    description:
-      "A sovereign, privacy-first AI sales chatbot for Omani businesses.",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
     ],
-    apple: "/apple-touch-icon.png",
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
   manifest: "/site.webmanifest",
+  openGraph: {
+    siteName: site.name,
+    type: "website",
+    locale: "en_OM",
+    url: site.url,
+  },
+  twitter: { card: "summary_large_image" },
+  robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#ffd046",
+  themeColor: "#0a0b0f",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en-OM">
+      <head>
+        <JsonLd data={organisation} />
+        <JsonLd data={website} />
+      </head>
+      <body
+        className={`${inter.variable} ${fraunces.variable} ${jetbrains.variable} page-frame min-h-screen bg-background text-foreground antialiased`}
+      >
+        <Header />
+        {/* clip, not hidden: the homepage carousel overflows sideways but
+            several sections rely on position: sticky, which hidden would break */}
+        <main className="overflow-x-clip">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }

@@ -8,6 +8,8 @@ type InstallRequestFormProps = {
   ctaSource: string;
   compact?: boolean;
   hideIdleStatus?: boolean;
+  /** Set while the form is visually retired, so it leaves the tab order. */
+  disabled?: boolean;
 };
 
 type Toast = {
@@ -111,6 +113,7 @@ export function InstallRequestForm({
   ctaSource,
   compact = false,
   hideIdleStatus = false,
+  disabled = false,
 }: InstallRequestFormProps) {
   const inputId = useId();
   const [domainName, setDomainName] = useState("");
@@ -205,10 +208,16 @@ export function InstallRequestForm({
             name="domainName"
             onChange={(event) => setDomainName(event.target.value)}
             placeholder="yourcompany.om"
+            tabIndex={disabled ? -1 : undefined}
             type="text"
             value={domainName}
           />
-          <button className="install-button" disabled={submitting} type="submit">
+          <button
+            className="install-button"
+            disabled={submitting || disabled}
+            tabIndex={disabled ? -1 : undefined}
+            type="submit"
+          >
             {submitting ? (
               <Loader2 aria-hidden="true" className="h-5 w-5 animate-spin" />
             ) : (
@@ -228,7 +237,7 @@ export function InstallRequestForm({
           value={honeypot}
         />
         {!hideIdleStatus && (
-          <p aria-live="polite" className="install-status text-white/70">
+          <p aria-live="polite" className="install-status">
             <span>{idleMessage}</span>
           </p>
         )}

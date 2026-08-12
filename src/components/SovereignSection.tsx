@@ -90,7 +90,7 @@ export function SovereignSection() {
             className="sovereign-image"
           />
 
-          {/* Top-left card — encryption */}
+          {/* Top-left card: encryption */}
           <div
             className="sovereign-card sovereign-card-tl"
             ref={(el) => { cardsRef.current[0] = el; }}
@@ -104,7 +104,7 @@ export function SovereignSection() {
             </div>
           </div>
 
-          {/* Bottom-right card — 100% data */}
+          {/* Bottom-right card: data residency */}
           <div
             className="sovereign-card sovereign-card-br"
             ref={(el) => { cardsRef.current[1] = el; }}
@@ -118,7 +118,7 @@ export function SovereignSection() {
             </div>
           </div>
 
-          {/* Top-right card — PDPL compliant */}
+          {/* Top-right card: data protection law compliance */}
           <div
             className="sovereign-card sovereign-card-tr"
             ref={(el) => { cardsRef.current[2] = el; }}
@@ -127,8 +127,10 @@ export function SovereignSection() {
               <Scale aria-hidden="true" />
             </div>
             <div className="sovereign-card-copy">
-              <span className="sovereign-card-number">PDPL compliant</span>
-              <span className="sovereign-card-text">Oman&rsquo;s Data Protection Law</span>
+              <span className="sovereign-card-number">Compliant</span>
+              <span className="sovereign-card-text">
+                Oman&rsquo;s Personal Data Protection Law
+              </span>
             </div>
           </div>
         </div>

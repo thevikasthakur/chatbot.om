@@ -1,51 +1,48 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { InstallRequestForm } from "@/components/InstallRequestForm";
+import { FloatingInstallCta } from "@/components/FloatingInstallCta";
 import { ShowcaseSection } from "@/components/ShowcaseSection";
 import { SovereignSection } from "@/components/SovereignSection";
 import { VoiceSection } from "@/components/VoiceSection";
 import { ChannelsSection } from "@/components/ChannelsSection";
 import { CommandCarousel } from "@/components/CommandCarousel";
-import { SiteHeader } from "@/components/SiteHeader";
+import JsonLd from "@/components/JsonLd";
+import { site } from "@/data/site";
 
 const trustBadges = [
-  "Sovereign cloud-hosted",
+  "Hosted inside Oman",
   "Sells while you sleep",
   "Arabic + English",
-  "Sales mindset by default",
+  "Live in about a day",
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "chatbot.om",
+  name: site.name,
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
-  areaServed: {
-    "@type": "Country",
-    name: "Oman",
-  },
-  description:
-    "A sovereign, privacy-first AI sales chatbot for Omani businesses.",
+  url: site.url,
+  areaServed: { "@type": "Country", name: "Oman" },
+  description: site.description,
+  inLanguage: "en-OM",
   featureList: [
-    "Sovereign cloud-hosted chatbot deployment",
-    "Enterprise self-hosted deployment option",
-    "Arabic and English customer support",
-    "Lead qualification",
-    "Appointment booking",
-    "Sentiment analysis",
-    "Sales follow-up",
+    "AI chatbot for websites",
+    "WhatsApp chatbot with voice note handling",
+    "Automated support tickets",
+    "Smart follow-ups on open tickets",
+    "Automated lead pipeline and lead enrichment",
+    "Dashboard and reporting",
+    "Arabic and English customer conversations",
+    "Sovereign hosting inside Oman",
+    "Self-hosted deployment option",
   ],
 };
 
 export default function Home() {
   return (
     <>
-    <SiteHeader />
-    <main className="bg-[#f6f3ec] text-ink" style={{ overflowX: "clip" }}>
-      <script
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        type="application/ld+json"
-      />
+      <JsonLd data={jsonLd} />
 
       <section className="hero-shell" id="top">
         <video
@@ -63,8 +60,14 @@ export default function Home() {
         </video>
         <div className="hero-overlay" />
         <div className="hero-copy">
-          <h1><span className="hero-highlight">Oman&rsquo;s Own Sovereign Chatbot</span></h1>
-          <p><br/></p>
+          <h1>
+            <span className="hero-highlight">Oman&rsquo;s Own Sovereign Chatbot</span>
+          </h1>
+          <p className="hero-subline">
+            It answers your customers on the website and on WhatsApp, in Arabic
+            and English, raises the ticket, chases it to closure, and leaves your
+            team a lead sheet worth working. Every message stays inside Oman.
+          </p>
         </div>
       </section>
 
@@ -90,9 +93,11 @@ export default function Home() {
       <section className="final-cta" id="install">
         <div className="final-copy">
           <p className="eyebrow">Your website is quiet. Fix that.</p>
-          <h2><span className="hero-highlight">Install the chatbot that knows Oman.</span></h2>
+          <h2>
+            <span className="hero-highlight">Install the chatbot that knows Oman.</span>
+          </h2>
           <p>
-            Enter your website. We review the site, connect approved data,
+            Enter your website. We review the site, connect the data you approve,
             and launch the chatbot. Less than two minutes to start.
           </p>
         </div>
@@ -102,10 +107,8 @@ export default function Home() {
           <ArrowRight aria-hidden="true" className="h-4 w-4" />
         </a>
       </section>
-    </main>
-    <div className="floating-cta">
-      <InstallRequestForm ctaSource="hero-domain-cta" hideIdleStatus />
-    </div>
+
+      <FloatingInstallCta hideBelow="#install" />
     </>
   );
 }

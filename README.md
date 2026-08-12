@@ -1,7 +1,29 @@
 # chatbot.om
 
-Modern Next.js landing page for chatbot.om, built with Tailwind and a
-server-side route handler for install-request emails.
+Marketing site for chatbot.om, Oman's sovereign AI chatbot for websites and
+WhatsApp. Next.js App Router, Tailwind v4, deployed on Netlify.
+
+It is the sister site of [customercare.om](https://customercare.om) (the
+`voxcare-static` repository). The two share a design system deliberately: the
+token block at the top of `src/app/globals.css` is kept byte-identical with
+that project's, so a palette or type change is applied to both by copying that
+block across. Everything below the `Homepage` banner comment in that file is
+specific to this site's landing page.
+
+## Structure
+
+```
+src/app/          routes; collection pages read from src/data
+src/data/         site.ts (nav, footer, metadata) + features, industries,
+                  integrations, templates
+src/components/   Header, Footer, sections.tsx (shared page furniture),
+                  plus the homepage's scroll-driven sections
+src/lib/          install-request email handling and utils
+```
+
+`src/data/site.ts` is the single source of truth for navigation, the footer,
+contact details, and the sister-site link. Adding a product page means adding
+it there and creating the route.
 
 ## Local setup
 
@@ -12,21 +34,35 @@ npm run dev
 
 Create `.env.local` from `.env.example` before testing the CTA email flow.
 
+`npm run lint` runs ESLint and `tsc --noEmit`. `npm test` covers the
+install-request email builder.
+
+## Positioning
+
+chatbot.om covers chat channels only: website chat, WhatsApp (including voice
+notes), and email replies, plus tickets, follow-ups, the lead pipeline, and
+reporting. Inbound phone calls, outbound calling campaigns, and the dedicated
+AI Email Agent belong to customercare.om. `/comparison/` states the split
+explicitly and should be kept in step with any capability change.
+
 ## Email CTA
 
-The hero and final CTA post to `/api/install-request`. The route uses SMTP settings and `CTA_OWNER_EMAILS` to email the owner with the submitted website.
+The hero, the final CTA, and `/get-started/` post to `/api/install-request`.
+The route uses SMTP settings and `CTA_OWNER_EMAILS` to email the owner with the
+submitted website. Note that posting to it really does send mail, so avoid
+exercising it against an environment that has live SMTP credentials.
 
 ## Deploy to Netlify
 
-This repository includes `netlify.toml` with the production build settings:
+`netlify.toml` holds the production build settings:
 
 - Build command: `npm run build`
 - Publish directory: `.next`
 - Node.js: 22
 
-Import the repository in Netlify and leave framework detection enabled. Netlify
-automatically applies its current OpenNext adapter, so the App Router API route
-is deployed as a serverless function without a separately pinned plugin.
+The site is not a static export, because `/api/install-request` needs a
+server. Netlify's OpenNext adapter deploys the route as a serverless function
+under framework detection, so no plugin is pinned.
 
 Before the first production deploy, add these environment variables in
 **Project configuration → Environment variables**:
@@ -40,10 +76,9 @@ SMTP_FROM
 CTA_OWNER_EMAILS
 ```
 
-Use the values from your SMTP provider. `CTA_OWNER_EMAILS` accepts one address
-or a comma-separated list. Keep `NEXT_PUBLIC_API_URL` unset so the form calls
-the same Netlify origin; only set it when intentionally hosting the API on a
-different domain.
+`CTA_OWNER_EMAILS` accepts one address or a comma-separated list. Keep
+`NEXT_PUBLIC_API_URL` unset so the form calls the same Netlify origin; only set
+it when intentionally hosting the API on a different domain.
 
 After deployment, submit the install form once and confirm that the Netlify
 function logs show a successful request and that the owner email arrives.

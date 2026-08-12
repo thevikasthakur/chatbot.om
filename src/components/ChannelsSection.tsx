@@ -3,12 +3,14 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 
+/* The three accent hues come from the shared design tokens. The punchline
+   lands back on brand lime. */
 const lines = [
-  { text: "Website. WhatsApp. Email.", bg: "#ffd046", color: "#080a12" },
-  { text: "Shows up where your customers already are.", bg: "#e27042", color: "#fff" },
-  { text: "Identifies returning visitors across channels.", bg: "#10875a", color: "#fff" },
-  { text: "Picks up every conversation where it left off.", bg: "#3b82f6", color: "#fff" },
-  { text: "Channels change. Context never breaks.", bg: "#a78bfa", color: "#fff" },
+  { text: "Website. WhatsApp. Email.", bg: "var(--accent-raw)" },
+  { text: "Shows up where your customers already are.", bg: "var(--accent-teal)" },
+  { text: "Identifies returning visitors across channels.", bg: "var(--accent-periwinkle)" },
+  { text: "Picks up every conversation where it left off.", bg: "var(--accent-teal)" },
+  { text: "Channels change. Context never breaks.", bg: "var(--accent-raw)" },
 ];
 
 export function ChannelsSection() {
@@ -69,7 +71,7 @@ export function ChannelsSection() {
                 className={`channels-line${i === 0 ? " channels-line-active" : ""}`}
                 style={{
                   backgroundColor: line.bg,
-                  color: line.color,
+                  color: "var(--accent-ink)",
                 }}
               >
                 {line.text}
