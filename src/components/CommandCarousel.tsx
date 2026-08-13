@@ -7,7 +7,7 @@ const cards = [
   {
     src: "/teasers/chatbot-replies-to-serious-buyers.webp",
     title: "Replies to serious buyers",
-    body: "Your best leads don't wait. The chatbot answers in seconds. Not hours. Not Monday morning.",
+    body: "Your best leads don't wait. Chatbot.OM answers in seconds. Not hours. Not Monday morning.",
   },
   {
     src: "/teasers/chatbot-turns-chats-into-leads.webp",
@@ -17,7 +17,7 @@ const cards = [
   {
     src: "/teasers/chabot-enriches-the-leads.webp",
     title: "Enriches every lead",
-    body: "Raw contacts are worthless. The chatbot adds context. What they asked, how they felt, what they almost bought.",
+    body: "Raw contacts are worthless. Chatbot.OM adds context. What they asked, how they felt, what they almost bought.",
   },
   {
     src: "/teasers/chatbot-books-appointments.webp",

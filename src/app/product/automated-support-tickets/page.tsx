@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { AlarmClock, ArrowRight, Check, ClipboardList, Ticket, Users } from "lucide-react";
 import { CtaBanner, Faq } from "@/components/sections";
@@ -14,14 +15,14 @@ export const metadata: Metadata = {
   title: "Automated Support Tickets",
   description:
     "Tickets raised straight out of the chat: summarised, graded, and routed to the person who owns them, in Arabic or English, with all data resident in Oman.",
-  alternates: { canonical: "/product/automated-support-tickets/" },
+  ...pageMeta("/product/automated-support-tickets/"),
 };
 
 const handsFree = [
   {
     art: SpotIssue,
     title: "Spotted mid-conversation",
-    desc: "The chatbot recognises a support issue while the customer is still typing: a double charge, a delivery that never arrived, an installation that failed. Nobody is asked to fill anything in.",
+    desc: "Chatbot.OM recognises a support issue while the customer is still typing: a double charge, a delivery that never arrived, an installation that failed. Nobody is asked to fill anything in.",
   },
   {
     art: WriteUp,
@@ -134,7 +135,7 @@ export default function TicketsPage() {
                   href="/get-started/"
                   className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
                 >
-                  Get the chatbot <span aria-hidden>+</span>
+                  Get Chatbot.OM <span aria-hidden>+</span>
                 </Link>
               </div>
               <div className="mt-10 grid max-w-md grid-cols-3 gap-6">

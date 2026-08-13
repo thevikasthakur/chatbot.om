@@ -53,7 +53,7 @@ export const features: Feature[] = [
       "Your business number, answered automatically, with the reminders and confirmations customers actually open.",
     heroTitle: "The Channel Your Customers Already Use",
     heroSub:
-      "Connect a number to the WhatsApp Business Platform and the chatbot handles messages, voice notes, and the outbound templates that cut no-shows.",
+      "Connect a number to the WhatsApp Business Platform and Chatbot.OM handles messages, voice notes, and the outbound templates that cut no-shows.",
     sections: [
       {
         h: "How it works",
@@ -98,7 +98,7 @@ export const features: Feature[] = [
       "Voice notes are treated as conversation, not as attachments for somebody to listen to later.",
     heroTitle: "When Your Customer Would Rather Talk Than Type",
     heroSub:
-      "The chatbot understands WhatsApp voice notes in Omani and Gulf Arabic and in English, and answers the question that was actually asked.",
+      "Chatbot.OM understands WhatsApp voice notes in Omani and Gulf Arabic and in English, and answers the question that was actually asked.",
     sections: [
       {
         h: "How it works",
@@ -148,7 +148,7 @@ export const features: Feature[] = [
       {
         h: "How it works",
         p: [
-          "The chatbot detects the language of each incoming message and answers in it. There is no menu asking the customer to choose, and no separate Arabic version of your chatbot to maintain in parallel.",
+          "Chatbot.OM detects the language of each incoming message and answers in it. There is no menu asking the customer to choose, and no separate Arabic version of your chatbot to maintain in parallel.",
           "Where a customer writes half in Arabic and half in English, which is normal in Oman, the reply follows the dominant language of the message and keeps product names, model numbers, and place names in the form the customer used.",
         ],
         bullets: [
@@ -185,7 +185,7 @@ export const features: Feature[] = [
     slug: "knowledge-base",
     name: "Knowledge Base",
     short:
-      "The chatbot answers from your website and your documents, and tells you what it was asked but could not answer.",
+      "Chatbot.OM answers from your website and your documents, and tells you what it was asked but could not answer.",
     heroTitle: "It Knows Your Business, Not the Internet's Version of It",
     heroSub:
       "Point it at your domain, upload what is not published, and every answer is traceable back to something you wrote.",
@@ -193,7 +193,7 @@ export const features: Feature[] = [
       {
         h: "How it works",
         p: [
-          "Give us your domain and the chatbot reads your published pages: services, prices, policies, opening hours, locations. You then add what is not on the site, either as uploaded documents or as short written answers, and changes take effect on the next message.",
+          "Give us your domain and Chatbot.OM reads your published pages: services, prices, policies, opening hours, locations. You then add what is not on the site, either as uploaded documents or as short written answers, and changes take effect on the next message.",
           "Every answer the chatbot gives is grounded in that material. Where a question falls outside it, the chatbot says it will check rather than improvising, and the gap is logged for you to fill.",
         ],
         bullets: [
@@ -230,7 +230,7 @@ export const features: Feature[] = [
     slug: "human-handover",
     name: "Human Handover",
     short:
-      "When a person should take over, the chatbot hands across the whole conversation and tells the customer who has it.",
+      "When a person should take over, Chatbot.OM hands across the whole conversation and tells the customer who has it.",
     heroTitle: "Knowing When to Stop Is a Feature",
     heroSub:
       "Handover happens on the rules you set or the moment a customer asks, with full context and a named person on the other side.",
@@ -238,7 +238,7 @@ export const features: Feature[] = [
       {
         h: "How it works",
         p: [
-          "You define what must always reach a human: certain topics, an angry customer, a named account, a request for a person, or anything the chatbot could not answer twice in a row. When one of those triggers, the conversation moves.",
+          "You define what must always reach a human: certain topics, an angry customer, a named account, a request for a person, or anything Chatbot.OM could not answer twice in a row. When one of those triggers, the conversation moves.",
           "The person picking it up receives the whole thread, the customer's details, and a short summary of what has been asked and promised. The customer is told who has it and when to expect a reply, rather than being left in silence.",
         ],
         bullets: [
@@ -278,7 +278,7 @@ export const features: Feature[] = [
       "Slots offered, held, confirmed, and reminded, straight out of the conversation and into your calendar.",
     heroTitle: "The Booking Made Before They Change Their Mind",
     heroSub:
-      "The chatbot reads your real availability, offers slots that exist, and writes the confirmed booking into the calendar your team already uses.",
+      "Chatbot.OM reads your real availability, offers slots that exist, and writes the confirmed booking into the calendar your team already uses.",
     sections: [
       {
         h: "How it works",
@@ -374,7 +374,7 @@ export const features: Feature[] = [
         h: "How it works",
         p: [
           "Contacts are matched across channels using the identifiers you already hold: phone number, email, order reference, or an account login on your site. Where a match is confident, the history travels with the customer.",
-          "That means the chatbot knows which order is being discussed, what it told the customer last time, and what your business promised, without the customer restating any of it.",
+          "That means Chatbot.OM knows which order is being discussed, what it told the customer last time, and what your business promised, without the customer restating any of it.",
         ],
         bullets: [
           "Matching across website chat, WhatsApp, and email",
@@ -410,7 +410,7 @@ export const features: Feature[] = [
     slug: "guardrails-and-escalation-rules",
     name: "Guardrails and Escalation Rules",
     short:
-      "You decide what the chatbot may never say, never promise, and never handle alone.",
+      "You decide what Chatbot.OM may never say, never promise, and never handle alone.",
     heroTitle: "The Answers It Is Not Allowed to Give",
     heroSub:
       "Topic bans, promise limits, and escalation triggers, configured once, applied on every conversation in every language.",
@@ -418,7 +418,7 @@ export const features: Feature[] = [
       {
         h: "How it works",
         p: [
-          "You set the boundaries: topics the chatbot must decline, figures it may never quote, discounts it may never offer, and categories that always go to a person. These are enforced before any reply is sent, in whichever language the conversation is happening in.",
+          "You set the boundaries: topics Chatbot.OM must decline, figures it may never quote, discounts it may never offer, and categories that always go to a person. These are enforced before any reply is sent, in whichever language the conversation is happening in.",
           "Where a rule fires, the chatbot says something useful rather than something evasive, and moves the conversation to whoever should own it.",
         ],
         bullets: [
@@ -503,7 +503,7 @@ export const features: Feature[] = [
       "Read conversations, push knowledge, and receive events in your own systems, without waiting for an integration to be built.",
     heroTitle: "Everything the Interface Does, Your Systems Can Do Too",
     heroSub:
-      "A documented REST API and signed webhooks for teams that want the chatbot wired into what they already run.",
+      "A documented REST API and signed webhooks for teams that want Chatbot.OM wired into what they already run.",
     sections: [
       {
         h: "How it works",

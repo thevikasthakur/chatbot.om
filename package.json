@@ -8,11 +8,12 @@
   },
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
+    "build": "next build && node scripts/ai-readability.mjs",
     "start": "next start",
     "lint": "eslint . && tsc --noEmit",
     "typecheck": "tsc --noEmit",
-    "test": "node --test --experimental-strip-types src/lib/install-request-email.test.ts"
+    "test": "node --test --experimental-strip-types src/lib/install-request-email.test.ts",
+    "ai:check": "node scripts/ai-readability.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

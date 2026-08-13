@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { ArrowRight, Star } from "lucide-react";
 import { templates } from "@/data/templates";
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   title: "Templates",
   description:
     "Ready-made chatbot setups for Omani businesses: maintenance requests, clinic bookings, car servicing, order status, property viewings, and more.",
-  alternates: { canonical: "/template/" },
+  ...pageMeta("/template/"),
 };
 
 export default function TemplatesPage() {

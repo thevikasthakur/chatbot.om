@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
@@ -20,7 +21,7 @@ export async function generateMetadata({
   return {
     title: `${i.name} integration`,
     description: i.short,
-    alternates: { canonical: `/integration/${i.slug}/` },
+    ...pageMeta(`/integration/${i.slug}/`),
   };
 }
 
@@ -41,7 +42,7 @@ export default async function IntegrationPage({
     <>
       <PageHero
         badge={i.category}
-        title={`${i.name} and chatbot.om`}
+        title={`${i.name} and Chatbot.OM`}
         sub={i.short}
       />
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { industries } from "@/data/industries";
@@ -7,8 +8,8 @@ import { CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Industries",
   description:
-    "How chatbot.om is set up for real estate, workshops, clinics, retail, hospitality, contractors, property management, and more, across Oman.",
-  alternates: { canonical: "/industries/" },
+    "How Chatbot.OM is set up for real estate, workshops, clinics, retail, hospitality, contractors, property management, and more, across Oman.",
+  ...pageMeta("/industries/"),
 };
 
 export default function IndustriesPage() {
@@ -24,7 +25,7 @@ export default function IndustriesPage() {
           <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground leading-relaxed">
             A workshop and a dental clinic get asked completely different
             questions. These pages cover what each one actually receives, and
-            what the chatbot does with it.
+            what Chatbot.OM does with it.
           </p>
         </div>
       </section>

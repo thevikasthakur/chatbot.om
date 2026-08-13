@@ -72,12 +72,14 @@ export default function Home() {
       </section>
 
       <section aria-label="Product promises" className="trust-strip">
-        {trustBadges.map((badge) => (
-          <div className="trust-item" key={badge}>
-            <CheckCircle2 aria-hidden="true" className="h-4 w-4" />
-            <span>{badge}</span>
-          </div>
-        ))}
+        <div className="trust-strip-inner">
+          {trustBadges.map((badge) => (
+            <div className="trust-item" key={badge}>
+              <CheckCircle2 aria-hidden="true" className="h-4 w-4" />
+              <span>{badge}</span>
+            </div>
+          ))}
+        </div>
       </section>
 
       <CommandCarousel />

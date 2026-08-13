@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { ArrowUpRight, Check, Minus } from "lucide-react";
 import { CtaBanner, Faq } from "@/components/sections";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "chatbot.om or AI Customer Care",
+  title: "Chatbot.OM or AI Customer Care",
   description:
-    "Two Omani products, one platform family. chatbot.om covers chat channels affordably. AI Customer Care adds the phone line, outbound calling, and a dedicated email agent.",
-  alternates: { canonical: "/comparison/" },
+    "Two Omani products, one platform family. Chatbot.OM covers chat channels affordably. AI Customer Care adds the phone line, outbound calling, and a dedicated email agent.",
+  ...pageMeta("/comparison/"),
 };
 
 type Row = { label: string; chat: boolean | string; suite: boolean | string; note?: string };
@@ -21,7 +22,7 @@ const rows: Row[] = [
     label: "Email replies",
     chat: "Replies on the thread",
     suite: "Full inbox agent",
-    note: "chatbot.om answers on an email thread as another chat channel. Triaging, organising, and drafting across a whole inbox is the AI Email Agent, which lives on the suite.",
+    note: "Chatbot.OM answers on an email thread as another chat channel. Triaging, organising, and drafting across a whole inbox is the AI Email Agent, which lives on the suite.",
   },
   {
     label: "Inbound phone calls",
@@ -77,7 +78,7 @@ function Cell({ value }: { value: boolean | string }) {
 
 const faqs = [
   {
-    q: "Can we start on chatbot.om and move up later?",
+    q: "Can we start on Chatbot.OM and move up later?",
     a: "Yes, and most businesses should. The two run on the same platform family and the same infrastructure inside Oman, so your knowledge base, conversation history, tickets, and leads carry across rather than being rebuilt.",
   },
   {
@@ -85,11 +86,11 @@ const faqs = [
     a: "Because answering the phone properly is a bigger commitment than answering chat. It needs a telecom line, call flows, and usually a change to how your team works. If most of your enquiries already arrive by WhatsApp and your website, chat is where the return is, and it is live in a day.",
   },
   {
-    q: "Is chatbot.om a cut-down version?",
+    q: "Is Chatbot.OM a cut-down version?",
     a: "No. Within chat it is the full thing: the same knowledge grounding, guardrails, ticketing, follow-ups, lead pipeline, and reporting. What differs is the channels it covers, not the depth of what it does on them.",
   },
   {
-    q: "We get a lot of calls. Does that rule chatbot.om out?",
+    q: "We get a lot of calls. Does that rule Chatbot.OM out?",
     a: "Not necessarily. A good chat presence often reduces call volume, because the questions people ring about get answered before they pick up the phone. If the calls are still the bulk of your work after that, the suite is the right answer.",
   },
   {
@@ -110,7 +111,7 @@ export default function ComparisonPage() {
             <span className="text-lime">One of them is yours.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            chatbot.om and {site.sister.name} come from the same team, run on the
+            Chatbot.OM and {site.sister.name} come from the same team, run on the
             same platform family, and keep data in the same place. The difference
             is how many doors you need answered.
           </p>
@@ -125,7 +126,7 @@ export default function ComparisonPage() {
               <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-lime">
                 You are here
               </p>
-              <h2 className="mt-2 text-2xl md:text-3xl">chatbot.om</h2>
+              <h2 className="mt-2 text-2xl md:text-3xl">Chatbot.OM</h2>
               <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
                 Chat, done properly and affordably. Your website and your
                 WhatsApp number answered around the clock, with tickets,
@@ -173,7 +174,7 @@ export default function ComparisonPage() {
                     Capability
                   </th>
                   <th scope="col" className="py-4 pr-6 font-mono text-[10px] uppercase tracking-[0.14em] text-lime">
-                    chatbot.om
+                    Chatbot.OM
                   </th>
                   <th scope="col" className="py-4 font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
                     {site.sister.name}
@@ -214,7 +215,7 @@ export default function ComparisonPage() {
           </h2>
           <div className="mt-10 grid gap-4 md:grid-cols-2">
             <div className="border border-border bg-ink-2 p-7">
-              <h3 className="text-lg font-semibold">Take chatbot.om if</h3>
+              <h3 className="text-lg font-semibold">Take Chatbot.OM if</h3>
               <ul className="mt-4 space-y-3">
                 {[
                   "Most enquiries reach you on WhatsApp or through your website",

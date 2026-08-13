@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
@@ -20,7 +21,7 @@ export async function generateMetadata({
   return {
     title: t.name,
     description: t.short,
-    alternates: { canonical: `/template/${t.slug}/` },
+    ...pageMeta(`/template/${t.slug}/`),
   };
 }
 

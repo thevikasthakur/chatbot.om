@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { ArrowRight, Globe2, Mail, MessageSquare, ShieldCheck } from "lucide-react";
 import { features } from "@/data/features";
 import { CtaBanner, StatStrip } from "@/components/sections";
+import { ChannelsConverge } from "@/components/illustrations";
 
 export const metadata: Metadata = {
   title: "Features",
   description:
-    "Everything chatbot.om does: website chat, WhatsApp, voice notes, Arabic and English, knowledge grounding, handover, booking, sentiment, reporting, and an API.",
-  alternates: { canonical: "/features/" },
+    "Everything Chatbot.OM does: website chat, WhatsApp, voice notes, Arabic and English, knowledge grounding, handover, booking, sentiment, reporting, and an API.",
+  ...pageMeta("/features/"),
 };
 
 const stats = [
@@ -95,7 +97,7 @@ export default function FeaturesPage() {
               href="/get-started/"
               className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
             >
-              Get the chatbot <span aria-hidden>+</span>
+              Get Chatbot.OM <span aria-hidden>+</span>
             </Link>
           </div>
         </div>
@@ -119,13 +121,16 @@ export default function FeaturesPage() {
               anyone repeating themselves.
             </p>
           </div>
-          <div className="mt-10 grid grid-cols-3 gap-x-10 gap-y-8">
-            {channels.map((c) => (
-              <div key={c.label} className="border-t border-line-strong pt-5 text-center">
-                <c.icon className="mx-auto h-6 w-6 text-lime" aria-hidden />
-                <p className="mt-3 text-sm font-medium">{c.label}</p>
-              </div>
-            ))}
+          <div className="mt-12 grid items-center gap-12 lg:grid-cols-[1fr_1.1fr]">
+            <div className="grid grid-cols-3 gap-x-10 gap-y-8">
+              {channels.map((c) => (
+                <div key={c.label} className="border-t border-line-strong pt-5 text-center">
+                  <c.icon className="mx-auto h-6 w-6 text-lime" aria-hidden />
+                  <p className="mt-3 text-sm font-medium">{c.label}</p>
+                </div>
+              ))}
+            </div>
+            <ChannelsConverge />
           </div>
         </div>
       </section>

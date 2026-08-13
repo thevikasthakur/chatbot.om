@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { ArrowUpRight, MapPin, ShieldCheck, Zap } from "lucide-react";
 import { CtaBanner, RuleGrid } from "@/components/sections";
@@ -7,8 +8,8 @@ import { site } from "@/data/site";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Why we built a chatbot only for Oman: local dialect, local hosting, local hours, and a price a business with four staff can actually pay.",
-  alternates: { canonical: "/about/" },
+    "Why we built Chatbot.OM only for Oman: local dialect, local hosting, local hours, and a price a business with four staff can actually pay.",
+  ...pageMeta("/about/"),
 };
 
 const principles = [
@@ -42,7 +43,7 @@ export default function AboutPage() {
             somebody to answer.
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            That is the entire idea behind chatbot.om. Not a platform to build
+            That is the entire idea behind Chatbot.OM. Not a platform to build
             agents on, not a project to run for six months. A chatbot that knows
             your business, answers your customers in their own language, and
             leaves your team work that is already written down.
@@ -81,7 +82,7 @@ export default function AboutPage() {
               twelve-month contract, or dedicate someone to a deployment.
             </p>
             <p>
-              So chatbot.om is deliberately narrow. It covers chat channels
+              So Chatbot.OM is deliberately narrow. It covers chat channels
               completely and does not try to be a phone system. That narrowness is
               what makes it fast to launch and cheap enough to be worth trying,
               which is the only reason a small business ever adopts anything.

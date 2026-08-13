@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { ArrowRight, Plug } from "lucide-react";
 import { integrations } from "@/data/integrations";
@@ -7,8 +8,8 @@ import { CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Integrations",
   description:
-    "Connect chatbot.om to the calendar, CRM, store platform, and automation tools you already run. Google Calendar, HubSpot, Salesforce, Zoho, Odoo, Shopify, Zapier, and more.",
-  alternates: { canonical: "/integration/" },
+    "Connect Chatbot.OM to the calendar, CRM, store platform, and automation tools you already run. Google Calendar, HubSpot, Salesforce, Zoho, Odoo, Shopify, Zapier, and more.",
+  ...pageMeta("/integration/"),
 };
 
 const order = ["Calendar", "CRM", "ERP", "Ecommerce", "Website", "Automation", "Productivity"];

@@ -4,8 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
-import { mainNav, site } from "@/data/site";
+import { mainNav } from "@/data/site";
 import { cn } from "@/lib/utils";
+import Wordmark from "@/components/Wordmark";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -32,15 +33,19 @@ export default function Header() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center" aria-label={`${site.name}, home`}>
+          {/* The mark carries no text, so the wordmark is set beside it and
+              provides the link's accessible name. */}
+          <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/chabot-logo-light.webp"
-              alt={site.name}
-              width={1094}
-              height={326}
-              className="h-8 w-auto"
+              src="/media/logo.webp"
+              alt=""
+              width={51}
+              height={50}
+              className="h-7 w-auto"
               priority
+              aria-hidden
             />
+            <Wordmark />
           </Link>
 
           {/* Desktop nav */}
@@ -97,7 +102,7 @@ export default function Header() {
               href="/get-started/"
               className="inline-flex h-9 items-center bg-lime px-4 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
             >
-              Get the chatbot
+              Get Chatbot.OM
             </Link>
           </div>
 
@@ -155,7 +160,7 @@ export default function Header() {
                 onClick={() => setOpen(false)}
                 className="inline-flex h-10 items-center justify-center bg-lime px-4 text-sm font-medium text-ink"
               >
-                Get the chatbot
+                Get Chatbot.OM
               </Link>
             </div>
           </nav>

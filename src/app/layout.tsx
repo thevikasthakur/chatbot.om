@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { pageMeta } from "@/lib/meta";
 import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -65,7 +66,7 @@ export const metadata: Metadata = {
   },
   description: site.description,
   applicationName: site.name,
-  alternates: { canonical: "/" },
+  ...pageMeta("/"),
   keywords: [
     "chatbot Oman",
     "AI chatbot Oman",

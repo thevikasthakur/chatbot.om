@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -17,13 +18,13 @@ import {
   Sparkles,
 } from "lucide-react";
 import { CtaBanner, Faq, RuleGrid, StatStrip } from "@/components/sections";
-import { ChannelsConverge, GroundedAnswer } from "@/components/illustrations";
+import { GroundedAnswer } from "@/components/illustrations";
 
 export const metadata: Metadata = {
   title: "AI Chatbot for Websites",
   description:
     "Oman's own sovereign chatbot for your website. It replies in Arabic and English in seconds, raises tickets, books appointments, and builds your lead sheet. All chat data stays inside Oman.",
-  alternates: { canonical: "/product/ai-chatbot-for-websites/" },
+  ...pageMeta("/product/ai-chatbot-for-websites/"),
 };
 
 const stats = [
@@ -52,7 +53,7 @@ const jobs = [
   },
   {
     title: "Raises the ticket",
-    desc: "When it is a complaint rather than a sale, the chatbot opens a ticket, routes it to the right person, and tells the customer what happens next.",
+    desc: "When it is a complaint rather than a sale, Chatbot.OM opens a ticket, routes it to the right person, and tells the customer what happens next.",
   },
   {
     title: "Follows up without nagging",
@@ -64,7 +65,7 @@ const knowledge = [
   {
     icon: BookOpen,
     title: "It reads your website first",
-    desc: "Give us your domain and the chatbot ingests your pages, price lists, and policies. It answers from what you actually published, not from a general model's guesswork.",
+    desc: "Give us your domain and Chatbot.OM ingests your pages, price lists, and policies. It answers from what you actually published, not from a general model's guesswork.",
   },
   {
     icon: Database,
@@ -82,7 +83,7 @@ const voiceCards = [
   {
     icon: Mic,
     title: "Voice notes processed natively",
-    desc: "The customer talks, the chatbot understands. No transcription step for anyone to babysit.",
+    desc: "The customer talks, Chatbot.OM understands. No transcription step for anyone to babysit.",
   },
   {
     icon: AudioLines,
@@ -120,11 +121,11 @@ const faqs = [
   },
   {
     q: "What happens when a customer wants a human?",
-    a: "The chatbot hands over. It notifies the person or team you nominate, passes the full conversation so nobody asks the customer to repeat themselves, and tells the customer who has picked it up and when to expect a reply.",
+    a: "Chatbot.OM hands over. It notifies the person or team you nominate, passes the full conversation so nobody asks the customer to repeat themselves, and tells the customer who has picked it up and when to expect a reply.",
   },
   {
-    q: "How is this different from customercare.om?",
-    a: "chatbot.om covers chat: your website, WhatsApp, and email replies. customercare.om is the full suite for organisations that also need the phone line answered, outbound calling campaigns, and a dedicated email agent working the inbox. Same platform family, same data residency, different scope.",
+    q: "How is this different from CustomerCare.OM?",
+    a: "Chatbot.OM covers chat: your website, WhatsApp, and email replies. CustomerCare.OM is the full suite for organisations that also need the phone line answered, outbound calling campaigns, and a dedicated email agent working the inbox. Same platform family, same data residency, different scope.",
     link: { label: "See the full comparison", href: "/comparison/" },
   },
 ];
@@ -183,7 +184,7 @@ export default function ChatbotForWebsitesPage() {
               muted
               playsInline
               poster="/hero/chatbot-om-poster.webp"
-              aria-label="chatbot.om answering a customer conversation on a website"
+              aria-label="Chatbot.OM answering a customer conversation on a website"
             >
               <source src="/hero/chat-om-5fps.av1.mp4" type="video/mp4; codecs=av01.0.05M.08" />
               <source src="/hero/chat-om-5fps.mp4" type="video/mp4" />
@@ -262,7 +263,14 @@ export default function ChatbotForWebsitesPage() {
                 <ArrowRight className="h-4 w-4" aria-hidden />
               </Link>
             </div>
-            <ChannelsConverge />
+            <Image
+              src="/teasers/multi-channel-support.webp"
+              alt="Omani customers asking about an order in Muscat, delivery to Salalah, and WhatsApp support, each routed to the channel it arrived on"
+              width={1448}
+              height={1086}
+              className="w-full"
+              sizes="(max-width: 768px) 92vw, 560px"
+            />
           </div>
         </div>
       </section>

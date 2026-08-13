@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   title: "Dashboard & Reporting",
   description:
     "Live reporting on every chat: what customers asked, how they felt, which tickets closed on time, and which leads are aging. Built for owners who want the number, not a data project.",
-  alternates: { canonical: "/product/dashboard-reporting/" },
+  ...pageMeta("/product/dashboard-reporting/"),
 };
 
 const stats = [
@@ -59,7 +60,7 @@ const panels = [
     alt: "Task completion view showing which chatbot jobs succeeded and which did not",
     icon: ListChecks,
     eyebrow: "Accountability, not vibes",
-    title: "Which jobs the chatbot nails, and which it does not",
+    title: "Which jobs Chatbot.OM nails, and which it does not",
     body: "If you cannot measure it, you cannot fix it. See where the chatbot answered cleanly, where it handed over, and where it should have. Most businesses guess at this. You get to operate on it.",
   },
 ];
@@ -157,17 +158,17 @@ export default function DashboardReportingPage() {
                 href="/get-started/"
                 className="inline-flex h-11 items-center gap-2 bg-lime px-6 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
               >
-                Get the chatbot <ArrowRight className="h-4 w-4" aria-hidden />
+                Get Chatbot.OM <ArrowRight className="h-4 w-4" aria-hidden />
               </Link>
             </div>
           </div>
 
-          <div className="mx-auto mt-14 max-w-5xl border border-line-strong bg-ink-2 p-2">
+          <div className="mx-auto mt-14 max-w-5xl">
             <Image
-              src="/teasers/leads-sentiment.webp"
-              alt="Dashboard listing recent conversations with channel, intent, and sentiment score"
-              width={2160}
-              height={1714}
+              src="/teasers/dashboard-oman-report.webp"
+              alt="Reporting view of AI agent sales for Oman: total value in OMR, order count, average time to order, and a daily sales trend"
+              width={1672}
+              height={941}
               className="w-full"
               sizes="(max-width: 1024px) 92vw, 1024px"
               priority

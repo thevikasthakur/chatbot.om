@@ -37,6 +37,40 @@ Create `.env.local` from `.env.example` before testing the CTA email flow.
 `npm run lint` runs ESLint and `tsc --noEmit`. `npm test` covers the
 install-request email builder.
 
+## AI readability
+
+`npm run build` runs `scripts/ai-readability.mjs` after `next build`. It reads the
+HTML Next prerenders into `.next/server/app` and writes, into `public/`:
+
+- a Markdown twin per indexable page, at the same path plus `.md`
+- `/llms.txt`, a curated index following the llmstxt.org shape
+- `/llms-full.txt`, the whole site as one Markdown document
+
+Those outputs are generated, so they are gitignored. Running `next build` on its
+own will leave them stale; use `npm run build`, or `npm run ai:check` to
+regenerate them against the current `.next`.
+
+There is one public URL per page. Agents get Markdown from that same address:
+
+```bash
+curl -H "Accept: text/markdown" https://chatbot.om/product/smart-follow-ups/
+```
+
+Negotiation is handled by `netlify/edge-functions/markdown.ts`, which appends
+`Vary: Accept` to both variants and sets the content type on the Markdown,
+`llms.txt`, and `llms-full.txt`. Pages with no twin fall through to HTML.
+
+The `.md` files are the payload, not a second address: the edge function reaches
+them through an internal rewrite, and a direct request for one is redirected
+`301` to the page it belongs to. There is deliberately no
+`<link rel="alternate" type="text/markdown">`, because there is no separate
+Markdown URL for it to point at.
+
+`<link rel="canonical">` comes from `src/lib/meta.ts` via the Next Metadata API
+rather than the post-build pass, because a server render leaves no HTML file to
+patch. `pageMeta()`, the generator and the edge function all have to agree on
+the twin mapping: `/about/` maps to `/about.md`, `/` maps to `/index.md`.
+
 ## Positioning
 
 chatbot.om covers chat channels only: website chat, WhatsApp (including voice

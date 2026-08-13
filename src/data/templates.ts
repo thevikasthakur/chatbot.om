@@ -6,7 +6,7 @@ export const templates: Template[] = [
     name: "Villa Maintenance Requests on WhatsApp",
     industry: "Property Management",
     short:
-      "Tenants report a fault on WhatsApp, the chatbot triages it, raises the ticket, and keeps them informed until it is fixed.",
+      "Tenants report a fault on WhatsApp, Chatbot.OM triages it, raises the ticket, and keeps them informed until it is fixed.",
     featured: true,
     sections: [
       {
@@ -45,7 +45,7 @@ export const templates: Template[] = [
       {
         h: "What this template does",
         p: [
-          "The chatbot handles the entire administrative side of an appointment: which service, which practitioner, when they are free, what the patient should bring, and where to park. It writes the booking into your calendar and sends the reminder.",
+          "Chatbot.OM handles the entire administrative side of an appointment: which service, which practitioner, when they are free, what the patient should bring, and where to park. It writes the booking into your calendar and sends the reminder.",
           "Everything clinical is configured as an always-escalate topic. Symptoms, medication, and results go to your staff with the full conversation attached, never to an automatic answer.",
         ],
       },
@@ -76,7 +76,7 @@ export const templates: Template[] = [
       {
         h: "What this template does",
         p: [
-          "Booking a service turns into a short conversation: which car, which service, when. The chatbot checks the workshop calendar, offers real slots, confirms with the address, and reminds the customer the day before.",
+          "Booking a service turns into a short conversation: which car, which service, when. Chatbot.OM checks the workshop calendar, offers real slots, confirms with the address, and reminds the customer the day before.",
           "It also handles the two other messages every workshop receives constantly: whether a part is in stock, and whether the car is ready yet.",
         ],
       },
@@ -139,7 +139,7 @@ export const templates: Template[] = [
       {
         h: "What this template does",
         p: [
-          "Every listing enquiry gets an immediate answer on availability, price, furnishing, and parking. The chatbot then asks the two or three questions that reveal whether this is a real prospect, and books the viewing if it is.",
+          "Every listing enquiry gets an immediate answer on availability, price, furnishing, and parking. Chatbot.OM then asks the two or three questions that reveal whether this is a real prospect, and books the viewing if it is.",
           "The agent receives a lead that already contains the budget, the timeline, whether finance is needed, and a confirmed appointment.",
         ],
       },
@@ -201,7 +201,7 @@ export const templates: Template[] = [
       {
         h: "What this template does",
         p: [
-          "The chatbot answers which subjects and grades are covered, when classes run, how many students are in a class, and what it costs per month in OMR. It then offers a trial class and captures the enrolment enquiry as a lead.",
+          "Chatbot.OM answers which subjects and grades are covered, when classes run, how many students are in a class, and what it costs per month in OMR. It then offers a trial class and captures the enrolment enquiry as a lead.",
           "Every enquiry lands with a named person, with the student's grade and subjects already recorded, rather than in a shared inbox to be sorted out later.",
         ],
       },
@@ -232,7 +232,7 @@ export const templates: Template[] = [
       {
         h: "What this template does",
         p: [
-          "Before a site visit is offered, the chatbot establishes what the job actually is, where it is, when it is needed, and roughly what the customer expects to spend. Photographs sent by the customer are attached to the enquiry.",
+          "Before a site visit is offered, Chatbot.OM establishes what the job actually is, where it is, when it is needed, and roughly what the customer expects to spend. Photographs sent by the customer are attached to the enquiry.",
           "Urgent repairs are separated from planned projects, so a burst pipe reaches your phone immediately while a bathroom renovation waits for the evening.",
         ],
       },

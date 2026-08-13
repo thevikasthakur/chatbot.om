@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -20,8 +21,8 @@ import { EnquiryFunnel } from "@/components/illustrations";
 export const metadata: Metadata = {
   title: "Automated Lead Pipeline",
   description:
-    "Most chat is not support, it is enquiry. chatbot.om qualifies the serious ones, enriches them from your own records, and hands each lead to a named owner who keeps it to the sale.",
-  alternates: { canonical: "/product/automated-lead-pipeline/" },
+    "Most chat is not support, it is enquiry. Chatbot.OM qualifies the serious ones, enriches them from your own records, and hands each lead to a named owner who keeps it to the sale.",
+  ...pageMeta("/product/automated-lead-pipeline/"),
 };
 
 const steps = [
@@ -154,7 +155,7 @@ export default function LeadPipelinePage() {
                   href="/get-started/"
                   className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
                 >
-                  Get the chatbot <span aria-hidden>+</span>
+                  Get Chatbot.OM <span aria-hidden>+</span>
                 </Link>
                 <Link
                   href="/product/dashboard-reporting/"
@@ -246,6 +247,21 @@ export default function LeadPipelinePage() {
           <p className="mt-8 font-mono text-xs uppercase tracking-[0.12em] text-lime">
             No form. No copy-paste. No lead sitting in a shared inbox.
           </p>
+
+          <figure className="mt-12">
+            <Image
+              src="/teasers/chatbot-to-human-transfer.webp"
+              alt="A bulk order enquiry answered by Chatbot.OM, then transferred to Ahmed on the Muscat sales team, who picks up the quote by name"
+              width={1672}
+              height={941}
+              className="w-full"
+              sizes="(max-width: 1024px) 92vw, 1152px"
+            />
+            <figcaption className="mt-4 font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">
+              Step three, as the customer sees it: the handover is announced, and
+              the person taking over has a name
+            </figcaption>
+          </figure>
         </div>
       </section>
 

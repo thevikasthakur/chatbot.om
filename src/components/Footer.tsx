@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, ShieldCheck } from "lucide-react";
 import { footerNav, site } from "@/data/site";
+import Wordmark from "@/components/Wordmark";
 
 export default function Footer() {
   return (
@@ -9,14 +10,16 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4 lg:grid-cols-7">
           <div className="col-span-2">
-            <Link href="/" className="flex items-center" aria-label={`${site.name}, home`}>
+            <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/chabot-logo-light.webp"
-                alt={site.name}
-                width={1094}
-                height={326}
-                className="h-8 w-auto"
+                src="/media/logo.webp"
+                alt=""
+                width={51}
+                height={50}
+                className="h-7 w-auto"
+                aria-hidden
               />
+              <Wordmark />
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs leading-relaxed">
               {site.tagline}. It answers on your website and on WhatsApp in

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import {
   AlarmClock,
@@ -39,8 +40,8 @@ const messageParts = [
 export const metadata: Metadata = {
   title: "Smart Follow-Ups",
   description:
-    "Assigned is not finished. chatbot.om chases the staff member who owns the ticket, tells the customer where it stands, and explains the delay before they have to ask.",
-  alternates: { canonical: "/product/smart-follow-ups/" },
+    "Assigned is not finished. Chatbot.OM chases the staff member who owns the ticket, tells the customer where it stands, and explains the delay before they have to ask.",
+  ...pageMeta("/product/smart-follow-ups/"),
 };
 
 const chases = [
@@ -106,7 +107,7 @@ const faqs = [
   },
   {
     q: "Will customers be spammed with updates?",
-    a: "No. The chatbot only messages the customer when something they were told has changed. Internal steps like a ticket being opened or reassigned do not generate a message, because the customer's expectation has not moved.",
+    a: "No. Chatbot.OM only messages the customer when something they were told has changed. Internal steps like a ticket being opened or reassigned do not generate a message, because the customer's expectation has not moved.",
   },
   {
     q: "What counts as late?",
@@ -154,7 +155,7 @@ export default function SmartFollowUpsPage() {
                   href="/get-started/"
                   className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
                 >
-                  Get the chatbot <span aria-hidden>+</span>
+                  Get Chatbot.OM <span aria-hidden>+</span>
                 </Link>
                 <Link
                   href="/product/automated-support-tickets/"

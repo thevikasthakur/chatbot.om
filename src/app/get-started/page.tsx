@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { ArrowRight, Check, ShieldCheck } from "lucide-react";
 import { InstallRequestForm } from "@/components/InstallRequestForm";
 import { Faq } from "@/components/sections";
 
 export const metadata: Metadata = {
-  title: "Get the chatbot",
+  title: "Get Chatbot.OM",
   description:
-    "Give us your website and we will have the chatbot reading it today. Live in about a day, hosted inside Oman, in Arabic and English.",
-  alternates: { canonical: "/get-started/" },
+    "Give us your website and we will have Chatbot.OM reading it today. Live in about a day, hosted inside Oman, in Arabic and English.",
+  ...pageMeta("/get-started/"),
 };
 
 const steps = [
@@ -19,7 +20,7 @@ const steps = [
   },
   {
     n: "02",
-    t: "The chatbot reads your site",
+    t: "Chatbot.OM reads your site",
     d: "Services, prices, policies, hours, locations. We come back with what it can already answer and where the gaps are.",
   },
   {
@@ -37,7 +38,7 @@ const steps = [
 const faqs = [
   {
     q: "What happens after I send my website?",
-    a: "A person reads it, the chatbot ingests it, and we come back to you with what it can answer out of the box and which questions it cannot yet. That report is useful whether or not you go ahead.",
+    a: "A person reads it, Chatbot.OM ingests it, and we come back to you with what it can answer out of the box and which questions it cannot yet. That report is useful whether or not you go ahead.",
   },
   {
     q: "Do I need to install anything to see it?",

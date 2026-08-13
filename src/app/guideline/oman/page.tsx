@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { Check, FileCheck2, Landmark, Lock, ShieldCheck } from "lucide-react";
 import { CtaBanner } from "@/components/sections";
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   title: "AI Chat and Customer Messaging Rules in Oman",
   description:
     "A practical guide to Oman's Personal Data Protection Law, WhatsApp Business Platform rules, and the etiquette of automated customer messaging in the Sultanate. General guidance, not legal advice.",
-  alternates: { canonical: "/guideline/oman/" },
+  ...pageMeta("/guideline/oman/"),
 };
 
 const glance = [
@@ -99,9 +100,9 @@ const sections = [
     ],
   },
   {
-    h: "How chatbot.om implements all of this",
+    h: "How Chatbot.OM implements all of this",
     p: [
-      "chatbot.om was built in Oman, for these rules. Disclosure opens every conversation, consent is captured with timestamps, opt-outs propagate across channels immediately, and messaging windows respect Omani working hours and the seasonal calendar. Sensitive topics are configured to escalate rather than to be answered.",
+      "Chatbot.OM was built in Oman, for these rules. Disclosure opens every conversation, consent is captured with timestamps, opt-outs propagate across channels immediately, and messaging windows respect Omani working hours and the seasonal calendar. Sensitive topics are configured to escalate rather than to be answered.",
       "All conversations, transcripts, attachments, and derived data are processed and stored on infrastructure inside the Sultanate, so cross-border transfer questions simply do not arise. Organisations with stricter requirements can run the whole thing on their own infrastructure instead.",
     ],
   },

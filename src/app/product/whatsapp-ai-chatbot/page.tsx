@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
   title: "WhatsApp AI Chatbot",
   description:
     "Answer WhatsApp messages and voice notes in Arabic and English, and send the reminders and confirmations your customers actually read. Built for Oman, hosted in Oman.",
-  alternates: { canonical: "/product/whatsapp-ai-chatbot/" },
+  ...pageMeta("/product/whatsapp-ai-chatbot/"),
 };
 
 const stats = [
@@ -90,7 +91,7 @@ const faqs = [
   },
   {
     q: "Does this make outbound calls too?",
-    a: "No. chatbot.om is text and voice notes on chat channels. If you need an AI agent that actually dials customers, that is outbound calling on our sister product, customercare.om.",
+    a: "No. Chatbot.OM is text and voice notes on chat channels. If you need an AI agent that actually dials customers, that is outbound calling on our sister product, CustomerCare.OM.",
     link: { label: "Compare the two", href: "/comparison/" },
   },
   {
@@ -129,7 +130,7 @@ export default function WhatsAppChatbotPage() {
                 href="/get-started/"
                 className="inline-flex h-11 items-center gap-2 bg-lime px-6 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
               >
-                Get the chatbot <ArrowRight className="h-4 w-4" aria-hidden />
+                Get Chatbot.OM <ArrowRight className="h-4 w-4" aria-hidden />
               </Link>
               <Link
                 href="/product/ai-chatbot-for-websites/"
@@ -147,7 +148,9 @@ export default function WhatsAppChatbotPage() {
               alt="A man in Muscat recording a WhatsApp voice note to a business"
               width={594}
               height={771}
-              className="mx-auto w-full max-w-sm border border-line-strong"
+              /* no border: the asset is a cutout on transparency, so a frame
+                 would box empty space around the figure */
+              className="mx-auto w-full max-w-sm"
               sizes="(max-width: 768px) 80vw, 384px"
               priority
             />
@@ -226,7 +229,7 @@ export default function WhatsAppChatbotPage() {
                 {
                   icon: Clock,
                   title: "Free-form replies inside 24 hours",
-                  desc: "While the window from the customer's last message is open, the chatbot converses normally.",
+                  desc: "While the window from the customer's last message is open, Chatbot.OM converses normally.",
                 },
                 {
                   icon: ShieldCheck,

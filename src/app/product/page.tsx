@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Product",
   description:
     "One chatbot, six jobs: website chat, WhatsApp, support tickets, follow-ups, lead pipeline, and reporting. Built for Oman and hosted inside the Sultanate.",
-  alternates: { canonical: "/product/" },
+  ...pageMeta("/product/"),
 };
 
 const modules = [
@@ -75,7 +76,7 @@ const faqs = [
   },
   {
     q: "What is not included?",
-    a: "Anything that involves a phone line. chatbot.om does not answer calls, does not dial out, and does not run an email agent through your inbox. Those live on our sister product for organisations that need them.",
+    a: "Anything that involves a phone line. Chatbot.OM does not answer calls, does not dial out, and does not run an email agent through your inbox. Those live on our sister product for organisations that need them.",
     link: { label: "Compare the two", href: "/comparison/" },
   },
   {
@@ -165,7 +166,7 @@ export default function ProductPage() {
                 <span className="accent-italic">Deliberately.</span>
               </h2>
               <p className="mt-4 max-w-lg text-sm text-muted-foreground leading-relaxed">
-                chatbot.om is the affordable, fast way to get an Omani business
+                Chatbot.OM is the affordable, fast way to get an Omani business
                 answering properly. It does not answer your phone line, it does
                 not run outbound calling campaigns, and it does not work your
                 email inbox as a dedicated agent. Organisations that need all of

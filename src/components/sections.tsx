@@ -30,7 +30,7 @@ export function PageHero({
               href="/get-started/"
               className="inline-flex h-11 items-center gap-2 border border-line-strong px-7 text-sm font-medium hover:bg-ink-3 transition-colors"
             >
-              Get the chatbot <ArrowRight className="h-4 w-4" />
+              Get Chatbot.OM <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
         )}
@@ -147,7 +147,7 @@ export function CtaBanner() {
           Your website is quiet. <span className="accent-italic">Fix that.</span>
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-          Give us your website and we will have the chatbot reading it today.
+          Give us your website and we will have Chatbot.OM reading it today.
           Your customer data stays inside Oman.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
@@ -155,7 +155,7 @@ export function CtaBanner() {
             href="/get-started/"
             className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
           >
-            Get the chatbot <span aria-hidden>+</span>
+            Get Chatbot.OM <span aria-hidden>+</span>
           </Link>
         </div>
         <p className="mt-7 flex items-center justify-center gap-2 text-xs text-muted-foreground">

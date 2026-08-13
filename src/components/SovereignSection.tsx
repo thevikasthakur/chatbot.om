@@ -81,7 +81,7 @@ export function SovereignSection() {
 
         <div className="sovereign-image-wrap">
           <Image
-            alt="Oman sovereign AI chatbot with data stored in Oman on local servers"
+            alt="Chatbot.OM keeping customer conversations on servers inside Oman"
             src="/teasers/oman-sovereign-ai-chabot-oman.webp"
             width={800}
             height={700}

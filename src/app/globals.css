@@ -585,12 +585,21 @@ footer {
 
 /* ── Trust strip ── */
 
+/* The band itself is full bleed, but its cells stay inside the page frame, so
+   the first and last labels never sit on top of the vertical rules. The width
+   below mirrors .page-frame::before/after exactly. */
 .trust-strip {
+  border-block: 1px solid var(--rule);
+  background: var(--ink-2);
+}
+
+.trust-strip-inner {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
-  border-block: 1px solid var(--rule);
   background: var(--rule);
+  width: min(80rem, calc(100% - 2rem));
+  margin-inline: auto;
 }
 
 .trust-item {
@@ -1750,7 +1759,7 @@ footer {
     width: 100%;
   }
 
-  .trust-strip {
+  .trust-strip-inner {
     grid-template-columns: 1fr 1fr;
   }
 

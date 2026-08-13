@@ -28,7 +28,7 @@ export const industries: Industry[] = [
       },
       {
         title: "Viewing slots booked in the chat",
-        desc: "The chatbot offers times the agent is genuinely free, holds the slot, and sends a reminder the day before with the exact location.",
+        desc: "Chatbot.OM offers times the agent is genuinely free, holds the slot, and sends a reminder the day before with the exact location.",
       },
       {
         title: "Qualification before the agent invests time",
@@ -79,7 +79,7 @@ export const industries: Industry[] = [
     useCases: [
       {
         title: "Service booking around the clock",
-        desc: "The chatbot checks your calendar, books oil changes and major services, and confirms with the workshop address and what to bring.",
+        desc: "Chatbot.OM checks your calendar, books oil changes and major services, and confirms with the workshop address and what to bring.",
       },
       {
         title: "Test drive scheduling",
@@ -154,7 +154,7 @@ export const industries: Industry[] = [
     faqs: [
       {
         q: "Will it give clinical advice?",
-        a: "No. Anything clinical is configured as an always-escalate topic and goes to your team. The chatbot handles scheduling, pricing, logistics, and insurance questions.",
+        a: "No. Anything clinical is configured as an always-escalate topic and goes to your team. Chatbot.OM handles scheduling, pricing, logistics, and insurance questions.",
       },
       {
         q: "Can it handle emergencies?",
@@ -323,7 +323,7 @@ export const industries: Industry[] = [
       },
       {
         q: "Does it handle Ramadan timings?",
-        a: "Yes. You set the seasonal hours once and the chatbot answers with the correct timings for the date being asked about.",
+        a: "Yes. You set the seasonal hours once and Chatbot.OM answers with the correct timings for the date being asked about.",
       },
       {
         q: "What about delivery orders?",
@@ -704,7 +704,7 @@ export const industries: Industry[] = [
     faqs: [
       {
         q: "Can it give an indicative price?",
-        a: "Only within bands you define. Fit-out pricing depends on too many variables to quote automatically, so the chatbot qualifies and books the consultation instead.",
+        a: "Only within bands you define. Fit-out pricing depends on too many variables to quote automatically, so Chatbot.OM qualifies and books the consultation instead.",
       },
       {
         q: "Can it share our portfolio?",
@@ -767,7 +767,7 @@ export const industries: Industry[] = [
       },
       {
         q: "Does it handle drivers as well as customers?",
-        a: "The chatbot is customer-facing. Driver exceptions raised in the field become tickets that your operations team owns.",
+        a: "Chatbot.OM is customer-facing. Driver exceptions raised in the field become tickets that your operations team owns.",
       },
     ],
   },

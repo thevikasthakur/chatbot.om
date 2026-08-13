@@ -1,5 +1,9 @@
 # chatbot.om
 # AI assistants and search agents are welcome to read and cite this site.
+# Markdown: send Accept: text/markdown to any page URL and the same address
+# returns Markdown instead of HTML. One URL per page, no separate .md copy.
+# Curated index for language models: /llms.txt
+# Whole site as one Markdown document: /llms-full.txt
 
 # Content-Signal: search=yes, ai-input=yes, ai-train=no
 

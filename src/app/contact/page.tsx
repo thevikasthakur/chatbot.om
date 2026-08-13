@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { ArrowUpRight, Mail, MapPin, MessageSquare, Phone } from "lucide-react";
 import { CtaBanner } from "@/components/sections";
-import { site } from "@/data/site";
+import { site, whatsappUrl } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
     "Talk to the team in Muscat. Email, phone, WhatsApp, or send us your website and we will show you the chatbot reading it.",
-  alternates: { canonical: "/contact/" },
+  ...pageMeta("/contact/"),
 };
-
-const whatsappNumber = site.phone.replace(/[^0-9]/g, "");
 
 export default function ContactPage() {
   return (
@@ -50,7 +49,7 @@ export default function ContactPage() {
               <p className="mt-2 text-sm text-muted-foreground">{site.phone}</p>
             </a>
             <a
-              href={`https://wa.me/${whatsappNumber}`}
+              href={whatsappUrl}
               className="bg-ink-2 p-7 transition-colors hover:bg-ink-3"
             >
               <MessageSquare className="h-6 w-6 text-lime" aria-hidden />
@@ -79,14 +78,14 @@ export default function ContactPage() {
               </h2>
               <p className="mt-4 max-w-md text-muted-foreground leading-relaxed">
                 Most conversations start better with something to look at. Give us
-                your domain and we will have the chatbot reading it, then show you
+                your domain and we will have Chatbot.OM reading it, then show you
                 what it can already answer and where the gaps are.
               </p>
               <Link
                 href="/get-started/"
                 className="mt-7 inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
               >
-                Get the chatbot <ArrowUpRight className="h-4 w-4" aria-hidden />
+                Get Chatbot.OM <ArrowUpRight className="h-4 w-4" aria-hidden />
               </Link>
             </div>
             <div>

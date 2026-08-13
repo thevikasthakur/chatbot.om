@@ -1,13 +1,13 @@
 export const site = {
-  name: "chatbot.om",
+  name: "Chatbot.OM",
   domain: "chatbot.om",
   url: "https://chatbot.om",
   tagline: "Oman's own sovereign chatbot",
   description:
-    "chatbot.om is a sovereign AI chatbot for Omani businesses. It handles customer questions on your website and on WhatsApp in Arabic and English, raises support tickets, chases them to closure, turns enquiries into enriched leads, and keeps every conversation on servers inside the Sultanate.",
+    "Chatbot.OM is a sovereign AI-powered chatbot for Omani businesses. It handles customer questions on your website and on WhatsApp in Arabic and English, raises support tickets, chases them to closure, turns enquiries into enriched leads, and keeps every conversation on servers inside the Sultanate.",
   /** Sister site running the full customer care suite, including voice. */
   sister: {
-    name: "AI Customer Care",
+    name: "CustomerCare.OM",
     domain: "customercare.om",
     url: "https://customercare.om",
   },
@@ -28,6 +28,16 @@ export const site = {
   /** Channels chatbot.om itself covers. Voice calls belong to the sister site. */
   channels: ["Website chat", "WhatsApp", "Email replies"],
 };
+
+/**
+ * Click-to-chat link for the business number.
+ *
+ * Uses WhatsApp's `api.whatsapp.com/send` endpoint rather than the `wa.me`
+ * short link: as of August 2026 wa.me resolves but resets the TLS connection,
+ * so those links fail to open. Both are WhatsApp's own, and this one is the
+ * older, documented form. Keep the number digits-only, country code first.
+ */
+export const whatsappUrl = `https://api.whatsapp.com/send?phone=${site.phone.replace(/\D/g, "")}`;
 
 export type NavChild = { label: string; desc?: string; href: string };
 export type NavItem = { label: string; href?: string; children?: NavChild[] };
@@ -71,12 +81,12 @@ export const mainNav: NavItem[] = [
   {
     label: "Resources",
     children: [
-      { label: "Features", desc: "Everything the chatbot can do", href: "/features/" },
+      { label: "Features", desc: "Everything Chatbot.OM can do", href: "/features/" },
       { label: "Integrations", desc: "Connect the tools you already use", href: "/integration/" },
       { label: "Templates", desc: "Ready-made chatbot setups by trade", href: "/template/" },
       {
         label: "Compare",
-        desc: "chatbot.om or the full AI Customer Care suite",
+        desc: "Chatbot.OM or the full AI Customer Care suite",
         href: "/comparison/",
       },
       {
@@ -89,7 +99,7 @@ export const mainNav: NavItem[] = [
   {
     label: "Company",
     children: [
-      { label: "About", desc: "Why we built a chatbot only for Oman", href: "/about/" },
+      { label: "About", desc: "Why we built Chatbot.OM only for Oman", href: "/about/" },
       { label: "Contact us", desc: "Talk to the team directly", href: "/contact/" },
     ],
   },

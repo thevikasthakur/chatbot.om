@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, Check, TriangleAlert } from "lucide-react";
@@ -20,7 +21,7 @@ export async function generateMetadata({
   return {
     title: ind.heroTitle,
     description: ind.heroSub,
-    alternates: { canonical: `/industries/${ind.slug}/` },
+    ...pageMeta(`/industries/${ind.slug}/`),
   };
 }
 
@@ -52,7 +53,7 @@ export default async function IndustryPage({
               href="/get-started/"
               className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
             >
-              Get the chatbot <ArrowRight className="h-4 w-4" aria-hidden />
+              Get Chatbot.OM <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
           </div>
         </div>

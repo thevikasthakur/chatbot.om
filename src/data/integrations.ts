@@ -6,7 +6,7 @@ export const integrations: Integration[] = [
     name: "Google Calendar",
     category: "Calendar",
     short:
-      "The chatbot reads real availability and writes confirmed bookings straight into the calendar your team already lives in.",
+      "Chatbot.OM reads real availability and writes confirmed bookings straight into the calendar your team already lives in.",
     sections: [
       {
         h: "What it does",
@@ -46,7 +46,7 @@ export const integrations: Integration[] = [
       {
         h: "What it does",
         p: [
-          "For businesses running Microsoft 365, the chatbot books directly into Outlook calendars. Availability is read live, so a slot filled by an internal meeting five minutes ago is not offered to a customer.",
+          "For businesses running Microsoft 365, Chatbot.OM books directly into Outlook calendars. Availability is read live, so a slot filled by an internal meeting five minutes ago is not offered to a customer.",
           "Created events carry the customer's details and the conversation summary, so whoever opens the appointment knows what it is about before they arrive.",
         ],
       },
@@ -76,7 +76,7 @@ export const integrations: Integration[] = [
     name: "Calendly",
     category: "Calendar",
     short:
-      "Keep the scheduling rules you already built in Calendly and let the chatbot do the asking.",
+      "Keep the scheduling rules you already built in Calendly and let Chatbot.OM do the asking.",
     sections: [
       {
         h: "What it does",
@@ -117,7 +117,7 @@ export const integrations: Integration[] = [
         h: "What it does",
         p: [
           "Every qualified enquiry becomes a HubSpot contact and deal, with the conversation transcript attached as an activity and the enriched fields mapped to your own properties. Existing contacts are matched on phone number or email rather than duplicated.",
-          "Deal stage, owner, and value can all be set from what the chatbot established in the conversation, so your pipeline reflects reality without a manual step.",
+          "Deal stage, owner, and value can all be set from what Chatbot.OM established in the conversation, so your pipeline reflects reality without a manual step.",
         ],
       },
       {
@@ -151,7 +151,7 @@ export const integrations: Integration[] = [
       {
         h: "What it does",
         p: [
-          "Qualified enquiries become Leads or Opportunities and support issues become Cases, each carrying the transcript and the enriched fields. Assignment follows either the chatbot's routing rules or your existing Salesforce assignment rules, whichever you prefer to keep as the source of truth.",
+          "Qualified enquiries become Leads or Opportunities and support issues become Cases, each carrying the transcript and the enriched fields. Assignment follows either Chatbot.OM's routing rules or your existing Salesforce assignment rules, whichever you prefer to keep as the source of truth.",
           "Because records are created as the conversation happens, a customer who messages at ten at night is in the pipeline before your team opens the next morning.",
         ],
       },
@@ -194,7 +194,7 @@ export const integrations: Integration[] = [
         h: "Setting it up",
         p: [
           "Authorise your Zoho account and map fields to your modules. Custom modules and fields are supported, which matters because most Zoho deployments are heavily customised.",
-          "You pick which of your users own which lead types, and assignment follows the same routing the chatbot uses internally.",
+          "You pick which of your users own which lead types, and assignment follows the same routing Chatbot.OM uses internally.",
         ],
         bullets: [
           "Zoho CRM and Zoho Desk both supported",
@@ -243,7 +243,7 @@ export const integrations: Integration[] = [
       "Write indicative value to the deal",
       "Attach transcripts as deal notes",
       "Create the first follow-up activity automatically",
-      "Assign owners from the chatbot's routing rules",
+      "Assign owners from Chatbot.OM's routing rules",
     ],
   },
   {
@@ -256,7 +256,7 @@ export const integrations: Integration[] = [
       {
         h: "What it does",
         p: [
-          "Odoo is widely used across Oman for everything from stock to invoicing, which makes it the natural destination for what the chatbot produces. Qualified enquiries become CRM leads, support issues become helpdesk tickets, and customer records are matched or created as needed.",
+          "Odoo is widely used across Oman for everything from stock to invoicing, which makes it the natural destination for what Chatbot.OM produces. Qualified enquiries become CRM leads, support issues become helpdesk tickets, and customer records are matched or created as needed.",
           "Where you run Odoo inventory, stock levels can be read back into the conversation, so a customer asking whether something is available gets the real answer.",
         ],
       },
@@ -286,7 +286,7 @@ export const integrations: Integration[] = [
     name: "Zapier",
     category: "Automation",
     short:
-      "Connect the chatbot to thousands of applications without waiting for a native integration to exist.",
+      "Connect Chatbot.OM to thousands of applications without waiting for a native integration to exist.",
     sections: [
       {
         h: "What it does",
@@ -333,7 +333,7 @@ export const integrations: Integration[] = [
       {
         h: "Setting it up",
         p: [
-          "Connect with an API key and build scenarios against the chatbot modules. Webhook triggers give near-immediate execution rather than polling on a schedule.",
+          "Connect with an API key and build scenarios against the Chatbot.OM modules. Webhook triggers give near-immediate execution rather than polling on a schedule.",
           "Error handling and retry behaviour are configured in Make, so a downstream system being briefly unavailable does not lose the event.",
         ],
         bullets: [
@@ -397,7 +397,7 @@ export const integrations: Integration[] = [
         h: "What it does",
         p: [
           "Leads, escalations, ticket breaches, and negative conversations arrive in the Teams channel you nominate, each with a summary and a link to the full thread. Handovers can be claimed from the message.",
-          "For businesses already standardised on Microsoft 365 alongside Outlook calendars, this keeps everything the chatbot produces inside one environment.",
+          "For businesses already standardised on Microsoft 365 alongside Outlook calendars, this keeps everything Chatbot.OM produces inside one environment.",
         ],
       },
       {
@@ -426,7 +426,7 @@ export const integrations: Integration[] = [
     name: "WordPress",
     category: "Website",
     short:
-      "A plugin that puts the chatbot on your WordPress site without touching a theme file.",
+      "A plugin that puts Chatbot.OM on your WordPress site without touching a theme file.",
     sections: [
       {
         h: "What it does",
@@ -466,7 +466,7 @@ export const integrations: Integration[] = [
       {
         h: "What it does",
         p: [
-          "The chatbot reads your Shopify catalogue and orders, so a customer asking whether a size is in stock or where their order is gets the real answer, in the conversation, without logging into an account.",
+          "Chatbot.OM reads your Shopify catalogue and orders, so a customer asking whether a size is in stock or where their order is gets the real answer, in the conversation, without logging into an account.",
           "Return and exchange requests are checked against your policy and the order date, then raised as a ticket with the order attached, so your team is not searching for it.",
         ],
       },
@@ -501,7 +501,7 @@ export const integrations: Integration[] = [
       {
         h: "What it does",
         p: [
-          "Products, stock, and order status are read from WooCommerce, so the chatbot answers availability and delivery questions from the real state of the store rather than a copy.",
+          "Products, stock, and order status are read from WooCommerce, so Chatbot.OM answers availability and delivery questions from the real state of the store rather than a copy.",
           "Returns and order problems become tickets with the order reference attached, which removes the most tedious part of handling them.",
         ],
       },
@@ -537,7 +537,7 @@ export const integrations: Integration[] = [
         h: "What it does",
         p: [
           "Every lead, ticket, or conversation summary can be appended as a row in a Google Sheet you own, with the columns you choose. For a business with no CRM, this is a complete and perfectly workable system.",
-          "It also works in the other direction. A sheet of prices, stock, or opening hours can be read by the chatbot as a knowledge source, so updating a cell updates the answers.",
+          "It also works in the other direction. A sheet of prices, stock, or opening hours can be read by Chatbot.OM as a knowledge source, so updating a cell updates the answers.",
         ],
       },
       {

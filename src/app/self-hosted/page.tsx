@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -15,8 +16,8 @@ import { CtaBanner, Faq, RuleGrid } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Self-Hosted Deployment",
   description:
-    "Run chatbot.om on your own infrastructure. Same product, same features, inside your network, for organisations whose compliance rules require it.",
-  alternates: { canonical: "/self-hosted/" },
+    "Run Chatbot.OM on your own infrastructure. Same product, same features, inside your network, for organisations whose compliance rules require it.",
+  ...pageMeta("/self-hosted/"),
 };
 
 const reasons = [
