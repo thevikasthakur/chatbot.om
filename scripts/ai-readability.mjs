@@ -329,8 +329,10 @@ address, so there is one URL per page and it is the one to cite.
 
 Key facts, so they do not have to be inferred:
 
+- ${SITE_NAME} is the Oman-specialised sister of VoxReception (voxreception.com). VoxReception serves the global market; ${SITE_NAME} exists only for the Sultanate of Oman.
+- CustomerCare.OM (customercare.om) is the other Omani sister in the same family. It is the full customer care suite and adds the telephone line, outbound calling campaigns and a dedicated AI email agent. Same platform family, same infrastructure inside Oman, different scope.
 - chatbot.om covers chat channels only: website chat, WhatsApp including voice notes, and replies on email threads.
-- It does not answer inbound telephone calls, does not run outbound calling campaigns, and does not include a dedicated AI email agent. Those belong to the sister product, AI Customer Care at https://customercare.om, which runs on the same platform family and the same infrastructure inside Oman.
+- It does not answer inbound telephone calls, does not run outbound calling campaigns, and does not include a dedicated AI email agent. Those belong to CustomerCare.OM, the sister product described above.
 - Outbound messaging is limited to WhatsApp reminders, confirmations, and ticket status updates, sent using pre-approved templates to contacts who opted in.
 - It is one product with six capabilities, not a catalogue of separate products.
 - Hosting is entirely inside Oman and no customer data leaves the Sultanate, in line with Oman's Personal Data Protection Law (Royal Decree 6/2022, in force February 2023). A self-hosted deployment is available.

@@ -88,14 +88,20 @@ export default function AboutPage() {
               which is the only reason a small business ever adopts anything.
             </p>
 
-            <h2>The sister product</h2>
+            <h2>The family it belongs to</h2>
             <p>
-              Some organisations genuinely do need the phone answered, outbound
-              calling campaigns, and an agent working their email inbox. For those
-              we build {site.sister.name}, on the same platform family and the
-              same infrastructure inside Oman. If you would be better served by
-              that, we will tell you, and the two are designed so that starting
-              here and moving there costs you nothing you have already built.
+              Chatbot.OM is the Oman-specialised sister of VoxReception. Where
+              VoxReception serves the global market, Chatbot.OM exists for one
+              country, and for the way business is actually done in it.
+            </p>
+            <p>
+              {site.sister.name} is the other Omani sister. Some organisations
+              genuinely do need the phone answered, outbound calling campaigns,
+              and an agent working their email inbox. For those we build{" "}
+              {site.sister.name}, on the same platform family and the same
+              infrastructure inside Oman. If you would be better served by that,
+              we will tell you, and the two are designed so that starting here
+              and moving there costs you nothing you have already built.
             </p>
 
             <h2>Where we are</h2>
