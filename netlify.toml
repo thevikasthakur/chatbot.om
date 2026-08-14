@@ -18,6 +18,12 @@
 # Exact paths, so no glob support is needed. The edge function sets these too,
 # which keeps them correct even if header config is bypassed.
 [[headers]]
+  for = "/blog/feed.xml"
+  [headers.values]
+    Content-Type = "application/rss+xml; charset=utf-8"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
   for = "/llms.txt"
   [headers.values]
     Content-Type = "text/markdown; charset=utf-8"

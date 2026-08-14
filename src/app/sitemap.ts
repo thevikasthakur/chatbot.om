@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/data/site";
+import { getPublishedArticles, getSeriesList } from "@/lib/articles";
 import { features } from "@/data/features";
 import { industries } from "@/data/industries";
 import { integrations } from "@/data/integrations";
@@ -61,11 +62,26 @@ const collections: Entry[] = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
-  return [...standalone, ...collections]
+  const blog: (Entry & { lastModified?: Date })[] = [
+    { path: "/blog/", priority: 0.8, changeFrequency: "daily" },
+    ...getSeriesList().map((s) => ({
+      path: `/blog/series/${s.slug}/`,
+      priority: 0.6,
+      changeFrequency: "daily" as const,
+    })),
+    ...getPublishedArticles().map((a) => ({
+      path: `/blog/${a.slug}/`,
+      priority: 0.7,
+      changeFrequency: "monthly" as const,
+      lastModified: new Date(`${a.modifiedDate}T00:00:00Z`),
+    })),
+  ];
+
+  return [...standalone, ...collections, ...blog]
     .filter((e) => !EXCLUDED.has(e.path))
     .map((e) => ({
       url: `${site.url}${e.path}`,
-      lastModified,
+      lastModified: "lastModified" in e && e.lastModified instanceof Date ? e.lastModified : lastModified,
       changeFrequency: e.changeFrequency,
       priority: e.priority,
     }));

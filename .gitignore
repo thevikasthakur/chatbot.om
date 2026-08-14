@@ -14,3 +14,8 @@ deno.lock
 /public/**/*.md
 /public/llms.txt
 /public/llms-full.txt
+
+# Article generator run-state, logs and rejected drafts (local only)
+scripts/.article-generation-state.json
+scripts/.rejected-*.json
+scripts/cron.log

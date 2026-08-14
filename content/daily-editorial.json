@@ -1,0 +1,742 @@
+{
+  "$comment": "Daily editorial engine for the Chatbot.OM blog. Each weekday has a lane with a rotating topic bank. Dated overrides win over the lane for that date. Working titles are starting points the generator may sharpen but never lengthen. No em or en dashes anywhere in this file. Bank keys and override keys must be unique across the whole file. The reader is the small message-first Omani business (two to ten people); the sister site customercare.om serves operations leads at organisations with staffed phone lines, and the two blogs must never duplicate each other.",
+  "startsOn": "2026-08-15",
+  "timezone": "Asia/Muscat",
+  "settings": {
+    "bannedTerms": ["receptionist", "answering service", "the Kingdom"],
+    "brandName": "Chatbot.OM",
+    "wrongBrandForms": ["Chatbot OM", "ChatbotOM", "Chatbot.Om", "CHATBOT.OM"]
+  },
+  "lanes": {
+    "0": {
+      "key": "chats-to-customers",
+      "series": "Chats Into Customers",
+      "category": "Leads & Sales",
+      "catchUpEligible": true,
+      "laneBrief": "Start-of-week selling reading for small Omani teams: how conversations on WhatsApp, the website and Instagram become enquiries, bookings and paying customers. One selling skill or mechanism per article, with a worked example and scripts the reader can copy the same morning.",
+      "bank": [
+        {
+          "key": "reply-speed-leads",
+          "workingTitle": "Reply in Five Minutes or Lose the Lead",
+          "angle": "Speed to lead for message enquiries: how fast interest goes cold, what five minutes versus five hours does to booking rates, and how a two-person team actually achieves fast replies without living on the phone.",
+          "sourceIds": []
+        },
+        {
+          "key": "qualify-in-three-questions",
+          "workingTitle": "Three Questions That Qualify Any Enquiry",
+          "angle": "Qualification inside chat: budget, timing, decision maker, asked politely in Omani style. Copyable scripts for a rental office, a gym and a boutique, and what to do with the answers.",
+          "sourceIds": []
+        },
+        {
+          "key": "how-much-to-quote",
+          "workingTitle": "From 'How Much?' to a Sent Quote in One Chat",
+          "angle": "The price question arrives in the first message. How to answer without losing the customer or the margin: ranges, anchoring, and when to move from chat to a proper quote.",
+          "sourceIds": []
+        },
+        {
+          "key": "silent-enquiries",
+          "workingTitle": "The Enquiries That Stop Replying, and Why",
+          "angle": "Ghosted chats decoded: slow first reply, walls of text, no next step, price shock. A worked funnel showing where conversations die and the one change that revives each stage.",
+          "sourceIds": []
+        },
+        {
+          "key": "booking-without-calls",
+          "workingTitle": "Let Customers Book Without a Phone Call",
+          "angle": "Bookings inside chat: clinics, gyms, salons and restaurants taking appointments in the conversation itself, calendar sync, confirmations and the no-show reminder that pays for everything.",
+          "sourceIds": []
+        },
+        {
+          "key": "every-chat-a-record",
+          "workingTitle": "Every Chat Should End in a Record Somewhere",
+          "angle": "From conversation to saved lead: names, numbers, what they wanted, what was promised. Why the owner's memory is not a CRM, and the lightest ways to keep records that survive staff changes.",
+          "sourceIds": []
+        },
+        {
+          "key": "polite-follow-up",
+          "workingTitle": "The Polite Follow-Up That Doubles Replies",
+          "angle": "Following up without pestering: timing, wording in Arabic and English, and the two-touch rule. Includes composite before-and-after threads from an equipment rental office.",
+          "sourceIds": []
+        },
+        {
+          "key": "instagram-to-sale",
+          "workingTitle": "From Instagram Comment to WhatsApp Sale",
+          "angle": "The Omani small-business funnel as it really is: discovery on Instagram, deal on WhatsApp. How to move the conversation across without losing people, and what to put in the bio and story highlights.",
+          "sourceIds": []
+        },
+        {
+          "key": "catalogue-first",
+          "workingTitle": "Send the Catalogue Before They Ask",
+          "angle": "WhatsApp catalogues and product lists that answer the first three questions on their own: setup, photos, prices in OMR, and how a catalogue changes the shape of a sales chat.",
+          "sourceIds": []
+        },
+        {
+          "key": "festival-footfall-contacts",
+          "workingTitle": "Turning Festival Footfall into Saved Contacts",
+          "angle": "Seasonal crowds leave with the goods and no way to reach them again. Consent-first ways to capture contacts during National Day, Eid and Muscat Nights peaks, and what to send them after (and what never to send).",
+          "sourceIds": ["tra"],
+          "eventRefs": ["tra-spam-rules"]
+        },
+        {
+          "key": "family-buying-committee",
+          "workingTitle": "When the Whole Family Joins the Chat",
+          "angle": "Buying in Oman is often a family decision: the sister asks the questions, the father approves, the cousin knows a cheaper place. How sellers handle multi-person chats with patience and one clear next step.",
+          "sourceIds": []
+        },
+        {
+          "key": "review-while-happy",
+          "workingTitle": "Ask for the Review While They Are Still Happy",
+          "angle": "The right moment and wording to turn a good chat into a Google review, and why reviews are the small business's compounding asset. Includes a copyable two-line ask in both languages.",
+          "sourceIds": []
+        }
+      ]
+    },
+    "1": {
+      "key": "pulse",
+      "series": "Oman Digital Pulse",
+      "category": "Rules & Updates",
+      "newsDriven": true,
+      "catchUpEligible": false,
+      "laneBrief": "The Monday scan for small message-first businesses: what changed in the last week in the rules and platforms they sell through. TRA and consent, the data protection law as it touches chats and customer lists, WhatsApp Business platform changes, e-commerce rules, scam waves targeting business accounts, and national digital pushes. The sister site covers the same week for large service operations; this lane speaks to the shop, not the switchboard.",
+      "bank": [
+        {
+          "key": "where-digital-rules-land",
+          "workingTitle": "Where Oman Announces the Rules of Selling Online",
+          "angle": "A guided map for small businesses: MTCIT, TRA, the Ministry of Commerce, Oman News Agency, and the platform policy pages that quietly govern WhatsApp and Instagram selling. Ten minutes a week to stay ahead.",
+          "sourceIds": ["mtcit", "tra", "mociip", "ona", "meta-whatsapp"]
+        },
+        {
+          "key": "consent-before-broadcast",
+          "workingTitle": "Ask Before You Broadcast",
+          "angle": "The consent rule behind marketing messages: where TRA is heading on spam, what opt-in genuinely looks like in a shop or a chat, and how to build a list you are allowed to message.",
+          "sourceIds": ["tra"],
+          "eventRefs": ["tra-spam-rules"]
+        },
+        {
+          "key": "chats-are-personal-data",
+          "workingTitle": "Your Chats Are Personal Data Too",
+          "angle": "The data protection law applied to a small business's reality: saved numbers, chat exports, screenshots in the staff group. What the law expects since enforcement began, in five plain habits.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force", "pdpl-enforcement-live"]
+        },
+        {
+          "key": "whatsapp-policy-watch",
+          "workingTitle": "When WhatsApp Changes the Rules on Businesses",
+          "angle": "The platform rules small sellers live under: the 24-hour service window, template approval, quality ratings and bans. What changed recently, and the habits that keep a business number safe.",
+          "sourceIds": ["meta-whatsapp"]
+        },
+        {
+          "key": "business-account-hijack",
+          "workingTitle": "The WhatsApp Hijack Targeting Business Accounts",
+          "angle": "The recurring scam wave: verification-code tricks, fake bank or courier messages, cloned business profiles. How Omani small businesses get hijacked, what it costs, and the five-minute protection checklist.",
+          "sourceIds": ["tra", "oman-observer"]
+        },
+        {
+          "key": "selling-online-rules",
+          "workingTitle": "Selling Online in Oman: the Rules That Apply to You",
+          "angle": "The small seller's legal basics: consumer protection duties online, truthful listings, returns and refunds, and where the Ministry of Commerce fits when a deal goes wrong.",
+          "sourceIds": ["mociip"],
+          "eventRefs": ["consumer-protection-law"]
+        },
+        {
+          "key": "payment-links-safely",
+          "workingTitle": "Payment Links in Chat, Done Safely",
+          "angle": "Taking payment inside a conversation: what payment links are, which habits protect both sides, and the red flags customers now watch for. Verified against current bank and regulator guidance.",
+          "sourceIds": ["oman-observer"]
+        },
+        {
+          "key": "maeen-for-small-business",
+          "workingTitle": "Oman Is Building Its Own Arabic AI. Why It Matters to a Shop",
+          "angle": "Maeen and the national AI push in plain words for a small seller: why generic Arabic AI misses Omani speech, and what better Omani Arabic understanding changes for chat, voice notes and search.",
+          "sourceIds": ["mtcit", "ona"],
+          "eventRefs": ["maeen-model", "national-ai-policy"]
+        },
+        {
+          "key": "gov-digital-services",
+          "workingTitle": "The Government Services Every Small Business Should Use Online",
+          "angle": "Invest Easy, licensing renewals, and the growing set of e-services that save a trip to an office. What is genuinely online now, and what still needs a visit.",
+          "sourceIds": ["oman-portal", "mociip"]
+        },
+        {
+          "key": "holiday-announced-messages",
+          "workingTitle": "The Holiday Is Announced. Update Your Chats First",
+          "angle": "When a holiday is confirmed by moon sighting, the first thing customers check is whether you are open, and they ask by message. The update checklist: auto-replies, catalogue notes, pinned status, booking calendars.",
+          "sourceIds": ["ona"]
+        },
+        {
+          "key": "dot-om-trust",
+          "workingTitle": "What a .om Address Says About Your Business",
+          "angle": "Digital trust signals for small Omani businesses: the .om domain, a real address, the commercial registration number, and how customers quietly check before they pay a stranger online.",
+          "sourceIds": ["tra", "mociip"]
+        }
+      ]
+    },
+    "2": {
+      "key": "whatsapp-at-work",
+      "series": "WhatsApp at Work",
+      "category": "WhatsApp Business",
+      "catchUpEligible": true,
+      "laneBrief": "Tuesday is WhatsApp day: the channel where Omani business actually happens. One practical WhatsApp Business topic per article, taught properly: setup, etiquette, the 24-hour window, templates, catalogues, voice notes, team sharing. Assume the reader runs their business from a phone.",
+      "bank": [
+        {
+          "key": "business-vs-personal-number",
+          "workingTitle": "Stop Selling from Your Personal WhatsApp",
+          "angle": "The case for a proper business number: profile, hours, catalogue, and what happens to customer chats when they live on the owner's personal SIM. Includes the migration steps without losing history.",
+          "sourceIds": ["meta-whatsapp"]
+        },
+        {
+          "key": "voice-notes-at-work",
+          "workingTitle": "Customers Send Voice Notes. Can Your Business Keep Up?",
+          "angle": "Why Oman talks in voice notes, what gets lost when nobody replays them, and how businesses handle voice-note floods: summaries, transcription, and automation that genuinely understands Omani Arabic speech.",
+          "sourceIds": []
+        },
+        {
+          "key": "24-hour-window",
+          "workingTitle": "WhatsApp's 24-Hour Rule, Explained Simply",
+          "angle": "The service window that governs business replies: what it is, why your message would not send, and how templates fit. One diagram-style table and three worked situations.",
+          "sourceIds": ["meta-whatsapp"]
+        },
+        {
+          "key": "templates-without-headache",
+          "workingTitle": "Pre-Approved Templates Without the Headache",
+          "angle": "Reminder, confirmation and update templates: what gets approved, what gets rejected, and a starter set of six templates in Arabic and English a small business can adapt.",
+          "sourceIds": ["meta-whatsapp"]
+        },
+        {
+          "key": "broadcast-vs-groups",
+          "workingTitle": "Broadcasts, Groups and the Difference That Matters",
+          "angle": "Why groups are the wrong tool for customers, how broadcast lists actually deliver, and the consent habits that keep broadcasts welcome instead of muted.",
+          "sourceIds": ["meta-whatsapp", "tra"],
+          "eventRefs": ["tra-spam-rules"]
+        },
+        {
+          "key": "two-staff-one-number",
+          "workingTitle": "Two Staff, One WhatsApp: the Daily Collision",
+          "angle": "The shared-phone problem: double replies, missed chats, no ownership. The options from WhatsApp Web rotas to multi-agent tools, honestly compared for a five-person team.",
+          "sourceIds": []
+        },
+        {
+          "key": "who-owns-the-chats",
+          "workingTitle": "Who Owns the Chats When Staff Leave?",
+          "angle": "Customer conversations as a business asset: backups, exports, handover, and the awkward day an employee walks out with the number. Prevention beats recovery; here is both.",
+          "sourceIds": []
+        },
+        {
+          "key": "quick-replies-library",
+          "workingTitle": "The Ten Saved Replies Every Business Needs",
+          "angle": "A starter library of quick replies: directions, hours, prices, delivery, payment, polite no. Written in both languages, with the personalisation touch that stops them feeling canned.",
+          "sourceIds": []
+        },
+        {
+          "key": "status-that-sells",
+          "workingTitle": "Does Anyone Buy from WhatsApp Status?",
+          "angle": "An honest look at Status as a shop window: what works (new stock, behind the scenes, today's plate), posting rhythm, and how status views become conversations.",
+          "sourceIds": []
+        },
+        {
+          "key": "green-tick-worth-it",
+          "workingTitle": "The Green Tick: Worth Chasing?",
+          "angle": "Verification on WhatsApp Business: what it actually signals, who gets it, and whether a small business should spend energy on it versus fixing reply speed first.",
+          "sourceIds": ["meta-whatsapp"]
+        },
+        {
+          "key": "labels-stop-scaling",
+          "workingTitle": "When WhatsApp Labels Stop Being Enough",
+          "angle": "Labels are the first CRM. The moment they break (two staff, fifty chats a day, promises getting lost) and what the next step up looks like without enterprise software.",
+          "sourceIds": []
+        },
+        {
+          "key": "whatsapp-out-of-office",
+          "workingTitle": "The Auto-Reply That Does Not Sound Like a Robot",
+          "angle": "Greeting and away messages that feel Omani: warm, specific, honest about when a human replies. Ten examples across industries, plus what to promise and what never to promise.",
+          "sourceIds": []
+        }
+      ]
+    },
+    "3": {
+      "key": "website-working",
+      "series": "Your Website, Working",
+      "category": "Websites & Conversion",
+      "catchUpEligible": true,
+      "laneBrief": "Wednesday is website day: making the site earn its keep for a small business. Visitors who leave without asking, chat versus forms, Arabic and English content, being found and trusted, and pages that answer questions instead of decorating. Practical, not technical.",
+      "bank": [
+        {
+          "key": "visitors-leave-silent",
+          "workingTitle": "Most Visitors Leave Without Asking Anything",
+          "angle": "The silent-exit problem: traffic that never becomes a conversation. Where the asking should happen on a small business site, and the worked numbers of turning two percent of visits into chats.",
+          "sourceIds": []
+        },
+        {
+          "key": "forms-ask-chat-answers",
+          "workingTitle": "Forms Ask Questions. Chat Answers Them",
+          "angle": "Contact forms versus conversation: response expectations, drop-off, and why a form that promises 'we will get back to you' loses to an answer now. When a form is still right.",
+          "sourceIds": []
+        },
+        {
+          "key": "one-site-two-languages",
+          "workingTitle": "One Site, Two Languages, Zero Confusion",
+          "angle": "Arabic and English on a small business site: what must exist in both, common layout mistakes, and how mixed-language customers actually read. A checklist for a bilingual site that respects both readers.",
+          "sourceIds": []
+        },
+        {
+          "key": "ten-questions-every-site",
+          "workingTitle": "The Ten Questions Every Website Gets Asked",
+          "angle": "Hours, price, location, delivery, availability: the questions behind most visits. Auditing what your site actually answers, and turning the gaps into content or conversation.",
+          "sourceIds": []
+        },
+        {
+          "key": "whatsapp-button-site",
+          "workingTitle": "The WhatsApp Button Every Omani Site Needs",
+          "angle": "The highest-converting element on a local site: where the button goes, what the pre-filled message should say, and how to route site chats into the same inbox as everything else.",
+          "sourceIds": []
+        },
+        {
+          "key": "found-on-google-lost-on-site",
+          "workingTitle": "Found on Google, Lost at the Website",
+          "angle": "Google Business Profile brings the visit; the site loses it. Matching hours, photos, links and the first screen a searcher lands on, so the journey ends in a conversation.",
+          "sourceIds": []
+        },
+        {
+          "key": "trust-signals-oman",
+          "workingTitle": "Why Customers Check Before They Pay a Stranger Online",
+          "angle": "Trust signals for Omani small businesses: real address, CR number, .om domain, live replies, reviews. How a first-time buyer decides you are real, shown as a checklist.",
+          "sourceIds": ["mociip"]
+        },
+        {
+          "key": "write-for-ai-assistants",
+          "workingTitle": "Write Pages AI Assistants Can Quote",
+          "angle": "Customers increasingly ask AI tools instead of searching. What a small business site needs so assistants answer with its facts: clear pages, plain answers, consistent details everywhere.",
+          "sourceIds": []
+        },
+        {
+          "key": "landing-page-for-campaign",
+          "workingTitle": "One Offer, One Page, One Button",
+          "angle": "Campaign landing pages for small budgets: the anatomy of a page that converts an Instagram ad click into a chat, with a worked example for a Ramadan offer.",
+          "sourceIds": []
+        },
+        {
+          "key": "know-which-page-sells",
+          "workingTitle": "Know Which Page Actually Sells",
+          "angle": "Analytics without the dashboard headache: the three numbers a small business should watch monthly, and how to see which pages start conversations that become sales.",
+          "sourceIds": []
+        },
+        {
+          "key": "site-refresh-signs",
+          "workingTitle": "Five Signs Your Website Is Costing You Customers",
+          "angle": "Slow load on mobile data, dead numbers, old prices, no Arabic, no way to ask: the audit a non-technical owner can run in twenty minutes, and what to fix first.",
+          "sourceIds": []
+        },
+        {
+          "key": "chat-widget-manners",
+          "workingTitle": "A Chat Widget Customers Do Not Hate",
+          "angle": "Widget etiquette: when to open, what the first message says, handoff to WhatsApp, and the difference between helpful and naggy. Includes settings a small team should copy.",
+          "sourceIds": []
+        }
+      ]
+    },
+    "4": {
+      "key": "small-team-playbook",
+      "series": "Small Team Playbook",
+      "category": "Running a Small Team",
+      "catchUpEligible": true,
+      "laneBrief": "Thursday planning reading for the owner of a two-to-ten person business: the operational pains of running everything from a phone, costed honestly in OMR, with fixes from habits to automation. Customer care by chat belongs here as one slice among many. Where Chatbot.OM genuinely solves the pain, say so once, plainly. When the pain is phone-shaped or the business has outgrown chat, the honest pointer is the sister suite.",
+      "bank": [
+        {
+          "key": "owner-is-every-department",
+          "workingTitle": "You Are Marketing, Sales and Support. In That Order?",
+          "angle": "The owner's split attention: which conversations only the owner should have, which the team can take, and which a machine should answer. A triage worksheet for one real week.",
+          "sourceIds": []
+        },
+        {
+          "key": "midnight-messages",
+          "workingTitle": "Answering Messages at Midnight Is Not a Strategy",
+          "angle": "The always-on trap: what late-night replying does to the owner and the business, what customers actually expect at 11pm, and the coverage options from auto-replies to automation, costed.",
+          "sourceIds": []
+        },
+        {
+          "key": "missed-message-cost",
+          "workingTitle": "What a Missed WhatsApp Enquiry Really Costs",
+          "angle": "Missed-message maths for a small business: a worked table from unread chats to lost bookings to lost OMR for a composite Seeb beauty salon, and the two cheapest fixes.",
+          "sourceIds": []
+        },
+        {
+          "key": "support-eats-sales-time",
+          "workingTitle": "Support Questions Are Eating Your Sales Time",
+          "angle": "The same twenty questions answered by the same person who should be closing deals: separating support from sales in a tiny team, deflecting the repeats, and keeping the human touch where it pays.",
+          "sourceIds": []
+        },
+        {
+          "key": "complaints-need-a-list",
+          "workingTitle": "Complaints Need a List, Not a Memory",
+          "angle": "Tickets for small teams, without the enterprise software: capturing a complaint, owning it, closing it, and telling the customer. What falls through when it lives in someone's head.",
+          "sourceIds": []
+        },
+        {
+          "key": "promise-tracking",
+          "workingTitle": "You Promised to Send It Tuesday. Did Anyone Write That Down?",
+          "angle": "Promises made in chat evaporate. Follow-up systems a small team will actually keep: chat labels, shared sheets, automated nudges, ranked by effort and stickiness.",
+          "sourceIds": []
+        },
+        {
+          "key": "automate-the-twenty",
+          "workingTitle": "Automate the Twenty Questions, Keep the Hard Ones",
+          "angle": "The honest automation split for a small business: which questions a chatbot should own from day one, which stay human, and how handover works so customers never feel dumped.",
+          "sourceIds": []
+        },
+        {
+          "key": "second-employee-or-second-brain",
+          "workingTitle": "A Second Employee or a Second Brain?",
+          "angle": "The OMR maths of hiring versus automating for a message-drowned business: salary and training against setup and subscription, compared over a year with a composite boutique's numbers.",
+          "sourceIds": []
+        },
+        {
+          "key": "eid-break-coverage",
+          "workingTitle": "Take the Eid Break Without Losing Customers",
+          "angle": "Small teams deserve the holiday too: preparing chats, bookings and expectations so five closed days do not cost the month. A countdown checklist from one week out.",
+          "sourceIds": []
+        },
+        {
+          "key": "repeat-question-audit",
+          "workingTitle": "Count Your Questions Before You Fix Anything",
+          "angle": "The one-week audit: tally every incoming question into ten buckets, see the repeats, then decide what to write once, what to automate and what to keep personal. Template included.",
+          "sourceIds": []
+        },
+        {
+          "key": "outgrown-chat-only",
+          "workingTitle": "Five Signs You Have Outgrown Chat-Only",
+          "angle": "Growth changes the shape of the work: when the phone becomes the main channel, when outbound calling is needed, when an inbox needs its own agent. What staying honest about scale looks like, and what carries across when a business steps up to the full suite.",
+          "sourceIds": []
+        },
+        {
+          "key": "small-biz-same-data-law",
+          "workingTitle": "Small Business, Same Data Law",
+          "angle": "The data protection law does not have a small-business exemption: customer lists, chat exports and marketing consent for a five-person team, as five plain habits with a self-check.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force", "pdpl-enforcement-live"]
+        },
+        {
+          "key": "own-server-option",
+          "workingTitle": "When a Business Wants Its Own Server",
+          "angle": "Self-hosting explained for non-technical owners: what it means, who genuinely needs it (and who does not), and what data staying on your own machine changes under the law.",
+          "sourceIds": ["mtcit"]
+        }
+      ]
+    },
+    "5": {
+      "key": "weekend-read",
+      "series": "The Friday Story",
+      "category": "Work & Life",
+      "catchUpEligible": true,
+      "laneBrief": "The Friday piece, written for everyone: one clearly composite Omani character or scene carries the whole article, and the story lives where small business actually happens, in chats, voice notes and DMs. Warm, specific and effortlessly shareable in a family or office WhatsApp group. Every story must turn: after the reader lives the problem alongside the character, the story shows what the character or their industry actually does about it. Delay that turn until late, then pay it off properly.",
+      "bank": [
+        {
+          "key": "home-bakery-friday",
+          "workingTitle": "A Home Bakery's Friday, Measured in DMs",
+          "angle": "A composite home business's biggest day: orders arriving as voice notes since dawn, the oven schedule, the aunt who orders by calling anyway, and the moment the owner realises the phone is the shop.",
+          "sourceIds": []
+        },
+        {
+          "key": "tailor-eid-season",
+          "workingTitle": "The Tailor's Eid Season Lives on WhatsApp",
+          "angle": "A composite tailor's four weeks before Eid: measurements by voice note, fabric photos at midnight, the queue of half-finished chats, and how the season's chaos finally got a system.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 1, "startDay": 20, "endMonth": 6, "endDay": 15 }
+        },
+        {
+          "key": "instagram-seller-story",
+          "workingTitle": "She Built a Shop with No Shop",
+          "angle": "A composite Instagram-first seller in Muscat: products photographed on the majlis floor, sales closed in DMs, delivery by driver apps, and the growing-pains moment when messages outran one person.",
+          "sourceIds": []
+        },
+        {
+          "key": "gym-january",
+          "workingTitle": "January at the Gym, Told in Unread Messages",
+          "angle": "A composite gym's resolution season: enquiry floods after New Year, trial bookings, the coach answering chats between sessions, and what finally kept every enquiry from going cold.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 12, "startDay": 20, "endMonth": 2, "endDay": 15 }
+        },
+        {
+          "key": "khareef-guesthouse",
+          "workingTitle": "A Salalah Guesthouse Run from One Phone",
+          "angle": "A composite family guesthouse in peak khareef: booking requests at 1am, the season's whole income in eight weeks, one phone passed between siblings, and the year they stopped losing the midnight guests.",
+          "sourceIds": ["mht"],
+          "bestWindow": { "startMonth": 6, "startDay": 15, "endMonth": 9, "endDay": 21 }
+        },
+        {
+          "key": "family-shop-online",
+          "workingTitle": "The Day the Family Shop Got a Website",
+          "angle": "Three generations, one Muttrah shop, and the grandson who put it online: what changed in the first month, what the grandfather refused to change, and the first customer who found them from abroad.",
+          "sourceIds": []
+        },
+        {
+          "key": "why-oman-voice-notes",
+          "workingTitle": "Why Oman Talks in Voice Notes",
+          "angle": "A gentle cultural read on the voice note as Oman's favourite message: warmth, dialect, driving, and what it means for anyone whose business must listen. Composite scenes, real affection.",
+          "sourceIds": []
+        },
+        {
+          "key": "ramadan-night-shop",
+          "workingTitle": "The Shop That Comes Alive After Taraweeh",
+          "angle": "A composite abaya shop in Ramadan: dead afternoons, midnight rushes, orders in chat during suhoor hours, and how the team reshaped its day around the month's true rhythm.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 1, "startDay": 25, "endMonth": 4, "endDay": 10 }
+        },
+        {
+          "key": "wedding-vendor-dms",
+          "workingTitle": "A Wedding Photographer's Inbox in Season",
+          "angle": "A composite photographer's booking season: enquiries from three platforms, dates double-asked, deposits chased politely, and the calendar that finally ended the double-booking scare.",
+          "sourceIds": []
+        },
+        {
+          "key": "tourist-questions-dms",
+          "workingTitle": "Where Are You Located? and Other Daily Mysteries",
+          "angle": "A composite tour operator's message inbox during high season: the same five questions in four languages, the pin that solves half of them, and the answers that turned askers into bookings.",
+          "sourceIds": ["mht"],
+          "bestWindow": { "startMonth": 10, "startDay": 1, "endMonth": 4, "endDay": 30 }
+        },
+        {
+          "key": "you-messaged-a-business",
+          "workingTitle": "You Messaged a Business. Here Is What Should Happen",
+          "angle": "From the customer's side: the anatomy of a good business chat, what you are entitled to under consumer protection, and the polite escalation script when a seller goes quiet.",
+          "sourceIds": ["mociip"],
+          "eventRefs": ["consumer-protection-law"]
+        },
+        {
+          "key": "auntie-army-marketing",
+          "workingTitle": "The Auntie Network Beats Any Ad Campaign",
+          "angle": "How recommendations really travel in Oman: family groups, majlis talk, forwarded catalogues. A composite look at word-of-mouth as infrastructure, and how small businesses earn a place in it.",
+          "sourceIds": []
+        }
+      ]
+    },
+    "6": {
+      "key": "season-ready",
+      "series": "Ready for the Rush",
+      "category": "Oman Seasons & Peaks",
+      "catchUpEligible": true,
+      "laneBrief": "The Saturday planning piece: what Oman's calendar brings next, and how a small message-first business gets its chats, catalogue and coverage ready before the wave. Concrete preparation with dates, sized for a small team. Verify current-year dates and programmes by web search.",
+      "bank": [
+        {
+          "key": "ramadan-whatsapp-plan",
+          "workingTitle": "Your Ramadan WhatsApp Plan, Built Before the Rush",
+          "angle": "Ramadan moves selling to night hours and to chat: updated hours everywhere, iftar-time auto-replies, catalogue refresh, template approvals before the platform queue grows, and the night-shift answering plan.",
+          "sourceIds": ["meta-whatsapp"],
+          "eventRefs": ["ramadan-start-1448"],
+          "bestWindow": { "startMonth": 12, "startDay": 15, "endMonth": 3, "endDay": 15 }
+        },
+        {
+          "key": "eid-greetings-legal",
+          "workingTitle": "Eid Greetings to Customers, Without the Spam Label",
+          "angle": "The Eid broadcast done right: who you may message, what a welcome greeting looks like versus a muted one, timing around the moon sighting, and a bilingual template set.",
+          "sourceIds": ["tra", "meta-whatsapp"],
+          "eventRefs": ["tra-spam-rules"],
+          "bestWindow": { "startMonth": 2, "startDay": 1, "endMonth": 6, "endDay": 15 }
+        },
+        {
+          "key": "khareef-booking-chats",
+          "workingTitle": "Khareef Bookings Arrive at Midnight",
+          "angle": "Dhofar's season for small stays, tours and rentals: enquiry surges after 10pm, GCC guests booking in chat, deposits and confirmations, and the readiness list a family business can finish in a weekend.",
+          "sourceIds": ["mht"],
+          "bestWindow": { "startMonth": 4, "startDay": 15, "endMonth": 8, "endDay": 15 }
+        },
+        {
+          "key": "national-day-offers-chat",
+          "workingTitle": "National Day Offers Your Chat Can Actually Handle",
+          "angle": "The November promo season: an offer designed to be asked about, saved replies for the obvious questions, stock answers that update, and capturing consented contacts from the rush.",
+          "sourceIds": ["ona"],
+          "bestWindow": { "startMonth": 10, "startDay": 15, "endMonth": 11, "endDay": 21 }
+        },
+        {
+          "key": "tuition-enrolment-season",
+          "workingTitle": "Enrolment Season: Answer Every Parent by Chat",
+          "angle": "Back to school for tuition centres, activity clubs and small academies: the parent-enquiry storm in messages, enrolment by chat with a booking step, and the FAQ pack that saves the front desk.",
+          "sourceIds": ["moe"],
+          "bestWindow": { "startMonth": 8, "startDay": 1, "endMonth": 9, "endDay": 10 }
+        },
+        {
+          "key": "muscat-nights-crowds",
+          "workingTitle": "Muscat Nights Crowds, Captured in Chat",
+          "angle": "January's festival footfall for stalls, cafes and family venues: QR codes that open a conversation, event-day saved replies, and turning a month of visitors into a contact list you may message later.",
+          "sourceIds": ["oman-observer"],
+          "bestWindow": { "startMonth": 12, "startDay": 1, "endMonth": 1, "endDay": 31 }
+        },
+        {
+          "key": "summer-nine-pm",
+          "workingTitle": "Summer Moves Your Customers to Nine PM",
+          "angle": "Heat reshapes the day: quiet afternoons, message floods at night. Shifting posting times, reply coverage and delivery slots to the summer clock, with one composite week's numbers.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 5, "startDay": 1, "endMonth": 8, "endDay": 31 }
+        },
+        {
+          "key": "tourist-season-english",
+          "workingTitle": "October's Tourists Ask in English First",
+          "angle": "High season for small tourism businesses: enquiries in English, German and French landing in chat from other time zones, and the language coverage a two-person tour desk can honestly offer.",
+          "sourceIds": ["mht"],
+          "bestWindow": { "startMonth": 9, "startDay": 1, "endMonth": 11, "endDay": 15 }
+        },
+        {
+          "key": "year-end-inbox-clean",
+          "workingTitle": "Clean Your Chat Inbox Before January",
+          "angle": "The December ritual for a message-first business: close the open loops, archive the year, export what the law expects you to keep, and set January's auto-replies and targets.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 12, "startDay": 1, "endMonth": 12, "endDay": 31 }
+        },
+        {
+          "key": "holiday-hours-in-chat",
+          "workingTitle": "Holiday Hours Belong in Your Chat, Not Just the Door",
+          "angle": "Every confirmed holiday triggers the same question in a hundred chats. The update drill: greeting message, catalogue note, status, Google profile, booking calendar, in fifteen minutes.",
+          "sourceIds": ["ona"]
+        },
+        {
+          "key": "promos-without-fixed-date",
+          "workingTitle": "Plan the Promo When the Date Is Not Fixed",
+          "angle": "Moon-sighting uncertainty for marketers: two-scenario campaign calendars, templates pre-approved for both days, and messaging that says 'expected' gracefully instead of guessing.",
+          "sourceIds": ["ona"],
+          "bestWindow": { "startMonth": 2, "startDay": 1, "endMonth": 6, "endDay": 15 }
+        },
+        {
+          "key": "january-website-hour",
+          "workingTitle": "A January Website Check in One Hour",
+          "angle": "The new-year audit for a small site: prices, hours, dead links, the WhatsApp button, one photo refresh, and the single page worth rewriting this year. A checklist with time boxes.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 12, "startDay": 20, "endMonth": 1, "endDay": 31 }
+        }
+      ]
+    }
+  },
+  "datedOverrides": [
+    {
+      "date": "2026-08-25",
+      "key": "ov-mawlid-greetings-2026",
+      "workingTitle": "Mawlid Greetings to Customers, Done Right",
+      "series": "WhatsApp at Work",
+      "category": "WhatsApp Business",
+      "angle": "With the Prophet's Birthday expected around 27 August subject to the official announcement: who a business may greet by message, template timing around an unconfirmed date, and hours updates for the holiday.",
+      "sourceIds": ["ona", "meta-whatsapp"],
+      "eventRefs": ["mawlid-1448"]
+    },
+    {
+      "date": "2026-08-31",
+      "key": "ov-enrolment-chats-2026",
+      "workingTitle": "Term Starts. Your Enrolment Chats Are the Front Desk",
+      "series": "Oman Digital Pulse",
+      "category": "Rules & Updates",
+      "angle": "School season is here: what tuition centres, clubs and academies face in their inboxes these two weeks, this year's confirmed term dates, and the same-day fixes that keep parents answered.",
+      "sourceIds": ["moe"],
+      "eventRefs": []
+    },
+    {
+      "date": "2026-10-05",
+      "key": "ov-tourist-chat-2026",
+      "workingTitle": "The Tourists Are Back, and They Message First",
+      "series": "Oman Digital Pulse",
+      "category": "Rules & Updates",
+      "angle": "October opens the high season: what small stays, tours and rentals should have ready in chat this week, from English replies to location pins to deposit links, with this season's confirmed programmes.",
+      "sourceIds": ["mht"],
+      "eventRefs": []
+    },
+    {
+      "date": "2026-11-17",
+      "key": "ov-national-day-broadcast-2026",
+      "workingTitle": "Your National Day Broadcast, Without the Mute Button",
+      "series": "WhatsApp at Work",
+      "category": "WhatsApp Business",
+      "angle": "National Day week: the greeting and offer broadcast that lands warmly, consent checks before sending, template timing while holiday days await the announcement, and a bilingual example set.",
+      "sourceIds": ["ona", "meta-whatsapp", "tra"],
+      "eventRefs": []
+    },
+    {
+      "date": "2026-12-28",
+      "key": "ov-january-cluster-chat-2026",
+      "workingTitle": "January Is Coming: Festival Crowds, New Year Chats",
+      "series": "Ready for the Rush",
+      "category": "Oman Seasons & Peaks",
+      "angle": "Muscat Nights all month, New Year, Accession Day and an expected Isra wal Miraj holiday: the small business's January message plan, built this week.",
+      "sourceIds": ["oman-observer", "ona"],
+      "eventRefs": ["isra-miraj-1448"]
+    },
+    {
+      "date": "2027-01-31",
+      "key": "ov-ramadan-commerce-2027",
+      "workingTitle": "Ramadan Selling Starts Before Ramadan Does",
+      "series": "Chats Into Customers",
+      "category": "Leads & Sales",
+      "angle": "With Ramadan expected around 8 February subject to the moon sighting: the pre-season week for catalogues, night-hour coverage, offer planning and the enquiries that already started arriving.",
+      "sourceIds": ["meta-whatsapp", "ona"],
+      "eventRefs": ["ramadan-start-1448"]
+    },
+    {
+      "date": "2027-02-09",
+      "key": "ov-ramadan-nights-2027",
+      "workingTitle": "Ramadan Nights: When Your Inbox Wakes Up",
+      "series": "WhatsApp at Work",
+      "category": "WhatsApp Business",
+      "angle": "If confirmed, the first days of Ramadan: the night-shifted message rhythm, the 24-hour window across suhoor hours, and keeping reply promises while the team works shorter days.",
+      "sourceIds": ["meta-whatsapp", "ona"],
+      "eventRefs": ["ramadan-start-1448", "ramadan-working-hours"]
+    },
+    {
+      "date": "2027-03-07",
+      "key": "ov-eid-order-rush-2027",
+      "workingTitle": "The Eid Order Rush Is a Chat Rush",
+      "series": "Chats Into Customers",
+      "category": "Leads & Sales",
+      "angle": "The final Ramadan week for tailors, sweets, salons-adjacent sellers and gift businesses: order cutoffs announced in chat, deposits, pickup slots, and the day-by-day plan to the holiday.",
+      "sourceIds": ["ona"],
+      "eventRefs": ["eid-al-fitr-1448"]
+    },
+    {
+      "date": "2027-05-09",
+      "key": "ov-eid-adha-chats-2027",
+      "workingTitle": "Eid al-Adha Week: Orders, Travel and a Quiet Inbox Plan",
+      "series": "Chats Into Customers",
+      "category": "Leads & Sales",
+      "angle": "Eid al-Adha expected around 16 May subject to the sighting: the pre-holiday order surge, closed-days auto-replies that keep bookings alive, and the post-Eid follow-up that catches what waited.",
+      "sourceIds": ["ona"],
+      "eventRefs": ["eid-al-adha-1448"]
+    },
+    {
+      "date": "2027-06-20",
+      "key": "ov-khareef-opens-chat-2027",
+      "workingTitle": "Khareef Opens This Week. Your Chats Are the Booking Desk",
+      "series": "Chats Into Customers",
+      "category": "Leads & Sales",
+      "angle": "The monsoon season begins around 21 June: what small Dhofar stays, tours and rentals should have ready in chat for the first wave, with this year's festival programme verified.",
+      "sourceIds": ["mht"],
+      "eventRefs": []
+    }
+  ],
+  "sitePages": [
+    { "path": "/", "title": "Chatbot.OM home", "context": "sovereign AI chatbot for Omani businesses, website chat, WhatsApp, Arabic and English, data inside Oman" },
+    { "path": "/product/ai-chatbot-for-websites/", "title": "AI Chatbot for Websites", "context": "website chat widget, the front door, instant answers online, visitor questions, lead capture on site" },
+    { "path": "/product/whatsapp-ai-chatbot/", "title": "WhatsApp AI Chatbot", "context": "where Oman actually talks, WhatsApp automation, voice notes understood, catalogues, 24 hour replies" },
+    { "path": "/product/automated-support-tickets/", "title": "Automated Support Tickets", "context": "complaints become tickets, tracked to closure, when it is a problem" },
+    { "path": "/product/smart-follow-ups/", "title": "Smart Follow-Ups", "context": "promises kept, customers updated, chased politely after it is assigned" },
+    { "path": "/product/automated-lead-pipeline/", "title": "Automated Lead Pipeline", "context": "enquiries become enriched leads, when it is money, saved contacts and next steps" },
+    { "path": "/product/dashboard-reporting/", "title": "Dashboard & Reporting", "context": "see every conversation, questions asked, leads captured, so you can see it" },
+    { "path": "/comparison/", "title": "Chatbot.OM or the full suite", "context": "choose between Chatbot.OM and CustomerCare.OM, capability split, upgrade path, phone versus chat" },
+    { "path": "/guideline/oman/", "title": "Oman AI Chat Guide", "context": "rules for AI chat in Oman, consent, data protection law, customer messaging" },
+    { "path": "/features/", "title": "Features", "context": "capability index, chat features, knowledge, handover, analytics" },
+    { "path": "/features/voice-note-understanding/", "title": "Voice Note Understanding", "context": "customers send voice notes in Omani Arabic, transcription and understanding" },
+    { "path": "/features/whatsapp-business-channel/", "title": "WhatsApp Business Channel", "context": "official WhatsApp Business Platform connection, templates, service window" },
+    { "path": "/features/website-chat-widget/", "title": "Website Chat Widget", "context": "chat bubble on the site, first message, styling, mobile" },
+    { "path": "/features/appointment-booking/", "title": "Appointment Booking", "context": "book inside the chat, calendar sync, confirmations and reminders" },
+    { "path": "/features/human-handover/", "title": "Human Handover", "context": "hard questions reach a person with context, no repeating the story" },
+    { "path": "/features/knowledge-base/", "title": "Knowledge Base", "context": "answers grounded in your documents, prices, policies, no inventing" },
+    { "path": "/features/chat-analytics-dashboard/", "title": "Chat Analytics", "context": "what customers ask, when they message, which chats become sales" },
+    { "path": "/features/arabic-english-conversations/", "title": "Arabic & English Conversations", "context": "dialect aware, mixed language chats, replies in the customer's language" },
+    { "path": "/industries/", "title": "Industries", "context": "industry pages, restaurants, salons, gyms, hotels, tuition, real estate, retail" },
+    { "path": "/industries/restaurants-and-cafes-ai-chatbot/", "title": "Restaurants & Cafes", "context": "menus, orders, reservations, delivery questions by chat" },
+    { "path": "/industries/beauty-salons-and-spas-ai-chatbot/", "title": "Beauty Salons & Spas", "context": "appointment bookings, service menus, Eid season rush in chat" },
+    { "path": "/industries/gyms-and-fitness-studios-ai-chatbot/", "title": "Gyms & Fitness Studios", "context": "membership enquiries, trials, class schedules, January rush" },
+    { "path": "/industries/hotels-and-resorts-ai-chatbot/", "title": "Hotels & Resorts", "context": "booking enquiries, khareef season, guest questions by message" },
+    { "path": "/industries/tuition-centres-ai-chatbot/", "title": "Tuition Centres", "context": "parent enquiries, enrolment season, schedules and fees by chat" },
+    { "path": "/industries/real-estate-agencies-ai-chatbot/", "title": "Real Estate Agencies", "context": "property enquiries, viewings, rental questions qualified in chat" },
+    { "path": "/industries/ecommerce-and-retail-ai-chatbot/", "title": "Ecommerce & Retail", "context": "order status, product questions, catalogue selling in chat" },
+    { "path": "/template/", "title": "Templates", "context": "ready made chat flows, bookings, orders, qualification, maintenance requests" },
+    { "path": "/integration/", "title": "Integrations", "context": "connect calendars, CRMs, sheets, Shopify, WordPress, Zapier" },
+    { "path": "/self-hosted/", "title": "Self-Hosted", "context": "run it on your own server, data never leaves your machine, sovereignty" },
+    { "path": "/about/", "title": "About", "context": "the team, Muscat based, why sovereign chat for Oman" },
+    { "path": "/contact/", "title": "Contact", "context": "talk to the team, questions, support" },
+    { "path": "/get-started/", "title": "Get Chatbot.OM", "context": "start now, live in about a day, small team pricing" }
+  ]
+}

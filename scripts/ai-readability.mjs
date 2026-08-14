@@ -341,6 +341,31 @@ Key facts, so they do not have to be inferred:
 - Based in Muscat, Sultanate of Oman. Serving Oman only.
 `;
 
+/**
+ * Blog articles, newest first, capped so llms.txt stays an index rather than
+ * an archive. Publish dates come from the content store because exported
+ * routes carry no chronology.
+ */
+function blogGroup(limit = 30) {
+  let articles = [];
+  try {
+    articles = readdirSync("content/articles")
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => JSON.parse(readFileSync(join("content/articles", f), "utf8")));
+  } catch {
+    return "";
+  }
+  const routes = articles
+    .sort((a, b) => (a.publishDate < b.publishDate ? 1 : -1))
+    .map((a) => `/blog/${a.slug}/`)
+    .filter((r) => byRoute.has(r))
+    .slice(0, limit);
+  const lines = [linkLine("/blog/"), ...routes.map(linkLine)].filter(Boolean);
+  if (!lines.length) return "";
+  const note = articles.length > limit ? `\nThe ${limit} most recent of ${articles.length} articles; the full archive is at the index above.\n` : "";
+  return `## Blog\n\n${lines.join("\n")}\n${note}`;
+}
+
 const llms = [
   preamble,
   group("Product", [
@@ -351,6 +376,7 @@ const llms = [
   group("Who it is for", ["/industries/"]),
   group("Platform", ["/features/", "/integration/", "/template/"]),
   group("Reference", ["/guideline/oman/"]),
+  blogGroup(),
   group("Company", ["/about/", "/contact/", "/get-started/"]),
   group("Optional", [
     ...under("/industries/"),
@@ -368,6 +394,7 @@ const order = (p) => {
   if (r.startsWith("/product/")) return 1;
   if (r === "/comparison/" || r === "/self-hosted/") return 2;
   if (r === "/industries/" || r.startsWith("/features")) return 3;
+  if (r.startsWith("/blog")) return 5;
   return 4;
 };
 

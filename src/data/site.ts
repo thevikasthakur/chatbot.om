@@ -81,6 +81,7 @@ export const mainNav: NavItem[] = [
   {
     label: "Resources",
     children: [
+      { label: "Blog", desc: "One new read every day on selling and serving by chat", href: "/blog/" },
       { label: "Features", desc: "Everything Chatbot.OM can do", href: "/features/" },
       { label: "Integrations", desc: "Connect the tools you already use", href: "/integration/" },
       { label: "Templates", desc: "Ready-made chatbot setups by trade", href: "/template/" },
@@ -133,6 +134,7 @@ export const footerNav: { title: string; wide?: boolean; links: NavChild[] }[] =
   {
     title: "Resources",
     links: [
+      { label: "Blog", href: "/blog/" },
       { label: "Oman AI Chat Guide", href: "/guideline/oman/" },
       { label: "Comparison", href: "/comparison/" },
       { label: "Industries", href: "/industries/" },

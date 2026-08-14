@@ -13,7 +13,12 @@
     "lint": "eslint . && tsc --noEmit",
     "typecheck": "tsc --noEmit",
     "test": "node --test --experimental-strip-types src/lib/install-request-email.test.ts",
-    "ai:check": "node scripts/ai-readability.mjs"
+    "ai:check": "node scripts/ai-readability.mjs",
+    "prebuild": "node scripts/validate-articles.mjs",
+    "articles:generate": "node scripts/generate-daily-article.mjs",
+    "articles:validate": "node scripts/validate-articles.mjs",
+    "articles:validate:links": "node scripts/validate-articles.mjs --check-links",
+    "articles:dry-run": "node scripts/generate-daily-article.mjs --dry-run"
   },
   "dependencies": {
     "clsx": "^2.1.1",

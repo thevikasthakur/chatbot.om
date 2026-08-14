@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.chatbot-om.article-generator</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/thakur/Workspace/chatbot-OM/scripts/run-article-gen-wrapper.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/thakur/Workspace/chatbot-OM</string>
+
+  <!-- Host machine runs on IST (UTC+5:30); Muscat is UTC+4. 11:50 IST is
+       10:20 in Muscat. Deliberately AFTER the customercare.om generator
+       (10:35/20:35 IST): this machine reads the sister's content store for
+       cross-site duplicate checks, so it should see today's sister article
+       before it writes its own. The 21:50 run is the same-day retry. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>11</integer><key>Minute</key><integer>50</integer></dict>
+    <dict><key>Hour</key><integer>21</integer><key>Minute</key><integer>50</integer></dict>
+  </array>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>SessionCreate</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/thakur/Workspace/chatbot-OM/scripts/cron.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/thakur/Workspace/chatbot-OM/scripts/cron.log</string>
+</dict>
+</plist>
