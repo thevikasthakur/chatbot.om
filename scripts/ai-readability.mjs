@@ -211,6 +211,19 @@ function render(node) {
       const t = inner().trim();
       return t ? `\n|${t.startsWith("|") ? t.slice(1) : t}` : "";
     }
+    case "thead": {
+      const rendered = inner().trim();
+      const headerRow = node.children.find((child) => child.tag === "tr");
+      const cellCount =
+        headerRow?.children.filter(
+          (child) => child.tag === "th" || child.tag === "td"
+        ).length || 0;
+      const divider = cellCount ? `\n|${" --- |".repeat(cellCount)}` : "";
+      return rendered ? `\n${rendered}${divider}` : "";
+    }
+    case "tbody":
+    case "tfoot":
+      return inner();
     case "table":
       return block(inner());
     default: {

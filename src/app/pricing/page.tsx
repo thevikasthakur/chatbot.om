@@ -9,16 +9,16 @@ import { pageMeta } from "@/lib/meta";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Chatbot.OM plans from free to unlimited: 100 monthly sessions free, 2,000 for OMR 10, 10,000 for OMR 40, or unlimited for OMR 135.",
+    "Chatbot.OM plans from free to unlimited: 100 monthly sessions free, 2,000 for OMR 10, 25,000 for OMR 40, or unlimited for OMR 135.",
   ...pageMeta("/pricing/"),
   openGraph: {
-    title: "Pricing that grows with you.",
+    title: "Compare all four plans.",
     description:
-      "Free 100; Starter OMR 10/2,000; Business OMR 40/10,000; Enterprise OMR 135/unlimited. Overage rates: 250, 50, and 25 Bz.",
+      "Monthly plans: Free 100 sessions; Starter OMR 10/2,000; Business OMR 40/25,000; Enterprise OMR 135/unlimited. Overage: 250, 50, and 25 Bz.",
     url: "/pricing/",
     images: [
       {
-        url: "/media/pricing-og-v2.png",
+        url: "/media/pricing-og-v6.png",
         width: 1200,
         height: 630,
         alt: "Chatbot.OM Free, Starter, Business, and Enterprise pricing plans",
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pricing that grows with you.",
+    title: "Compare all four plans.",
     description:
-      "Free 100; Starter OMR 10/2,000; Business OMR 40/10,000; Enterprise OMR 135/unlimited. Overage rates: 250, 50, and 25 Bz.",
-    images: ["/media/pricing-og-v2.png"],
+      "Monthly plans: Free 100 sessions; Starter OMR 10/2,000; Business OMR 40/25,000; Enterprise OMR 135/unlimited. Overage: 250, 50, and 25 Bz.",
+    images: ["/media/pricing-og-v6.png"],
   },
 };
 
@@ -39,45 +39,29 @@ const plans = [
     id: "free",
     name: "Free",
     price: "0",
-    sessions: "100 chat sessions",
-    sessionsNote: "included every month",
-    detailLabel: "After the monthly allowance",
-    detailMain: "250 Bz",
-    detailSuffix: "/ extra session",
-    detailNote: "OMR 0.250 per session",
+    included: "100",
+    overage: "250 Bz",
   },
   {
     id: "starter",
     name: "Starter",
     price: "10",
-    sessions: "2,000 chat sessions",
-    sessionsNote: "included every month",
-    detailLabel: "After the monthly allowance",
-    detailMain: "50 Bz",
-    detailSuffix: "/ extra session",
-    detailNote: "OMR 0.050 per session",
+    included: "2,000",
+    overage: "50 Bz",
   },
   {
     id: "business",
     name: "Business",
     price: "40",
-    sessions: "10,000 chat sessions",
-    sessionsNote: "included every month",
-    detailLabel: "After the monthly allowance",
-    detailMain: "25 Bz",
-    detailSuffix: "/ extra session",
-    detailNote: "OMR 0.025 per session",
+    included: "25,000",
+    overage: "25 Bz",
   },
   {
     id: "enterprise",
     name: "Enterprise",
     price: "135",
-    sessions: "Unlimited chat sessions",
-    sessionsNote: "with no per-session overage",
-    detailLabel: "Deployment option",
-    detailMain: "On-premises",
-    detailSuffix: "available on request",
-    detailNote: "Run it on your servers or private cloud",
+    included: "Unlimited",
+    overage: "No overage",
   },
 ];
 
@@ -100,7 +84,7 @@ const faqs = [
   },
   {
     q: "What does the Business plan cost?",
-    a: "Business is OMR 40 per month and includes 10,000 chat sessions each month. After that allowance, each additional chat session costs 25 Bz (OMR 0.025).",
+    a: "Business is OMR 40 per month and includes 25,000 chat sessions each month. After that allowance, each additional chat session costs 25 Bz (OMR 0.025).",
   },
   {
     q: "What does the Enterprise plan cost?",
@@ -109,7 +93,7 @@ const faqs = [
   },
   {
     q: "When does the next plan cost less?",
-    a: "Free and Starter cost the same at 140 monthly sessions; Starter and Business cost the same at 2,600; Business and Enterprise cost the same at 13,800. After each of those points, the next plan costs less.",
+    a: "Free and Starter cost the same at 140 monthly sessions; Starter and Business cost the same at 2,600; Business and Enterprise cost the same at 28,800. After each of those points, the next plan costs less.",
   },
   {
     q: "Are these prices in Omani Rials?",
@@ -168,7 +152,7 @@ const pricingJsonLd = {
         unitCode: "MON",
       },
       description:
-        "10,000 chat sessions each month, then OMR 0.025 per additional session.",
+        "25,000 chat sessions each month, then OMR 0.025 per additional session.",
     },
     {
       "@type": "Offer",
@@ -192,92 +176,201 @@ export default function PricingPage() {
     <>
       <JsonLd data={pricingJsonLd} />
 
-      <section className="border-b border-border pt-32 pb-16 md:pt-40 md:pb-20">
+      <section className="hatch-gutters border-b border-border pt-32 pb-12 md:pt-40 md:pb-16">
         <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="eyebrow">Pricing</p>
-          <h1 className="mx-auto mt-5 max-w-4xl text-4xl leading-[1.06] md:text-6xl">
-            Start free. <span className="text-lime">Pay less as chats grow.</span>
+          <div className="mx-auto flex max-w-4xl items-center gap-4 sm:gap-6">
+            <span className="h-px flex-1 bg-lime" aria-hidden />
+            <p className="shrink-0 border border-lime px-4 py-2 font-mono text-[11px] uppercase tracking-[0.14em] text-foreground sm:px-7 sm:text-sm">
+              Chatbot.OM
+            </p>
+            <span className="h-px flex-1 bg-lime" aria-hidden />
+          </div>
+          <h1 className="mx-auto mt-8 max-w-6xl text-5xl leading-[0.98] md:text-7xl lg:text-[5.5rem]">
+            Compare all four plans.
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Four plans sized to the number of customer conversations you expect
-            each month. Enterprise also offers on-premises deployment.
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-relaxed text-muted-foreground md:text-lg">
+            Choose by monthly conversation volume. Start free, pay less as chats
+            grow, or choose unlimited with Enterprise. On-premises deployment is
+            available on request.
           </p>
         </div>
       </section>
 
-      <section className="border-b border-border py-16 md:py-24">
+      <section className="hatch-gutters border-b border-border py-10 md:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-5 sm:grid-cols-2">
-            {plans.map((plan) => (
-              <article
-                aria-labelledby={plan.id + "-plan-title"}
-                className={
-                  "flex flex-col border bg-ink-2 p-7 md:p-9 " +
-                  (plan.id === "enterprise"
-                    ? "border-lime shadow-[0_0_40px_rgba(212,255,79,0.08)]"
-                    : "border-line-strong")
-                }
-                key={plan.id}
-              >
-                <h2
-                  className={
-                    "font-mono text-[11px] uppercase tracking-[0.14em] " +
-                    (plan.id === "enterprise" ? "text-lime" : "text-muted-foreground")
-                  }
-                  id={plan.id + "-plan-title"}
-                >
-                  {plan.name}
-                </h2>
-                <div className="mt-5 flex items-end gap-2">
-                  <span className="font-display text-6xl font-medium tracking-tight">
-                    {plan.price}
-                  </span>
-                  <span className="pb-2 text-sm text-muted-foreground">Rials / month</span>
-                </div>
-                <p className="mt-6 text-2xl font-semibold">{plan.sessions}</p>
-                <p className="mt-1 text-sm text-muted-foreground">{plan.sessionsNote}</p>
-                <div
-                  className={
-                    "my-7 border-t " +
-                    (plan.id === "enterprise"
-                      ? "border-[rgba(212,255,79,0.24)]"
-                      : "border-border")
-                  }
-                />
-                <p className="text-sm text-muted-foreground">{plan.detailLabel}</p>
-                <p className="mt-2 text-xl font-semibold">
-                  {plan.detailMain}{" "}
-                  <span className="text-sm font-normal text-muted-foreground">
-                    {plan.detailSuffix}
-                  </span>
-                </p>
-                <p className="mt-1 text-xs text-muted-foreground">{plan.detailNote}</p>
-                {plan.id === "enterprise" && (
-                  <Link
-                    href="/self-hosted/"
-                    className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-lime underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime"
-                  >
-                    See the on-premises option
-                    <ArrowRight className="h-4 w-4" aria-hidden />
-                  </Link>
-                )}
-                <div className="mt-auto pt-8">
-                  <Link
-                    href={"/get-started/?plan=" + plan.id}
-                    className={
-                      "inline-flex min-h-11 w-full items-center justify-center gap-2 px-6 text-sm font-medium focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime " +
-                      (plan.id === "enterprise"
-                        ? "bg-lime text-ink transition-[filter] hover:brightness-110"
-                        : "border border-line-strong transition-colors hover:bg-ink-3")
-                    }
-                  >
-                    Choose {plan.name} <ArrowRight className="h-4 w-4" aria-hidden />
-                  </Link>
-                </div>
-              </article>
-            ))}
+          <h2 className="sr-only" id="plan-comparison-heading">
+            Compare pricing plans
+          </h2>
+          <div
+            aria-describedby="plan-comparison-hint"
+            aria-labelledby="plan-comparison-heading"
+            className="isolate overflow-x-auto overscroll-x-contain pb-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime"
+            role="region"
+            tabIndex={0}
+          >
+            <table className="w-full min-w-[60rem] table-fixed border-separate [border-spacing:0.5rem_0] text-center">
+              <caption className="sr-only">
+                Compare Chatbot.OM monthly pricing plans
+              </caption>
+              <colgroup>
+                {plans.map((plan) => (
+                  <col className="w-1/4" key={plan.id} />
+                ))}
+              </colgroup>
+              <thead>
+                <tr>
+                  {plans.map((plan) => (
+                    <th
+                      className={
+                        "px-5 py-5 font-mono text-base font-semibold uppercase tracking-[0.14em] xl:text-lg " +
+                        (plan.id === "enterprise"
+                          ? "border-x-[3px] border-t-[3px] border-b border-lime bg-lime text-ink"
+                          : "border border-[rgba(212,255,79,0.78)] bg-ink-2 text-foreground")
+                      }
+                      id={"plan-" + plan.id}
+                      key={plan.id}
+                      scope="col"
+                    >
+                      {plan.name}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  {plans.map((plan) => (
+                    <td
+                      className={
+                        "h-36 px-4 py-7 align-middle " +
+                        (plan.id === "enterprise"
+                          ? "border-x-[3px] border-b border-lime bg-ink shadow-[0_0_32px_rgba(212,255,79,0.13)]"
+                          : "border-x border-b border-[rgba(212,255,79,0.78)] bg-ink-2")
+                      }
+                      headers={"plan-" + plan.id}
+                      key={plan.id}
+                    >
+                      <span className="sr-only">Monthly price: </span>
+                      <span className="inline-flex items-end justify-center gap-2">
+                        <span className="font-sans text-6xl font-semibold leading-none tracking-tight text-lime tabular-nums xl:text-7xl">
+                          {plan.price}
+                        </span>
+                        <span className="mb-1 whitespace-nowrap text-sm font-medium xl:text-base">
+                          Rials / month
+                        </span>
+                      </span>
+                    </td>
+                  ))}
+                </tr>
+                <tr>
+                  {plans.map((plan) => (
+                    <td
+                      className={
+                        "h-24 px-5 py-5 align-middle " +
+                        (plan.id === "enterprise"
+                          ? "border-x-[3px] border-b border-lime bg-ink shadow-[0_0_32px_rgba(212,255,79,0.13)]"
+                          : "border-x border-b border-[rgba(212,255,79,0.78)] bg-ink-2")
+                      }
+                      headers={"plan-" + plan.id}
+                      key={plan.id}
+                    >
+                      <span className="sr-only">Included sessions per month: </span>
+                      <span className="flex items-center gap-3 text-left">
+                        <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-lime text-ink">
+                          <Check className="size-5" strokeWidth={3} aria-hidden />
+                        </span>
+                        <span className="text-base font-medium leading-snug xl:text-lg">
+                          {plan.id === "enterprise"
+                            ? plan.included
+                            : plan.included + " sessions"}
+                        </span>
+                      </span>
+                    </td>
+                  ))}
+                </tr>
+                <tr>
+                  {plans.map((plan) => (
+                    <td
+                      className={
+                        "h-24 px-5 py-5 align-middle " +
+                        (plan.id === "enterprise"
+                          ? "border-x-[3px] border-b border-lime bg-ink shadow-[0_0_32px_rgba(212,255,79,0.13)]"
+                          : "border-x border-b border-[rgba(212,255,79,0.78)] bg-ink-2")
+                      }
+                      headers={"plan-" + plan.id}
+                      key={plan.id}
+                    >
+                      {plan.id === "enterprise" ? (
+                        <Link
+                          href="/self-hosted/"
+                          className="flex items-center gap-3 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime"
+                        >
+                          <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-lime text-ink">
+                            <Check className="size-5" strokeWidth={3} aria-hidden />
+                          </span>
+                          <span className="text-base font-medium leading-snug xl:text-lg">
+                            On-premises on request
+                          </span>
+                        </Link>
+                      ) : (
+                        <span className="flex items-center gap-3 text-left">
+                          <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-lime text-ink">
+                            <Check className="size-5" strokeWidth={3} aria-hidden />
+                          </span>
+                          <span className="text-base font-medium leading-snug xl:text-lg">
+                            <span className="sr-only">Overage: </span>
+                            {plan.overage}{" "}
+                            <span className="text-sm font-normal text-muted-foreground">
+                              / extra session
+                            </span>
+                          </span>
+                        </span>
+                      )}
+                    </td>
+                  ))}
+                </tr>
+                <tr>
+                  {plans.map((plan) => (
+                    <td
+                      className={
+                        "px-4 py-4 " +
+                        (plan.id === "enterprise"
+                          ? "border-x-[3px] border-b-[3px] border-lime bg-ink shadow-[0_0_32px_rgba(212,255,79,0.13)]"
+                          : "border-x border-b border-[rgba(212,255,79,0.78)] bg-ink-2")
+                      }
+                      headers={"plan-" + plan.id}
+                      key={plan.id}
+                    >
+                      <span className="sr-only">Get started: </span>
+                      <Link
+                        href={"/get-started/?plan=" + plan.id}
+                        className={
+                          "inline-flex min-h-11 w-full items-center justify-center gap-1.5 px-3 text-center text-sm font-medium focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime " +
+                          (plan.id === "enterprise"
+                            ? "bg-lime text-ink transition-[filter] hover:brightness-110"
+                            : "border border-[rgba(212,255,79,0.78)] transition-colors hover:bg-ink-3")
+                        }
+                      >
+                        Choose {plan.name}
+                        <ArrowRight className="h-4 w-4 shrink-0" aria-hidden />
+                      </Link>
+                    </td>
+                  ))}
+                </tr>
+              </tbody>
+            </table>
           </div>
 
+          <p
+            className="mt-3 text-xs text-muted-foreground lg:hidden"
+            id="plan-comparison-hint"
+          >
+            Swipe sideways to compare all four plans.
+          </p>
+          <p className="mt-4 flex items-center justify-center gap-2 text-center text-xs text-muted-foreground">
+            <ShieldCheck className="h-4 w-4 shrink-0 text-lime" aria-hidden />
+            Every plan is hosted in Oman. Enterprise can also run on your servers
+            or private cloud.
+          </p>
           <h2 className="sr-only">Plan break-even points</h2>
           <div className="mt-5 grid gap-px border border-border bg-border lg:grid-cols-3">
             {[
@@ -292,9 +385,9 @@ export default function PricingPage() {
                 after: "From 2,601, Business costs less.",
               },
               {
-                at: "13,800 sessions",
+                at: "28,800 sessions",
                 tie: "Business = Enterprise at OMR 135",
-                after: "From 13,801, Enterprise costs less.",
+                after: "From 28,801, Enterprise costs less.",
               },
             ].map((point) => (
               <div className="bg-ink-2 px-5 py-5" key={point.at}>
