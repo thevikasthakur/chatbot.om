@@ -372,7 +372,7 @@ const llms = [
     "/product/",
     ...pages.map((p) => p.route).filter((r) => r.startsWith("/product/") && r !== "/product/").sort(),
   ]),
-  group("Choosing between the two products", ["/comparison/", "/self-hosted/"]),
+  group("Pricing and deployment", ["/pricing/", "/comparison/", "/self-hosted/"]),
   group("Who it is for", ["/industries/"]),
   group("Platform", ["/features/", "/integration/", "/template/"]),
   group("Reference", ["/guideline/oman/"]),
@@ -392,7 +392,7 @@ const order = (p) => {
   const r = p.route;
   if (r === "/") return 0;
   if (r.startsWith("/product/")) return 1;
-  if (r === "/comparison/" || r === "/self-hosted/") return 2;
+  if (r === "/pricing/" || r === "/comparison/" || r === "/self-hosted/") return 2;
   if (r === "/industries/" || r.startsWith("/features")) return 3;
   if (r.startsWith("/blog")) return 5;
   return 4;

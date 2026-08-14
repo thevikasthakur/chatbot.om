@@ -125,8 +125,8 @@ export default function GetStartedPage() {
                 <span className="accent-italic">from the first day</span>.
               </h2>
               <p className="mt-4 max-w-md text-sm text-muted-foreground leading-relaxed">
-                There is no starter tier that quietly leaves out the parts that
-                matter. Everything below is how the product works, not an upsell.
+                These capabilities are how the product works, not a collection
+                of separate add-ons.
               </p>
               <Link
                 href="/product/"

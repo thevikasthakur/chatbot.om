@@ -24,6 +24,7 @@ const standalone: Entry[] = [
   { path: "/product/smart-follow-ups/", priority: 0.8, changeFrequency: "monthly" },
   { path: "/product/automated-lead-pipeline/", priority: 0.8, changeFrequency: "monthly" },
   { path: "/product/dashboard-reporting/", priority: 0.8, changeFrequency: "monthly" },
+  { path: "/pricing/", priority: 0.9, changeFrequency: "monthly" },
   { path: "/features/", priority: 0.8, changeFrequency: "monthly" },
   { path: "/industries/", priority: 0.8, changeFrequency: "monthly" },
   { path: "/integration/", priority: 0.7, changeFrequency: "monthly" },

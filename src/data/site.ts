@@ -78,6 +78,7 @@ export const mainNav: NavItem[] = [
       },
     ],
   },
+  { label: "Pricing", href: "/pricing/" },
   {
     label: "Resources",
     children: [
@@ -127,6 +128,7 @@ export const footerNav: { title: string; wide?: boolean; links: NavChild[] }[] =
       { label: "Features", href: "/features/" },
       { label: "Integrations", href: "/integration/" },
       { label: "Templates", href: "/template/" },
+      { label: "Pricing", href: "/pricing/" },
       { label: "Self-Hosted", href: "/self-hosted/" },
       { label: "Get Started", href: "/get-started/" },
     ],
