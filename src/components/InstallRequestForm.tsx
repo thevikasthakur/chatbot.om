@@ -8,9 +8,19 @@ type InstallRequestFormProps = {
   ctaSource: string;
   compact?: boolean;
   hideIdleStatus?: boolean;
+  plan?: string;
   /** Set while the form is visually retired, so it leaves the tab order. */
   disabled?: boolean;
 };
+
+const planNames = {
+  free: "Free",
+  starter: "Starter",
+  business: "Business",
+  enterprise: "Enterprise",
+} as const;
+
+type PlanId = keyof typeof planNames;
 
 type Toast = {
   id: number;
@@ -113,6 +123,7 @@ export function InstallRequestForm({
   ctaSource,
   compact = false,
   hideIdleStatus = false,
+  plan,
   disabled = false,
 }: InstallRequestFormProps) {
   const inputId = useId();
@@ -120,6 +131,23 @@ export function InstallRequestForm({
   const [honeypot, setHoneypot] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [toasts, setToasts] = useState<Toast[]>([]);
+  const [selectedPlan, setSelectedPlan] = useState<PlanId | undefined>(
+    plan && plan in planNames ? (plan as PlanId) : undefined,
+  );
+
+  useEffect(() => {
+    if (plan && plan in planNames) {
+      setSelectedPlan(plan as PlanId);
+      return;
+    }
+
+    const requestedPlan = new URLSearchParams(window.location.search).get("plan");
+    setSelectedPlan(
+      requestedPlan && requestedPlan in planNames
+        ? (requestedPlan as PlanId)
+        : undefined,
+    );
+  }, [plan]);
 
   const idleMessage = compact
     ? "Enter your website. We will inspect it and start the install request."
@@ -156,12 +184,13 @@ export function InstallRequestForm({
         },
         body: JSON.stringify({
           domainName: trimmedDomain,
-          ctaSource,
+          ctaSource: selectedPlan ? `${ctaSource}-${selectedPlan}-plan` : ctaSource,
           pageUrl: window.location.href,
           honeypot,
           metadata: {
             referrer: document.referrer || "direct",
             userAgent: navigator.userAgent,
+            ...(selectedPlan ? { plan: selectedPlan } : {}),
           },
         }),
       });
@@ -197,6 +226,11 @@ export function InstallRequestForm({
         className={compact ? "install-form install-form-compact" : "install-form"}
         onSubmit={handleSubmit}
       >
+        {selectedPlan && (
+          <p className="mb-3 text-center font-mono text-[10px] uppercase tracking-[0.14em] text-lime">
+            Selected plan · {planNames[selectedPlan]}
+          </p>
+        )}
         <label className="sr-only" htmlFor={inputId}>
           Website domain
         </label>

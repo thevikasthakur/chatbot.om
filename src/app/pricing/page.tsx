@@ -9,30 +9,77 @@ import { pageMeta } from "@/lib/meta";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Simple Chatbot.OM pricing: 100 monthly chat sessions free, or 2,000 monthly sessions for OMR 10. Clear per-session rates after each allowance.",
+    "Chatbot.OM plans from free to unlimited: 100 monthly sessions free, 2,000 for OMR 10, 10,000 for OMR 40, or unlimited for OMR 135.",
   ...pageMeta("/pricing/"),
   openGraph: {
-    title: "Simple pricing. Built for Oman.",
+    title: "Pricing that grows with you.",
     description:
-      "Free: 100 sessions monthly, then 250 Bz per session. Starter: 2,000 sessions monthly for OMR 10, then 50 Bz per session.",
+      "Free 100; Starter OMR 10/2,000; Business OMR 40/10,000; Enterprise OMR 135/unlimited. Overage rates: 250, 50, and 25 Bz.",
     url: "/pricing/",
     images: [
       {
-        url: "/media/pricing-og.png",
+        url: "/media/pricing-og-v2.png",
         width: 1200,
         height: 630,
-        alt: "Chatbot.OM Free and Starter pricing plans",
+        alt: "Chatbot.OM Free, Starter, Business, and Enterprise pricing plans",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Simple pricing. Built for Oman.",
+    title: "Pricing that grows with you.",
     description:
-      "Free: 100 sessions monthly, then 250 Bz per session. Starter: 2,000 sessions monthly for OMR 10, then 50 Bz per session.",
-    images: ["/media/pricing-og.png"],
+      "Free 100; Starter OMR 10/2,000; Business OMR 40/10,000; Enterprise OMR 135/unlimited. Overage rates: 250, 50, and 25 Bz.",
+    images: ["/media/pricing-og-v2.png"],
   },
 };
+
+const plans = [
+  {
+    id: "free",
+    name: "Free",
+    price: "0",
+    sessions: "100 chat sessions",
+    sessionsNote: "included every month",
+    detailLabel: "After the monthly allowance",
+    detailMain: "250 Bz",
+    detailSuffix: "/ extra session",
+    detailNote: "OMR 0.250 per session",
+  },
+  {
+    id: "starter",
+    name: "Starter",
+    price: "10",
+    sessions: "2,000 chat sessions",
+    sessionsNote: "included every month",
+    detailLabel: "After the monthly allowance",
+    detailMain: "50 Bz",
+    detailSuffix: "/ extra session",
+    detailNote: "OMR 0.050 per session",
+  },
+  {
+    id: "business",
+    name: "Business",
+    price: "40",
+    sessions: "10,000 chat sessions",
+    sessionsNote: "included every month",
+    detailLabel: "After the monthly allowance",
+    detailMain: "25 Bz",
+    detailSuffix: "/ extra session",
+    detailNote: "OMR 0.025 per session",
+  },
+  {
+    id: "enterprise",
+    name: "Enterprise",
+    price: "135",
+    sessions: "Unlimited chat sessions",
+    sessionsNote: "with no per-session overage",
+    detailLabel: "Deployment option",
+    detailMain: "On-premises",
+    detailSuffix: "available on request",
+    detailNote: "Run it on your servers or private cloud",
+  },
+];
 
 const productCapabilities = [
   "Website chat and WhatsApp",
@@ -52,12 +99,21 @@ const faqs = [
     a: "Starter is OMR 10 per month and includes 2,000 chat sessions each month. After that allowance, each additional chat session costs 50 Bz (OMR 0.050).",
   },
   {
-    q: "When does Starter cost less than Free?",
-    a: "At 140 chat sessions in a month, both plans cost OMR 10. From session 141 onward, Starter costs less and includes usage up to 2,000 sessions before its per-session rate begins.",
+    q: "What does the Business plan cost?",
+    a: "Business is OMR 40 per month and includes 10,000 chat sessions each month. After that allowance, each additional chat session costs 25 Bz (OMR 0.025).",
+  },
+  {
+    q: "What does the Enterprise plan cost?",
+    a: "Enterprise is OMR 135 per month with unlimited chat sessions. An on-premises deployment on your servers or private cloud is also available on request.",
+    link: { label: "See the on-premises option", href: "/self-hosted/" },
+  },
+  {
+    q: "When does the next plan cost less?",
+    a: "Free and Starter cost the same at 140 monthly sessions; Starter and Business cost the same at 2,600; Business and Enterprise cost the same at 13,800. After each of those points, the next plan costs less.",
   },
   {
     q: "Are these prices in Omani Rials?",
-    a: "Yes. All prices are in Omani Rials. The per-session amounts are shown in baisa: 250 Bz is OMR 0.250 and 50 Bz is OMR 0.050.",
+    a: "Yes. All prices are in Omani Rials. The per-session amounts are shown in baisa: 250 Bz is OMR 0.250, 50 Bz is OMR 0.050, and 25 Bz is OMR 0.025.",
   },
 ];
 
@@ -74,6 +130,13 @@ const pricingJsonLd = {
       name: "Free",
       price: "0",
       priceCurrency: "OMR",
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: "0",
+        priceCurrency: "OMR",
+        billingDuration: "P1M",
+        unitCode: "MON",
+      },
       description:
         "100 chat sessions each month, then OMR 0.250 per additional session.",
     },
@@ -82,8 +145,44 @@ const pricingJsonLd = {
       name: "Starter",
       price: "10",
       priceCurrency: "OMR",
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: "10",
+        priceCurrency: "OMR",
+        billingDuration: "P1M",
+        unitCode: "MON",
+      },
       description:
         "2,000 chat sessions each month, then OMR 0.050 per additional session.",
+    },
+    {
+      "@type": "Offer",
+      name: "Business",
+      price: "40",
+      priceCurrency: "OMR",
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: "40",
+        priceCurrency: "OMR",
+        billingDuration: "P1M",
+        unitCode: "MON",
+      },
+      description:
+        "10,000 chat sessions each month, then OMR 0.025 per additional session.",
+    },
+    {
+      "@type": "Offer",
+      name: "Enterprise",
+      price: "135",
+      priceCurrency: "OMR",
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: "135",
+        priceCurrency: "OMR",
+        billingDuration: "P1M",
+        unitCode: "MON",
+      },
+      description: "Unlimited chat sessions each month.",
     },
   ],
 };
@@ -100,84 +199,112 @@ export default function PricingPage() {
             Start free. <span className="text-lime">Pay less as chats grow.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Two plans, one clear difference: how many customer conversations
-            you expect each month. No maze of feature bundles.
+            Four plans sized to the number of customer conversations you expect
+            each month. Enterprise also offers on-premises deployment.
           </p>
         </div>
       </section>
 
       <section className="border-b border-border py-16 md:py-24">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-5 md:grid-cols-2">
-            <article
-              aria-labelledby="free-plan-title"
-              className="flex flex-col border border-line-strong bg-ink-2 p-7 md:p-9"
-            >
-              <h2
-                className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground"
-                id="free-plan-title"
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-5 sm:grid-cols-2">
+            {plans.map((plan) => (
+              <article
+                aria-labelledby={plan.id + "-plan-title"}
+                className={
+                  "flex flex-col border bg-ink-2 p-7 md:p-9 " +
+                  (plan.id === "enterprise"
+                    ? "border-lime shadow-[0_0_40px_rgba(212,255,79,0.08)]"
+                    : "border-line-strong")
+                }
+                key={plan.id}
               >
-                Free
-              </h2>
-              <div className="mt-5 flex items-end gap-2">
-                <span className="font-display text-6xl font-medium tracking-tight">0</span>
-                <span className="pb-2 text-sm text-muted-foreground">Rials / month</span>
-              </div>
-              <p className="mt-6 text-2xl font-semibold">100 chat sessions</p>
-              <p className="mt-1 text-sm text-muted-foreground">included every month</p>
-              <div className="my-7 border-t border-border" />
-              <p className="text-sm text-muted-foreground">After the monthly allowance</p>
-              <p className="mt-2 text-xl font-semibold">
-                250 Bz <span className="text-sm font-normal text-muted-foreground">/ extra session</span>
-              </p>
-              <p className="mt-1 text-xs text-muted-foreground">OMR 0.250 per session</p>
-              <Link
-                href="/get-started/?plan=free"
-                className="mt-8 inline-flex h-11 items-center justify-center gap-2 border border-line-strong px-6 text-sm font-medium transition-colors hover:bg-ink-3"
-              >
-                Get started <ArrowRight className="h-4 w-4" aria-hidden />
-              </Link>
-            </article>
-
-            <article
-              aria-labelledby="starter-plan-title"
-              className="relative flex flex-col border border-lime bg-ink-2 p-7 shadow-[0_0_40px_rgba(212,255,79,0.08)] md:p-9"
-            >
-              <span className="mb-4 self-start bg-lime px-2.5 py-1 font-mono text-[9px] uppercase tracking-[0.12em] text-ink md:absolute md:right-4 md:top-4 md:mb-0">
-                Best from session 141
-              </span>
-              <h2
-                className="font-mono text-[11px] uppercase tracking-[0.14em] text-lime"
-                id="starter-plan-title"
-              >
-                Starter
-              </h2>
-              <div className="mt-5 flex items-end gap-2">
-                <span className="font-display text-6xl font-medium tracking-tight">10</span>
-                <span className="pb-2 text-sm text-muted-foreground">Rials / month</span>
-              </div>
-              <p className="mt-6 text-2xl font-semibold">2,000 chat sessions</p>
-              <p className="mt-1 text-sm text-muted-foreground">included every month</p>
-              <div className="my-7 border-t border-[rgba(212,255,79,0.24)]" />
-              <p className="text-sm text-muted-foreground">After the monthly allowance</p>
-              <p className="mt-2 text-xl font-semibold">
-                50 Bz <span className="text-sm font-normal text-muted-foreground">/ extra session</span>
-              </p>
-              <p className="mt-1 text-xs text-muted-foreground">OMR 0.050 per session</p>
-              <Link
-                href="/get-started/?plan=starter"
-                className="mt-8 inline-flex h-11 items-center justify-center gap-2 bg-lime px-6 text-sm font-medium text-ink transition-[filter] hover:brightness-110"
-              >
-                Get started <ArrowRight className="h-4 w-4" aria-hidden />
-              </Link>
-            </article>
+                <h2
+                  className={
+                    "font-mono text-[11px] uppercase tracking-[0.14em] " +
+                    (plan.id === "enterprise" ? "text-lime" : "text-muted-foreground")
+                  }
+                  id={plan.id + "-plan-title"}
+                >
+                  {plan.name}
+                </h2>
+                <div className="mt-5 flex items-end gap-2">
+                  <span className="font-display text-6xl font-medium tracking-tight">
+                    {plan.price}
+                  </span>
+                  <span className="pb-2 text-sm text-muted-foreground">Rials / month</span>
+                </div>
+                <p className="mt-6 text-2xl font-semibold">{plan.sessions}</p>
+                <p className="mt-1 text-sm text-muted-foreground">{plan.sessionsNote}</p>
+                <div
+                  className={
+                    "my-7 border-t " +
+                    (plan.id === "enterprise"
+                      ? "border-[rgba(212,255,79,0.24)]"
+                      : "border-border")
+                  }
+                />
+                <p className="text-sm text-muted-foreground">{plan.detailLabel}</p>
+                <p className="mt-2 text-xl font-semibold">
+                  {plan.detailMain}{" "}
+                  <span className="text-sm font-normal text-muted-foreground">
+                    {plan.detailSuffix}
+                  </span>
+                </p>
+                <p className="mt-1 text-xs text-muted-foreground">{plan.detailNote}</p>
+                {plan.id === "enterprise" && (
+                  <Link
+                    href="/self-hosted/"
+                    className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-lime underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime"
+                  >
+                    See the on-premises option
+                    <ArrowRight className="h-4 w-4" aria-hidden />
+                  </Link>
+                )}
+                <div className="mt-auto pt-8">
+                  <Link
+                    href={"/get-started/?plan=" + plan.id}
+                    className={
+                      "inline-flex min-h-11 w-full items-center justify-center gap-2 px-6 text-sm font-medium focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime " +
+                      (plan.id === "enterprise"
+                        ? "bg-lime text-ink transition-[filter] hover:brightness-110"
+                        : "border border-line-strong transition-colors hover:bg-ink-3")
+                    }
+                  >
+                    Choose {plan.name} <ArrowRight className="h-4 w-4" aria-hidden />
+                  </Link>
+                </div>
+              </article>
+            ))}
           </div>
 
-          <div className="mt-5 border border-border bg-ink-2 px-5 py-4 text-center">
-            <p className="text-sm text-muted-foreground">
-              At <strong className="font-semibold text-foreground">140 sessions</strong>, both plans cost OMR 10. From session 141,
-              Starter is the lower-cost plan.
-            </p>
+          <h2 className="sr-only">Plan break-even points</h2>
+          <div className="mt-5 grid gap-px border border-border bg-border lg:grid-cols-3">
+            {[
+              {
+                at: "140 sessions",
+                tie: "Free = Starter at OMR 10",
+                after: "From 141, Starter costs less.",
+              },
+              {
+                at: "2,600 sessions",
+                tie: "Starter = Business at OMR 40",
+                after: "From 2,601, Business costs less.",
+              },
+              {
+                at: "13,800 sessions",
+                tie: "Business = Enterprise at OMR 135",
+                after: "From 13,801, Enterprise costs less.",
+              },
+            ].map((point) => (
+              <div className="bg-ink-2 px-5 py-5" key={point.at}>
+                <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-lime">
+                  {point.at}
+                </p>
+                <p className="mt-2 text-sm font-medium">{point.tie}</p>
+                <p className="mt-1 text-xs text-muted-foreground">{point.after}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
