@@ -1,0 +1,402 @@
+{
+  "id": "article-2026-08-17-where-digital-rules-land",
+  "taskId": "2026-08-17-where-digital-rules-land",
+  "slug": "rules-of-selling-online",
+  "title": "Where Oman Announces the Rules of Selling Online",
+  "seoTitle": "Where Oman Announces the Rules of Selling Online",
+  "excerpt": "Two Muscat offices just changed what you can text, call and sell online this month, and neither announcement will trend on Instagram.",
+  "seoDescription": "TRA's new 8am to 9pm rule for marketing texts and calls, plus Oman's e-commerce licence count: what small businesses must check this week.",
+  "series": "Oman Digital Pulse",
+  "category": "Rules & Updates",
+  "topic": "Where Oman Announces the Rules of Selling Online",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-17",
+  "modifiedDate": "2026-08-17",
+  "reviewedDate": "2026-08-17",
+  "reviewBy": "2026-11-15",
+  "status": "published",
+  "tags": [
+    "TRA regulation",
+    "marketing SMS rules",
+    "e-commerce licence",
+    "WhatsApp Business",
+    "data protection law",
+    "small business Oman",
+    "Oman Digital Pulse"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"225\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0\" stop-color=\"#181109\"/>\n<stop offset=\"0.5\" stop-color=\"#54371a\"/>\n<stop offset=\"1\" stop-color=\"#e8c07c\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"245\" y=\"15\" width=\"110\" height=\"195\" rx=\"18\" fill=\"#20150b\" stroke=\"#e8c07c\" stroke-width=\"3\"/>\n<rect x=\"255\" y=\"30\" width=\"90\" height=\"150\" rx=\"8\" fill=\"#0f0a06\"/>\n<circle cx=\"300\" cy=\"105\" r=\"36\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"4\"/>\n<line x1=\"300\" y1=\"105\" x2=\"300\" y2=\"82\" stroke=\"#79e0c8\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<line x1=\"300\" y1=\"105\" x2=\"318\" y2=\"115\" stroke=\"#79e0c8\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<circle cx=\"300\" cy=\"105\" r=\"3\" fill=\"#79e0c8\"/>\n<rect x=\"328\" y=\"35\" width=\"32\" height=\"16\" rx=\"4\" fill=\"#181109\"/>\n<text x=\"344\" y=\"47\" font-family=\"Arial, sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#d4ff4f\" text-anchor=\"middle\">AD</text>\n<text x=\"20\" y=\"150\" font-family=\"Arial, sans-serif\" font-size=\"32\" font-weight=\"bold\" fill=\"#d4ff4f\">8AM TO 9PM</text>\n<text x=\"20\" y=\"175\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">Oman's new rule for texts</text>\n<text x=\"20\" y=\"193\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">and calls</text>\n</svg>",
+  "sources": [
+    {
+      "id": "tra",
+      "label": "Telecommunications Regulatory Authority (TRA)",
+      "url": "https://tra.gov.om",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mociip",
+      "label": "Ministry of Commerce, Industry and Investment Promotion",
+      "url": "https://tejarah.gov.om",
+      "kind": "oman-official"
+    },
+    {
+      "id": "business-platform",
+      "label": "Oman Business Platform",
+      "url": "https://business.gov.om",
+      "kind": "oman-official"
+    },
+    {
+      "id": "muscat-daily-tra",
+      "label": "Muscat Daily: TRA sets time limits, tougher safeguards for marketing calls, SMS",
+      "url": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/",
+      "kind": "media"
+    },
+    {
+      "id": "muscat-daily-ecommerce",
+      "label": "Muscat Daily: E-commerce roadmap nears completion as Oman expands digital economy",
+      "url": "https://www.muscatdaily.com/2026/08/08/e-commerce-roadmap-nears-completion-as-oman-expands-digital-economy/",
+      "kind": "media"
+    },
+    {
+      "id": "oman-observer-license",
+      "label": "Oman Observer: All e-commerce activities in Oman must follow procedures: MOCIIP",
+      "url": "https://www.omanobserver.om/article/1168791/business/markets/all-e-commerce-activities-in-oman-must-follow-procedures-mociip",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "This week two Muscat offices quietly rewrote the rules for anyone who sells by message. The Telecommunications Regulatory Authority locked down exactly when and how a business can send a promotional text or call a customer list, and the Ministry of Commerce, Industry and Investment Promotion confirmed just how closely it now tracks who actually holds a licence to trade online. Neither announcement will trend on Instagram, but both change what you can safely do from your phone this month."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-map-that-governs-your-customer-list",
+      "text": "The map that governs your customer list"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Four different offices now have a say in how you message a customer to sell something, and most small business owners have only ever dealt with one of them. Knowing who owns which rule is the difference between a normal Thursday and a fine you never saw coming."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "TRA",
+            "strong": true
+          },
+          {
+            "text": " runs the phone network and just tightened when you can call or text a customer for marketing."
+          }
+        ],
+        [
+          {
+            "text": "MTCIT",
+            "strong": true
+          },
+          {
+            "text": ", the ministry behind the data protection law, decides whether you were even allowed to keep that customer's number in the first place."
+          }
+        ],
+        [
+          {
+            "text": "The Ministry of Commerce, Industry and Investment Promotion",
+            "strong": true
+          },
+          {
+            "text": " decides whether selling through Instagram or a WhatsApp catalogue needs a trading licence."
+          }
+        ],
+        [
+          {
+            "text": "Meta's WhatsApp Business Platform",
+            "strong": true
+          },
+          {
+            "text": " decides how a template message, a broadcast list and the free reply window actually work, whatever Oman's law allows."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-changed-for-marketing-texts-and-calls",
+      "text": "What changed for marketing texts and calls"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "In mid-August 2026, TRA issued "
+        },
+        {
+          "text": "an updated regulation covering promotional and service calls and texts",
+          "href": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/"
+        },
+        {
+          "text": ", exactly the kind of Thursday offer or festival sale blast many shops send from a phone or a bulk SMS account."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Promotional calls and texts may now only go out between 8am and 9pm."
+          }
+        ],
+        [
+          {
+            "text": "The name shown to the customer must be your business, not a personal mobile number, and promotional texts need a recognisable business sender ID."
+          }
+        ],
+        [
+          {
+            "text": "Every customer needs an easy way to opt out, and once they do, you have to actually stop."
+          }
+        ],
+        [
+          {
+            "text": "Breaches carry fines of up to OMR 30,000, doubling for a repeat breach within a year."
+          }
+        ],
+        [
+          {
+            "text": "Businesses have six months from the decision to get this right, so roughly by mid-February 2027."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That covers calls and texts sent over the phone network. It says nothing, directly, about the WhatsApp broadcast you send every Thursday or the Instagram DM you use to close a sale, and that silence is exactly where small businesses assume they are safe. What actually covers that list comes further down."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "a-boutiques-thursday-text-before-and-after",
+      "text": "A boutique's Thursday text, before and after"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Maha runs a small abaya boutique in Al Mouj and sends a Thursday offer to about three hundred numbers saved from old orders. Here is what changes for a business exactly her size, and it costs nothing but attention to fix."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "Before this week",
+        "What Maha checks now"
+      ],
+      "rows": [
+        [
+          "Sending time",
+          "Offers went out whenever stock arrived, sometimes after 10pm",
+          "Only between 8am and 9pm"
+        ],
+        [
+          "Sender ID",
+          "Texts came from her personal Omantel number",
+          "A registered business sender ID carrying the shop's name"
+        ],
+        [
+          "Opt-out",
+          "No way for a customer to unsubscribe",
+          "A clear stop option, honoured the same day"
+        ],
+        [
+          "Deadline",
+          "None existed",
+          "Roughly mid-February 2027, six months from the decision"
+        ],
+        [
+          "Risk of ignoring it",
+          "Unclear",
+          "Fines of up to OMR 30,000, doubled for a repeat breach"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I never knew my shop's name had to be on the text, not just my own number.",
+      "attribution": "Maha, boutique owner, Al Mouj",
+      "persona": true
+    },
+    {
+      "type": "highlight",
+      "text": "Your customer list is no longer just a marketing tool, it is something at least three different regulators can now ask to see."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "where-whatsapp-and-instagram-sit",
+      "text": "Where WhatsApp and Instagram actually sit"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "TRA's new rule applies to calls and SMS carried over the phone network, not to messages sent inside WhatsApp or Instagram. Those two apps answer to their own rulebook first, the one that sets the terms for template messages, broadcast lists and "
+        },
+        {
+          "text": "the free reply window you get once a customer writes to you",
+          "href": "/features/whatsapp-business-channel/"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's "
+        },
+        {
+          "text": "Personal Data Protection Law",
+          "href": "/guideline/oman/"
+        },
+        {
+          "text": " still sits underneath all of that. If you saved a number to send offers, you needed a genuine reason to keep it, and the customer can ask what you hold and tell you to stop."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Chatbot.OM connects to WhatsApp through that same official Business Platform, so a shop's templates and service window already follow Meta's rules, with the chats and any saved leads kept on servers inside Oman."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Selling through Instagram or a WhatsApp catalogue still counts as e-commerce in the ministry's eyes."
+        },
+        {
+          "text": " Its "
+        },
+        {
+          "text": "e-commerce regulation",
+          "href": "https://www.omanobserver.om/article/1168791/business/markets/all-e-commerce-activities-in-oman-must-follow-procedures-mociip"
+        },
+        {
+          "text": " expects anyone trading through a website, marketplace or social media account to hold a licence through the "
+        },
+        {
+          "text": "Oman Business Platform",
+          "href": "https://business.gov.om"
+        },
+        {
+          "text": ", and the ministry's own count, "
+        },
+        {
+          "text": "over nineteen thousand licensed e-commerce activities and just over four hundred stores verified on the Maroof platform by early August",
+          "href": "https://www.muscatdaily.com/2026/08/08/e-commerce-roadmap-nears-completion-as-oman-expands-digital-economy/"
+        },
+        {
+          "text": ", shows it is actively tracking who has one."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Ten minutes checking four sources costs less than any fine or lost customer ever will."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "If you send bulk promotional texts or calls, check your sending window, sender ID and opt-out this week, well before the compliance date lands in February."
+          }
+        ],
+        [
+          {
+            "text": "If you sell through Instagram or a WhatsApp catalogue and never registered it as e-commerce, add that activity to your commercial registration through the Oman Business Platform, and consider Maroof verification too."
+          }
+        ],
+        [
+          {
+            "text": "Keep your WhatsApp broadcast list to numbers with a genuine reason to be on it. The data protection law still expects that, even though this particular TRA rule leaves WhatsApp alone."
+          }
+        ],
+        [
+          {
+            "text": "Give yourself ten minutes on a Monday morning to skim TRA, MTCIT and the Ministry of Commerce for anything new. That is genuinely the whole map."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Do your promotional texts and calls only go out between 8am and 9pm?",
+        "Does the sender name show your business, not a personal number?",
+        "Can a customer opt out in one reply, and do you actually honour it?",
+        "Does your Instagram or WhatsApp shop sit on a real commercial registration with an e-commerce activity added to it?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does the new TRA rule cover my WhatsApp broadcast list?",
+          "a": "No. It covers calls and SMS sent over the phone network. WhatsApp answers to Meta's own business policy and to Oman's data protection law instead."
+        },
+        {
+          "q": "What happens if I miss the compliance deadline?",
+          "a": "Fines for breaches run up to OMR 30,000, doubling for a repeat breach within a year, so fixing sender IDs and opt-outs before roughly mid-February 2027 is worth the ten minutes."
+        },
+        {
+          "q": "Do I need a licence to sell only through Instagram DMs?",
+          "a": "Yes. The Ministry of Commerce treats selling through social media as e-commerce and expects a licence through the Oman Business Platform, with Maroof verification recommended for customer trust."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Nothing in this week's news needs a lawyer or a big budget. It needs ten minutes checking the same handful of sources, a Thursday habit of watching your sending window, and a licence that actually matches what your shop does online. Do that, and the rules stop being a surprise and start being just another Monday chore."
+        }
+      ]
+    }
+  ]
+}
