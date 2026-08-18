@@ -1,0 +1,338 @@
+{
+  "id": "article-2026-08-18-business-vs-personal-number",
+  "taskId": "2026-08-18-business-vs-personal-number",
+  "slug": "stop-selling-personal-whatsapp-number",
+  "title": "Stop Selling From Your Personal WhatsApp Number",
+  "seoTitle": "Stop Selling From Your Personal WhatsApp Number",
+  "excerpt": "One lost phone can wipe out years of customer chats and orders. Here's why a proper WhatsApp Business number matters, and how to switch without losing history.",
+  "seoDescription": "Selling from your personal WhatsApp number risks your customer chats. Here's how small Omani businesses move to WhatsApp Business without losing history.",
+  "series": "WhatsApp at Work",
+  "category": "WhatsApp Business",
+  "topic": "Stop Selling from Your Personal WhatsApp",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-18",
+  "modifiedDate": "2026-08-18",
+  "reviewedDate": "2026-08-18",
+  "reviewBy": "2026-11-16",
+  "status": "published",
+  "tags": [
+    "WhatsApp Business",
+    "WhatsApp setup",
+    "business number",
+    "customer chat history",
+    "WhatsApp catalogue",
+    "small business messaging",
+    "team messaging"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0%\" stop-color=\"#2c0a0d\"/><stop offset=\"50%\" stop-color=\"#7a1c22\"/><stop offset=\"100%\" stop-color=\"#f1a09a\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><circle cx=\"120\" cy=\"115\" r=\"72\" fill=\"#1f0608\" opacity=\"0.55\"/><path d=\"M120 175 L95 205 L135 190 Z\" fill=\"#1f0608\" opacity=\"0.55\"/><g><circle cx=\"120\" cy=\"115\" r=\"46\" fill=\"#f4f4f0\"/><circle cx=\"104\" cy=\"112\" r=\"5\" fill=\"#2c0a0d\"/><circle cx=\"120\" cy=\"112\" r=\"5\" fill=\"#2c0a0d\"/><circle cx=\"136\" cy=\"112\" r=\"5\" fill=\"#2c0a0d\"/></g><rect x=\"200\" y=\"52\" width=\"185\" height=\"40\" fill=\"#1f0608\" opacity=\"0.6\"/><text x=\"208\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"30\" font-weight=\"bold\" fill=\"#d4ff4f\">ONE NUMBER</text><rect x=\"200\" y=\"100\" width=\"188\" height=\"52\" fill=\"#1f0608\" opacity=\"0.6\"/><text x=\"208\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"26\" font-weight=\"bold\" fill=\"#f4f4f0\">TWO LIVES</text><text x=\"208\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">business chats on a personal SIM</text><text x=\"208\" y=\"185\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#79e0c8\">Move it without losing history</text></svg>",
+  "sources": [
+    {
+      "id": "whatsapp-business-platform",
+      "label": "WhatsApp Business Platform (Meta)",
+      "url": "https://business.whatsapp.com",
+      "kind": "vendor"
+    },
+    {
+      "id": "whatsapp-transfer-chat-history",
+      "label": "WhatsApp Help Center: How to transfer your chat history",
+      "url": "https://faq.whatsapp.com/209942271778103/",
+      "kind": "vendor"
+    },
+    {
+      "id": "oman-observer-tra-rules",
+      "label": "Oman Observer: Oman's TRA steps in to regulate unsolicited calls",
+      "url": "https://www.omanobserver.om/article/1194611/oman/community/omans-tra-steps-in-to-regulate-unsolicited-calls",
+      "kind": "media"
+    },
+    {
+      "id": "muscat-daily-tra-rules",
+      "label": "Muscat Daily: TRA sets time limits, tougher safeguards for marketing calls, SMS",
+      "url": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/",
+      "kind": "media"
+    },
+    {
+      "id": "times-of-oman-tra-rules",
+      "label": "Times of Oman: New telecommunications regulation protects consumer data and limits promotional messages",
+      "url": "https://timesofoman.com/article/175719-new-telecommunications-regulation-protects-consumer-data-and-limits-promotional-messages-in-oman",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "The chat where a customer confirmed a wedding cake order, and the chat where your cousin argued about the football score, live in the same app, on the same phone, saved under the same name. When your business runs on your personal WhatsApp number, there is no line between the two, and if that phone is lost, stolen, or handed over when someone quits, your customer history walks out the door with it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-number-that-owns-your-customers",
+      "text": "The number that owns your customers"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most small businesses here did not plan to sell on WhatsApp from a personal line, it just happened. A friend asked for the menu, you sent it from your own number, and eighteen months later that number holds every order, every complaint and every regular customer's history. Nobody wrote this down as a plan, and nobody backed it up either."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The risk is not abstract. Phones crack, get left in a taxi, or sit in a drawer when the staff member who answered them for two years hands in notice and keeps the SIM. WhatsApp does back up chats, but only if that setting was ever turned on, and only the device owner can restore it. If the device belongs to a person rather than the business, the business owns nothing."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-business-profile-buys-you",
+      "text": "What a business profile actually buys you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "WhatsApp Business, the free app Meta built for exactly this, turns a plain chat thread into a shop front. None of the following exists on a personal number, no matter how fast the owner replies:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "A business name, category, address and a map pin, so a new customer can check who they are actually messaging"
+          }
+        ],
+        [
+          {
+            "text": "Opening hours, shown automatically before anyone has to ask"
+          }
+        ],
+        [
+          {
+            "text": "A catalogue with photos and prices, sent as a link instead of typed out for the twentieth time that day"
+          }
+        ],
+        [
+          {
+            "text": "A greeting message for first time chats and an away message for outside your hours"
+          }
+        ],
+        [
+          {
+            "text": "Labels to sort chats, such as New Order, Paid, or Following Up"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-9pm-question-you-keep-answering",
+      "text": "The 9pm question you keep answering"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "With the school year opening in the next two weeks and Salalah still full of khareef visitors messaging hotels and clinics at midnight, small businesses are getting more messages outside office hours than inside them. Without hours and a catalogue on the profile, every one of those messages starts the same way: are you open, how much, do you deliver. Answer them one at a time from a personal number at midnight, and you are the front desk of your own business, twenty four hours a day, on a phone that is also lighting up with family messages."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A phone that is answering your family and your customers at the same time is not saving you money, it is quietly costing you both."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "There is another reason to get this right now. Oman's telecom regulator issued a new regulation in mid August 2026 restricting promotional calls and messages to daytime hours and requiring a working opt out for anyone who receives them, with fines for breaches."
+        },
+        {
+          "text": " It is aimed mainly at telecom operators and SMS senders, but the direction is clear: consent and an easy way out are becoming the baseline for any list of customer numbers, WhatsApp included. A saved contact list on a personal phone, with no record of who agreed to what, is not where you want to be standing as that direction firms up."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Yusra's tuition centre, a team of four, redo the middle rows with your own numbers",
+      "headers": [
+        "What you're comparing",
+        "Personal number",
+        "Business number"
+      ],
+      "rows": [
+        [
+          "Extra SIM cost",
+          "None, already paying for it",
+          "About OMR 2 to 3 a month prepaid"
+        ],
+        [
+          "Time on 'are you open' and 'how much' messages",
+          "Roughly 15 messages a day, 2 minutes each, about 30 minutes daily",
+          "Cut to a handful once hours and a catalogue are set"
+        ],
+        [
+          "Value of that saved time, even at OMR 2 an hour",
+          "OMR 0",
+          "About OMR 30 a month, before a single new booking"
+        ],
+        [
+          "What a lost or stolen phone costs you",
+          "Every saved chat, order and customer number",
+          "Restorable from backup, never mixed with personal photos or groups"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "My phone used to buzz all night with clients and my sister in the same list. Now the gym has its own number.",
+      "attribution": "Latifa, gym coordinator, Ghubra",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "moving-your-number-without-losing-a-single-chat",
+      "text": "Moving your number without losing a single chat"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is the part owners put off, imagining a weekend lost to it. It usually takes an evening, and none of it needs to cost you a single saved chat."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Back up your chats first. In WhatsApp, go to Settings, Chats, Chat backup, and save one manually before touching anything else."
+          }
+        ],
+        [
+          {
+            "text": "Decide on the number. If customers already know it, keep it and simply switch account type. If you want a clean split from your personal life, get a second SIM instead."
+          }
+        ],
+        [
+          {
+            "text": "Install WhatsApp Business and verify with the same number you already use. It will usually offer to restore your last backup, chat history included."
+          }
+        ],
+        [
+          {
+            "text": "Moving to a brand new number instead? Use Change Number inside WhatsApp Business, under Settings, Account, Change Number. It carries your chats, groups and settings across, and notifies your contacts automatically."
+          }
+        ],
+        [
+          {
+            "text": "Build the profile the same day: business name, category, address, hours, and a short catalogue with photos and prices."
+          }
+        ],
+        [
+          {
+            "text": "Turn on a greeting message for new chats and an away message for outside your hours, so nobody waits until morning for a reply that could have come at 9pm."
+          }
+        ],
+        [
+          {
+            "text": "If more than one person answers messages, plan for shared access before you pass one phone around. A proper WhatsApp Business Platform connection, such as",
+            "href": "/features/whatsapp-business-channel/"
+          },
+          {
+            "text": " Chatbot.OM's WhatsApp Business Channel, lets a small team work from the same number without a single handset changing hands."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are still selling from your own number, you do not need to change everything today. Start with the free app, the profile and the catalogue, on the number your customers already have saved. Back up before you touch a single setting."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For the fuller picture on what counts as consent when you collect a customer's number in the first place, this site has already covered it in",
+          "href": "/blog/rules-of-selling-online/"
+        },
+        {
+          "text": " Where Oman Announces the Rules of Selling Online. If more than one person needs to answer, or your team is growing past what one phone can carry, that is when a proper business connection earns its place."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open WhatsApp on the phone your business answers from right now.",
+        "Check three things: is it a personal SIM, is chat backup switched on under Settings, Chats, Chat backup, and does the profile show your hours and at least five catalogue items.",
+        "If you cannot answer yes to all three, that is this week's job, not someday's."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "brand",
+      "title": "Where the chats live either way",
+      "paragraphs": [
+        "Whatever number you settle on, the safer habit is keeping a copy of every conversation somewhere the business owns, not just the phone in someone's pocket. Chatbot.OM answers your website and WhatsApp chats around the clock and saves every exchange as a searchable lead, so a lost phone never means a lost customer."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I lose chat history if I switch to WhatsApp Business?",
+          "a": "No, not if you back up first. Installing WhatsApp Business on the same number will usually offer to restore your last backup automatically."
+        },
+        {
+          "q": "Can I keep my current number when I move to a business account?",
+          "a": "Yes. WhatsApp Business runs on the same kind of number as a personal account, so customers keep messaging the number they already have saved."
+        },
+        {
+          "q": "What if two or three of us need to answer messages?",
+          "a": "WhatsApp Business allows a linked device or two, and a proper WhatsApp Business Platform connection lets a small team share one number without passing round a single phone."
+        },
+        {
+          "q": "Is WhatsApp Business free?",
+          "a": "Yes, the app itself is free. Costs start only if you connect through the WhatsApp Business Platform for templates and shared team access."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Your personal WhatsApp number was never built to hold a business, it just ended up carrying one. Moving to a proper business number costs an evening, not a fortune, and it means the next lost phone, staff resignation or midnight enquiry does not cost you a customer you already had."
+        }
+      ]
+    }
+  ]
+}
