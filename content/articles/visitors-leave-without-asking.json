@@ -1,0 +1,313 @@
+{
+  "id": "article-2026-08-19-visitors-leave-silent",
+  "taskId": "2026-08-19-visitors-leave-silent",
+  "slug": "visitors-leave-without-asking",
+  "title": "Most Visitors Leave Without Asking Anything",
+  "seoTitle": "Most Visitors Leave Without Asking Anything",
+  "excerpt": "Almost every visitor to your website leaves without asking a thing. Here's where the chat should sit, and what turning two percent of that silence into conversation is worth.",
+  "seoDescription": "Most visitors leave a small business website without asking anything. See where the chat prompt belongs and what two percent of visits is worth.",
+  "series": "Your Website, Working",
+  "category": "Websites & Conversion",
+  "topic": "Most Visitors Leave Without Asking Anything",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-19",
+  "modifiedDate": "2026-08-19",
+  "reviewedDate": "2026-08-19",
+  "reviewBy": "2026-11-17",
+  "status": "published",
+  "tags": [
+    "website conversion",
+    "chat widget",
+    "WhatsApp",
+    "small business",
+    "lead capture",
+    "website chat"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0\" stop-color=\"#062e2b\"/>\n<stop offset=\"0.55\" stop-color=\"#0f4c4c\"/>\n<stop offset=\"1\" stop-color=\"#79e0c8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<text x=\"24\" y=\"72\" font-family=\"Arial, sans-serif\" font-size=\"42\" font-weight=\"bold\" fill=\"#d4ff4f\">2%</text>\n<text x=\"24\" y=\"98\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#f4f4f0\">ever ask a question</text>\n<line x1=\"20\" y1=\"152\" x2=\"380\" y2=\"152\" stroke=\"#f4f4f0\" stroke-opacity=\"0.15\" stroke-width=\"2\"/>\n<circle cx=\"40\" cy=\"152\" r=\"6\" fill=\"#f4f4f0\" fill-opacity=\"0.3\"/>\n<circle cx=\"80\" cy=\"152\" r=\"6\" fill=\"#f4f4f0\" fill-opacity=\"0.3\"/>\n<circle cx=\"120\" cy=\"152\" r=\"6\" fill=\"#f4f4f0\" fill-opacity=\"0.3\"/>\n<circle cx=\"160\" cy=\"152\" r=\"6\" fill=\"#f4f4f0\" fill-opacity=\"0.3\"/>\n<circle cx=\"200\" cy=\"152\" r=\"6\" fill=\"#f4f4f0\" fill-opacity=\"0.3\"/>\n<circle cx=\"240\" cy=\"152\" r=\"6\" fill=\"#f4f4f0\" fill-opacity=\"0.3\"/>\n<circle cx=\"280\" cy=\"152\" r=\"6\" fill=\"#f4f4f0\" fill-opacity=\"0.3\"/>\n<circle cx=\"320\" cy=\"152\" r=\"10\" fill=\"#d4ff4f\"/>\n<circle cx=\"360\" cy=\"152\" r=\"6\" fill=\"#f4f4f0\" fill-opacity=\"0.3\"/>\n<path d=\"M298 106 h44 a6 6 0 0 1 6 6 v18 a6 6 0 0 1 -6 6 h-18 l-10 12 v-12 h-16 a6 6 0 0 1 -6 -6 v-18 a6 6 0 0 1 6 -6 z\" fill=\"#f4f4f0\"/>\n<text x=\"312\" y=\"126\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#0f4c4c\" font-weight=\"bold\">?</text>\n</svg>",
+  "sources": [
+    {
+      "id": "datareportal-oman-2025",
+      "label": "DataReportal: Digital 2025 Oman",
+      "url": "https://datareportal.com/reports/digital-2025-oman",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Picture a hundred people walking through a boutique in Al Mouj this week. If only two of them said a single word to the person behind the counter before leaving, you would call that a crisis. That is roughly what happens on your website every day, and nobody notices, because a visitor who leaves in silence looks exactly like one who was never interested at all."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-scroll-that-ends-in-silence",
+      "text": "The scroll that ends in silence"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Someone finds your restaurant on Google at nine in the evening, scrolls the menu, checks the location on the map, and closes the tab. Someone else lands on your salon's price list from an Instagram story, reads it twice, and moves on without a word. Neither one called, messaged, or filled in a form, so nothing on your phone tells you they were ever there."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's internet population passed "
+        },
+        {
+          "text": "5 million people",
+          "href": "https://datareportal.com/reports/digital-2025-oman"
+        },
+        {
+          "text": " at the start of 2025, and almost all of that time online happens on a phone, in short visits, often outside office hours. Your website meets thousands of these quiet visits a month, and the overwhelming majority end the same way: nothing asked, nothing answered, nothing to follow up on."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-nobody-asks-anything",
+      "text": "Why nobody asks anything"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Visitors are not shy by nature. Most sites simply never ask them to speak. A few habits repeat across boutiques, clinics, gyms and guesthouses:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "The only way to ask is a contact form buried at the bottom of the page, and filling it in feels like homework."
+          }
+        ],
+        [
+          {
+            "text": "The phone number sits in small text in the footer, easy to miss on a phone screen held in one hand."
+          }
+        ],
+        [
+          {
+            "text": "Prices are not shown anywhere, so asking means starting a conversation with a stranger, which most people avoid."
+          }
+        ],
+        [
+          {
+            "text": "The page reads only in English, while the visitor would rather type in Arabic, or in the mix of both that people actually use."
+          }
+        ],
+        [
+          {
+            "text": "Nothing on the page hints that anyone is there to answer right now, so the visitor assumes nobody is."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A website that never asks a question will never get an answer."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "where-the-asking-should-happen",
+      "text": "Where the asking should happen"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix is not a better contact page. It is moving the question to where the visitor already is: a "
+        },
+        {
+          "text": "chat bubble",
+          "href": "/features/website-chat-widget/"
+        },
+        {
+          "text": " that opens on its own after a few seconds on the price or product page, not a form waiting to be found. Let it hand straight to WhatsApp when the visitor prefers that, since the app is already open on their phone."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Timing matters as much as placement. A tuition centre catching the back to school rush this month, or a chalet in Salalah still fielding khareef enquiries after midnight, both lose the visitor the moment the page feels like a dead end. The question needs to appear before that moment, not after it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-numbers-worked-through",
+      "text": "The numbers, worked through"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is a composite boutique in Al Mouj. Swap in your own visits and prices and the same steps hold."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "What it means",
+        "This month"
+      ],
+      "rows": [
+        [
+          "Visits to the website in a month",
+          "Every scroll, from Instagram, Google or a saved link",
+          "1,000"
+        ],
+        [
+          "Messages sent through the old contact form",
+          "About 4 in 1,000 visitors, roughly 0.4 percent",
+          "4"
+        ],
+        [
+          "Chats opened if a prompt appears after 15 seconds on the price page",
+          "A realistic 2 percent of visits",
+          "20"
+        ],
+        [
+          "Chats that turn into an actual booking or sale",
+          "About 1 in 4 conversations, once someone asks",
+          "5"
+        ],
+        [
+          "Average sale value",
+          "A typical boutique order",
+          "OMR 28"
+        ],
+        [
+          "Extra revenue in the month, from chat alone",
+          "5 sales at OMR 28 each",
+          "OMR 140"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The extra OMR 140 did not come from a bigger advertising budget. It came from asking the same visitors a question instead of letting them leave in silence."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I used to think people just weren't interested. Turns out they just never saw anywhere to ask.",
+      "attribution": "Hanan, boutique owner, Al Mouj",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Start with where the eyes already are, not where a form used to sit."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Put the chat option on the page itself, not one click away on a separate contact page."
+          }
+        ],
+        [
+          {
+            "text": "Let it accept Arabic and English in the same conversation, since customers rarely stick to one."
+          }
+        ],
+        [
+          {
+            "text": "Reply within minutes when you can. A chat left unanswered for hours turns back into the same silence you started with."
+          }
+        ],
+        [
+          {
+            "text": "Check what the site looks like on a phone, in the evening, when you are the one most likely to be busy."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If nobody on your team can watch the chat around the clock, especially through the evening and into khareef season traffic in Dhofar, a tool like Chatbot.OM answers "
+        },
+        {
+          "text": "the website and WhatsApp at any hour",
+          "href": "/product/ai-chatbot-for-websites/"
+        },
+        {
+          "text": ", so the question that arrives at midnight gets a reply before morning."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open your own website on your phone, as a stranger would.",
+        "Time how long it takes before anything invites a message. If it never happens, that is the fix, not the visitors.",
+        "Check that price, location and a way to ask are all visible without scrolling past three screens."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is a realistic number of visitors who will actually chat?",
+          "a": "Most small business sites see well under 1 percent of visitors send a message today. A visible, well-timed chat prompt can lift that toward 2 percent without extra advertising spend."
+        },
+        {
+          "q": "Does this work if most customers message on WhatsApp anyway?",
+          "a": "Yes. A chat bubble on the site can hand the conversation straight to WhatsApp, so it continues where the customer is already comfortable."
+        },
+        {
+          "q": "What if I genuinely cannot reply outside work hours?",
+          "a": "Batch replies each morning and evening at minimum, or use an always-on chat tool so the question gets answered before the visitor tries a competitor instead."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most of the traffic to your website is not lost interest, it is an unopened conversation. Move the question to where visitors already are, answer it quickly, and even a small business can turn a quiet website into one that pays for the time you spend building it."
+        }
+      ]
+    }
+  ]
+}
