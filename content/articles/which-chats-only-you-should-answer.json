@@ -1,0 +1,307 @@
+{
+  "id": "article-2026-08-20-owner-is-every-department",
+  "taskId": "2026-08-20-owner-is-every-department",
+  "slug": "which-chats-only-you-should-answer",
+  "title": "Which Chats Only You Should Answer This Week?",
+  "seoTitle": "Which Chats Only You Should Answer This Week?",
+  "excerpt": "Salma answered ninety six messages in four days. Only twelve actually needed her. Here's the three-pile habit that gave her evenings back.",
+  "seoDescription": "A three-pile habit for small business owners: which WhatsApp and website messages only you should answer, which your team can, which a machine should.",
+  "series": "Small Team Playbook",
+  "category": "Running a Small Team",
+  "topic": "You Are Marketing, Sales and Support. In That Order?",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-20",
+  "modifiedDate": "2026-08-20",
+  "reviewedDate": "2026-08-20",
+  "reviewBy": "2026-11-18",
+  "status": "published",
+  "tags": [
+    "small business tips",
+    "whatsapp for business",
+    "team delegation",
+    "customer service",
+    "running a small team",
+    "small team playbook",
+    "chatbot.om"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0%\" stop-color=\"#0d1f16\"/>\n<stop offset=\"50%\" stop-color=\"#1e4634\"/>\n<stop offset=\"100%\" stop-color=\"#8fd3a8\"/>\n</linearGradient>\n</defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#g)\"/>\n<text x=\"20\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"32\" font-weight=\"bold\" fill=\"#f4f4f0\">3 Piles, 1 Owner</text>\n<text x=\"20\" y=\"74\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#e8c07c\">Sort before you reply</text>\n<rect x=\"16\" y=\"126\" width=\"240\" height=\"18\" fill=\"#0d1f16\" opacity=\"0.55\" rx=\"3\"/>\n<text x=\"20\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#f4f4f0\">One week of messages, sorted</text>\n<rect x=\"20\" y=\"152\" width=\"70\" height=\"18\" fill=\"#d4ff4f\" rx=\"3\"/>\n<text x=\"30\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0d1f16\">YOU</text>\n<rect x=\"20\" y=\"175\" width=\"190\" height=\"18\" fill=\"#e8c07c\" rx=\"3\"/>\n<text x=\"30\" y=\"188\" font-family=\"Arial, sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0d1f16\">TEAM</text>\n<rect x=\"20\" y=\"198\" width=\"340\" height=\"18\" fill=\"#79e0c8\" rx=\"3\"/>\n<text x=\"30\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0d1f16\">MACHINE</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "By Wednesday night, Salma had personally typed ninety six replies since Sunday: fabric questions, a delivery delay, a wholesale enquiry, a wedding order worth 340 rial, and someone asking whether her Al Mouj boutique would be open over the Mawlid holiday next week. Only about a dozen of those messages actually needed her. The other eighty four could have gone to her staff, or to nothing at all, and she would have gotten her evenings back."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-week-that-ate-itself",
+      "text": "The week that ate itself"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Salma isn't unusual. Most people running a shop, a clinic or a gym from their phone answer every message themselves, because for years that was the only way to be sure it got answered right. Back to school week meant parents messaging her at midnight about uniform sizes for a completely different shop two doors down, mistaking her number for theirs. None of it needed the owner. All of it landed on the owner anyway."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The same messages often arrive three ways at once: on WhatsApp, on Instagram, and through the website's own chat box, "
+        },
+        {
+          "text": "which often goes unanswered for days",
+          "href": "/blog/visitors-leave-without-asking/"
+        },
+        {
+          "text": ". What actually cut Salma's evening messages from ninety six to twenty two comes further down, once the three piles are clear."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "three-piles-one-owner",
+      "text": "Three piles, one owner"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Before you fix who answers what, you need to see what's actually arriving. For one week, sort every message the moment it lands into one of three piles: owner-only, team-can-take, or machine-can-answer. Don't reply first and sort later. Sort first. The sorting is the whole exercise."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The message that costs you money is rarely the one that ate your whole evening."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-only-you-should-touch",
+      "text": "What only you should touch"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This pile should be small, usually under one message in five in a normal week. If it's bigger, you're either not delegating, or you haven't written down the rules your team needs to answer without you."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "A discount or price change outside what you've already agreed with your team"
+          }
+        ],
+        [
+          {
+            "text": "A complaint about something that's already gone wrong once"
+          }
+        ],
+        [
+          {
+            "text": "A supplier, landlord or contractor negotiating new terms"
+          }
+        ],
+        [
+          {
+            "text": "A booking that changes your own calendar, not just the shop's"
+          }
+        ],
+        [
+          {
+            "text": "Anyone who uses your name and clearly expects you, personally"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-your-team-can-already-handle",
+      "text": "What your team can already handle"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This pile is usually the biggest one your team could already own, and the easiest to hand over once the answers are written down once, in one place."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Opening hours, location, parking, delivery areas"
+          }
+        ],
+        [
+          {
+            "text": "Standard prices, sizes, menu items, class times"
+          }
+        ],
+        [
+          {
+            "text": "A booking that fits the rules you've already set"
+          }
+        ],
+        [
+          {
+            "text": "\"Is my order ready\" on anything ordinary"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-machine-should-answer-first",
+      "text": "What a machine should answer first"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The last pile is the one most owners still answer at midnight themselves: the same five questions, asked by five different people, in a mix of Arabic and English, sometimes as a voice note. "
+        },
+        {
+          "text": "This is where a tool like Chatbot.OM fits: it answers your website and WhatsApp the moment a message lands, at two in the afternoon or two in the morning, and turns anything that genuinely needs a person into a "
+        },
+        {
+          "text": "ticket that's tracked instead of buried in unread chats",
+          "href": "/product/automated-support-tickets/"
+        },
+        {
+          "text": ". It doesn't touch the phone line, and it isn't meant to replace your team's judgement on the owner-only pile. It just takes the repeat questions off your evening."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-worksheet-for-one-real-week",
+      "text": "The worksheet for one real week"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Salma logged every message that reached her boutique from Sunday to Thursday, then sorted them. Here's what one real week looked like, and the numbers you can redo with your own."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Salma's one week, sorted (Sunday 16 to Thursday 20 August 2026)",
+      "headers": [
+        "Step",
+        "What Salma tracked",
+        "Her number"
+      ],
+      "rows": [
+        [
+          "Log every message for one week",
+          "WhatsApp, Instagram and the website combined",
+          "96 messages"
+        ],
+        [
+          "Sort each into a pile",
+          "Owner-only / team-can-take / machine-can-answer",
+          "12 / 31 / 53"
+        ],
+        [
+          "Time spent before sorting",
+          "All 96 answered personally, about 6 minutes each",
+          "9.6 hours"
+        ],
+        [
+          "Time spent after sorting",
+          "Only the 12 owner-only messages, same 6 minutes each",
+          "1.2 hours"
+        ],
+        [
+          "Hours given back",
+          "9.6 hours minus 1.2 hours",
+          "8.4 hours"
+        ],
+        [
+          "What she did with them",
+          "Opened half an hour earlier three mornings, took one extra custom order",
+          "about 75 OMR that week"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "My staff can answer 'is there a class tonight' a hundred times. They can't answer 'can I get my money back'.",
+      "attribution": "Mariam, gym coordinator, Qurum",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pick one week, starting today if you like. Back to school messages are already landing, and Mawlid week will bring another burst of 'are you open' questions. Tag everything that arrives, even the ones you answer without thinking. At the end of the week, count each pile. If owner-only is more than a fifth of your messages, write down the rule you're using to decide, and hand that rule to your team. If the machine pile is the biggest one, that's the layer worth automating first, not the whole inbox at once."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Try this today",
+      "paragraphs": [
+        "Open your last twenty messages, on any channel.",
+        "For each one, ask: could someone else on my team have answered this, word for word? If yes for more than half of them, you don't have a time problem. You have a delegation problem."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What's the fastest way to start this week?",
+          "a": "Log the next twenty messages you get today, mark each owner-only, team, or machine, and look at the pattern before you write any rule."
+        },
+        {
+          "q": "What if it's just me and one part-time helper?",
+          "a": "The three piles still work. Your helper takes the middle pile, and the machine pile can run even before you have a full team."
+        },
+        {
+          "q": "Should customers know a machine answered first?",
+          "a": "Yes, plainly and briefly. Most people don't mind once they know a person steps in the moment it actually matters."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Salma's boutique didn't get quieter. She just stopped being the one who answered everything in it. The discount, the upset customer, the supplier call, those still land on her phone. The other eighty four messages a week found somewhere else to go, and her evenings came back."
+        }
+      ]
+    }
+  ]
+}
