@@ -1,0 +1,362 @@
+{
+  "id": "article-2026-08-22-tuition-enrolment-season",
+  "taskId": "2026-08-22-tuition-enrolment-season",
+  "slug": "enrolment-season-answer-every-parent",
+  "title": "Enrolment Season: Answer Every Parent by Chat",
+  "seoTitle": "Answer Every Parent by Chat This Enrolment Season",
+  "excerpt": "Parents decide which tuition centre to join by whoever answers their WhatsApp first. Here is the FAQ pack and booking step that wins the enrolment fortnight.",
+  "seoDescription": "Tuition centres face a two-week parent-enquiry storm before term starts. Here is the FAQ pack and chat booking step that turns messages into enrolments.",
+  "series": "Ready for the Rush",
+  "category": "Oman Seasons & Peaks",
+  "topic": "Enrolment Season: Answer Every Parent by Chat",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-22",
+  "modifiedDate": "2026-08-22",
+  "reviewedDate": "2026-08-22",
+  "reviewBy": "2026-11-20",
+  "status": "published",
+  "tags": [
+    "enrolment season",
+    "tuition centres",
+    "back to school",
+    "WhatsApp for business",
+    "appointment booking",
+    "small business Oman",
+    "parent enquiries"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#0d1f16\"/><stop offset=\"50%\" stop-color=\"#1e4634\"/><stop offset=\"100%\" stop-color=\"#8fd3a8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><circle cx=\"330\" cy=\"55\" r=\"34\" fill=\"#e8c07c\" opacity=\"0.9\"/><path d=\"M330 30 a 28 28 0 1 0 0 56 a 22 22 0 1 1 0 -56\" fill=\"#1e4634\"/><g><rect x=\"20\" y=\"140\" width=\"230\" height=\"46\" rx=\"10\" fill=\"#0d1f16\" opacity=\"0.55\"/><text x=\"34\" y=\"172\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"32\" fill=\"#f4f4f0\">210 chats</text></g><g><rect x=\"20\" y=\"190\" width=\"270\" height=\"24\" rx=\"6\" fill=\"#0d1f16\" opacity=\"0.5\"/><text x=\"30\" y=\"207\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#d4ff4f\">enrolment fortnight, answered by night</text></g><g stroke=\"#79e0c8\" stroke-width=\"3\" fill=\"none\" opacity=\"0.85\"><path d=\"M20 100 q40 -30 80 -10 t80 -8 t80 -14 t100 4\"/></g><circle cx=\"60\" cy=\"95\" r=\"4\" fill=\"#f4f4f0\"/><circle cx=\"140\" cy=\"82\" r=\"4\" fill=\"#f4f4f0\"/><circle cx=\"220\" cy=\"75\" r=\"4\" fill=\"#f4f4f0\"/><circle cx=\"300\" cy=\"70\" r=\"4\" fill=\"#f4f4f0\"/></svg>",
+  "sources": [
+    {
+      "id": "moe-calendar",
+      "label": "Ministry of Education, Oman: annual academic calendar 2026/2027",
+      "url": "https://home.moe.gov.om/file/mov.pdf",
+      "kind": "oman-official"
+    },
+    {
+      "id": "moe-portal",
+      "label": "Ministry of Education, Oman: education portal updates",
+      "url": "https://home.moe.gov.om/updates/1",
+      "kind": "oman-official"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A parent messages your tuition centre at twenty to ten at night: does the Grade 6 maths class still have a Monday slot, and what is the fee for two children. She is messaging three centres at once, and she books whichever one answers first. That is enrolment season in one sentence, and this year it runs through the last week of August."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-two-weeks-that-make-or-break-your-term",
+      "text": "The two weeks that make or break your term"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Government school staff return on 30 August 2026 and students start on 6 September, under the academic calendar the Ministry of Education issued for this year. Parents finalise everything once the school timetable lands: which afternoons are free, what a Grade 4 maths class costs, whether the swimming club still has a boys' slot at five o'clock."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That decision window is short, and it sits right next to a public holiday this year. Mawlid, the Prophet's Birthday, is expected around 27 August 2026, subject to the official moon sighting announcement, which means a chunk of your enrolment rush lands on a holiday roster with fewer staff around."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A tuition centre that gets five or six enquiries a day in July can see thirty or forty a day in this fortnight, almost all of them on WhatsApp, arriving after school pickup, after dinner, after the kids are in bed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-parents-are-actually-asking",
+      "text": "What parents are actually asking"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Strip away the small talk and the questions repeat all day, every day, from different parents:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Do you have space in the Tuesday 4pm slot for a Grade 7 boy."
+          }
+        ],
+        [
+          {
+            "text": "What is the monthly fee, and is there a discount for a second sibling."
+          }
+        ],
+        [
+          {
+            "text": "Can we try one class before we commit for the term."
+          }
+        ],
+        [
+          {
+            "text": "Where exactly is the centre, and is there parking."
+          }
+        ],
+        [
+          {
+            "text": "Do you separate boys and girls, and what age groups are in each group."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of these need a manager's judgment. They need a fast, correct answer, and the parent messaging you at night is not going to wait until your front desk opens at nine."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "build-the-faq-pack-once-use-it-all-season",
+      "text": "Build the FAQ pack once, use it all season"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix is not more staff on the phone. It is writing the same answers down once, in plain language, so anyone on your team, or a chat tool, can send them in seconds instead of typing a fresh reply every time."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Fees per subject, per age group, and the sibling discount, if you offer one."
+          }
+        ],
+        [
+          {
+            "text": "The weekly timetable with slots already marked full or open."
+          }
+        ],
+        [
+          {
+            "text": "Your trial class policy: free or paid, one session or two, how to book it."
+          }
+        ],
+        [
+          {
+            "text": "Location, landmark and parking in one short line."
+          }
+        ],
+        [
+          {
+            "text": "What to bring on day one, and how enrolment payment works."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A parent who has to wait until tomorrow's opening hours for an answer is already messaging your competitor."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "turn-send-me-details-into-a-booked-trial",
+      "text": "Turn \"send me details\" into a booked trial"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Sending the price list is not the finish line. Parents who get a PDF and nothing else often go quiet, because deciding later means deciding never. The step that actually converts is asking her to pick a day and time for a trial class inside the same chat, then confirming it back to her in writing."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That single booking step is what turns a warm enquiry into a name on your register, and it works the same way for an appointment booked inside a chat as it does for a class slot."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-two-week-window-is-worth",
+      "text": "What a two week window is worth"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is a composite example sized for a small centre with two to four tutors. Use your own enquiry count and fee to redo it."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "Answered during office hours only",
+        "Answered day and night"
+      ],
+      "rows": [
+        [
+          "Enquiries over the 14 day rush",
+          "210",
+          "210"
+        ],
+        [
+          "Answered within 5 minutes",
+          "60 (29%)",
+          "195 (93%)"
+        ],
+        [
+          "Trial classes booked",
+          "24",
+          "90"
+        ],
+        [
+          "Trials that enrol, at 55%",
+          "13",
+          "50"
+        ],
+        [
+          "Monthly fee per student",
+          "OMR 20",
+          "OMR 20"
+        ],
+        [
+          "New monthly revenue from this window",
+          "OMR 260",
+          "OMR 1,000"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The difference is not the fee you charge. It is how many of those 210 messages get a real answer while the parent is still deciding, and how many quietly go to a centre down the road."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "By the time I open my laptop at nine, the parent has already enrolled somewhere that answered her at midnight.",
+      "attribution": "Salma, founder of a tuition centre, Al Khuwair",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Write your FAQ pack this week, before the last week of August is gone. Keep it to one page: fees, timetable, trial policy, location, sibling discount. Share it with everyone who touches WhatsApp for your business, including yourself."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Add the booking step to every reply that mentions a trial class, so interest turns into a slot held rather than a message left on read. If you run a small team and the messages genuinely arrive faster than you can type, a tool built for this like "
+        },
+        {
+          "text": "Chatbot.OM",
+          "strong": true
+        },
+        {
+          "text": " can hold your FAQ pack and answer the website and WhatsApp overnight, then hand you the enquiry as a saved lead by morning. Set it up once, using a ready-made flow like the ones built for "
+        },
+        {
+          "text": "tuition centres",
+          "href": "/industries/tuition-centres-ai-chatbot/"
+        },
+        {
+          "text": ", and it keeps working through the Mawlid weekend when your desk is closed."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Whatever you use to answer, make the trial booking itself frictionless. Letting a parent pick a day and time inside the chat, the way "
+        },
+        {
+          "text": "appointment booking",
+          "href": "/features/appointment-booking/"
+        },
+        {
+          "text": " works, removes the back and forth that lets an enquiry go cold."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open your WhatsApp right now and count how many enquiries from the last three days never got a reply after your first message.",
+        "If any parent asked about fees, a trial, or a specific time slot and heard nothing back within a day, that is a seat that likely enrolled somewhere else."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "We are a two-person team. Do we really need a written FAQ pack?",
+          "a": "Yes, especially with two people. When enquiries spike, you cannot both remember every fee and slot correctly under pressure. One shared page keeps answers consistent and fast."
+        },
+        {
+          "q": "Should we still call parents back after messaging them?",
+          "a": "Only if they ask to speak by phone. Most parents in this rush prefer to keep everything in the same WhatsApp thread they already started, where they can re-read fees and timings later."
+        },
+        {
+          "q": "What about the Mawlid weekend in the middle of the rush?",
+          "a": "Enquiries do not pause for a holiday roster even when your front desk does. Having your FAQ answers and trial booking available in chat means parents can still get a straight answer, and you pick up the confirmed bookings when you are back."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Enrolment season is short, loud, and decided in messages, not in your office. A one-page FAQ pack and a booking step inside the chat turn that fortnight from a scramble into a full register, whether you handle it yourself or let a chat tool carry the night shift."
+        }
+      ]
+    }
+  ]
+}
