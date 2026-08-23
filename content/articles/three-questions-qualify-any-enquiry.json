@@ -1,0 +1,322 @@
+{
+  "id": "article-2026-08-23-qualify-in-three-questions",
+  "taskId": "2026-08-23-qualify-in-three-questions",
+  "slug": "three-questions-qualify-any-enquiry",
+  "title": "Three Questions That Qualify Any Enquiry",
+  "seoTitle": "Three Questions That Qualify Any WhatsApp Enquiry",
+  "excerpt": "Three short questions turn a maybe into a booking, or reveal in ten seconds that this one was never going anywhere.",
+  "seoDescription": "Copyable WhatsApp scripts to ask budget, timing and who decides, so small teams stop chasing enquiries that were never going to close.",
+  "series": "Chats Into Customers",
+  "category": "Leads & Sales",
+  "topic": "Three Questions That Qualify Any Enquiry",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-23",
+  "modifiedDate": "2026-08-23",
+  "reviewedDate": "2026-08-23",
+  "reviewBy": "2026-11-21",
+  "status": "published",
+  "tags": [
+    "lead qualification",
+    "whatsapp business",
+    "sales scripts",
+    "chats into customers",
+    "rental office leads",
+    "gym membership sales",
+    "boutique sales"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\">\n<stop offset=\"0%\" stop-color=\"#2c0a0d\"/>\n<stop offset=\"50%\" stop-color=\"#7a1c22\"/>\n<stop offset=\"100%\" stop-color=\"#f1a09a\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"30\" y=\"38\" width=\"260\" height=\"112\" rx=\"20\" fill=\"#2c0a0d\" opacity=\"0.92\"/>\n<path d=\"M70 150 L58 178 L104 150 Z\" fill=\"#2c0a0d\" opacity=\"0.92\"/>\n<text x=\"160\" y=\"92\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"36\" fill=\"#d4ff4f\" text-anchor=\"middle\">3 QUESTIONS</text>\n<text x=\"160\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#f4f4f0\" text-anchor=\"middle\">that qualify any enquiry</text>\n<text x=\"200\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#79e0c8\" text-anchor=\"middle\">budget . timing . who decides</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A WhatsApp message asking 'how much' can turn into a booking within the hour, or into twenty minutes of back and forth that goes nowhere and costs you the evening. The gap between those two outcomes is rarely the price you quote. It is whether you found out, early and politely, if this person can afford it, when they need it, and whether they are the one who actually decides."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-enquiry-that-goes-quiet",
+      "text": "The enquiry that goes quiet"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Picture the messages that land on a Sunday evening: 'do you have anything for 2 bedrooms', 'how much is your monthly package', 'is this available in black, size medium'. You reply with photos, prices, sizes, availability. Then silence. Two days later you work out the apartment was priced above what they could pay, the gym plan was for someone still deciding whether to start after Mawlid, or the order needed a sister's approval that never came."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of that time was wasted because the customer was difficult. It was wasted because nobody asked, in the first two messages, the three things that actually decide whether a chat becomes a sale: what they can spend, when they need it, and who says yes."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ask-three-things-not-twenty",
+      "text": "Ask three things, not twenty"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Qualifying a lead sounds like a sales course term, but in chat it is just three short questions asked together, in one warm message, not a form. Done well, it reads like you are helping the customer get the right answer faster, not screening them out."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Budget: ",
+            "strong": true
+          },
+          {
+            "text": "what can they actually spend. Ask for a range rather than an exact figure, and frame it as helping you recommend the right option, not as a test."
+          }
+        ],
+        [
+          {
+            "text": "Timing: ",
+            "strong": true
+          },
+          {
+            "text": "when do they need it. This tells you whether to drop everything today or follow up closer to the date and spend your energy elsewhere in between."
+          }
+        ],
+        [
+          {
+            "text": "Decision maker: ",
+            "strong": true
+          },
+          {
+            "text": "who else is deciding. In many households and small offices here, the person messaging is not the only one saying yes, so ask gently before you send your best offer to the wrong person."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The three questions take fifteen seconds to type and can save an hour of messages that were never going anywhere."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "scripts-to-copy-this-morning",
+      "text": "Scripts to copy this morning"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here are three ready messages, one for a rental office, one for a gym, one for a boutique. Copy the wording, adjust the details, and save each as a quick reply in WhatsApp Business so you can send it in one tap the next time an enquiry lands."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Rental office (customer asks about a 2 bedroom apartment): ",
+            "strong": true
+          },
+          {
+            "text": "\"Happy to help you find the right one. What's your budget per month, and when do you need to move in, this month or next? And will you be signing yourself, or deciding together with family?\""
+          }
+        ],
+        [
+          {
+            "text": "Gym (customer asks the membership price): ",
+            "strong": true
+          },
+          {
+            "text": "\"Sure, glad you're thinking about it! So I suggest the right plan: are you looking to start this month or later, is it just you or a family plan too, and roughly what monthly budget should I work with?\""
+          }
+        ],
+        [
+          {
+            "text": "Boutique (customer asks about an abaya or dress): ",
+            "strong": true
+          },
+          {
+            "text": "\"It's lovely, good choice! Is this for a particular occasion or date, what's your budget range so I show you the closest matches, and would you like to check with anyone before we confirm the size?\""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-answers-tell-you-to-do-next",
+      "text": "What the answers tell you to do next"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The three answers sort every enquiry into one of three lanes. Treat each lane differently instead of sending everyone the same full price list and photo set."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Budget matches, needed within two weeks, decision maker is in the chat: send full details now and offer a call or a viewing today."
+          }
+        ],
+        [
+          {
+            "text": "Budget matches but timing is weeks or months away: save the contact, send a short reminder closer to the date, do not chase daily."
+          }
+        ],
+        [
+          {
+            "text": "Budget does not match, or the real decision maker is not in the conversation: offer the next size or price down, or ask to loop in whoever else is deciding, rather than repeating the same pitch."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-it-is-worth-in-numbers",
+      "text": "What it is worth in numbers"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Hanan runs a small rental office in Ghubra listing 2 and 3 bedroom apartments between OMR 300 and OMR 450 a month. Before she started asking the three questions, her team booked almost every viewing request. After she added the questions to her standard WhatsApp reply, fewer viewings got booked, but far more of them closed."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Metric",
+        "Before the three questions",
+        "After the three questions"
+      ],
+      "rows": [
+        [
+          "Enquiries per week",
+          "40",
+          "40"
+        ],
+        [
+          "Viewings booked",
+          "18",
+          "14"
+        ],
+        [
+          "Viewings that led nowhere",
+          "11",
+          "2"
+        ],
+        [
+          "Deals closed per month",
+          "3",
+          "5"
+        ],
+        [
+          "Commission earned per month (OMR 150 a deal)",
+          "OMR 450",
+          "OMR 750"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Now when someone asks the membership price, I already know if they are starting this month or just comparing gyms.",
+      "attribution": "Latifa, gym coordinator, Al Khuwair",
+      "persona": true
+    },
+    {
+      "type": "highlight",
+      "text": "Every question you ask should sound like you are helping someone decide, not filtering them out."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Write your own version of the three questions tonight, in the mix of Arabic and English your customers actually use, and save it as a quick reply. Use it on the next five enquiries that land on WhatsApp, the website chat or Instagram, before you send prices or photos."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you want proof beyond gut feel, a chat analytics dashboard shows which of the three answers most often turns into a booking, across weeks of real conversations, not just this month's memory.",
+          "href": "/features/chat-analytics-dashboard/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If your team cannot always catch the message the moment it lands, especially after iftar or late at night during khareef, Chatbot.OM can ask these same three questions itself, tag the answers, and leave you with only the enquiries worth calling back."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Try this today",
+      "paragraphs": [
+        "Open your last ten WhatsApp enquiries. Count how many you answered with a full price list before asking anything back.",
+        "Write one message combining budget, timing and decision maker in your own words and save it as a WhatsApp quick reply.",
+        "Use it on your next five enquiries and note how many convert compared with your usual reply."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Isn't asking about budget rude?",
+          "a": "Not if you ask for a range and frame it as helping them find the right option quickly, rather than demanding an exact number."
+        },
+        {
+          "q": "What if the customer won't say who else decides?",
+          "a": "Do not push. Send your best offer and simply mention it is easy to share the details with whoever else needs to see them."
+        },
+        {
+          "q": "Should the three questions go in one message or three?",
+          "a": "One warm message with all three feels like good service. Three separate messages feels like an interview."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Three short questions, asked together and asked kindly, turn a guessing game into a shortlist you can actually act on. Businesses that ask them stop spending evenings on enquiries that were never going anywhere, and start spending that time on the ones that are."
+        }
+      ]
+    }
+  ]
+}
