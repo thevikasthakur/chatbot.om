@@ -1,0 +1,323 @@
+{
+  "id": "article-2026-08-24-consent-before-broadcast",
+  "taskId": "2026-08-24-consent-before-broadcast",
+  "slug": "ask-before-you-broadcast",
+  "title": "Six Months to Ask Before You Broadcast in Oman",
+  "seoTitle": "Six Months to Ask Before You Broadcast in Oman",
+  "excerpt": "A new TRA rule says ask before you broadcast, with fines up to OMR 30,000. Here's what real consent looks like in a small Omani shop or chat.",
+  "seoDescription": "Oman's TRA now requires clear consent before marketing calls or messages. Here's what opt-in looks like for a small business and how to build a clean list.",
+  "series": "Oman Digital Pulse",
+  "category": "Rules & Updates",
+  "topic": "Ask Before You Broadcast",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-24",
+  "modifiedDate": "2026-08-24",
+  "reviewedDate": "2026-08-24",
+  "reviewBy": "2026-11-22",
+  "status": "published",
+  "tags": [
+    "TRA",
+    "consent",
+    "data protection law",
+    "WhatsApp Business",
+    "Oman Digital Pulse",
+    "small business",
+    "marketing lists"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#14121c\"/><stop offset=\"50%\" stop-color=\"#3a3554\"/><stop offset=\"100%\" stop-color=\"#a8a8f8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><circle cx=\"315\" cy=\"55\" r=\"34\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"3\" opacity=\"0.6\"/><path d=\"M40 150 q60 -60 120 -10 t150 -20\" fill=\"none\" stroke=\"#e8c07c\" stroke-width=\"3\" opacity=\"0.5\"/><g><rect x=\"55\" y=\"95\" width=\"150\" height=\"46\" rx=\"10\" fill=\"#f4f4f0\"/><path d=\"M55 118 l0 -8 q0 -15 15 -15 h120 q15 0 15 15 l0 8 l-75 32 z\" fill=\"none\"/><circle cx=\"130\" cy=\"118\" r=\"6\" fill=\"#3a3554\"/><rect x=\"55\" y=\"118\" width=\"150\" height=\"23\" rx=\"0\" fill=\"#f4f4f0\"/><path d=\"M55 118 l75 30 l75 -30\" fill=\"none\" stroke=\"#3a3554\" stroke-width=\"3\"/></g><rect x=\"150\" y=\"118\" width=\"46\" height=\"30\" rx=\"6\" fill=\"#14121c\"/><text x=\"173\" y=\"139\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#d4ff4f\" text-anchor=\"middle\">?</text><rect x=\"30\" y=\"170\" width=\"220\" height=\"34\" rx=\"6\" fill=\"#14121c\" opacity=\"0.75\"/><text x=\"42\" y=\"194\" font-family=\"Arial, sans-serif\" font-size=\"28\" font-weight=\"bold\" fill=\"#d4ff4f\">Ask First</text><text x=\"42\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">TRA consent rule, six months to comply</text></svg>",
+  "sources": [
+    {
+      "id": "tra-legal-framework",
+      "label": "TRA Oman: Legal Framework, Laws and Regulations",
+      "url": "https://tra.gov.om/legal-framework?locale=en&tab=laws-regulations",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-pdpl",
+      "label": "MTCIT: Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/personal-data-protection-law-1034",
+      "kind": "oman-official"
+    },
+    {
+      "id": "muscat-daily-tra",
+      "label": "Muscat Daily: TRA sets time limits, tougher safeguards for marketing calls, SMS",
+      "url": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/",
+      "kind": "media"
+    },
+    {
+      "id": "times-of-oman-tra",
+      "label": "Times of Oman: New telecommunications regulation protects consumer data and limits promotional messages",
+      "url": "https://timesofoman.com/article/175719-new-telecommunications-regulation-protects-consumer-data-and-limits-promotional-messages-in-oman",
+      "kind": "media"
+    },
+    {
+      "id": "oman-observer-tra",
+      "label": "Oman Observer: Oman's TRA steps in to regulate unsolicited calls",
+      "url": "https://www.omanobserver.om/article/1194611/oman/community/omans-tra-steps-in-to-regulate-unsolicited-calls",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Oman's telecom regulator has just told every business that texts, calls or messages customers with offers: get a clear yes first, or risk a fine of up to OMR 30,000. The rule was issued this month, and covered businesses have six months to bring their lists into line. If your WhatsApp broadcast list is really just everyone who has ever messaged your shop, this is the week to sort that out."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-changed-this-week",
+      "text": "What changed this week"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The Telecommunications Regulatory Authority (TRA), the regulator for phones and messaging in Oman, issued a new regulation covering promotional and service calls, messages and value added services (things like ringtone or subscription services billed through your phone credit). It came into force around 16 August 2026, and it applies to licensed telecom operators, aggregators and the businesses and service providers who use those channels to reach customers."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The headline rule: businesses need the explicit consent of a person before sending them a commercial message through any medium. There is an exception where an existing relationship already makes it clear the person would not object, for example a customer who ordered from you last week getting a delivery update. But that exception covers service messages, not open-ended marketing blasts."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Promotional calls and messages are only allowed between 8am and 9pm Oman time."
+          }
+        ],
+        [
+          {
+            "text": "The sender's name shown to the customer must match the real business or trade name, no disguised numbers."
+          }
+        ],
+        [
+          {
+            "text": "Every message or call must offer a clear, working way to opt out, and providers must let customers reactivate later if they change their mind."
+          }
+        ],
+        [
+          {
+            "text": "Fines range from OMR 500 to OMR 30,000 depending on the breach, doubling for a repeat offence within a year."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Covered entities have six months from issuance to comply, which puts the deadline around mid February 2027. That sounds far off. It is not, if your list has never been sorted."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-counts-as-consent",
+      "text": "What counts as consent"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This regulation sits on top of Oman's Personal Data Protection Law, which has applied since February 2023 and has been fully enforceable since its compliance grace period ended in February 2026. That law already says you need a lawful reason to hold and use someone's name and phone number, and consent is the main one small businesses rely on."
+        },
+        {
+          "text": " Chatbot.OM's own guide to the rules for chat in Oman",
+          "href": "/guideline/oman/"
+        },
+        {
+          "text": " walks through the same consent basics if you want the fuller picture."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For a small business, the practical line is simple. Someone giving you their number to place an order, book an appointment or ask a question is not the same as them agreeing to receive your Eid sale offers every few weeks. The first is service. The second is marketing, and marketing needs a real yes."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A customer messaging you once to ask a question did not sign up for your broadcast list."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-opt-in-looks-like-in-a-real-shop",
+      "text": "What opt-in looks like in a real shop or chat"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Consent does not need a form or a lawyer. It needs one honest line, said or typed, that the customer clearly answers."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "At the till or counter: \"Can we WhatsApp you when new stock or offers come in? You can say stop anytime.\" Wait for a yes."
+          }
+        ],
+        [
+          {
+            "text": "In a chat conversation: after helping with an order, ask \"Would you like to be on our offers list too?\" rather than adding every chat contact automatically."
+          }
+        ],
+        [
+          {
+            "text": "On a booking form: a separate tick box for marketing messages, not bundled into the box that confirms the appointment."
+          }
+        ],
+        [
+          {
+            "text": "Keep a simple record: a name, a number, the date they said yes, and how (in person, on WhatsApp, on the form). A notebook works. A spreadsheet is better."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A chat tool that logs every conversation, like Chatbot.OM, can save that yes against the customer's number the moment they type it, so you are not relying on memory six months later when someone asks how they ended up on your list."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sort-your-list-before-you-send",
+      "text": "Sort your list before you send"
+    },
+    {
+      "type": "table",
+      "caption": "How Asma, who runs a boutique in Al Mouj, sorted 500 saved numbers before her next WhatsApp offer",
+      "headers": [
+        "Group in her phone",
+        "How many numbers",
+        "Can she send a marketing offer?",
+        "This week's action"
+      ],
+      "rows": [
+        [
+          "Said yes at checkout or in chat, on record",
+          "180",
+          "Yes",
+          "Keep messaging, keep the log"
+        ],
+        [
+          "Ordered or asked a question once, never asked about offers",
+          "240",
+          "No, not yet",
+          "Ask permission next time they message, don't add automatically"
+        ],
+        [
+          "Placed an order in the last 30 days",
+          "60",
+          "Service updates only, not promotions",
+          "Send delivery or order status, save marketing for after they opt in"
+        ],
+        [
+          "Old numbers from a raffle box, no consent record at all",
+          "20",
+          "No",
+          "Delete, or send one message asking permission and keep only the yes replies"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Run the same sort on your own numbers this week. If a complaint about unwanted messages ever reaches the TRA, the fine sits between OMR 500 and OMR 30,000 depending on the breach, per the regulation, regardless of how small the business is. A clean list of 180 real yeses is worth more than a messy list of 500."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "persona": true,
+      "quote": "I used to message everyone who ever ordered. Now I only message the ones who said yes, and nobody has ever complained.",
+      "attribution": "Asma, boutique owner, Al Mouj"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Treat your WhatsApp broadcast list, your SMS list and your customer database as the same list, because the same consent rule now applies to all of it in spirit, even where the regulation's letter is aimed at telecom channels. Stop adding numbers to a marketing list just because someone messaged you once."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Build the habit of asking, and recording the answer, from today. If your business already runs a decent-sized offers list built the old way, spend the next six months turning it into one you can defend: ask each contact once, keep the yeses, drop the rest. Waiting until February 2027 to start means doing it under pressure."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open your WhatsApp broadcast list or offers spreadsheet right now.",
+        "Pick five numbers at random and ask yourself: did this person clearly agree to receive offers, and can you say when?",
+        "If you cannot answer both, that number should not be on a marketing list yet, only on your regular customer contacts."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does this regulation cover WhatsApp specifically?",
+          "a": "The regulation names calls, SMS and value added services delivered through telecom channels. It does not name WhatsApp directly, but the same explicit consent principle already applies to any customer data under the data protection law, so the safe move is to treat WhatsApp the same way."
+        },
+        {
+          "q": "Can I still message existing customers about their orders?",
+          "a": "Yes. Service messages tied to an existing relationship, like order updates or appointment reminders, sit under the exception. It is unrelated marketing offers that need a clear yes."
+        },
+        {
+          "q": "What if a customer never replies to my consent question?",
+          "a": "No reply is not consent. Leave them off the marketing list and keep serving them normally when they message you."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's telecom regulator has made the direction unmistakable: ask before you broadcast, or pay for guessing wrong. Six months is enough time to sort a small business list properly, but only if you start this week rather than in January."
+        }
+      ]
+    }
+  ]
+}
