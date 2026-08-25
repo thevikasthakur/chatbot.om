@@ -1,0 +1,286 @@
+{
+  "id": "article-2026-08-25-ov-mawlid-greetings-2026",
+  "taskId": "2026-08-25-ov-mawlid-greetings-2026",
+  "slug": "mawlid-greetings-done-right",
+  "title": "Mawlid Greetings to Customers, Done Right",
+  "seoTitle": "Mawlid Greetings to Customers, Done Right",
+  "excerpt": "Oman's Mawlid holiday is locked in for 27 August. Before you send one greeting to your whole contact list, check who is actually allowed to receive it.",
+  "seoDescription": "Oman's Mawlid holiday is confirmed for Thursday, 27 August 2026. Here's who you can message, when to send it, and how to update your hours.",
+  "series": "WhatsApp at Work",
+  "category": "WhatsApp Business",
+  "topic": "Mawlid Greetings to Customers, Done Right",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-25",
+  "modifiedDate": "2026-08-25",
+  "reviewedDate": "2026-08-25",
+  "reviewBy": "2026-11-23",
+  "status": "published",
+  "tags": [
+    "WhatsApp Business",
+    "Mawlid",
+    "public holidays",
+    "message templates",
+    "customer consent",
+    "WhatsApp Business Platform",
+    "small business Oman"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d1f16\"/>\n      <stop offset=\"50%\" stop-color=\"#1e4634\"/>\n      <stop offset=\"100%\" stop-color=\"#8fd3a8\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n  <circle cx=\"330\" cy=\"55\" r=\"34\" fill=\"#e8c07c\"/>\n  <circle cx=\"345\" cy=\"45\" r=\"30\" fill=\"#0d1f16\"/>\n  <rect x=\"40\" y=\"140\" width=\"150\" height=\"60\" rx=\"16\" fill=\"#134430\" stroke=\"#79e0c8\" stroke-width=\"2\"/>\n  <polygon points=\"55,200 55,215 75,200\" fill=\"#134430\" stroke=\"#79e0c8\" stroke-width=\"2\"/>\n  <path d=\"M155 165 l8 8 l16 -18\" stroke=\"#d4ff4f\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <path d=\"M163 165 l8 8 l16 -18\" stroke=\"#d4ff4f\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.85\"/>\n  <rect x=\"15\" y=\"60\" width=\"230\" height=\"46\" rx=\"6\" fill=\"#0d1f16\" opacity=\"0.55\"/>\n  <text x=\"25\" y=\"93\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\">27 AUGUST</text>\n  <rect x=\"15\" y=\"112\" width=\"260\" height=\"24\" rx=\"4\" fill=\"#0d1f16\" opacity=\"0.5\"/>\n  <text x=\"25\" y=\"129\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#e8c07c\">Mawlid greetings, done right</text>\n</svg>",
+  "sources": [
+    {
+      "id": "muscat-daily-holiday-confirmed",
+      "label": "Muscat Daily: MoL announces August 27 as official holiday",
+      "url": "https://www.muscatdaily.com/2026/08/20/mol-announces-august-27-as-official-holiday/",
+      "kind": "media"
+    },
+    {
+      "id": "muscat-daily-tra-rules",
+      "label": "Muscat Daily: TRA sets time limits, tougher safeguards for marketing calls and SMS",
+      "url": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/",
+      "kind": "media"
+    },
+    {
+      "id": "whatsapp-business-policy",
+      "label": "WhatsApp Business Messaging Policy",
+      "url": "https://business.whatsapp.com/policy",
+      "kind": "vendor"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Thursday, 27 August 2026 is now the confirmed public holiday for the Prophet's Birthday, and the Ministry of Labour only locked in that date about a week before it arrives. If you run a shop, salon, restaurant or clinic and want to send customers a Mawlid greeting, two questions decide whether that message helps you or gets your WhatsApp number reported: who are you allowed to message, and when."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-date-confirmed-late",
+      "text": "the date confirmed itself late"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's 2026 holiday calendar, published back in December, carried the Prophet's Birthday as a provisional entry, tied to the Islamic calendar and the moon sighting that confirms it every year. The Ministry of Labour only issued the formal confirmation around 20 August, naming Thursday, 27 August 2026 as the public holiday for 12 Rabi al-Awwal 1448 AH. Because 27 August falls on a Thursday, most businesses roll straight into the weekend and reopen with normal hours on Sunday, 30 August."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That short gap between the provisional date and the confirmed one is worth remembering every year, not just this one. Draft your greeting and your holiday hours early. Just do not schedule the send until the date is official, because a message wishing customers well for the wrong day reads worse than sending nothing at all."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "who-you-can-message",
+      "text": "who you can actually message"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "WhatsApp only lets a business reply freely, with no restrictions, within 24 hours of a customer's last message to you. Outside that window, you need an approved message template, a pre-written message format that WhatsApp checks in advance, to start the conversation again. A general Mawlid greeting sent to your whole contact list falls outside that 24-hour window for most of your customers, which is exactly where the rules start to matter."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A Mawlid greeting sent to a number that never asked to hear from you is not goodwill, it is a complaint waiting to happen."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's telecom regulator has also tightened how businesses may message people for promotional purposes. Rules confirmed this month restrict promotional calls and messages to between 8am and 9pm, require a working opt-out for anyone who receives them, and give businesses six months to bring their outreach into line, with fines running up to OMR 30,000 for serious breaches. It sits in the same direction as the "
+        },
+        {
+          "text": "online selling rules",
+          "href": "/blog/rules-of-selling-online/"
+        },
+        {
+          "text": " Oman has been rolling out this year: consent comes first, and a saved number is not automatic permission. A Mawlid greeting with a shop offer attached counts as promotional, so it belongs inside that window and only to people who agreed to hear from you."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Customers who messaged you in the last 24 hours: reply in the same chat. A short Mawlid line costs you nothing extra and needs no template."
+          }
+        ],
+        [
+          {
+            "text": "Regular customers on your saved list who have not messaged recently but know your business: a greeting is fine, kept short, sent between 8am and 9pm."
+          }
+        ],
+        [
+          {
+            "text": "Numbers you bought, scraped, or collected from a business card bowl and never spoke to: leave them out. They never agreed to hear from you, and an unwanted holiday message from a stranger is exactly what gets a number reported."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "mechanics-in-one-minute",
+      "text": "the mechanics, in one minute"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The free WhatsApp Business app lets you build broadcast lists, but they only reach contacts who already have your number saved, which is a small slice of most customer lists. Connecting your number to the "
+        },
+        {
+          "text": "official WhatsApp Business Platform",
+          "href": "/features/whatsapp-business-channel/"
+        },
+        {
+          "text": ", the paid channel behind verified business accounts, is what makes approved templates and scheduled hours updates possible without you having to track WhatsApp's policy pages yourself."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Buthaina's boutique in Al Mouj: two ways to send one Mawlid message. Redo it with your own contact numbers and average daily WhatsApp order value.",
+      "headers": [
+        "Path",
+        "Who it reaches",
+        "Timing",
+        "Real cost if it goes wrong"
+      ],
+      "rows": [
+        [
+          "Compliant: greet 180 saved customers who have chatted with her before",
+          "180 people who already know the shop",
+          "Sent between 8am and 9pm, after the 20 August confirmation",
+          "None. A few replies, one same-day order"
+        ],
+        [
+          "Risky: buy a list of 500 numbers and blast an 'Eid Mubarak, visit us' message from her personal number",
+          "500 strangers, none of whom opted in",
+          "Sent whenever, often flagged as bulk",
+          "Number restricted for review; her average OMR 45 a day in WhatsApp orders is lost for however long that takes, roughly OMR 135 to OMR 180 over a long weekend"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I'd rather send ten Mawlid messages that actually land than one blast that gets my number blocked.",
+      "attribution": "Saeed, restaurant manager, Seeb",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "update-hours-everywhere",
+      "text": "update the hours everywhere, not just one place"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Once the greeting is sorted, update where customers actually look for your hours: the WhatsApp Business away message, the website banner, and any delivery or booking cutoff you normally quote. With Thursday, Friday and Saturday running together this year, say plainly when you reopen, Sunday, 30 August, and give one way to reach you if something is genuinely urgent over the long weekend."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This falls in the same stretch as khareef season enquiries from Dhofar and the back to school rush, so message volume does not pause just because the shop is closed. A tool like Chatbot.OM can hold that updated closing message and keep answering website and WhatsApp questions overnight, so a question sent at 1am on the Friday of the long weekend still gets a same-minute reply instead of waiting until Sunday."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The message that answers at midnight is the one that gets the booking, holiday or not."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Wait for the Ministry of Labour's confirmation before scheduling any holiday message. A provisional calendar date is not the final one."
+          }
+        ],
+        [
+          {
+            "text": "Only greet people who have chatted with you before or clearly agreed to hear from you. Leave bought or scraped numbers out entirely."
+          }
+        ],
+        [
+          {
+            "text": "Keep anything promotional, including a greeting with an offer attached, inside the 8am to 9pm window the new telecom rule sets."
+          }
+        ],
+        [
+          {
+            "text": "Update your WhatsApp away message, website banner and any cutoff times before Wednesday evening, not after you have already closed."
+          }
+        ],
+        [
+          {
+            "text": "State one clear reopening date and one way to reach you for anything urgent over the long weekend."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open WhatsApp Business now and update the away message and hours before Wednesday evening.",
+        "Look at your customer list: has everyone on it chatted with you before, or clearly agreed to hear from you?",
+        "Add one line telling customers exactly when you reopen and how to reach you if it is urgent."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can I greet customers who never saved my number?",
+          "a": "Only if they messaged you first or clearly agreed to hear from you. Messaging a bought or scraped list is what both WhatsApp's rules and Oman's new telecom rule are trying to stop."
+        },
+        {
+          "q": "What if my Mawlid message also mentions a small offer?",
+          "a": "Treat it as a promotional message: send it inside the 8am to 9pm window and only to people who opted in to hear from you."
+        },
+        {
+          "q": "Does the holiday date ever move after this kind of announcement?",
+          "a": "It has, though rarely. Keep your greeting drafted and ready, but hold the send until the Ministry of Labour's confirmation is final."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The Prophet's Birthday holiday is locked in for Thursday, 27 August 2026, with the long weekend running into Saturday and normal hours back on Sunday, 30 August. Greet the customers who already talk to you, leave out the numbers who never asked to hear from you, and make sure your hours are updated everywhere before you switch off. Get that right and the greeting does what it is meant to do: it feels like goodwill, not a broadcast."
+        }
+      ]
+    }
+  ]
+}
