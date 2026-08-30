@@ -1,0 +1,328 @@
+{
+  "id": "article-2026-08-30-how-much-to-quote",
+  "taskId": "2026-08-30-how-much-to-quote",
+  "slug": "answer-how-much-without-losing-margin",
+  "title": "Answer 'How Much?' Without Losing the Margin",
+  "seoTitle": "Answer 'How Much?' Without Losing the Margin",
+  "excerpt": "Before hello even lands, the customer wants a price. Here's how to answer without scaring them off, or working for free.",
+  "seoDescription": "A WhatsApp price question is easy to answer badly. Here is how small teams give a fair range, anchor it well, and send a proper quote.",
+  "series": "Chats Into Customers",
+  "category": "Leads & Sales",
+  "topic": "From 'How Much?' to a Sent Quote in One Chat",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-30",
+  "modifiedDate": "2026-08-30",
+  "reviewedDate": "2026-08-30",
+  "reviewBy": "2026-11-28",
+  "status": "published",
+  "tags": [
+    "pricing",
+    "whatsapp sales",
+    "quotes",
+    "sales scripts",
+    "small business",
+    "customer messaging"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#2c0a0d\"/><stop offset=\"0.5\" stop-color=\"#7a1c22\"/><stop offset=\"1\" stop-color=\"#f1a09a\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><circle cx=\"330\" cy=\"150\" r=\"55\" fill=\"#2c0a0d\" opacity=\"0.6\"/><text x=\"308\" y=\"172\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"60\" fill=\"#f4f4f0\">?</text><rect x=\"28\" y=\"34\" width=\"255\" height=\"102\" rx=\"18\" fill=\"#2c0a0d\" opacity=\"0.93\"/><path d=\"M66 136 L66 160 L96 136 Z\" fill=\"#2c0a0d\" opacity=\"0.93\"/><text x=\"50\" y=\"88\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#d4ff4f\">OMR 15-25</text><text x=\"50\" y=\"115\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">give the range, not a guess</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "\"How much for a full AC service?\" can arrive on WhatsApp before you have even typed hello back. Answer it with a guess that is too high, and the customer quietly moves to the next business in their chat list. Answer too low with no site visit, and you may end up doing the job for less than it is worth."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-price-question-arrives-first",
+      "text": "The price question arrives first"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "On WhatsApp, the price question almost always comes first, often in the very first message, with no context attached. That is not rude. Most people messaging a small business are doing the same thing with three or four other businesses in the same ten minutes, comparing whoever replies fastest and clearest."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A business that goes quiet on price, or takes an hour to answer, has usually already lost that customer before the conversation properly starts. The businesses that keep the customer talking are the ones ready with an answer the moment the question lands."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-one-number-can-cost-you",
+      "text": "Why one number can cost you either way"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Say one exact number before asking a single question, and you are guessing in two directions at once. Guess high, and the customer assumes you are expensive and never replies again, even if the real job would have cost less. Guess low, and once you actually see the unit, the fabric or the floor plan, you are either eating the difference yourself or having an awkward second conversation about a higher final price."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "answer-with-a-range-not-a-guess",
+      "text": "Answer with a range, not a guess"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A range solves both problems in one reply. It tells the customer roughly what to expect, so they can decide whether to keep talking to you, and it protects you until you actually see the job. The trick is pairing the range with one question that narrows down which end of it applies to them."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Saeed, who runs an AC repair and maintenance workshop in Ruwi, trains his team to answer this way: \"Gas top-up and leak check usually runs OMR 15 to 25, depending on whether the leak needs new piping. Which floor is the unit on, and is it still cooling at all?\" That single follow-up is doing the same work as "
+        },
+        {
+          "text": "the three questions any enquiry needs answered",
+          "href": "/blog/three-questions-qualify-any-enquiry/"
+        },
+        {
+          "text": " before it can turn into a booking."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A range costs you nothing, but a wrong guess costs you the customer or the job."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "anchor-high-before-you-quote-low",
+      "text": "Anchor high before you quote low"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The first number a customer hears becomes the number they measure everything else against, whether you meant it to or not. Open with your cheapest job as the whole range, and every later number sounds expensive by comparison."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Open instead by naming the full range, top figure first, and the eventual quote feels fair next to it. Saeed's team now says: \"Central AC installation for an apartment this size usually runs OMR 600 to 900, sometimes more with extra ducting.\" Named that way, an actual quote of OMR 650 reads as a careful number rather than a surprise."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-saeed-quotes-in-one-chat",
+      "text": "What Saeed quotes in one chat"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Saeed runs three technicians out of Ruwi, answering both calls and WhatsApp from one number. Here is the range list his team now keeps ready for every \"how much\" message, and the point at which a range stops being enough."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Job",
+        "Typical range (OMR)",
+        "What moves the price",
+        "Chat range or written quote"
+      ],
+      "rows": [
+        [
+          "Gas top-up and leak check",
+          "15 to 25",
+          "Whether the leak needs new piping",
+          "Chat range is usually enough"
+        ],
+        [
+          "Full service, per split unit",
+          "10 to 15 per unit",
+          "Number of units, how dirty the coil is",
+          "Written quote once units are confirmed, from 3 units up"
+        ],
+        [
+          "Compressor replacement",
+          "60 to 120",
+          "Unit brand and size, how the part is sourced",
+          "Always a site visit, then a written quote"
+        ],
+        [
+          "New central AC installation",
+          "600 to 900",
+          "Number of rooms, ducting, ceiling height",
+          "Always a written quote with a deposit"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The same range and question turn into a real booking inside four messages:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Customer: \"Salam, how much for a full AC service, split unit only?\""
+          }
+        ],
+        [
+          {
+            "text": "Saeed's team: \"Full service for a split unit usually runs OMR 10 to 15 per unit, depending on how dirty the coil is. How many units do you have, and when was the last service?\""
+          }
+        ],
+        [
+          {
+            "text": "Customer: \"3 units, maybe two years back.\""
+          }
+        ],
+        [
+          {
+            "text": "Saeed's team: \"For 3 units that is likely around OMR 35 to 40 in total. We will confirm the exact number and send a written quote once the technician sees them, usually the same day. Which area are you in?\""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "If I quote before I see the unit, I'm either losing money or losing the customer, neither is good business.",
+      "attribution": "Saeed, AC workshop owner, Ruwi",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "moving-from-chat-to-a-proper-quote",
+      "text": "Moving from chat to a proper quote"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A range is enough for a simple job. Once a job needs a site visit, involves more than one unit, or crosses roughly OMR 50, move it from a chat reply to a written quote: itemised, dated, and valid for a set number of days, seven is common for small jobs."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A written quote protects both sides from the \"but you said\" conversation later, especially once parts are ordered or a deposit is paid. It also reads as more serious than a number typed in a chat bubble, which matters when the customer is comparing you against someone else's guess."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A tool like Chatbot.OM can hold that range reply as a saved answer so every team member gives the same fair number, day or night, and its "
+        },
+        {
+          "text": "chat log",
+          "href": "/features/chat-analytics-dashboard/"
+        },
+        {
+          "text": " shows you by month whether it is the small job or the big one people are actually asking about."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The best answer to how much is never a number alone, it is a number plus one question."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Write down your own three to five most common \"how much\" questions from the last month of chats, then set an honest floor and ceiling for each one."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Attach one qualifying question to every range you send, and decide your own OMR threshold above which you always move to a written quote instead of a chat number."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Never leave the price question unanswered. Silence loses a customer faster than a wrong number ever will."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Try this today",
+      "paragraphs": [
+        "List your top 3 to 5 \"how much\" questions from the last month.",
+        "Set a floor and ceiling for each one, based on real jobs you have done.",
+        "Name the one detail, size, quantity or condition, that moves the price up or down.",
+        "Save the reply as a canned message so every reply, yours or your team's, gives the same range."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Should I ever give one flat price instead of a range?",
+          "a": "Yes. For a simple job with no real variables, a straightforward oil change or a basic manicure, one clear price is faster to answer and just as honest."
+        },
+        {
+          "q": "What if a customer pushes for an exact number before I have seen the job?",
+          "a": "Repeat the range, explain what confirms the exact figure, and offer the fastest way to confirm it: a photo, a short site visit, or a call. Most genuine customers accept that."
+        },
+        {
+          "q": "How long should a written quote stay valid?",
+          "a": "Seven to fourteen days is common for small jobs. State the validity date on the quote itself so an old price is not honoured after your costs change."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "\"How much\" is the first test almost every enquiry sets you, and it is one you can pass with a range, one good question, and a habit of writing the real quote down once you know the job. Get that right, and the chat that opened with a price question closes with a booking, not a ghost."
+        }
+      ]
+    }
+  ]
+}
