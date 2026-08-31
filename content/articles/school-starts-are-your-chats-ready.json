@@ -1,0 +1,285 @@
+{
+  "id": "article-2026-08-31-ov-enrolment-chats-2026",
+  "taskId": "2026-08-31-ov-enrolment-chats-2026",
+  "slug": "school-starts-are-your-chats-ready",
+  "title": "School Starts September 6. Are Your Chats Ready?",
+  "seoTitle": "School Starts September 6: Are Your Chats Ready?",
+  "excerpt": "Term dates just moved a week later. If your tuition centre's WhatsApp still shows the old date, parents are already messaging someone else.",
+  "seoDescription": "Oman confirmed 6 September as the school start date. Here's how small tuition centres keep every parent's WhatsApp message answered on time.",
+  "series": "Oman Digital Pulse",
+  "category": "Rules & Updates",
+  "topic": "Term Starts. Your Enrolment Chats Are the Front Desk",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-08-31",
+  "modifiedDate": "2026-08-31",
+  "reviewedDate": "2026-08-31",
+  "reviewBy": "2026-11-29",
+  "status": "published",
+  "tags": [
+    "back to school",
+    "tuition centres",
+    "school term dates",
+    "Ministry of Education",
+    "WhatsApp for business",
+    "enrolment season",
+    "Oman Digital Pulse"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0%\" stop-color=\"#2c0a0d\"/>\n<stop offset=\"50%\" stop-color=\"#7a1c22\"/>\n<stop offset=\"100%\" stop-color=\"#f1a09a\"/>\n</linearGradient>\n</defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"28\" y=\"22\" width=\"172\" height=\"30\" rx=\"15\" fill=\"#2c0a0d\" opacity=\"0.9\"/>\n<text x=\"114\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#e8c07c\" text-anchor=\"middle\">Staff back 30 Aug</text>\n<rect x=\"35\" y=\"62\" width=\"330\" height=\"112\" rx=\"22\" fill=\"#2c0a0d\" opacity=\"0.94\"/>\n<path d=\"M55 174 L55 196 L82 174 Z\" fill=\"#2c0a0d\" opacity=\"0.94\"/>\n<text x=\"200\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"40\" font-weight=\"bold\" fill=\"#d4ff4f\" text-anchor=\"middle\">SEP 6</text>\n<text x=\"200\" y=\"153\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#f4f4f0\" text-anchor=\"middle\">Students start. Is WhatsApp ready?</text>\n<circle cx=\"230\" cy=\"196\" r=\"5\" fill=\"#79e0c8\"/>\n<circle cx=\"248\" cy=\"196\" r=\"5\" fill=\"#79e0c8\" opacity=\"0.75\"/>\n<circle cx=\"266\" cy=\"196\" r=\"5\" fill=\"#79e0c8\" opacity=\"0.5\"/>\n</svg>",
+  "sources": [
+    {
+      "id": "moe-portal",
+      "label": "Ministry of Education, Sultanate of Oman",
+      "url": "https://home.moe.gov.om",
+      "kind": "oman-official"
+    },
+    {
+      "id": "atheer-calendar",
+      "label": "Atheer: 2026/2027 school year calendar announcement",
+      "url": "https://www.atheer.om/2026/07/15/032245/",
+      "kind": "media"
+    },
+    {
+      "id": "muscat-daily-holidays",
+      "label": "Muscat Daily: School holidays extended by one week to support domestic tourism",
+      "url": "https://www.muscatdaily.com/2026/07/15/school-holidays-extended-by-one-week-to-support-domestic-tourism/",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Teachers went back to their classrooms yesterday. Students follow next Sunday, 6 September, a week later than many families and tuition centres had already circled on their calendars. That single week is why WhatsApp has been busier than usual since the weekend, and why the next ten days decide whether a parent enrols with you, or with whoever answers first."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "two-dates-one-week-apart",
+      "text": "Two Dates, One Week Apart"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The Ministry of Education's calendar for the 2026/2027 school year sets two separate start dates this year. Teaching and administrative staff reported for duty on Sunday, 30 August. Students begin on Sunday, 6 September, a week later than the date most people expect from past years."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The extra week was added on purpose. It gives families more time in Dhofar before khareef closes on 21 September, one of the busiest tourism stretches on the calendar. Good news for hotels and tour operators. For a tuition centre, a swimming club or a language academy, it means the enrolment window everyone assumed would close by the last week of August is still wide open, and parents know it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-message-storm-already-started",
+      "text": "The Message Storm Already Started"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Ask anyone running a small tuition centre, a football academy or a nursery this week what their phone looks like, and you will hear the same thing. Messages arrive back to back, mostly in the evening, mostly from parents juggling work with a school run that has not even started yet. The questions repeat, but every parent expects a personal answer, right now, not a form they filled in three weeks ago."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Is my child's spot still confirmed for the new date?"
+          }
+        ],
+        [
+          {
+            "text": "What time does the class actually start on the 6th?"
+          }
+        ],
+        [
+          {
+            "text": "Do you have space in the evening batch now that school starts later?"
+          }
+        ],
+        [
+          {
+            "text": "Can I still pay in instalments this term?"
+          }
+        ],
+        [
+          {
+            "text": "Is the pickup van running the same route as last year?"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The same handful of questions comes back every enrolment season for a "
+        },
+        {
+          "text": "tuition centre",
+          "href": "/industries/tuition-centres-ai-chatbot/"
+        },
+        {
+          "text": ", worth mapping once and reusing every term."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A parent messaging at nine at night is not being difficult. She is telling you exactly when she has five free minutes to sort her child's term."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-fourteen-days-are-worth",
+      "text": "What Fourteen Days Are Worth"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is what two weeks of enrolment enquiries can be worth to a small tuition centre, using round numbers you can swap for your own."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example: a two-subject tuition centre in Al Khuwair. Illustrative numbers only.",
+      "headers": [
+        "Measure",
+        "Answered same day",
+        "Answered next day or later"
+      ],
+      "rows": [
+        [
+          "Enquiries received in 14 days",
+          "40",
+          "40"
+        ],
+        [
+          "Typical enrolment rate",
+          "1 in 3",
+          "1 in 8"
+        ],
+        [
+          "Children enrolled",
+          "13",
+          "5"
+        ],
+        [
+          "Term fee per child (3 months at OMR 35 a month)",
+          "OMR 105",
+          "OMR 105"
+        ],
+        [
+          "Term revenue from this batch",
+          "OMR 1,365",
+          "OMR 525"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The gap between those two columns, OMR 840 in this example, rarely goes to a competitor down the street. Most of it goes to whichever business, including possibly your own, replied first with the right date and a clear answer."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Parents don't wait for office hours anymore. If I don't reply by bedtime, they've already messaged the next centre.",
+      "attribution": "Muna, coordinator at a tuition centre, Al Khuwair",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What This Means for You"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Check your own term dates against the ministry's calendar before you send another reply. Students start 6 September, not 30 August, and quoting the wrong date to a parent who already checked twice looks careless."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Answer enrolment messages the same day, ideally within the hour. The parent messaging you tonight is very likely messaging two other centres in the same breath."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Write down the five or six questions parents ask every enrolment season, the ones listed above, and keep short, accurate answers ready to paste. It saves your team from retyping the same schedule at ten at night."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If evening and weekend messages already outnumber what your team can answer, put something in place that keeps replying after everyone has gone home. Chatbot.OM answers the website and WhatsApp around the clock, saves every enquiry as a lead your team can follow up with in the morning, and understands a voice note in Omani Arabic as easily as a typed message. Get Chatbot.OM if after-hours replies are where you are losing enrolments."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Does every reply you send this week say 6 September for students, not 30 August?",
+        "Pull up your last ten WhatsApp enquiries. How many got a reply within the hour, and how many waited overnight?",
+        "Do you have one saved answer ready for 'is my child's spot confirmed', so nobody retypes it at ten at night?",
+        "Could a parent messaging you at midnight get something useful back before morning?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Why did the school year move a week later this year?",
+          "a": "The Ministry of Education set students' start date at Sunday, 6 September 2026, a week after staff returned on 30 August, to give families more time in Dhofar before khareef closes on 21 September."
+        },
+        {
+          "q": "Does the later date apply to every school?",
+          "a": "It applies to government schools and private schools that follow the government calendar. Schools running an international calendar keep their own dates, so check with each family before assuming."
+        },
+        {
+          "q": "What if I already told parents the wrong start date?",
+          "a": "Send a short correction now with the right date and confirmed times. A plain, quick fix usually rebuilds trust faster than staying quiet about the mix up."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The Bottom Line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Two dates decided this week for every tuition centre, club and academy: staff back on 30 August, students in class on 6 September. The businesses filling their rosters before the gates open are simply the ones answering every parent's message, with the right date, the same day it arrives."
+        }
+      ]
+    }
+  ]
+}
