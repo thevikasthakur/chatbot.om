@@ -24,7 +24,14 @@ export const site = {
   ],
   email: "contact@chatbot.om",
   phone: "+968 9730 2812",
-  address: "1st Floor, Al Muzn Mall, Al Hail North, Muscat, Sultanate of Oman",
+  office: {
+    address:
+      "Office 315, Muscat Pavilion, Hayy al Arafat Road, Muscat Hills, Muscat, Oman",
+    availableFrom: "2026-12-01",
+    availableFromLabel: "1 December 2026",
+    mapsUrl: "https://maps.app.goo.gl/Fnu8K4M5ZWS8NQJS8",
+    interimMeetingAreas: ["Muscat", "Seeb"],
+  },
   /** Channels chatbot.om itself covers. Voice calls belong to the sister site. */
   channels: ["Website chat", "WhatsApp", "Email replies"],
 };

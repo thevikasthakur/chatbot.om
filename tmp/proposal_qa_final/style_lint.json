@@ -1,0 +1,171 @@
+{
+  "input": "/Users/thakur/Workspace/chatbot-OM/output/proposal/Inzint_Proposal_Taif_Al-Kaabi_WhatsApp_AI_SaaS.docx",
+  "fonts_by_char_count": {
+    "Onest": 12181,
+    "Arial Unicode MS": 89
+  },
+  "direct_run_formatting_runs": 203,
+  "direct_paragraph_formatting_paragraphs": 209,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 3,
+      "text": "MANAGED SAAS PROPOSAL \u00b7 25 AUGUST 2026",
+      "style": "Kicker"
+    },
+    {
+      "para_index": 9,
+      "text": "01  EXECUTIVE PROPOSAL",
+      "style": "Normal"
+    },
+    {
+      "para_index": 17,
+      "text": "02  PROPOSED STUDENT JOURNEY",
+      "style": "Normal"
+    },
+    {
+      "para_index": 30,
+      "text": "03  RESPONSE TO YOUR REQUIREMENTS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 36,
+      "text": "04  CUSTOMIZATION AND OWNERSHIP",
+      "style": "Normal"
+    },
+    {
+      "para_index": 44,
+      "text": "05  COMMERCIAL OFFER",
+      "style": "Normal"
+    },
+    {
+      "para_index": 57,
+      "text": "06  IMPLEMENTATION AND SUPPORT",
+      "style": "Normal"
+    },
+    {
+      "para_index": 67,
+      "text": "07  ASSUMPTIONS AND NEXT STEPS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 81,
+      "text": "PREPARED FOR",
+      "style": "Normal"
+    },
+    {
+      "para_index": 82,
+      "text": "Taif Al-Kaabi and their Training Institute",
+      "style": "Normal"
+    },
+    {
+      "para_index": 83,
+      "text": "PREPARED BY",
+      "style": "Normal"
+    },
+    {
+      "para_index": 85,
+      "text": "PROPOSAL REFERENCE",
+      "style": "Normal"
+    },
+    {
+      "para_index": 87,
+      "text": "VALIDITY",
+      "style": "Normal"
+    },
+    {
+      "para_index": 89,
+      "text": "RECOMMENDED OPERATING PLAN",
+      "style": "Normal"
+    },
+    {
+      "para_index": 90,
+      "text": "Business \u00b7 OMR 40 per month",
+      "style": "Normal"
+    },
+    {
+      "para_index": 92,
+      "text": "Price",
+      "style": "Normal"
+    },
+    {
+      "para_index": 94,
+      "text": "Timing",
+      "style": "Normal"
+    },
+    {
+      "para_index": 96,
+      "text": "Customization",
+      "style": "Normal"
+    },
+    {
+      "para_index": 98,
+      "text": "Support",
+      "style": "Normal"
+    },
+    {
+      "para_index": 100,
+      "text": "DEPLOYMENT GATE",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "\u0625\u0630\u0627 \u0631\u063a\u0628\u062a\u0645 \u0641\u064a \u0627\u0633\u062a\u0644\u0627\u0645 \u0647\u0630\u0627 \u0627\u0644\u0639\u0631\u0636 \u0628\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629\u060c \u064a\u0631\u062c\u0649 \u0637\u0644\u0628 \u0630\u0644\u0643\u060c \u0648\u0633\u064a\u0633\u0639\u062f\u0646\u0627 \u062a\u0632\u0648\u064a\u062f\u0643\u0645 \u0628\u0646\u0633\u062e\u0629 \u0639\u0631\u0628\u064a\u0629.",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "MANAGED SAAS PROPOSAL \u00b7 25 AUGUST 2026",
+        "style": "Kicker"
+      },
+      {
+        "para_index": 4,
+        "text": "WhatsApp AI Student Enquiry\nand Enrolment Support",
+        "style": "Title"
+      },
+      {
+        "para_index": 5,
+        "text": "A managed Chatbot.OM service proposal for course enquiries, lead capture, guidance, booking requests and follow-up.",
+        "style": "Subtitle"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 2,
+        "run_text": "\u0625\u0630\u0627 \u0631\u063a\u0628\u062a\u0645 \u0641\u064a \u0627\u0633\u062a\u0644\u0627\u0645 \u0647\u0630\u0627 \u0627\u0644\u0639\u0631\u0636 \u0628\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629\u060c \u064a\u0631\u062c\u0649 \u0637\u0644\u0628 \u0630\u0644\u0643\u060c \u0648\u0633\u064a\u0633\u0639\u062f\u0646\u0627 \u062a\u0632\u0648\u064a\u062f\u0643\u0645 \u0628\u0646\u0633",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "MANAGED SAAS PROPOSAL \u00b7 25 AUGUST 2026",
+        "style": "Kicker"
+      },
+      {
+        "para_index": 7,
+        "run_text": "AI and software, built for Oman.",
+        "style": "Normal"
+      },
+      {
+        "para_index": 8,
+        "run_text": "\u200b",
+        "style": "Normal"
+      },
+      {
+        "para_index": 9,
+        "run_text": "01  ",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

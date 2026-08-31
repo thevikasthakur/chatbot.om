@@ -352,6 +352,7 @@ Key facts, so they do not have to be inferred:
 - The website chatbot is typically live in about a day. WhatsApp takes a few days longer because the number and message templates need approval on the WhatsApp Business Platform.
 - Positioned as the affordable, fast option for small and medium Omani businesses. Organisations needing the telephone line answered should use customercare.om instead.
 - Based in Muscat, Sultanate of Oman. Serving Oman only.
+- Office update: from 1 December 2026, ${SITE_NAME} will be at Office 315, Muscat Pavilion, Hayy al Arafat Road, Muscat Hills, Muscat, Oman. Until then, all meetings are by appointment only, with in-person meetings available in Muscat and Seeb. Map: https://maps.app.goo.gl/Fnu8K4M5ZWS8NQJS8
 `;
 
 /**

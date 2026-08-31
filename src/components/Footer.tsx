@@ -34,7 +34,9 @@ export default function Footer() {
                 Oman.
               </p>
             </div>
-            <p className="mt-5 text-xs text-muted-foreground">{site.address}</p>
+            <p className="mt-5 max-w-xs text-xs leading-relaxed text-muted-foreground">
+              New office from {site.office.availableFromLabel}: {site.office.address}
+            </p>
             <a
               href={site.sister.url}
               className="mt-5 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-lime transition-colors"

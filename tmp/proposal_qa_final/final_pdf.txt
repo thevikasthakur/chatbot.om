@@ -1,0 +1,448 @@
+.‫ وسيسعدنا تزويدكم بنسخة عربية‬،‫ يرجى طلب ذلك‬،‫إذا رغبتم في استالم هذا العرض باللغة العربية‬
+
+                                MANAGED SAAS PROPOSAL · 25 AUGUST 2026
+
+
+
+           WhatsApp AI Student Enquiry
+             and Enrolment Support
+A managed Chatbot.OM service proposal for course enquiries, lead capture,
+              guidance, booking requests and follow-up.
+
+
+PREPARED FOR               Taif Al-Kaabi and their Training Institute
+
+PREPARED BY                Inzint LLC · Inzint Oman
+
+PROPOSAL REFERENCE         INZ-OM-TK-20260825
+
+VALIDITY                   Indicative offer valid through 24 September 2026
+
+
+
+                                    AI and software, built for Oman.
+
+
+
+
+           Inzint LLC · 31, Building 13, 6125 Way, Muscat, Oman · (+968) 7272 4832 · contact@inzint.om
+INZINT OMAN · CHATBOT.OM                     PROPOSAL FOR TAIF AL-KAABI
+
+
+
+01 EXECUTIVE PROPOSAL
+
+
+A practical first step, with clear boundaries
+Dear Taif, thank you for sharing what your institute needs. The requested journey is clear:
+answer course questions quickly, guide each prospective student, capture their details,
+help them take a next step, and give your team a reliable record for follow-up.
+
+     RECOMMENDED OPERATING PLAN
+
+     Business · OMR 40 per month
+     Includes 25,000 chat sessions per month; additional sessions are OMR 0.025 each. It is the
+     recommended plan for an active institute intake cycle. Final activation remains subject to the
+     WhatsApp readiness gate described below.
+
+
+
+
+The proposal in four answers
+
+                          OMR 40/month recommended. Other paid options are shown on page 6. There is no
+   Price
+                          separate discounted annual tariff in this offer.
+
+                          Configuration can begin immediately. WhatsApp activation normally depends on
+   Timing                 number and template approval; the final schedule will be confirmed after technical
+                          readiness testing.
+
+                          The monthly SaaS can be configured for branding, assistant name, institute data,
+   Customization          questions, rules and supported workflows, but it is not a fully custom or customer-
+                          owned codebase.
+
+                          Yes. Managed maintenance and remote support are included during an active
+   Support
+                          subscription; response targets and service hours are fixed in the final order form.
+
+
+
+
+     DEPLOYMENT GATE
+
+     WhatsApp is confirmed before it is promised as live
+     This indicative proposal does not assume an already-operational WhatsApp transport. Inzint will
+     validate the proposed business number, provider path, inbound and outbound flows, and end-to-
+     end message delivery before the final order form and go-live date. Any non-standard engineering
+     will be separately identified and approved.
+
+
+
+
+Inzint LLC · inzint.om · contact@inzint.om       CONFIDENTIAL · 2
+INZINT OMAN · CHATBOT.OM                     PROPOSAL FOR TAIF AL-KAABI
+
+
+
+02 PROPOSED STUDENT JOURNEY
+
+
+From first question to a staff-owned enrolment lead
+The assistant is designed to make the early part of enrolment immediate and consistent. It
+handles approved information and routine next steps; your staff keep control of final
+enrolment, payment and any decision that depends on judgement or live capacity.
+
+            01                                              03                                             05
+                                    02                                               04
+           ASK                                          CAPTURE                                       HAND OVER
+                                  GUIDE                                           BOOK
+     Courses, prices,                                  Name, phone,                                   Qualified lead,
+                           Match by goal, level,                            Trial or consultation;
+   dates, locations and                             interest, intake and                             context and next
+                          timing and preference                            record a seat request
+       conditions                                          notes                                          action
+
+
+
+
+What the assistant can be taught
+   • Course catalogue: descriptions, target audience, prerequisites and learning outcomes.
+   • Commercial information: approved prices, discounts, payment conditions and refund rules.
+   • Operations: intake dates, schedules, locations, class formats and contact details.
+   • Conversation rules: what it may answer, what it must not promise, and when it must hand
+      over to a person.
+
+What your team can monitor
+The dashboard provides conversation logs, contact records, qualified leads, lead status,
+notes, assignees, knowledge sources, appointments, sentiment and activity trends. It is a
+conversation-and-lead dashboard, not a replacement for a full student information or
+institute-management system.
+
+     SAFE GUIDANCE
+
+     Conversational course recommendation, not an eligibility
+     engine
+     The assistant can recommend suitable courses from the approved catalogue and the student's
+     stated goals. Formal eligibility, certification, credit transfer or complex prerequisite decisions remain
+     with institute staff unless a dedicated rules engine is separately built.
+
+
+
+
+Inzint LLC · inzint.om · contact@inzint.om         CONFIDENTIAL · 3
+INZINT OMAN · CHATBOT.OM                      PROPOSAL FOR TAIF AL-KAABI
+
+
+
+03 RESPONSE TO YOUR REQUIREMENTS
+
+
+What is included, conditional or separately scoped
+The table below is the controlling scope summary for this proposal. A conditional or
+separate item is not included in the base monthly fee unless it is added to the final order
+form.
+
+         REQUEST                POSITION                     SAAS RESPONSE                              BOUNDARY
+
+                                                  Proposed after the number, provider
+                                                                                              Not represented as live before
+   WhatsApp Business +                            path, inbound replies and approved
+                             READINESS-GATED                                                  UAT; non-standard engineering
+   AI replies                                     outbound templates pass end-to-end
+                                                                                              may require a separate quote.
+                                                  testing.
+
+                                                                                              Institute supplies and approves
+                                                  Upload approved course, price,
+                                                                                              the source material; the
+   Institute knowledge          INCLUDED          schedule, location and policy content
+                                                                                              assistant is instructed not to
+                                                  from documents or a website.
+                                                                                              invent missing facts.
+
+
+                                                  Capture configured fields and preserve      Anonymous or low-information
+                                                  the conversation; qualified enquiries       conversations may remain logs
+   Student data capture         INCLUDED
+                                                  become lead records with score,             rather than automatically
+                                                  status, notes and owner.                    becoming leads.
+
+
+                                                  Conversational guidance from the
+                                                                                              No deterministic eligibility or
+   Course selection help        INCLUDED          approved catalogue using goals, level,
+                                                                                              prerequisite engine is included.
+                                                  timing and preferences.
+
+                                                  Book a trial or consultation in available   No native live course-seat
+   Booking and                                    appointment slots; standard                 capacity, final enrolment or
+                                 PARTIAL
+   confirmations                                  confirmation is by email with a calendar    standard WhatsApp
+                                                  invite.                                     confirmation/reminder.
+
+
+                                                                                              Automatic identification and
+                                                  Lead stages, notes, staff ownership
+   Follow-up for non-                                                                         WhatsApp messaging of non-
+                                 PARTIAL          and follow-up tracking are available in
+   registrants                                                                                registrants is separate
+                                                  the dashboard.
+                                                                                              automation work.
+
+                                                                                              Target-specific mapping,
+                                                  APIs, webhooks and Zapier events can
+   Future CRM /                INTEGRATION-                                                   authentication, testing and
+                                                  carry leads, appointments and
+   institute system               READY                                                       bidirectional sync are
+                                                  conversation events.
+                                                                                              separately scoped.
+
+
+                                                  Monitor conversations, qualified leads,     It is not a student information,
+   Management                                     contacts, appointments, common              attendance, payment or
+                                INCLUDED
+   dashboard                                      questions, tasks and sentiment/activity     certificate-management
+                                                  trends.                                     system.
+
+
+
+
+Scope note: Where the institute later adds a compatible CRM or management system, the current platform can be
+used as the conversation layer and connected through a separately approved integration scope.
+
+
+
+
+Inzint LLC · inzint.om · contact@inzint.om        CONFIDENTIAL · 4
+INZINT OMAN · CHATBOT.OM                     PROPOSAL FOR TAIF AL-KAABI
+
+
+
+04 CUSTOMIZATION AND OWNERSHIP
+
+
+Monthly SaaS is configurable, not fully custom
+Under the monthly model, Inzint operates the software and gives the institute access to a
+managed service. Configuration is intentionally bounded so upgrades and maintenance
+remain manageable across subscribers.
+
+
+    MONTHLY SAAS                                              SEPARATE PROPOSAL
+
+    Configuration included                                    Owned copy / custom
+        • Assistant name, greeting, tone and system           software
+           instructions
+                                                                • Custom student, course, cohort, seat-
+        • Brand colours, theme, launcher text/icon                  capacity and enrolment modules
+           and welcome message
+                                                                • Deep CRM or institute-management
+        • Course, fee, timetable, location, condition               workflows and bespoke integrations
+           and policy data
+                                                                • Custom data model, roles, dashboards and
+        • Lead fields, qualification questions and                  approval processes
+           conversation guardrails
+                                                                • Customer-controlled deployment, release
+        • Working hours, timezone, appointment                      cadence and security architecture
+           duration and basic team access
+                                                                • Source-code handover, ownership/licence
+                                                                    rights and long-term roadmap control
+
+
+
+
+     DIRECT ANSWER TO QUESTION 3
+
+     Limited customization is included; full control requires an
+     owned solution
+     If Taif Al-Kaabi would like unrestricted customization and control of the software, Inzint will be
+     happy to prepare a separate one-time custom-software proposal. That option is not priced or
+     included in this monthly SaaS offer.
+
+
+
+
+Changes during the subscription
+Routine updates to approved content and reasonable in-scope configuration changes can
+be handled through support. New transports, modules, data structures, third-party
+connectors or material workflow redesigns are assessed and quoted separately before
+work begins.
+
+
+Inzint LLC · inzint.om · contact@inzint.om       CONFIDENTIAL · 5
+INZINT OMAN · CHATBOT.OM                      PROPOSAL FOR TAIF AL-KAABI
+
+
+
+05 COMMERCIAL OFFER
+
+
+Choose by conversation volume
+The paid plans below share the standard product capability set. The published differences
+are the monthly session allowance and overage rate. Technical activation and any
+separately scoped integration work remain governed by the final order form.
+
+     RECOMMENDED
+
+     Business · OMR 40/month
+     25,000 sessions each month, then OMR 0.025 per additional session. This gives the institute
+     enough headroom for an active intake period without moving directly to an unlimited plan.
+
+
+
+        PLAN            MONTHLY              SESSIONS    EXTRA SESSION                   POSITIONING
+
+
+                                                                           Limited preview only; not recommended for
+       Starter            OMR 10              2,000        OMR 0.050
+                                                                           a live enrolment cycle.
+
+                                                                           Recommended for normal institute
+      Business            OMR 40              25,000       OMR 0.025
+                                                                           operations.
+
+                                                                           High-volume use where session overage
+     Enterprise          OMR 135             Unlimited       None
+                                                                           must be eliminated.
+
+
+
+
+Annual pricing
+No separate discounted annual tariff is included in this offer. For budgeting only, twelve
+months at the current base monthly rates equal OMR 120 for Starter, OMR 480 for
+Business and OMR 1,620 for Enterprise, before any additional-session usage or separately
+approved work.
+
+Commercial notes
+   • All amounts are stated in Omani Rials (OMR).
+   • Usage is measured by the platform session counter; the session boundary will be defined in the
+      final order form.
+
+   • No implementation fee, tax treatment or third-party platform charge is assumed in the amounts
+      above; any applicable item will be confirmed before order acceptance.
+
+   • The subscription provides a right to use the managed SaaS service. It does not transfer source
+      code, infrastructure or ownership rights.
+
+
+
+
+Inzint LLC · inzint.om · contact@inzint.om         CONFIDENTIAL · 6
+INZINT OMAN · CHATBOT.OM                     PROPOSAL FOR TAIF AL-KAABI
+
+
+
+06 IMPLEMENTATION AND SUPPORT
+
+
+A short configuration cycle, then a controlled launch
+The standard configuration work can move quickly once the institute's information and
+access are ready. WhatsApp is the schedule dependency because its number, provider
+path and outbound templates must be approved and tested.
+
+     1      READINESS              Confirm channel path, number status, consent basis, scope and selected plan.
+
+
+     2      TEACH                  Load approved course, fee, schedule, location, policy and FAQ content.
+
+
+     3      CONFIGURE              Set assistant name, tone, questions, lead fields, handover rules and appearance.
+
+                                   Run representative Arabic/English questions, lead capture, booking and handover
+     4      TEST
+                                   checks.
+
+     5      LAUNCH                 Approve go-live, monitor early conversations and refine in-scope content.
+
+
+
+
+Indicative duration
+
+     TIMING ANSWER
+
+     Typically a few days after complete inputs
+     Inzint starts the technical and template readiness work on day one. The committed go-live date will
+     be issued after the proposed WhatsApp number and messaging flow pass readiness checks; third-
+     party approval timing is outside Inzint's direct control.
+
+
+
+
+Support and maintenance after launch
+Yes. During an active subscription, Inzint provides managed platform maintenance, routine
+fixes and updates, incident support, and reasonable assistance with in-scope content or
+configuration changes. The final order form will state support channels, business hours,
+response targets and any enhanced-service option.
+
+Separately charged work includes new product features, major workflow redesign, custom integrations,
+data migration or cleanup, customer-specific infrastructure, content authoring, and owned-software
+development.
+
+
+
+
+Inzint LLC · inzint.om · contact@inzint.om        CONFIDENTIAL · 7
+INZINT OMAN · CHATBOT.OM                     PROPOSAL FOR TAIF AL-KAABI
+
+
+
+07 ASSUMPTIONS AND NEXT STEPS
+
+
+What we need from the institute
+   • An approved course catalogue, current prices, schedules, locations, terms and frequent
+      questions.
+
+   • A decision on which WhatsApp Business number is proposed and confirmation of its present
+      account status.
+
+   • Approved consent language and proposed outbound template wording for confirmations or
+      follow-up.
+
+   • A named institute owner for answers, testing, lead routing and final go-live approval.
+   • Details of any CRM, calendar or institute-management system that may be connected later.
+
+Important boundaries
+
+                          Final enrolment, payment and live course-seat capacity remain with staff unless a separate
+   ENROLMENT
+                          system integration or custom module is approved.
+
+                          Automated outbound WhatsApp confirmations, reminders and non-registrant follow-up are
+   MESSAGING              not included until the WhatsApp channel and automation are expressly activated in the
+                          order form.
+
+                          The platform is integration-ready, but target-system mapping, authentication, testing and
+   INTEGRATIONS
+                          support are not turnkey inclusions.
+
+                          This indicative SaaS offer does not promise Oman-only or customer-controlled hosting. Any
+   HOSTING                residency, on-premises or private-cloud requirement needs a separate deployment and
+                          security scope.
+
+                          The institute is responsible for the accuracy, authority and timely update of course, price,
+   CONTENT
+                          schedule and policy information supplied to the assistant.
+
+
+
+
+To proceed
+   1. Confirm the preferred plan. Business is the recommended operational option; Starter is intended
+      only for a limited preview.
+
+   2. Share the proposed WhatsApp number and the institute information listed above.
+
+   3. Complete a short readiness and scope review with Inzint Oman at (+968) 7272 4832 or
+      contact@inzint.om.
+
+   4. Receive and approve the final order form, including activated channels, implementation items,
+      support terms and go-live date.
+
+
+
+
+Inzint LLC · inzint.om · contact@inzint.om        CONFIDENTIAL · 8
+

@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>WhatsApp AI Student Enquiry and Enrolment Support - SaaS Proposal</title>
+<meta name="Subject" content="Indicative managed SaaS proposal for Taif Al-Kaabi and their training institute"/>
+<meta name="Keywords" content="Inzint, Oman, Chatbot.OM, training, institute, AI, assistant, SaaS, proposal"/>
+<meta name="Author" content="Inzint LLC"/>
+<meta name="Creator" content="Writer"/>
+<meta name="Producer" content="LibreOfficeDev 26.8.0.0.alpha0 (AARCH64)"/>
+<meta name="CreationDate" content="2026-08-25T14:05:33+05:30"/>
+</head>
+<body>
+<doc>
+  <page width="612.000000" height="792.000000">
+    <flow>
+      <block xMin="72.100000" yMin="35.394000" xMax="187.988000" yMax="45.722000">
+        <line xMin="72.100000" yMin="35.394000" xMax="187.988000" yMax="45.722000">
+          <word xMin="72.100000" yMin="35.394000" xMax="99.124000" yMax="45.722000">INZINT</word>
+          <word xMin="100.884000" yMin="35.394000" xMax="125.044000" yMax="45.722000">OMAN</word>
+          <word xMin="128.612000" yMin="35.394000" xMax="130.924000" yMax="45.722000">·</word>
+          <word xMin="134.452000" yMin="35.394000" xMax="187.988000" yMax="45.722000">CHATBOT.OM</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="246.300000" yMin="35.394000" xMax="365.868000" yMax="45.722000">
+        <line xMin="246.300000" yMin="35.394000" xMax="365.868000" yMax="45.722000">
+          <word xMin="246.300000" yMin="35.394000" xMax="287.828000" yMax="45.722000">PROPOSAL</word>
+          <word xMin="289.580000" yMin="35.394000" xMax="305.308000" yMax="45.722000">FOR</word>
+          <word xMin="307.076000" yMin="35.394000" xMax="325.268000" yMax="45.722000">TAIF</word>
+          <word xMin="327.060000" yMin="35.394000" xMax="365.868000" yMax="45.722000">AL-KAABI</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="72.100000" yMin="72.015500" xMax="215.863500" yMax="82.989000">
+        <line xMin="72.100000" yMin="72.015500" xMax="215.863500" yMax="82.989000">
+          <word xMin="72.100000" yMin="72.015500" xMax="81.747500" yMax="82.989000">07</word>
+          <word xMin="85.550000" yMin="72.015500" xMax="144.812000" yMax="82.989000">ASSUMPTIONS</word>
+          <word xMin="146.673500" yMin="72.015500" xMax="165.127000" yMax="82.989000">AND</word>
+          <word xMin="167.014000" yMin="72.015500" xMax="189.343500" yMax="82.989000">NEXT</word>
+          <word xMin="191.239000" yMin="72.015500" xMax="215.863500" yMax="82.989000">STEPS</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="72.100000" yMin="101.000000" xMax="290.292000" yMax="117.000000">
+        <line xMin="72.100000" yMin="101.000000" xMax="290.292000" yMax="117.000000">
+          <word xMin="72.100000" yMin="101.000000" xMax="108.564000" yMax="117.000000">What</word>
+          <word xMin="112.164000" yMin="101.000000" xMax="132.148000" yMax="117.000000">we</word>
+          <word xMin="135.748000" yMin="101.000000" xMax="169.012000" yMax="117.000000">need</word>
+          <word xMin="172.628000" yMin="101.000000" xMax="204.964000" yMax="117.000000">from</word>
+          <word xMin="208.596000" yMin="101.000000" xMax="230.772000" yMax="117.000000">the</word>
+          <word xMin="234.372000" yMin="101.000000" xMax="290.292000" yMax="117.000000">institute</word>
+        </line>
+      </block>
+      <block xMin="85.100000" yMin="132.516000" xMax="495.410000" yMax="145.056000">
+        <line xMin="85.100000" yMin="132.516000" xMax="495.410000" yMax="145.056000">
+          <word xMin="85.100000" yMin="132.516000" xMax="88.950000" yMax="145.056000">•</word>
+          <word xMin="99.100000" yMin="133.410000" xMax="111.410000" yMax="144.810000">An</word>
+          <word xMin="113.940000" yMin="133.410000" xMax="151.910000" yMax="144.810000">approved</word>
+          <word xMin="154.410000" yMin="133.410000" xMax="181.090000" yMax="144.810000">course</word>
+          <word xMin="183.580000" yMin="133.410000" xMax="224.680000" yMax="144.810000">catalogue,</word>
+          <word xMin="227.180000" yMin="133.410000" xMax="257.160000" yMax="144.810000">current</word>
+          <word xMin="259.660000" yMin="133.410000" xMax="286.070000" yMax="144.810000">prices,</word>
+          <word xMin="288.570000" yMin="133.410000" xMax="330.150000" yMax="144.810000">schedules,</word>
+          <word xMin="332.650000" yMin="133.410000" xMax="371.590000" yMax="144.810000">locations,</word>
+          <word xMin="374.090000" yMin="133.410000" xMax="397.210000" yMax="144.810000">terms</word>
+          <word xMin="399.710000" yMin="133.410000" xMax="414.750000" yMax="144.810000">and</word>
+          <word xMin="417.250000" yMin="133.410000" xMax="451.860000" yMax="144.810000">frequent</word>
+          <word xMin="454.360000" yMin="133.410000" xMax="495.410000" yMax="144.810000">questions.</word>
+        </line>
+      </block>
+      <block xMin="85.100000" yMin="151.666000" xMax="542.300000" yMax="164.206000">
+        <line xMin="85.100000" yMin="151.666000" xMax="542.300000" yMax="164.206000">
+          <word xMin="85.100000" yMin="151.666000" xMax="88.950000" yMax="164.206000">•</word>
+          <word xMin="99.100000" yMin="152.560000" xMax="106.040000" yMax="163.960000">A</word>
+          <word xMin="108.500000" yMin="152.560000" xMax="142.110000" yMax="163.960000">decision</word>
+          <word xMin="144.600000" yMin="152.560000" xMax="155.050000" yMax="163.960000">on</word>
+          <word xMin="157.580000" yMin="152.560000" xMax="182.740000" yMax="163.960000">which</word>
+          <word xMin="185.260000" yMin="152.560000" xMax="229.050000" yMax="163.960000">WhatsApp</word>
+          <word xMin="231.560000" yMin="152.560000" xMax="266.970000" yMax="163.960000">Business</word>
+          <word xMin="269.470000" yMin="152.560000" xMax="301.240000" yMax="163.960000">number</word>
+          <word xMin="303.730000" yMin="152.560000" xMax="310.320000" yMax="163.960000">is</word>
+          <word xMin="312.820000" yMin="152.560000" xMax="350.360000" yMax="163.960000">proposed</word>
+          <word xMin="352.900000" yMin="152.560000" xMax="367.900000" yMax="163.960000">and</word>
+          <word xMin="370.400000" yMin="152.560000" xMax="423.540000" yMax="163.960000">confirmation</word>
+          <word xMin="426.070000" yMin="152.560000" xMax="434.160000" yMax="163.960000">of</word>
+          <word xMin="436.660000" yMin="152.560000" xMax="446.440000" yMax="163.960000">its</word>
+          <word xMin="448.940000" yMin="152.560000" xMax="479.120000" yMax="163.960000">present</word>
+          <word xMin="481.620000" yMin="152.560000" xMax="513.640000" yMax="163.960000">account</word>
+          <word xMin="516.140000" yMin="152.560000" xMax="542.300000" yMax="163.960000">status.</word>
+        </line>
+      </block>
+      <block xMin="85.100000" yMin="170.816000" xMax="516.400000" yMax="183.356000">
+        <line xMin="85.100000" yMin="170.816000" xMax="516.400000" yMax="183.356000">
+          <word xMin="85.100000" yMin="170.816000" xMax="88.950000" yMax="183.356000">•</word>
+          <word xMin="99.100000" yMin="171.710000" xMax="139.420000" yMax="183.110000">Approved</word>
+          <word xMin="141.920000" yMin="171.710000" xMax="173.580000" yMax="183.110000">consent</word>
+          <word xMin="176.080000" yMin="171.710000" xMax="212.870000" yMax="183.110000">language</word>
+          <word xMin="215.360000" yMin="171.710000" xMax="230.400000" yMax="183.110000">and</word>
+          <word xMin="232.900000" yMin="171.710000" xMax="270.440000" yMax="183.110000">proposed</word>
+          <word xMin="272.980000" yMin="171.710000" xMax="312.240000" yMax="183.110000">outbound</word>
+          <word xMin="314.740000" yMin="171.710000" xMax="350.220000" yMax="183.110000">template</word>
+          <word xMin="352.710000" yMin="171.710000" xMax="387.040000" yMax="183.110000">wording</word>
+          <word xMin="389.540000" yMin="171.710000" xMax="401.380000" yMax="183.110000">for</word>
+          <word xMin="403.870000" yMin="171.710000" xMax="460.860000" yMax="183.110000">confirmations</word>
+          <word xMin="463.360000" yMin="171.710000" xMax="472.110000" yMax="183.110000">or</word>
+          <word xMin="474.600000" yMin="171.710000" xMax="516.400000" yMax="183.110000">follow-up.</word>
+        </line>
+      </block>
+      <block xMin="85.100000" yMin="189.966000" xMax="447.070000" yMax="202.506000">
+        <line xMin="85.100000" yMin="189.966000" xMax="447.070000" yMax="202.506000">
+          <word xMin="85.100000" yMin="189.966000" xMax="88.950000" yMax="202.506000">•</word>
+          <word xMin="99.100000" yMin="190.860000" xMax="106.040000" yMax="202.260000">A</word>
+          <word xMin="108.500000" yMin="190.860000" xMax="135.920000" yMax="202.260000">named</word>
+          <word xMin="138.460000" yMin="190.860000" xMax="172.400000" yMax="202.260000">institute</word>
+          <word xMin="174.890000" yMin="190.860000" xMax="200.940000" yMax="202.260000">owner</word>
+          <word xMin="203.470000" yMin="190.860000" xMax="215.270000" yMax="202.260000">for</word>
+          <word xMin="217.800000" yMin="190.860000" xMax="253.310000" yMax="202.260000">answers,</word>
+          <word xMin="255.810000" yMin="190.860000" xMax="285.780000" yMax="202.260000">testing,</word>
+          <word xMin="288.280000" yMin="190.860000" xMax="305.010000" yMax="202.260000">lead</word>
+          <word xMin="307.550000" yMin="190.860000" xMax="337.780000" yMax="202.260000">routing</word>
+          <word xMin="340.280000" yMin="190.860000" xMax="355.320000" yMax="202.260000">and</word>
+          <word xMin="358.050000" yMin="190.860000" xMax="376.270000" yMax="202.260000">final</word>
+          <word xMin="378.740000" yMin="190.860000" xMax="406.670000" yMax="202.260000">go-live</word>
+          <word xMin="409.200000" yMin="190.860000" xMax="447.070000" yMax="202.260000">approval.</word>
+        </line>
+      </block>
+      <block xMin="85.100000" yMin="209.116000" xMax="470.560000" yMax="221.656000">
+        <line xMin="85.100000" yMin="209.116000" xMax="470.560000" yMax="221.656000">
+          <word xMin="85.100000" yMin="209.116000" xMax="88.950000" yMax="221.656000">•</word>
+          <word xMin="99.100000" yMin="210.010000" xMax="127.520000" yMax="221.410000">Details</word>
+          <word xMin="130.020000" yMin="210.010000" xMax="138.150000" yMax="221.410000">of</word>
+          <word xMin="140.650000" yMin="210.010000" xMax="155.780000" yMax="221.410000">any</word>
+          <word xMin="158.280000" yMin="210.010000" xMax="181.160000" yMax="221.410000">CRM,</word>
+          <word xMin="183.660000" yMin="210.010000" xMax="218.340000" yMax="221.410000">calendar</word>
+          <word xMin="220.830000" yMin="210.010000" xMax="229.580000" yMax="221.410000">or</word>
+          <word xMin="232.070000" yMin="210.010000" xMax="322.050000" yMax="221.410000">institute-management</word>
+          <word xMin="324.590000" yMin="210.010000" xMax="353.000000" yMax="221.410000">system</word>
+          <word xMin="355.500000" yMin="210.010000" xMax="371.740000" yMax="221.410000">that</word>
+          <word xMin="374.240000" yMin="210.010000" xMax="391.860000" yMax="221.410000">may</word>
+          <word xMin="394.360000" yMin="210.010000" xMax="403.760000" yMax="221.410000">be</word>
+          <word xMin="406.290000" yMin="210.010000" xMax="447.890000" yMax="221.410000">connected</word>
+          <word xMin="450.430000" yMin="210.010000" xMax="470.560000" yMax="221.410000">later.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="72.100000" yMin="236.250000" xMax="190.738000" yMax="249.250000">
+        <line xMin="72.100000" yMin="236.250000" xMax="190.738000" yMax="249.250000">
+          <word xMin="72.100000" yMin="236.250000" xMax="127.051000" yMax="249.250000">Important</word>
+          <word xMin="129.989000" yMin="236.250000" xMax="190.738000" yMax="249.250000">boundaries</word>
+        </line>
+      </block>
+      <block xMin="84.600000" yMin="270.644000" xMax="133.512000" yMax="280.972000">
+        <line xMin="84.600000" yMin="270.644000" xMax="133.512000" yMax="280.972000">
+          <word xMin="84.600000" yMin="270.644000" xMax="133.512000" yMax="280.972000">ENROLMENT</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="174.550000" yMin="265.401000" xMax="514.693500" yMax="286.241000">
+        <line xMin="174.550000" yMin="265.401000" xMax="514.693500" yMax="275.091000">
+          <word xMin="174.550000" yMin="265.401000" xMax="191.575500" yMax="275.091000">Final</word>
+          <word xMin="193.726000" yMin="265.401000" xMax="231.355500" yMax="275.091000">enrolment,</word>
+          <word xMin="233.489000" yMin="265.401000" xMax="263.987000" yMax="275.091000">payment</word>
+          <word xMin="266.103500" yMin="265.401000" xMax="278.887500" yMax="275.091000">and</word>
+          <word xMin="280.987000" yMin="265.401000" xMax="293.465000" yMax="275.091000">live</word>
+          <word xMin="295.607000" yMin="265.401000" xMax="334.826000" yMax="275.091000">course-seat</word>
+          <word xMin="336.942500" yMin="265.401000" xMax="365.766000" yMax="275.091000">capacity</word>
+          <word xMin="367.891000" yMin="265.401000" xMax="392.218000" yMax="275.091000">remain</word>
+          <word xMin="394.360000" yMin="265.401000" xMax="410.255000" yMax="275.091000">with</word>
+          <word xMin="412.337500" yMin="265.401000" xMax="451.377000" yMax="275.091000">staff unless</word>
+          <word xMin="453.510500" yMin="265.401000" xMax="457.386500" yMax="275.091000">a</word>
+          <word xMin="459.503000" yMin="265.401000" xMax="488.411500" yMax="275.091000">separate</word>
+          <word xMin="490.511000" yMin="265.401000" xMax="514.693500" yMax="275.091000">system</word>
+        </line>
+        <line xMin="174.550000" yMin="276.551000" xMax="321.812500" yMax="286.241000">
+          <word xMin="174.550000" yMin="276.551000" xMax="213.055000" yMax="286.241000">integration</word>
+          <word xMin="215.154500" yMin="276.551000" xMax="222.600500" yMax="286.241000">or</word>
+          <word xMin="224.742500" yMin="276.551000" xMax="249.834500" yMax="286.241000">custom</word>
+          <word xMin="251.968000" yMin="276.551000" xMax="277.833500" yMax="286.241000">module</word>
+          <word xMin="279.933000" yMin="276.551000" xMax="285.534500" yMax="286.241000">is</word>
+          <word xMin="287.668000" yMin="276.551000" xMax="321.812500" yMax="286.241000">approved.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="84.600000" yMin="304.344000" xMax="130.616000" yMax="314.672000">
+        <line xMin="84.600000" yMin="304.344000" xMax="130.616000" yMax="314.672000">
+          <word xMin="84.600000" yMin="304.344000" xMax="130.616000" yMax="314.672000">MESSAGING</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="174.550000" yMin="299.101000" xMax="538.664500" yMax="319.941000">
+        <line xMin="174.550000" yMin="299.101000" xMax="538.664500" yMax="308.791000">
+          <word xMin="174.550000" yMin="299.101000" xMax="213.012500" yMax="308.791000">Automated</word>
+          <word xMin="215.112000" yMin="299.101000" xMax="248.466000" yMax="308.791000">outbound</word>
+          <word xMin="250.608000" yMin="299.101000" xMax="287.846500" yMax="308.791000">WhatsApp</word>
+          <word xMin="289.988500" yMin="299.101000" xMax="340.181000" yMax="308.791000">confirmations,</word>
+          <word xMin="342.314500" yMin="299.101000" xMax="377.334500" yMax="308.791000">reminders</word>
+          <word xMin="379.468000" yMin="299.101000" xMax="392.252000" yMax="308.791000">and</word>
+          <word xMin="394.351500" yMin="299.101000" xMax="444.425000" yMax="308.791000">non-registrant</word>
+          <word xMin="446.584000" yMin="299.101000" xMax="480.295000" yMax="308.791000">follow-up</word>
+          <word xMin="482.394500" yMin="299.101000" xMax="493.181000" yMax="308.791000">are</word>
+          <word xMin="495.280500" yMin="299.101000" xMax="506.849000" yMax="308.791000">not</word>
+          <word xMin="508.965500" yMin="299.101000" xMax="538.664500" yMax="308.791000">included</word>
+        </line>
+        <line xMin="174.550000" yMin="310.251000" xMax="474.277000" yMax="319.941000">
+          <word xMin="174.550000" yMin="310.251000" xMax="190.870000" yMax="319.941000">until</word>
+          <word xMin="192.978000" yMin="310.251000" xMax="204.011000" yMax="319.941000">the</word>
+          <word xMin="206.153000" yMin="310.251000" xMax="243.391500" yMax="319.941000">WhatsApp</word>
+          <word xMin="245.533500" yMin="310.251000" xMax="272.801500" yMax="319.941000">channel</word>
+          <word xMin="274.952000" yMin="310.251000" xMax="287.736000" yMax="319.941000">and</word>
+          <word xMin="289.835500" yMin="310.251000" xMax="329.641000" yMax="319.941000">automation</word>
+          <word xMin="331.740500" yMin="310.251000" xMax="342.527000" yMax="319.941000">are</word>
+          <word xMin="344.626500" yMin="310.251000" xMax="377.028500" yMax="319.941000">expressly</word>
+          <word xMin="379.153500" yMin="310.251000" xMax="410.552500" yMax="319.941000">activated</word>
+          <word xMin="412.652000" yMin="310.251000" xMax="419.588000" yMax="319.941000">in</word>
+          <word xMin="421.687500" yMin="310.251000" xMax="432.720500" yMax="319.941000">the</word>
+          <word xMin="434.862500" yMin="310.251000" xMax="453.537000" yMax="319.941000">order</word>
+          <word xMin="455.636500" yMin="310.251000" xMax="474.277000" yMax="319.941000">form.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="84.600000" yMin="338.044000" xMax="143.528000" yMax="348.372000">
+        <line xMin="84.600000" yMin="338.044000" xMax="143.528000" yMax="348.372000">
+          <word xMin="84.600000" yMin="338.044000" xMax="143.528000" yMax="348.372000">INTEGRATIONS</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="174.550000" yMin="332.801000" xMax="539.396500" yMax="353.641000">
+        <line xMin="174.550000" yMin="332.801000" xMax="539.396500" yMax="342.491000">
+          <word xMin="174.550000" yMin="332.801000" xMax="187.240500" yMax="342.491000">The</word>
+          <word xMin="189.349500" yMin="332.801000" xMax="219.337500" yMax="342.491000">platform</word>
+          <word xMin="221.471000" yMin="332.801000" xMax="227.072500" yMax="342.491000">is</word>
+          <word xMin="229.206000" yMin="332.801000" xMax="291.409000" yMax="342.491000">integration-ready,</word>
+          <word xMin="293.542500" yMin="332.801000" xMax="304.907000" yMax="342.491000">but</word>
+          <word xMin="307.023500" yMin="332.801000" xMax="354.368500" yMax="342.491000">target-system</word>
+          <word xMin="356.502000" yMin="332.801000" xMax="388.904000" yMax="342.491000">mapping,</word>
+          <word xMin="391.037500" yMin="332.801000" xMax="443.278500" yMax="342.491000">authentication,</word>
+          <word xMin="445.412000" yMin="332.801000" xMax="469.033500" yMax="342.491000">testing</word>
+          <word xMin="471.133000" yMin="332.801000" xMax="483.917000" yMax="342.491000">and</word>
+          <word xMin="486.016500" yMin="332.801000" xMax="512.825500" yMax="342.491000">support</word>
+          <word xMin="514.942000" yMin="332.801000" xMax="525.728500" yMax="342.491000">are</word>
+          <word xMin="527.828000" yMin="332.801000" xMax="539.396500" yMax="342.491000">not</word>
+        </line>
+        <line xMin="174.550000" yMin="343.951000" xMax="240.884000" yMax="353.641000">
+          <word xMin="174.550000" yMin="343.951000" xMax="201.801000" yMax="353.641000">turnkey</word>
+          <word xMin="203.926000" yMin="343.951000" xMax="240.884000" yMax="353.641000">inclusions.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="84.600000" yMin="371.744000" xMax="120.312000" yMax="382.072000">
+        <line xMin="84.600000" yMin="371.744000" xMax="120.312000" yMax="382.072000">
+          <word xMin="84.600000" yMin="371.744000" xMax="120.312000" yMax="382.072000">HOSTING</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="174.550000" yMin="366.501000" xMax="530.153500" yMax="387.341000">
+        <line xMin="174.550000" yMin="366.501000" xMax="530.153500" yMax="376.191000">
+          <word xMin="174.550000" yMin="366.501000" xMax="189.056500" yMax="376.191000">This</word>
+          <word xMin="191.147500" yMin="366.501000" xMax="225.096500" yMax="376.191000">indicative</word>
+          <word xMin="227.196000" yMin="366.501000" xMax="243.193000" yMax="376.191000">SaaS</word>
+          <word xMin="245.318000" yMin="366.501000" xMax="261.553500" yMax="376.191000">offer</word>
+          <word xMin="263.687000" yMin="366.501000" xMax="279.420500" yMax="376.191000">does</word>
+          <word xMin="281.554000" yMin="366.501000" xMax="293.080000" yMax="376.191000">not</word>
+          <word xMin="295.239000" yMin="366.501000" xMax="323.119000" yMax="376.191000">promise</word>
+          <word xMin="325.218500" yMin="366.501000" xMax="364.752000" yMax="376.191000">Oman-only</word>
+          <word xMin="366.877000" yMin="366.501000" xMax="374.280500" yMax="376.191000">or</word>
+          <word xMin="376.422500" yMin="366.501000" xMax="446.479500" yMax="376.191000">customer-controlled</word>
+          <word xMin="448.621500" yMin="366.501000" xMax="476.459000" yMax="376.191000">hosting.</word>
+          <word xMin="478.592500" yMin="366.501000" xMax="493.459000" yMax="376.191000">Any</word>
+          <word xMin="495.584000" yMin="366.501000" xMax="530.153500" yMax="376.191000">residency,</word>
+        </line>
+        <line xMin="174.550000" yMin="377.651000" xMax="490.189000" yMax="387.341000">
+          <word xMin="174.550000" yMin="377.651000" xMax="216.973500" yMax="387.341000">on-premises</word>
+          <word xMin="219.107000" yMin="377.651000" xMax="226.553000" yMax="387.341000">or</word>
+          <word xMin="228.652500" yMin="377.651000" xMax="274.892500" yMax="387.341000">private-cloud</word>
+          <word xMin="277.034500" yMin="377.651000" xMax="319.721500" yMax="387.341000">requirement</word>
+          <word xMin="321.838000" yMin="377.651000" xMax="341.719500" yMax="387.341000">needs</word>
+          <word xMin="343.853000" yMin="377.651000" xMax="347.729000" yMax="387.341000">a</word>
+          <word xMin="349.845500" yMin="377.651000" xMax="378.754000" yMax="387.341000">separate</word>
+          <word xMin="380.853500" yMin="377.651000" xMax="421.993500" yMax="387.341000">deployment</word>
+          <word xMin="424.110000" yMin="377.651000" xMax="436.894000" yMax="387.341000">and</word>
+          <word xMin="438.993500" yMin="377.651000" xMax="466.831000" yMax="387.341000">security</word>
+          <word xMin="468.956000" yMin="377.651000" xMax="490.189000" yMax="387.341000">scope.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="84.600000" yMin="405.444000" xMax="121.968000" yMax="415.772000">
+        <line xMin="84.600000" yMin="405.444000" xMax="121.968000" yMax="415.772000">
+          <word xMin="84.600000" yMin="405.444000" xMax="121.968000" yMax="415.772000">CONTENT</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="174.550000" yMin="400.201000" xMax="530.250500" yMax="421.041000">
+        <line xMin="174.550000" yMin="400.201000" xMax="530.250500" yMax="409.891000">
+          <word xMin="174.550000" yMin="400.201000" xMax="187.240500" yMax="409.891000">The</word>
+          <word xMin="189.349500" yMin="400.201000" xMax="218.207000" yMax="409.891000">institute</word>
+          <word xMin="220.306500" yMin="400.201000" xMax="225.908000" yMax="409.891000">is</word>
+          <word xMin="228.041500" yMin="400.201000" xMax="267.388000" yMax="409.891000">responsible</word>
+          <word xMin="269.530000" yMin="400.201000" xMax="279.577000" yMax="409.891000">for</word>
+          <word xMin="281.719000" yMin="400.201000" xMax="292.752000" yMax="409.891000">the</word>
+          <word xMin="294.851500" yMin="400.201000" xMax="326.871000" yMax="409.891000">accuracy,</word>
+          <word xMin="329.004500" yMin="400.201000" xMax="361.440500" yMax="409.891000">authority</word>
+          <word xMin="363.565500" yMin="400.201000" xMax="376.349500" yMax="409.891000">and</word>
+          <word xMin="378.449000" yMin="400.201000" xMax="400.540500" yMax="409.891000">timely</word>
+          <word xMin="402.665500" yMin="400.201000" xMax="426.236000" yMax="409.891000">update</word>
+          <word xMin="428.378000" yMin="400.201000" xMax="435.254500" yMax="409.891000">of</word>
+          <word xMin="437.413500" yMin="400.201000" xMax="461.851000" yMax="409.891000">course,</word>
+          <word xMin="463.984500" yMin="400.201000" xMax="483.084000" yMax="409.891000">price,</word>
+          <word xMin="485.175000" yMin="400.201000" xMax="515.367000" yMax="409.891000">schedule</word>
+          <word xMin="517.466500" yMin="400.201000" xMax="530.250500" yMax="409.891000">and</word>
+        </line>
+        <line xMin="174.550000" yMin="411.351000" xMax="326.921000" yMax="421.041000">
+          <word xMin="174.550000" yMin="411.351000" xMax="195.791500" yMax="421.041000">policy</word>
+          <word xMin="197.916500" yMin="411.351000" xMax="239.328500" yMax="421.041000">information</word>
+          <word xMin="241.470500" yMin="411.351000" xMax="270.736000" yMax="421.041000">supplied</word>
+          <word xMin="272.878000" yMin="411.351000" xMax="279.848000" yMax="421.041000">to</word>
+          <word xMin="281.964500" yMin="411.351000" xMax="292.997500" yMax="421.041000">the</word>
+          <word xMin="295.097000" yMin="411.351000" xMax="326.921000" yMax="421.041000">assistant.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="72.100000" yMin="453.200000" xMax="132.433000" yMax="466.200000">
+        <line xMin="72.100000" yMin="453.200000" xMax="132.433000" yMax="466.200000">
+          <word xMin="72.100000" yMin="453.200000" xMax="85.477000" yMax="466.200000">To</word>
+          <word xMin="88.415000" yMin="453.200000" xMax="132.433000" yMax="466.200000">proceed</word>
+        </line>
+      </block>
+      <block xMin="85.100000" yMin="476.616000" xMax="541.772000" yMax="489.156000">
+        <line xMin="85.100000" yMin="476.616000" xMax="541.772000" yMax="489.156000">
+          <word xMin="85.100000" yMin="476.616000" xMax="92.613000" yMax="489.156000">1.</word>
+          <word xMin="99.100000" yMin="477.957000" xMax="131.495500" yMax="488.787000">Confirm</word>
+          <word xMin="133.889500" yMin="477.957000" xMax="146.220500" yMax="488.787000">the</word>
+          <word xMin="148.567000" yMin="477.957000" xMax="184.401000" yMax="488.787000">preferred</word>
+          <word xMin="186.795000" yMin="477.957000" xMax="205.757000" yMax="488.787000">plan.</word>
+          <word xMin="208.160500" yMin="477.957000" xMax="241.809500" yMax="488.787000">Business</word>
+          <word xMin="244.156000" yMin="477.957000" xMax="250.445000" yMax="488.787000">is</word>
+          <word xMin="252.791500" yMin="477.957000" xMax="265.122500" yMax="488.787000">the</word>
+          <word xMin="267.516500" yMin="477.957000" xMax="322.350500" yMax="488.787000">recommended</word>
+          <word xMin="324.697000" yMin="477.957000" xMax="368.872000" yMax="488.787000">operational</word>
+          <word xMin="371.266000" yMin="477.957000" xMax="398.664000" yMax="488.787000">option;</word>
+          <word xMin="401.067500" yMin="477.957000" xMax="427.249500" yMax="488.787000">Starter</word>
+          <word xMin="429.615000" yMin="477.957000" xMax="435.904000" yMax="488.787000">is</word>
+          <word xMin="438.250500" yMin="477.957000" xMax="472.184500" yMax="488.787000">intended</word>
+          <word xMin="474.578500" yMin="477.957000" xMax="491.887500" yMax="488.787000">only</word>
+          <word xMin="494.243500" yMin="477.957000" xMax="505.501000" yMax="488.787000">for</word>
+          <word xMin="507.866500" yMin="477.957000" xMax="512.198500" yMax="488.787000">a</word>
+          <word xMin="514.554500" yMin="477.957000" xMax="541.772000" yMax="488.787000">limited</word>
+        </line>
+      </block>
+      <block xMin="99.100000" yMin="491.407000" xMax="131.723000" yMax="502.237000">
+        <line xMin="99.100000" yMin="491.407000" xMax="131.723000" yMax="502.237000">
+          <word xMin="99.100000" yMin="491.407000" xMax="131.723000" yMax="502.237000">preview.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="85.100000" yMin="509.516000" xMax="414.889500" yMax="522.056000">
+        <line xMin="85.100000" yMin="509.516000" xMax="414.889500" yMax="522.056000">
+          <word xMin="85.100000" yMin="509.516000" xMax="92.613000" yMax="522.056000">2.</word>
+          <word xMin="99.100000" yMin="510.857000" xMax="120.826500" yMax="521.687000">Share</word>
+          <word xMin="123.173000" yMin="510.857000" xMax="135.504000" yMax="521.687000">the</word>
+          <word xMin="137.898000" yMin="510.857000" xMax="173.542000" yMax="521.687000">proposed</word>
+          <word xMin="175.936000" yMin="510.857000" xMax="217.574500" yMax="521.687000">WhatsApp</word>
+          <word xMin="219.949500" yMin="510.857000" xMax="250.083500" yMax="521.687000">number</word>
+          <word xMin="252.449000" yMin="510.857000" xMax="266.727500" yMax="521.687000">and</word>
+          <word xMin="269.074000" yMin="510.857000" xMax="281.443000" yMax="521.687000">the</word>
+          <word xMin="283.799000" yMin="510.857000" xMax="316.032500" yMax="521.687000">institute</word>
+          <word xMin="318.379000" yMin="510.857000" xMax="364.663000" yMax="521.687000">information</word>
+          <word xMin="367.057000" yMin="510.857000" xMax="387.881000" yMax="521.687000">listed</word>
+          <word xMin="390.275000" yMin="510.857000" xMax="414.889500" yMax="521.687000">above.</word>
+        </line>
+      </block>
+      <block xMin="85.100000" yMin="529.666000" xMax="320.649500" yMax="542.206000">
+        <line xMin="85.100000" yMin="529.666000" xMax="320.649500" yMax="542.206000">
+          <word xMin="85.100000" yMin="529.666000" xMax="92.613000" yMax="542.206000">3.</word>
+          <word xMin="99.100000" yMin="531.007000" xMax="136.387500" yMax="541.837000">Complete</word>
+          <word xMin="138.743500" yMin="531.007000" xMax="143.075500" yMax="541.837000">a</word>
+          <word xMin="145.431500" yMin="531.007000" xMax="165.552500" yMax="541.837000">short</word>
+          <word xMin="167.899000" yMin="531.007000" xMax="204.094000" yMax="541.837000">readiness</word>
+          <word xMin="206.488000" yMin="531.007000" xMax="220.766500" yMax="541.837000">and</word>
+          <word xMin="223.113000" yMin="531.007000" xMax="244.877500" yMax="541.837000">scope</word>
+          <word xMin="247.271500" yMin="531.007000" xMax="273.444000" yMax="541.837000">review</word>
+          <word xMin="275.800000" yMin="531.007000" xMax="293.527000" yMax="541.837000">with</word>
+          <word xMin="295.911500" yMin="531.007000" xMax="320.649500" yMax="541.837000">Inzint.</word>
+        </line>
+      </block>
+      <block xMin="85.100000" yMin="549.816000" xMax="539.405500" yMax="562.356000">
+        <line xMin="85.100000" yMin="549.816000" xMax="539.405500" yMax="562.356000">
+          <word xMin="85.100000" yMin="549.816000" xMax="92.613000" yMax="562.356000">4.</word>
+          <word xMin="99.100000" yMin="551.157000" xMax="128.702000" yMax="561.987000">Receive</word>
+          <word xMin="131.200500" yMin="551.157000" xMax="145.479000" yMax="561.987000">and</word>
+          <word xMin="147.968000" yMin="551.157000" xMax="179.232500" yMax="561.987000">approve</word>
+          <word xMin="181.731000" yMin="551.157000" xMax="194.062000" yMax="561.987000">the</word>
+          <word xMin="196.750000" yMin="551.157000" xMax="214.040000" yMax="561.987000">final</word>
+          <word xMin="216.519500" yMin="551.157000" xMax="237.410000" yMax="561.987000">order</word>
+          <word xMin="239.918000" yMin="551.157000" xMax="260.723000" yMax="561.987000">form,</word>
+          <word xMin="263.221500" yMin="551.157000" xMax="299.825000" yMax="561.987000">including</word>
+          <word xMin="302.304500" yMin="551.157000" xMax="337.407000" yMax="561.987000">activated</word>
+          <word xMin="339.896000" yMin="551.157000" xMax="376.186000" yMax="561.987000">channels,</word>
+          <word xMin="378.741500" yMin="551.157000" xMax="440.140000" yMax="561.987000">implementation</word>
+          <word xMin="442.629000" yMin="551.157000" xMax="465.733000" yMax="561.987000">items,</word>
+          <word xMin="468.231500" yMin="551.157000" xMax="498.137500" yMax="561.987000">support</word>
+          <word xMin="500.674000" yMin="551.157000" xMax="522.638000" yMax="561.987000">terms</word>
+          <word xMin="525.127000" yMin="551.157000" xMax="539.405500" yMax="561.987000">and</word>
+        </line>
+      </block>
+      <block xMin="99.100000" yMin="564.607000" xMax="146.334000" yMax="575.437000">
+        <line xMin="99.100000" yMin="564.607000" xMax="146.334000" yMax="575.437000">
+          <word xMin="99.100000" yMin="564.607000" xMax="125.614500" yMax="575.437000">go-live</word>
+          <word xMin="127.961000" yMin="564.607000" xMax="146.334000" yMax="575.437000">date.</word>
+        </line>
+      </block>
+      <block xMin="89.750000" yMin="590.694000" xMax="174.366000" yMax="601.022000">
+        <line xMin="89.750000" yMin="590.694000" xMax="174.366000" yMax="601.022000">
+          <word xMin="89.750000" yMin="590.694000" xMax="110.726000" yMax="601.022000">NEXT</word>
+          <word xMin="112.486000" yMin="590.694000" xMax="174.366000" yMax="601.022000">CONVERSATION</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="89.750000" yMin="604.038000" xMax="457.622000" yMax="624.694000">
+        <line xMin="89.750000" yMin="604.038000" xMax="457.622000" yMax="624.694000">
+          <word xMin="89.750000" yMin="604.038000" xMax="112.966000" yMax="624.694000">We</word>
+          <word xMin="116.502000" yMin="604.038000" xMax="161.702000" yMax="624.694000">would</word>
+          <word xMin="165.254000" yMin="604.038000" xMax="183.078000" yMax="624.694000">be</word>
+          <word xMin="186.646000" yMin="604.038000" xMax="232.358000" yMax="624.694000">happy</word>
+          <word xMin="235.910000" yMin="604.038000" xMax="250.358000" yMax="624.694000">to</word>
+          <word xMin="253.910000" yMin="604.038000" xMax="288.454000" yMax="624.694000">walk</word>
+          <word xMin="291.990000" yMin="604.038000" xMax="320.758000" yMax="624.694000">Taif</word>
+          <word xMin="324.310000" yMin="604.038000" xMax="384.854000" yMax="624.694000">through</word>
+          <word xMin="388.422000" yMin="604.038000" xMax="412.038000" yMax="624.694000">the</word>
+          <word xMin="415.606000" yMin="604.038000" xMax="457.622000" yMax="624.694000">scope</word>
+        </line>
+      </block>
+      <block xMin="89.750000" yMin="629.707000" xMax="535.433000" yMax="653.737000">
+        <line xMin="89.750000" yMin="629.707000" xMax="535.433000" yMax="640.537000">
+          <word xMin="89.750000" yMin="629.707000" xMax="120.150000" yMax="640.537000">Contact</word>
+          <word xMin="122.259000" yMin="629.707000" xMax="144.926000" yMax="640.537000">Inzint</word>
+          <word xMin="146.987500" yMin="629.707000" xMax="170.614000" yMax="640.537000">Oman</word>
+          <word xMin="172.723000" yMin="629.707000" xMax="180.057000" yMax="640.537000">at</word>
+          <word xMin="182.118500" yMin="629.707000" xMax="205.868500" yMax="640.537000">(+968)</word>
+          <word xMin="207.949000" yMin="629.707000" xMax="225.590500" yMax="640.537000">7272</word>
+          <word xMin="227.690000" yMin="629.707000" xMax="245.331500" yMax="640.537000">4832</word>
+          <word xMin="247.421500" yMin="629.707000" xMax="255.734000" yMax="640.537000">or</word>
+          <word xMin="257.814500" yMin="629.707000" xMax="333.520000" yMax="640.537000">contact@inzint.om.</word>
+          <word xMin="335.591000" yMin="629.707000" xMax="341.329000" yMax="640.537000">If</word>
+          <word xMin="343.447500" yMin="629.707000" xMax="356.386500" yMax="640.537000">full</word>
+          <word xMin="358.495500" yMin="629.707000" xMax="399.526000" yMax="640.537000">ownership</word>
+          <word xMin="401.606500" yMin="629.707000" xMax="415.885000" yMax="640.537000">and</word>
+          <word xMin="417.984500" yMin="629.707000" xMax="464.772000" yMax="640.537000">unrestricted</word>
+          <word xMin="466.824000" yMin="629.707000" xMax="521.287500" yMax="640.537000">customization</word>
+          <word xMin="523.396500" yMin="629.707000" xMax="535.433000" yMax="640.537000">are</word>
+        </line>
+        <line xMin="89.750000" yMin="642.907000" xMax="361.932000" yMax="653.737000">
+          <word xMin="89.750000" yMin="642.907000" xMax="127.683500" yMax="653.737000">preferred,</word>
+          <word xMin="130.039500" yMin="642.907000" xMax="142.931000" yMax="653.737000">ask</word>
+          <word xMin="145.325000" yMin="642.907000" xMax="156.535000" yMax="653.737000">for</word>
+          <word xMin="158.900500" yMin="642.907000" xMax="171.231500" yMax="653.737000">the</word>
+          <word xMin="173.625500" yMin="642.907000" xMax="205.906500" yMax="653.737000">separate</word>
+          <word xMin="208.300500" yMin="642.907000" xMax="324.036500" yMax="653.737000">owned-copy/custom-software</word>
+          <word xMin="326.392500" yMin="642.907000" xMax="361.932000" yMax="653.737000">proposal.</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="229.450000" yMin="685.037000" xMax="382.690000" yMax="696.656000">
+        <line xMin="229.450000" yMin="685.037000" xMax="382.690000" yMax="696.656000">
+          <word xMin="229.450000" yMin="685.037000" xMax="254.083000" yMax="696.656000">Inzint</word>
+          <word xMin="256.036000" yMin="685.037000" xMax="272.713000" yMax="696.656000">LLC</word>
+          <word xMin="276.718000" yMin="685.037000" xMax="279.319000" yMax="696.656000">·</word>
+          <word xMin="283.350000" yMin="685.604000" xMax="318.207000" yMax="695.864000">inzint.om</word>
+          <word xMin="322.750000" yMin="685.604000" xMax="325.000000" yMax="695.864000">·</word>
+          <word xMin="329.500000" yMin="685.604000" xMax="358.048000" yMax="695.864000">Muscat,</word>
+          <word xMin="360.316000" yMin="685.604000" xMax="382.690000" yMax="695.864000">Oman</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="72.100000" yMin="746.748000" xMax="219.796000" yMax="755.868000">
+        <line xMin="72.100000" yMin="746.748000" xMax="219.796000" yMax="755.868000">
+          <word xMin="72.100000" yMin="746.748000" xMax="91.204000" yMax="755.868000">Inzint</word>
+          <word xMin="93.180000" yMin="746.748000" xMax="106.740000" yMax="755.868000">LLC</word>
+          <word xMin="110.772000" yMin="746.748000" xMax="112.772000" yMax="755.868000">·</word>
+          <word xMin="116.772000" yMin="746.748000" xMax="147.756000" yMax="755.868000">inzint.om</word>
+          <word xMin="151.740000" yMin="746.748000" xMax="153.740000" yMax="755.868000">·</word>
+          <word xMin="157.740000" yMin="746.748000" xMax="219.796000" yMax="755.868000">contact@inzint.om</word>
+        </line>
+      </block>
+    </flow>
+    <flow>
+      <block xMin="269.650000" yMin="745.854000" xMax="342.626000" yMax="756.572000">
+        <line xMin="269.650000" yMin="745.854000" xMax="342.626000" yMax="756.572000">
+          <word xMin="269.650000" yMin="746.244000" xMax="329.018000" yMax="756.572000">CONFIDENTIAL</word>
+          <word xMin="332.562000" yMin="746.244000" xMax="334.874000" yMax="756.572000">·</word>
+          <word xMin="338.450000" yMin="745.854000" xMax="342.626000" yMax="756.114000">8</word>
+        </line>
+      </block>
+    </flow>
+  </page>
+</doc>
+</body>
+</html>

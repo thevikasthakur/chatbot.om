@@ -139,7 +139,8 @@ export default function AboutPage() {
                 <span className="accent-italic">on your own website</span>.
               </h2>
               <p className="mt-4 max-w-lg text-sm text-muted-foreground leading-relaxed">
-                {site.address}
+                New office from {site.office.availableFromLabel}: {site.office.address}.
+                Until then, in-person meetings in Muscat and Seeb are by appointment only.
               </p>
             </div>
             <div className="flex flex-wrap gap-3 md:justify-end">

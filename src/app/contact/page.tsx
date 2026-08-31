@@ -1,20 +1,45 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
-import { ArrowUpRight, Mail, MapPin, MessageSquare, Phone } from "lucide-react";
+import { ArrowUpRight, CalendarCheck, Mail, MapPin, MessageSquare, Phone } from "lucide-react";
 import { CtaBanner } from "@/components/sections";
+import JsonLd from "@/components/JsonLd";
 import { site, whatsappUrl } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact & Muscat Office",
   description:
-    "Talk to the team in Muscat. Email, phone, WhatsApp, or send us your website and we will show you the chatbot reading it.",
+    `Chatbot.OM moves to Office 315, Muscat Pavilion, Muscat Hills on ${site.office.availableFromLabel}. Until then, in-person meetings in Muscat and Seeb are by appointment only.`,
   ...pageMeta("/contact/"),
+};
+
+const officePage = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": `${site.url}/contact/#page`,
+  url: `${site.url}/contact/`,
+  name: "Chatbot.OM contact and Muscat office",
+  description: metadata.description,
+  dateModified: "2026-08-31",
+  mainEntity: {
+    "@type": "Place",
+    name: `Chatbot.OM — Muscat Hills office from ${site.office.availableFromLabel}`,
+    description:
+      `Chatbot.OM will be available at this office from ${site.office.availableFromLabel}. Until then, in-person meetings in Muscat and Seeb are available by appointment only.`,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Office 315, Muscat Pavilion, Hayy al Arafat Road, Muscat Hills",
+      addressLocality: "Muscat",
+      addressCountry: "OM",
+    },
+    hasMap: site.office.mapsUrl,
+  },
 };
 
 export default function ContactPage() {
   return (
     <>
+      <JsonLd data={officePage} />
       <section className="border-b border-border pt-32 pb-14 md:pt-40 md:pb-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="eyebrow">Contact</p>
@@ -23,9 +48,46 @@ export default function ContactPage() {
             <span className="text-lime">actually built it.</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            We are in Muscat, we work your week, and there is no support queue in
-            another time zone between you and an answer.
+            We are in Muscat, we work your week, and you talk directly to the
+            people who built the product.
           </p>
+        </div>
+      </section>
+
+      <section className="border-b border-border bg-ink-2 py-14 md:py-18">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-10 lg:grid-cols-[1.35fr_0.65fr] lg:items-end">
+            <div>
+              <p className="eyebrow">Office update · Effective {site.office.availableFromLabel}</p>
+              <h2 className="mt-4 max-w-3xl text-3xl leading-tight md:text-5xl">
+                More room. More conversations. <span className="text-lime">Same mission.</span>
+              </h2>
+              <p className="mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+                Chatbot.OM is moving to a bigger space in Muscat Hills. We are
+                building it for the footfall ahead—not the footfall behind.
+              </p>
+              <address className="mt-6 not-italic text-base leading-relaxed">
+                <span className="block font-semibold">From {site.office.availableFromLabel}</span>
+                <span className="mt-1 block text-muted-foreground">{site.office.address}</span>
+              </address>
+            </div>
+            <div className="border border-border bg-ink p-6">
+              <CalendarCheck className="h-6 w-6 text-lime" aria-hidden />
+              <h3 className="mt-4 text-base font-semibold">Until launch day</h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Meetings are by appointment only. In-person meetings are available
+                in Muscat and Seeb.
+              </p>
+              <a
+                href={site.office.mapsUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-5 inline-flex h-10 items-center gap-2 border border-line-strong px-4 text-sm font-medium transition-colors hover:bg-ink-3"
+              >
+                Open the new location <ArrowUpRight className="h-4 w-4 text-lime" aria-hidden />
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -58,11 +120,16 @@ export default function ContactPage() {
                 Message us the way your customers message you
               </p>
             </a>
-            <div className="bg-ink-2 p-7">
+            <a
+              href={site.office.mapsUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="bg-ink-2 p-7 transition-colors hover:bg-ink-3"
+            >
               <MapPin className="h-6 w-6 text-lime" aria-hidden />
-              <h2 className="mt-4 text-base font-semibold">Office</h2>
-              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{site.address}</p>
-            </div>
+              <h2 className="mt-4 text-base font-semibold">New office · from 1 Dec</h2>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{site.office.address}</p>
+            </a>
           </div>
         </div>
       </section>

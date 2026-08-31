@@ -33,7 +33,7 @@ const standalone: Entry[] = [
   { path: "/guideline/oman/", priority: 0.7, changeFrequency: "monthly" },
   { path: "/self-hosted/", priority: 0.7, changeFrequency: "monthly" },
   { path: "/about/", priority: 0.6, changeFrequency: "yearly" },
-  { path: "/contact/", priority: 0.6, changeFrequency: "yearly" },
+  { path: "/contact/", priority: 0.8, changeFrequency: "monthly" },
   { path: "/get-started/", priority: 0.9, changeFrequency: "monthly" },
 ];
 
