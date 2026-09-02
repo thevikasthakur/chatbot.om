@@ -1,0 +1,321 @@
+{
+  "id": "article-2026-09-02-one-site-two-languages",
+  "taskId": "2026-09-02-one-site-two-languages",
+  "slug": "one-site-two-languages",
+  "title": "One Site, Two Languages, Zero Confusion",
+  "seoTitle": "One Site, Two Languages, Zero Confusion",
+  "excerpt": "Your customers switch between Arabic and English mid-message. Does your website keep up, or does it quietly lose half of them at the price list?",
+  "seoDescription": "What a small business website in Oman must show in both Arabic and English, the layout mistakes that cost bookings, and a two-minute bilingual check.",
+  "series": "Your Website, Working",
+  "category": "Websites & Conversion",
+  "topic": "One Site, Two Languages, Zero Confusion",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-02",
+  "modifiedDate": "2026-09-02",
+  "reviewedDate": "2026-09-02",
+  "reviewBy": "2026-12-01",
+  "status": "published",
+  "tags": [
+    "bilingual websites",
+    "Arabic and English",
+    "website UX",
+    "small business",
+    "WhatsApp",
+    "Your Website Working",
+    "website checklist"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#062e2b\"/><stop offset=\"0.5\" stop-color=\"#0f4c4c\"/><stop offset=\"1\" stop-color=\"#79e0c8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><text x=\"200\" y=\"40\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"32\" fill=\"#f4f4f0\" text-anchor=\"middle\">ZERO CONFUSION</text><text x=\"200\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#d4ff4f\" text-anchor=\"middle\">one site, two languages</text><rect x=\"55\" y=\"85\" width=\"290\" height=\"115\" rx=\"10\" fill=\"#0a3d3a\" stroke=\"#79e0c8\" stroke-width=\"2\"/><rect x=\"55\" y=\"85\" width=\"290\" height=\"18\" rx=\"10\" fill=\"#062e2b\"/><circle cx=\"68\" cy=\"94\" r=\"3\" fill=\"#e8c07c\"/><circle cx=\"80\" cy=\"94\" r=\"3\" fill=\"#79e0c8\"/><circle cx=\"92\" cy=\"94\" r=\"3\" fill=\"#d4ff4f\"/><rect x=\"130\" y=\"118\" width=\"70\" height=\"6\" rx=\"3\" fill=\"#e8c07c\"/><rect x=\"110\" y=\"132\" width=\"90\" height=\"6\" rx=\"3\" fill=\"#e8c07c\"/><rect x=\"145\" y=\"146\" width=\"55\" height=\"6\" rx=\"3\" fill=\"#e8c07c\"/><rect x=\"120\" y=\"160\" width=\"80\" height=\"6\" rx=\"3\" fill=\"#e8c07c\"/><rect x=\"135\" y=\"174\" width=\"65\" height=\"6\" rx=\"3\" fill=\"#e8c07c\"/><rect x=\"200\" y=\"118\" width=\"70\" height=\"6\" rx=\"3\" fill=\"#79e0c8\"/><rect x=\"200\" y=\"132\" width=\"90\" height=\"6\" rx=\"3\" fill=\"#79e0c8\"/><rect x=\"200\" y=\"146\" width=\"55\" height=\"6\" rx=\"3\" fill=\"#79e0c8\"/><rect x=\"200\" y=\"160\" width=\"80\" height=\"6\" rx=\"3\" fill=\"#79e0c8\"/><rect x=\"200\" y=\"174\" width=\"65\" height=\"6\" rx=\"3\" fill=\"#79e0c8\"/><line x1=\"200\" y1=\"108\" x2=\"200\" y2=\"190\" stroke=\"#d4ff4f\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"115\" r=\"4\" fill=\"#d4ff4f\"/><circle cx=\"200\" cy=\"130\" r=\"4\" fill=\"#d4ff4f\"/><circle cx=\"200\" cy=\"145\" r=\"4\" fill=\"#d4ff4f\"/><circle cx=\"200\" cy=\"160\" r=\"4\" fill=\"#d4ff4f\"/><circle cx=\"200\" cy=\"175\" r=\"4\" fill=\"#d4ff4f\"/></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A customer types 'abi price list' into your website chat, then switches to Arabic to ask about delivery. If your site cannot follow that switch, you have already lost five minutes of patience and maybe the booking. Arabic and English are not two separate audiences on a small business site here: they are often the same person, in the same message."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-the-mix-matters",
+      "text": "why the mix matters more than you think"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most small business sites did not start bilingual on purpose. Someone built the English version first because a template or a freelancer made it easy, and Arabic became 'we will add it later.' Later rarely comes, or it arrives as a stiff translation nobody proofread before it went live."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Meanwhile your customers are switching languages inside one WhatsApp message without noticing they have done it. They ask 'do you deliver to Ghala' in English, send the address in Arabic, then sign off with 'مشكور'. A site that only speaks one of those languages is quietly asking the customer to do the translating that the business should be doing for them."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-must-exist-in-both",
+      "text": "what must exist in both languages"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Not every word on your site needs a mirror. But a short list of pages carries real weight, because they are the ones that actually lead to a message, a call or a booking."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Your business name and a one-line description of what you sell or do"
+          }
+        ],
+        [
+          {
+            "text": "Your address or area, with a map pin labelled the same way in both scripts"
+          }
+        ],
+        [
+          {
+            "text": "Opening hours, including anything that changes in Ramadan or on public holidays"
+          }
+        ],
+        [
+          {
+            "text": "A price list or starting prices, not just 'contact us for pricing'"
+          }
+        ],
+        [
+          {
+            "text": "Your WhatsApp number as a tappable link, in both language versions"
+          }
+        ],
+        [
+          {
+            "text": "How to book, order or reserve, step by step"
+          }
+        ],
+        [
+          {
+            "text": "Your cancellation, deposit or return policy"
+          }
+        ],
+        [
+          {
+            "text": "Anything customers ask about often: parking, delivery areas, home visits"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "layout-mistakes-that-cost-you",
+      "text": "the layout mistakes that quietly cost you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of these mistakes look broken to the person who built the site. They only show up when a customer reading the other language tries to use it."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "The language switch is a tiny icon buried in the footer, easy to miss on a phone"
+          }
+        ],
+        [
+          {
+            "text": "Arabic text is pasted into an English left-to-right layout, so it reads broken or reversed"
+          }
+        ],
+        [
+          {
+            "text": "The WhatsApp number is a picture, so it cannot be tapped or copied"
+          }
+        ],
+        [
+          {
+            "text": "Only the English page gets updated when hours or prices change, and Arabic goes stale"
+          }
+        ],
+        [
+          {
+            "text": "The business name is spelled differently across the two versions, splitting your reviews and map listing"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A website that only makes sense in one language has already lost the customer who reads the other one."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-mixed-language-customers-actually-read",
+      "text": "how mixed-language customers actually read"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "People do not read your site the way a translator reads a document, switching cleanly at a language boundary. They skim in whichever script is fastest for what they need right now: English for the price because digits are digits, Arabic for the address because that is how they would say it out loud."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Chat mirrors this even more than the site does. A customer might open with 'hi' and finish the same conversation in Arabic, expecting whoever, or whatever, answers to follow along without making them repeat themselves. A chat tool built to hold both scripts in one conversation, like the setup behind Chatbot.OM's Arabic and English conversations, saves you from guessing a language for people who never chose one in the first place."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-it-costs-to-fix-properly",
+      "text": "what it costs to fix properly"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need to translate the whole site to close the biggest gaps. Start with the pages that lead directly to a booking or a sale, and price it out like this."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example: a five-page fix for a small salon site",
+      "headers": [
+        "Page or section",
+        "Needed in both languages",
+        "Approx one-time cost (OMR)"
+      ],
+      "rows": [
+        [
+          "Home page and what you do",
+          "Yes",
+          "5"
+        ],
+        [
+          "Services or menu with prices",
+          "Yes",
+          "10"
+        ],
+        [
+          "Booking or contact steps",
+          "Yes",
+          "5"
+        ],
+        [
+          "Cancellation and deposit policy",
+          "Yes",
+          "8"
+        ],
+        [
+          "Total, one time",
+          "-",
+          "28"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That is less than the cost of one missed booking for most of these businesses, and it does not need redoing unless your prices or hours change."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Customers who read Arabic first book faster now that the price list isn't an English screenshot.",
+      "attribution": "Hind, salon owner, Qurum",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Open your five most-visited pages in both languages tonight. If Arabic is missing or clearly machine-translated on anything touching price, hours or policy, fix that before you touch a colour scheme. Make the WhatsApp number a tappable link on every page, in every language, every time."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A visitor who cannot find their language usually leaves the same way most visitors already leave a site: without asking anything at all.",
+          "href": "/blog/visitors-leave-without-asking/"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open your homepage in Arabic on your phone. Tap the WhatsApp number. Does it open a chat, or just sit there as text?",
+        "Compare the price list on both language versions side by side. Same numbers, same date?",
+        "Type one message to your own site chat half in Arabic, half in English, and see if it keeps up."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does every single page need a full Arabic translation?",
+          "a": "No. Focus on pages that lead to a message, booking or sale. Decorative or 'about us' pages can wait."
+        },
+        {
+          "q": "Which language should load first?",
+          "a": "Let a simple toggle decide, or default to whichever language most of your enquiries already arrive in."
+        },
+        {
+          "q": "Are numbers and prices written differently on the Arabic page?",
+          "a": "Keep phone numbers and OMR amounts in the same digits on both versions. That is what most readers expect either way."
+        },
+        {
+          "q": "Is a free translation tool good enough for the price list?",
+          "a": "Fine for a first draft, but have someone fluent check anything touching prices, hours or policy before it goes live."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Your customers already move between Arabic and English without thinking about it. The fix is not a bigger website, it is making sure the handful of pages that lead to money treat both languages as first class, checked, tappable and current."
+        }
+      ]
+    }
+  ]
+}
