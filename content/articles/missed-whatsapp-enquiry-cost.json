@@ -1,0 +1,265 @@
+{
+  "id": "article-2026-09-03-missed-message-cost",
+  "taskId": "2026-09-03-missed-message-cost",
+  "slug": "missed-whatsapp-enquiry-cost",
+  "title": "What a Missed WhatsApp Enquiry Really Costs",
+  "seoTitle": "What a Missed WhatsApp Enquiry Really Costs",
+  "excerpt": "Every unread WhatsApp chat is a booking someone else might take. A composite Seeb salon's numbers show what that adds up to in real OMR, and the two cheapest fixes.",
+  "seoDescription": "A composite Seeb salon's WhatsApp numbers show what a missed enquiry costs in lost bookings and OMR, plus the two cheapest fixes to close the gap.",
+  "series": "Small Team Playbook",
+  "category": "Running a Small Team",
+  "topic": "What a Missed WhatsApp Enquiry Really Costs",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-03",
+  "modifiedDate": "2026-09-03",
+  "reviewedDate": "2026-09-03",
+  "reviewBy": "2026-12-02",
+  "status": "published",
+  "tags": [
+    "whatsapp business",
+    "missed messages",
+    "small business oman",
+    "salon bookings",
+    "customer response time",
+    "whatsapp automation",
+    "running a small team"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#14121c\"/><stop offset=\"50%\" stop-color=\"#3a3554\"/><stop offset=\"100%\" stop-color=\"#a8a8f8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><rect x=\"30\" y=\"35\" width=\"95\" height=\"155\" rx=\"16\" fill=\"#14121c\" stroke=\"#79e0c8\" stroke-width=\"3\"/><rect x=\"42\" y=\"50\" width=\"71\" height=\"120\" rx=\"6\" fill=\"#3a3554\"/><rect x=\"50\" y=\"60\" width=\"55\" height=\"14\" rx=\"7\" fill=\"#f4f4f0\"/><rect x=\"50\" y=\"82\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#79e0c8\"/><rect x=\"50\" y=\"104\" width=\"50\" height=\"14\" rx=\"7\" fill=\"#f4f4f0\"/><circle cx=\"112\" cy=\"48\" r=\"14\" fill=\"#e8c07c\"/><text x=\"112\" y=\"53\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"16\" fill=\"#14121c\" text-anchor=\"middle\">3</text><rect x=\"140\" y=\"90\" width=\"230\" height=\"80\" rx=\"10\" fill=\"#14121c\"/><text x=\"155\" y=\"135\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"32\" fill=\"#d4ff4f\">OMR 728</text><text x=\"155\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">lost every month, unanswered</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Three unread WhatsApp chats sitting on your phone at closing time look harmless. Run the numbers for a composite Seeb beauty salon and those three chats turn into real OMR walking out the door every month. Here is the maths, and the two fixes that cost the least to put right."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-messages-you-dont-see",
+      "text": "The messages you don't see"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every enquiry a small salon gets arrives as text before it arrives as anything else. A customer scrolls Instagram at 9 pm, taps through to WhatsApp, and asks if there's a slot for balayage on Thursday. If you're mid-appointment or already asleep, that message sits. Two more arrive before you wake up, and a fourth comes in while you're doing someone's nails the next morning."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this feels like a crisis. It feels like a normal Tuesday. But a business that answers messages between tasks instead of on a schedule is quietly losing bookings it never sees leave, because the customer doesn't call to complain. They just message the next salon on their list."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "from-unread-to-unbooked",
+      "text": "From unread to unbooked"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Not every delayed message costs a booking. Some customers wait. Some only wanted a price. A fair, conservative assumption used across small service businesses is that roughly one in three enquiries left unanswered for more than an hour, or never answered at all, will book somewhere else instead of waiting."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That one assumption is the only guess in this maths. Everything else is arithmetic you can redo tonight with your own WhatsApp chat list and your own average ticket price. Here is what it looks like for a composite Seeb beauty salon answering messages the way most small teams do: whenever there's a free minute."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Redo this with your own WhatsApp numbers and average ticket price.",
+      "headers": [
+        "Step",
+        "Composite Seeb salon",
+        "Your business"
+      ],
+      "rows": [
+        [
+          "WhatsApp enquiries per day",
+          "14",
+          "___"
+        ],
+        [
+          "Answered within 5 minutes",
+          "8",
+          "___"
+        ],
+        [
+          "Answered late (after an hour, or the next day)",
+          "4",
+          "___"
+        ],
+        [
+          "Never answered at all",
+          "2",
+          "___"
+        ],
+        [
+          "Delayed or unanswered enquiries lost to another salon (1 in 3)",
+          "2 per day",
+          "___"
+        ],
+        [
+          "Average booking value",
+          "OMR 14",
+          "___"
+        ],
+        [
+          "Bookings lost per month (26 working days)",
+          "52",
+          "___"
+        ],
+        [
+          "Revenue lost per month",
+          "OMR 728",
+          "___"
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A message answered five minutes late is still a sale. A message answered five hours late is a competitor's sale."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-that-looks-like-in-omr",
+      "text": "What that looks like in OMR"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "OMR 728 a month is not a rounding error. It's close to a junior stylist's monthly wage, gone before it ever reached the till. Multiply it across a year and the composite salon in this example is quietly writing off close to OMR 8,700, not to a rival with better prices or a better location, but to a rival who simply replied faster."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The number moves with your business. A gym with fewer, higher value enquiries might lose two memberships a month worth OMR 180. A tuition centre during enrolment season might lose ten in a fortnight. The shape of the leak is the same everywhere: the message that sat too long, past the point where "
+        },
+        {
+          "text": "the first five minutes still decide the sale",
+          "href": "/blog/reply-in-five-minutes-or-lose-the-lead/"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-two-cheapest-fixes",
+      "text": "The two cheapest fixes"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Fix your habits first, for free. Turn on WhatsApp Business's Away Message for the hours you're closed or elbow deep in a treatment, and set two or three Quick Replies for your most common questions: price list, opening hours, whether you take walk ins. Check the inbox at three fixed times a day instead of whenever you remember. This alone closes the never answered row in the table above."
+          }
+        ],
+        [
+          {
+            "text": "Cover the hours habits can't reach. Away messages and fixed check-ins still leave a gap at 11 pm, during Friday prayer, or the hour you're mid-treatment with gloves on. Increasingly, small businesses hand that gap to a tool built for it: "
+          },
+          {
+            "text": "Chatbot.OM",
+            "strong": true
+          },
+          {
+            "text": " answers WhatsApp and website chat around the clock, understands voice notes in Omani Arabic, and saves every enquiry as a lead so nothing sits unread until morning. For a salon specifically, "
+          },
+          {
+            "text": "see how it works for beauty salons and spas",
+            "href": "/industries/beauty-salons-and-spas-ai-chatbot/"
+          },
+          {
+            "text": "."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I used to think slow replies just meant slow days. They meant lost days.",
+      "attribution": "Ghalia, salon owner, Seeb",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Before you change anything, spend two minutes with your own WhatsApp. Count how many chats sit unread right now. Multiply that by how many days a month it happens, then by your average booking value divided by three. That rough number is what silence is costing you every month, not what a fix would cost."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Then pick one change this week. If your Away Message is empty or out of date, that's free and takes five minutes. If the gap is bigger than habits can close, that's usually a smaller monthly bill than the number you just calculated."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open WhatsApp Business now and count the chats marked unread.",
+        "Check whether your Away Message is on, and whether it still lists the right hours.",
+        "Multiply your unread count by your average booking value, then divide by three: that's a rough monthly estimate of what's slipping through."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How do I know my real conversion rate, not the one in three assumption?",
+          "a": "Track it for two weeks. Note every enquiry that arrived late and whether it still booked, then replace the assumption with your own number."
+        },
+        {
+          "q": "Is a WhatsApp Away Message enough on its own?",
+          "a": "It tells the customer you've seen nothing yet. It doesn't answer their question, so it slows the leak but doesn't stop it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A missed WhatsApp message rarely feels like a loss because nobody tells you it happened. The customer just goes quiet and books elsewhere. Run your own version of the table above once, and the case for closing the gap, cheaply, makes itself."
+        }
+      ]
+    }
+  ]
+}
