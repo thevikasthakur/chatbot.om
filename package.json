@@ -12,7 +12,7 @@
     "start": "next start",
     "lint": "eslint . && tsc --noEmit",
     "typecheck": "tsc --noEmit",
-    "test": "node --test --experimental-strip-types src/lib/install-request-email.test.ts",
+    "test": "node --test --experimental-strip-types \"src/**/*.test.ts\"",
     "ai:check": "node scripts/ai-readability.mjs",
     "prebuild": "node scripts/validate-articles.mjs",
     "articles:generate": "node scripts/generate-daily-article.mjs",

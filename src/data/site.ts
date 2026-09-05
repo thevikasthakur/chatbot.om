@@ -46,6 +46,36 @@ export const site = {
  */
 export const whatsappUrl = `https://api.whatsapp.com/send?phone=${site.phone.replace(/\D/g, "")}`;
 
+/**
+ * Where a visitor goes if they would rather build the chatbot themselves,
+ * instead of handing us the domain and waiting.
+ *
+ * OFF BY DEFAULT. `NEXT_PUBLIC_APP_URL` is unset in the example env, so
+ * `selfServeUrl` is null and no self-serve link renders. That is deliberate:
+ * the primary funnel on this site is concierge ("no account to create"), and
+ * turning a second, contradictory path on for real visitors is a marketing
+ * decision, not a deploy artefact. Set the variable when you mean it.
+ *
+ * Two things to settle BEFORE switching it on:
+ *   1. Branding — pointing at a voxreception.com host sends an Omani visitor
+ *      to a differently-branded product mid-funnel. An app.chatbot.om
+ *      subdomain pointed at the same deployment avoids that entirely (and the
+ *      app resolves the chat-only profile from that hostname with no
+ *      parameter at all).
+ *   2. Residency — this site promises chat data is processed exclusively
+ *      inside Oman. Confirm the destination deployment actually honours that
+ *      before sending customers into it.
+ *
+ * The `src` parameter is the hand-off: the app reads it, resolves the
+ * chat-only Oman profile, and persists it so the choice survives signup.
+ * Keep the value equal to `site.domain` — the app matches it as a hostname.
+ */
+const appBaseUrl = process.env.NEXT_PUBLIC_APP_URL?.trim() || "";
+
+export const selfServeUrl = appBaseUrl
+  ? `${appBaseUrl.replace(/\/+$/, "")}/agents/create?src=${site.domain}`
+  : null;
+
 export type NavChild = { label: string; desc?: string; href: string };
 export type NavItem = { label: string; href?: string; children?: NavChild[] };
 
