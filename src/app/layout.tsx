@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/data/site";
+import ChatWidget from "@/components/ChatWidget";
 
 const organisation = {
   "@context": "https://schema.org",
@@ -124,16 +125,7 @@ export default function RootLayout({
             several sections rely on position: sticky, which hidden would break */}
         <main className="overflow-x-clip">{children}</main>
         <Footer />
-        // eslint-disable-next-line @next/next/no-sync-scripts
-        <script
-          src="https://dev.voxreception.com/vox-embed/widget.v1.js"
-          data-api-url="https://dev.voxreception.com"
-          data-agent="6a9d3d0b9eda80e7134db900"
-          data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZ2VudF9pZCI6IjZhOWQzZDBiOWVkYTgwZTcxMzRkYjkwMCIsIndvcmtzcGFjZV9pZCI6IjZhOWQzZDA4OWVkYTgwZTcxMzRkYjhmZSIsImF1ZCI6ImVtYmVkIiwib3JpZ2lucyI6WyJodHRwczovL2NoYXRib3Qub20iXSwiZXhwIjoxNzkxMjgxNjc2LCJpYXQiOjE3ODg2ODk2NzZ9.mZVaeGcvNMxsVaM2nK6NTxO1sTIx7bK6vu-e8z_pbzY"
-          data-position="bottom-right"
-          data-color="#5b7cff"
-          data-lang="en"
-        ></script>
+        <ChatWidget/>
       </body>
     </html>
   );
