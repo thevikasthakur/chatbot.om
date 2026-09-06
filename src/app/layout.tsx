@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-sync-scripts */
-/* eslint-disable react/jsx-no-comment-textnodes */
 import type { Metadata, Viewport } from "next";
 import { pageMeta } from "@/lib/meta";
 import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
