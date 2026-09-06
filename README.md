@@ -32,6 +32,9 @@ npm install
 npm run dev
 ```
 
+The local app runs at `http://localhost:3401` in both development and
+production start modes.
+
 Create `.env.local` from `.env.example` before testing the CTA email flow.
 
 `npm run lint` runs ESLint and `tsc --noEmit`. `npm test` covers the
