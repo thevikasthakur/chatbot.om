@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-sync-scripts */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import type { Metadata, Viewport } from "next";
 import { pageMeta } from "@/lib/meta";
 import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
@@ -122,6 +124,7 @@ export default function RootLayout({
             several sections rely on position: sticky, which hidden would break */}
         <main className="overflow-x-clip">{children}</main>
         <Footer />
+        // eslint-disable-next-line @next/next/no-sync-scripts
         <script
           src="https://dev.voxreception.com/vox-embed/widget.v1.js"
           data-api-url="https://dev.voxreception.com"
