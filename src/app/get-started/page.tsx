@@ -95,10 +95,11 @@ export default function GetStartedPage() {
           </div>
 
           {/* Secondary, and deliberately quiet: the concierge form above is the
-              primary path and the badges next to it promise no account is
-              needed. This is the alternative for someone who would rather not
-              wait, not a competing headline. Renders only when
-              NEXT_PUBLIC_APP_URL is set — see `selfServeUrl` in site.ts. */}
+              primary path. This is the alternative for someone who would rather
+              not wait, not a competing headline. The app asks for nothing until
+              the agent is built, then confirms an email with a one-time code —
+              no password, no signup form. Renders only when NEXT_PUBLIC_APP_URL
+              is set — see `selfServeUrl` in site.ts. */}
           {selfServeUrl && (
             <p className="mt-6 text-sm text-muted-foreground">
               Would rather not wait?{" "}
@@ -108,7 +109,8 @@ export default function GetStartedPage() {
               >
                 Set it up yourself
               </Link>{" "}
-              — you will need an account for that one.
+              — build it in a few minutes, then confirm your email with a
+              one-time code. No password.
             </p>
           )}
         </div>

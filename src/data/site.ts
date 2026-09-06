@@ -52,9 +52,15 @@ export const whatsappUrl = `https://api.whatsapp.com/send?phone=${site.phone.rep
  *
  * OFF BY DEFAULT. `NEXT_PUBLIC_APP_URL` is unset in the example env, so
  * `selfServeUrl` is null and no self-serve link renders. That is deliberate:
- * the primary funnel on this site is concierge ("no account to create"), and
- * turning a second, contradictory path on for real visitors is a marketing
- * decision, not a deploy artefact. Set the variable when you mean it.
+ * the primary funnel on this site is concierge, and turning a second path on
+ * for real visitors is a marketing decision, not a deploy artefact. Set the
+ * variable when you mean it.
+ *
+ * The destination is build-first: the visitor sees no login or signup page.
+ * They build the agent, and on the last step confirm their email with a
+ * one-time code, which creates the account (or signs an existing one in).
+ * So the "No account needed" badges on /get-started/ stay honest — nothing
+ * is asked of them up front.
  *
  * Two things to settle BEFORE switching it on:
  *   1. Branding — pointing at a voxreception.com host sends an Omani visitor
@@ -67,7 +73,8 @@ export const whatsappUrl = `https://api.whatsapp.com/send?phone=${site.phone.rep
  *      before sending customers into it.
  *
  * The `src` parameter is the hand-off: the app reads it, resolves the
- * chat-only Oman profile, and persists it so the choice survives signup.
+ * chat-only Oman profile, and persists it so the choice survives a reload or
+ * the email-code sign-in.
  * Keep the value equal to `site.domain` — the app matches it as a hostname.
  */
 const appBaseUrl = process.env.NEXT_PUBLIC_APP_URL?.trim() || "";
