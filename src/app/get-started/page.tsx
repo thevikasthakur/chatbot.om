@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight, Check, ShieldCheck } from "lucide-react";
 import { InstallRequestForm } from "@/components/InstallRequestForm";
 import { Faq } from "@/components/sections";
+import { selfServeUrl } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Get Chatbot.OM",
@@ -92,6 +93,26 @@ export default function GetStartedPage() {
               </span>
             ))}
           </div>
+
+          {/* Secondary, and deliberately quiet: the concierge form above is the
+              primary path. This is the alternative for someone who would rather
+              not wait, not a competing headline. The app asks for nothing until
+              the agent is built, then confirms an email with a one-time code —
+              no password, no signup form. Renders only when NEXT_PUBLIC_APP_URL
+              is set — see `selfServeUrl` in site.ts. */}
+          {selfServeUrl && (
+            <p className="mt-6 text-sm text-muted-foreground">
+              Would rather not wait?{" "}
+              <Link
+                href={selfServeUrl}
+                className="text-lime hover:underline underline-offset-4"
+              >
+                Set it up yourself
+              </Link>{" "}
+              — build it in a few minutes, then confirm your email with a
+              one-time code. No password.
+            </p>
+          )}
         </div>
       </section>
 
