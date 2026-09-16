@@ -1,0 +1,309 @@
+{
+  "id": "article-2026-09-16-whatsapp-button-site",
+  "taskId": "2026-09-16-whatsapp-button-site",
+  "slug": "whatsapp-button-best-salesperson",
+  "title": "Why Your Website's Best Salesperson Is a WhatsApp Button",
+  "seoTitle": "Why Your Website's Best Salesperson Is a WhatsApp Button",
+  "excerpt": "Three small choices decide if a website visitor becomes a customer: where the WhatsApp button sits, what it says, and where the reply lands.",
+  "seoDescription": "Where to put the WhatsApp button on a small business site, what the pre-filled message should say, and how to route every chat into one inbox.",
+  "series": "Your Website, Working",
+  "category": "Websites & Conversion",
+  "topic": "The WhatsApp Button Every Omani Site Needs",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-16",
+  "modifiedDate": "2026-09-16",
+  "reviewedDate": "2026-09-16",
+  "reviewBy": "2026-12-15",
+  "status": "published",
+  "tags": [
+    "WhatsApp button",
+    "website conversion",
+    "small business",
+    "pre-filled message",
+    "chat routing",
+    "Your Website Working",
+    "customer messaging"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg width=\"400\" height=\"225\" viewBox=\"0 0 400 225\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#062e2b\"/>\n      <stop offset=\"0.5\" stop-color=\"#0f4c4c\"/>\n      <stop offset=\"1\" stop-color=\"#79e0c8\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n  <rect x=\"252\" y=\"26\" width=\"118\" height=\"188\" rx=\"20\" fill=\"#0f4c4c\" stroke=\"#79e0c8\" stroke-width=\"2\"/>\n  <rect x=\"266\" y=\"46\" width=\"90\" height=\"148\" rx=\"10\" fill=\"#062e2b\"/>\n  <circle cx=\"311\" cy=\"120\" r=\"36\" fill=\"#d4ff4f\"/>\n  <path d=\"M296 111 q0 -15 15 -15 q15 0 15 15 q0 11 -9 14 l2 10 l-10 -6 q-13 -1 -13 -13 z\" fill=\"#062e2b\"/>\n  <text x=\"18\" y=\"58\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"34\" fill=\"#f4f4f0\">TAP TO</text>\n  <text x=\"18\" y=\"96\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"34\" fill=\"#d4ff4f\">CHAT</text>\n  <rect x=\"12\" y=\"150\" width=\"228\" height=\"34\" rx=\"6\" fill=\"#062e2b\" opacity=\"0.85\"/>\n  <text x=\"22\" y=\"172\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">Where the button goes matters</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "The busiest link on a small business website is rarely 'Contact Us'. It's the green WhatsApp icon, and three small choices decide what happens next: where the button sits, what it says before anyone types a word, and where the reply lands. Get those right and a website visitor becomes a paying customer without ever making a phone call."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-the-button-beats-the-form",
+      "text": "Why the button beats the form"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "On a phone screen, most visitors never scroll past what loads first. A visible WhatsApp button is the shortest path from 'I'm curious' to 'I'm talking to you', shorter than a contact form, shorter than finding a phone number and dialling it. "
+        },
+        {
+          "text": "Most visitors who don't ask simply leave",
+          "href": "/blog/visitors-leave-without-asking/"
+        },
+        {
+          "text": ", and for a boutique, salon or guesthouse already living on WhatsApp, the button just opens another door into the same room."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "where-the-button-hides",
+      "text": "Where the button usually hides"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most sites already have a WhatsApp link somewhere on the page. The problem is almost always where."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Buried in the footer, below the last product, where only a determined visitor scrolls to find it."
+          }
+        ],
+        [
+          {
+            "text": "Tucked inside a 'Contact Us' page that is itself one extra click from the homepage."
+          }
+        ],
+        [
+          {
+            "text": "Placed on the homepage only, missing from the product, room or service pages where the interest actually happens."
+          }
+        ],
+        [
+          {
+            "text": "Styled to match the site's colours instead of standing out in WhatsApp's familiar green."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix costs nothing: pin the button in the same corner, usually bottom right, on every page, including the ones showing a specific product, room or price. It should stay visible while the visitor scrolls, the same way a shop door stays in the same place no matter which aisle a customer is standing in."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-message-before-the-message",
+      "text": "The message before the message"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A WhatsApp button can open with the reply already typed in. This is called a pre-filled message: the visitor only has to press send. Left blank, or set to a flat 'Hi', it wastes the one moment you have their full attention."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Generic: 'Hi' (tells your team nothing, and the visitor still has to type the whole question)."
+          }
+        ],
+        [
+          {
+            "text": "Better: 'Hi, I saw your gym page and want to know about monthly membership.'"
+          }
+        ],
+        [
+          {
+            "text": "Best, page by page: 'Hi, I'm looking at the abaya in size M on your website. Is it in stock?'"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Page-specific messages take a few minutes to set up once, then work forever. A boutique can give each product page its own line; a clinic can give the booking page one that already names the service; a guesthouse can name the room."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A pre-filled WhatsApp message is a question your customer has already half answered for you."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-boutiques-numbers",
+      "text": "One boutique's numbers"
+    },
+    {
+      "type": "table",
+      "caption": "Wafa's boutique, before and after moving the button",
+      "headers": [
+        "Detail",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Button position",
+          "Footer, bottom of homepage",
+          "Bottom right corner, every page"
+        ],
+        [
+          "Pre-filled message",
+          "None, blank chat window",
+          "'Hi, I'm looking at the [item] on your site. Is it available in size...?'"
+        ],
+        [
+          "WhatsApp clicks per week",
+          "12",
+          "40"
+        ],
+        [
+          "Enquiries that became a sale",
+          "2",
+          "9"
+        ],
+        [
+          "Average sale",
+          "OMR 18",
+          "OMR 18"
+        ],
+        [
+          "Extra revenue per month",
+          "baseline",
+          "about OMR 540"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The extra seven sales a week, at an average of OMR 18, add up to roughly OMR 540 a month. Run the same three lines with your own weekly clicks, your own conversion and your own average sale, and you have a number worth acting on."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-inbox-not-three",
+      "text": "One inbox, not three"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A website chat bubble, a WhatsApp button and an Instagram message often land in three different places. Someone has to check three apps, and the night shift always slips first. The fix is routing: every channel should feed one list, answered in the order messages arrived, not the order the apps were opened."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some businesses do this by hand: forwarding numbers, copying questions between apps, checking each one before closing for the night. Others let a tool such as Chatbot.OM watch the website and WhatsApp together and file every conversation into one saved list, so a message sent at midnight is still there, in order, at eight the next morning."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Connecting the button to "
+        },
+        {
+          "text": "WhatsApp's official Business Platform",
+          "href": "/features/whatsapp-business-channel/"
+        },
+        {
+          "text": ", rather than a personal number, also keeps templates and the service window in order as the business grows."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "One inbox, not three, is the difference between a message answered and a message lost."
+    },
+    {
+      "type": "quote",
+      "quote": "I used to lose customers scrolling for my number. Now they just tap and tell me the size.",
+      "attribution": "Wafa, boutique owner, Al Mouj",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Open your own site on your phone right now. Can you see a WhatsApp button without scrolling, on the homepage and on at least one product or service page? If not, that's the first fix, before anything else on this list. Then write one pre-filled message for your busiest page, test it yourself, and make sure the reply lands in the same place as every other chat you already answer."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open your site on a phone. Is the WhatsApp button visible without scrolling, on the homepage and on your busiest product or service page?",
+        "Tap it yourself. Does a message appear ready to send, naming the page you were on?",
+        "Send that message. Does the reply land in the same inbox as your other WhatsApp chats, not a separate number or app?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need WhatsApp Business Platform for a pre-filled message to work?",
+          "a": "No. A basic click-to-chat link with a pre-filled message works with the free WhatsApp Business app. The paid Business Platform matters later, for templates, automated replies and a shared team inbox."
+        },
+        {
+          "q": "Should the button open WhatsApp directly, or a chat box on the site first?",
+          "a": "Either works, as long as every reply lands in one place. Many small businesses use a chat box for quick browsing and WhatsApp for anyone who wants the conversation to continue after they leave the site."
+        },
+        {
+          "q": "What if nobody is free to answer at night?",
+          "a": "Set an honest out-of-hours message that promises a reply time, then answer first thing. The pre-filled message still captures what the customer wanted, even while the reply waits until morning."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The WhatsApp button is not decoration. It is the shortest line between a visitor's curiosity and your next sale. Put it where a thumb naturally lands, let it speak first with a message that names what the visitor was looking at, and make sure that message ends up in the same inbox as everything else you answer."
+        }
+      ]
+    }
+  ]
+}
