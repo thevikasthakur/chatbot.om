@@ -1,0 +1,311 @@
+{
+  "id": "article-2026-09-21-business-account-hijack",
+  "taskId": "2026-09-21-business-account-hijack",
+  "slug": "whatsapp-business-hijack-checklist",
+  "title": "The WhatsApp Hijack Targeting Business Accounts",
+  "seoTitle": "The WhatsApp Hijack Targeting Business Accounts",
+  "excerpt": "One night a scammer messages your customers a bank transfer request from your own WhatsApp number. Here is how the hijack works, and the five minute checklist that stops it.",
+  "seoDescription": "Scammers are hijacking small business WhatsApp numbers in Oman with fake codes and lookalike profiles. Here is the five minute checklist that stops it.",
+  "series": "Oman Digital Pulse",
+  "category": "Rules & Updates",
+  "topic": "The WhatsApp Hijack Targeting Business Accounts",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-21",
+  "modifiedDate": "2026-09-21",
+  "reviewedDate": "2026-09-21",
+  "reviewBy": "2026-12-20",
+  "status": "published",
+  "tags": [
+    "WhatsApp Business",
+    "scam prevention",
+    "cybersecurity",
+    "data protection law",
+    "Royal Oman Police",
+    "small business",
+    "Oman Digital Pulse"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"225\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0%\" stop-color=\"#14121c\"/>\n<stop offset=\"50%\" stop-color=\"#3a3554\"/>\n<stop offset=\"100%\" stop-color=\"#a8a8f8\"/>\n</linearGradient>\n</defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<text x=\"25\" y=\"30\" font-family=\"Arial, sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#d4ff4f\">WHATSAPP SCAM WATCH</text>\n<text x=\"25\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\">HIJACKED</text>\n<text x=\"25\" y=\"130\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#e8c07c\">stops in five minutes</text>\n<rect x=\"255\" y=\"35\" width=\"115\" height=\"185\" rx=\"18\" fill=\"#1f1b2e\" stroke=\"#f4f4f0\" stroke-width=\"3\"/>\n<rect x=\"264\" y=\"50\" width=\"97\" height=\"155\" rx=\"10\" fill=\"#0e0c14\"/>\n<rect x=\"277\" y=\"88\" width=\"72\" height=\"46\" rx=\"12\" fill=\"#79e0c8\"/>\n<polygon points=\"283,132 293,132 279,148\" fill=\"#79e0c8\"/>\n<polyline points=\"277,90 308,112 293,122 322,138\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<circle cx=\"313\" cy=\"185\" r=\"9\" fill=\"none\" stroke=\"#e8c07c\" stroke-width=\"3\"/>\n<rect x=\"305\" y=\"188\" width=\"16\" height=\"14\" rx=\"3\" fill=\"#e8c07c\"/>\n</svg>",
+  "sources": [
+    {
+      "id": "rop-contact",
+      "label": "Royal Oman Police, official contact and cybercrime reporting channels",
+      "url": "https://www.rop.gov.om/english/contactus.aspx",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-pdpl",
+      "label": "MTCIT, Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/personal-data-protection-law-1034",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-pdpl-regs",
+      "label": "MTCIT, Executive Regulations of the Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/regulations-72/executive-regulations-of-the-personal-data-protection-law-1035",
+      "kind": "oman-official"
+    },
+    {
+      "id": "oman-observer-tra",
+      "label": "Oman Observer, Oman's TRA steps in to regulate unsolicited calls",
+      "url": "https://www.omanobserver.om/article/1194611/oman/community/omans-tra-steps-in-to-regulate-unsolicited-calls",
+      "kind": "media"
+    },
+    {
+      "id": "whatsapp-faq",
+      "label": "WhatsApp Help Centre, received a verification code you did not request",
+      "url": "https://faq.whatsapp.com/479314433984258",
+      "kind": "vendor"
+    },
+    {
+      "id": "bleepingcomputer-devicelink",
+      "label": "BleepingComputer, WhatsApp device linking abused in account hijacking attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-device-linking-abused-in-account-hijacking-attacks/",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "At 2 a.m., Thuraya's boutique WhatsApp number messaged all 380 saved customers: a new bank account, an urgent stock emergency, pay today. She was asleep. Three customers had already paid before she woke up, and getting the number back took a full day she could not spare."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-the-hijack-actually-happens",
+      "text": "How the hijack actually happens"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every hijack starts the same way. Someone convinces you, or someone on your team, to hand over a code or approve a device that should never leave your own phone. Three versions are doing the rounds right now."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "The verification code trick: ",
+            "strong": true
+          },
+          {
+            "text": "a message arrives from what looks like a friend or a regular customer, claiming they accidentally sent their WhatsApp code to your number and asking you to forward the six digits back. Those digits are not theirs, they are the key to your own account. Forward them, and your business number becomes someone else's."
+          }
+        ],
+        [
+          {
+            "text": "The linked device trick: ",
+            "strong": true
+          },
+          {
+            "text": "a newer version, sometimes called a pairing scam, sends a link to a page that looks like WhatsApp and asks you to scan or type in a code to 'confirm' something. Approve it, and a stranger's phone quietly joins yours as a linked device, reading every chat as it arrives."
+          }
+        ],
+        [
+          {
+            "text": "The cloned profile: ",
+            "strong": true
+          },
+          {
+            "text": "a scammer copies your logo, photos and business name onto a lookalike WhatsApp Business number, then messages your real customers, or strangers, offering the same products at a special price and collecting payments that never reach you."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "fake-bank-and-courier-messages-feed-it",
+      "text": "Fake bank and courier messages feed it"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "These tricks rarely arrive alone. They usually follow a fake bank alert or a fake courier text: a card blocked, a delivery held, a link to click. The link asks for an OTP, a one time password meant to confirm a transaction, and that same habit of typing in a code because a message asked nicely is exactly what a WhatsApp hijacker is counting on next. Royal Oman Police has previously warned about scammers using a real company's name on WhatsApp to advertise a product, then asking a buyer to enter bank details through a link, after which the money simply leaves the account."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's telecoms regulator has been tightening the network side of this. In mid August 2026 the Telecommunications Regulatory Authority issued a regulation limiting promotional calls and texts to between 8 a.m. and 9 p.m., requiring operators to filter suspected fraud traffic, and giving customers one clear channel to report suspicious messages. It covers calls and SMS from licensed operators, not WhatsApp itself, which is exactly why protecting your own business number is still on you and your team."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "No bank, courier company or WhatsApp itself will ever ask you to read out or type in the six digit code that protects your business account."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-one-hijacked-night-cost-thuraya",
+      "text": "What one hijacked night cost Thuraya"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Thuraya, who runs a boutique in Al Mouj, is a composite example built from how these hijacks typically play out for a small team. Here is what one bad night added up to, in numbers she could redo with her own."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "What happened",
+        "What it cost"
+      ],
+      "rows": [
+        [
+          "Scam message sent to all 380 saved contacts overnight",
+          "3 customers paid a stranger's bank account before anyone warned them: OMR 120 out of their pockets, and all of it blamed on her shop"
+        ],
+        [
+          "Number locked for about 14 hours while WhatsApp support restored access",
+          "9 genuine enquiries went unanswered, at an average order of OMR 18 each: roughly OMR 162 in bookings likely lost or delayed"
+        ],
+        [
+          "A full day spent verifying her identity with WhatsApp and reassuring customers by phone and Instagram",
+          "One day of an owner's own time, the one resource a two person shop has least of"
+        ],
+        [
+          "Total tangible cost of one bad night",
+          "About OMR 162 in missed sales plus a full unpaid day, before counting customers who now hesitate to trust the number"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "your-customer-list-is-also-at-risk",
+      "text": "Your customer list is also at risk"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A hijacked WhatsApp number does not just embarrass you, it can expose the personal data of everyone saved in that chat list: names, numbers, order history. Oman's Personal Data Protection Law has applied since February 2023, and the compliance grace period under its executive regulation ended in February 2026, so this is no longer distant homework. If a hijack puts customer data at genuine risk, the law expects the business holding that data to tell the Ministry within 72 hours of finding out. Chatbot.OM's "
+        },
+        {
+          "text": "Oman AI Chat Guide",
+          "href": "/guideline/oman/"
+        },
+        {
+          "text": " walks through what the law expects of a business that keeps a WhatsApp customer list, in plain language."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-five-minute-protection-checklist",
+      "text": "The five minute protection checklist"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Turn on two step verification in WhatsApp Settings, so a stolen code alone cannot unlock your account without a PIN only you know."
+          }
+        ],
+        [
+          {
+            "text": "Open Linked Devices once a week and remove anything you do not recognise instantly, the same way you would check who has a key to the shop."
+          }
+        ],
+        [
+          {
+            "text": "Never share the six digit code with anyone, including someone claiming to be WhatsApp support, your bank, or a courier company. None of them will ever ask for it."
+          }
+        ],
+        [
+          {
+            "text": "Agree a second channel with your own staff and regular customers for anything about money: a phone call or an Instagram message, never a WhatsApp request alone."
+          }
+        ],
+        [
+          {
+            "text": "If you send order updates or offers in bulk, connect through an "
+          },
+          {
+            "text": "official WhatsApp Business Platform link",
+            "href": "/features/whatsapp-business-channel/"
+          },
+          {
+            "text": " rather than the personal app on one phone. It verifies through Meta's business check instead of a QR pairing code a stranger can trick you into approving."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I check Linked Devices every Friday now, same as I check the till.",
+      "attribution": "Thuraya, boutique owner, Al Mouj",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If your WhatsApp number is hijacked tonight, do not wait until morning. Email WhatsApp support from a different address with the words 'Lost or Stolen' and your phone number, so the account gets disabled before more messages go out. Warn your customers a different way, an Instagram post, a shop sign, a phone call, since your own WhatsApp is now the scammer's tool, not yours. Report it to Royal Oman Police on the toll free cyber crime line, 80077444, and write down the exact time you noticed something wrong. That timestamp matters if you later need to tell the Ministry that customer data was put at risk."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two minute check",
+      "paragraphs": [
+        "Open WhatsApp, go to Settings, then Linked Devices. Do you recognise every device on that list right now.",
+        "Check whether two step verification is already turned on. If you are not sure, it almost certainly is not.",
+        "Ask one staff member: would they know a real payment request from a fake one without calling you first."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What if I already forwarded my six digit code to someone?",
+          "a": "Reinstall WhatsApp straight away, it will send you a fresh code, then turn on two step verification so the same trick cannot work a second time."
+        },
+        {
+          "q": "Does the WhatsApp Business app protect me any differently?",
+          "a": "Not against these two tricks. It uses the same verification code and device linking system as the personal app, so the checklist above applies exactly the same way."
+        },
+        {
+          "q": "Is a hijack something I have to report, or can I just fix it quietly?",
+          "a": "If customer data was genuinely put at risk, the data protection law expects a report to the Ministry within 72 hours, so treat it as a compliance moment, not only an inconvenience."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A WhatsApp hijack takes a scammer minutes to start and takes you a full day and a difficult conversation to clean up. The five checks above take less time than reading this article, and they close the exact door scammers are using on business accounts right now."
+        }
+      ]
+    }
+  ]
+}
