@@ -1,0 +1,340 @@
+{
+  "id": "article-2026-09-22-broadcast-vs-groups",
+  "taskId": "2026-09-22-broadcast-vs-groups",
+  "slug": "whatsapp-groups-vs-broadcast-lists",
+  "title": "Never Put Your Customers in the Same WhatsApp Group",
+  "seoTitle": "Never Put Your Customers in the Same WhatsApp Group",
+  "excerpt": "A customer group hands out every number in it by evening. Here is why a broadcast list, built the right way, is the tool small businesses actually need.",
+  "seoDescription": "WhatsApp groups expose every customer's number. See how broadcast lists actually deliver, and the consent habit that keeps them welcome, not muted.",
+  "series": "WhatsApp at Work",
+  "category": "WhatsApp Business",
+  "topic": "Broadcasts, Groups and the Difference That Matters",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-22",
+  "modifiedDate": "2026-09-22",
+  "reviewedDate": "2026-09-22",
+  "reviewBy": "2026-12-21",
+  "status": "published",
+  "tags": [
+    "WhatsApp Business",
+    "broadcast lists",
+    "WhatsApp groups",
+    "customer consent",
+    "WhatsApp marketing",
+    "small business Oman",
+    "WhatsApp at Work"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0%\" stop-color=\"#2c0a0d\"/><stop offset=\"50%\" stop-color=\"#7a1c22\"/><stop offset=\"100%\" stop-color=\"#f1a09a\"/></linearGradient></defs><rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#bg)\"/><g opacity=\"0.5\"><circle cx=\"335\" cy=\"35\" r=\"10\" fill=\"#f4f4f0\"/><circle cx=\"352\" cy=\"30\" r=\"10\" fill=\"#f4f4f0\"/><circle cx=\"344\" cy=\"48\" r=\"10\" fill=\"#f4f4f0\"/></g><line x1=\"320\" y1=\"16\" x2=\"368\" y2=\"62\" stroke=\"#2c0a0d\" stroke-width=\"5\"/><rect x=\"40\" y=\"45\" width=\"146\" height=\"74\" rx=\"16\" fill=\"#79e0c8\"/><polygon points=\"70,119 70,139 96,119\" fill=\"#79e0c8\"/><circle cx=\"80\" cy=\"82\" r=\"5\" fill=\"#2c0a0d\"/><circle cx=\"105\" cy=\"82\" r=\"5\" fill=\"#2c0a0d\"/><circle cx=\"130\" cy=\"82\" r=\"5\" fill=\"#2c0a0d\"/><path d=\"M186 60 L288 45\" stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\"/><path d=\"M186 82 L288 92\" stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\"/><path d=\"M186 104 L288 132\" stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"300\" cy=\"45\" r=\"15\" fill=\"#e8c07c\"/><circle cx=\"300\" cy=\"92\" r=\"15\" fill=\"#e8c07c\"/><circle cx=\"300\" cy=\"132\" r=\"15\" fill=\"#e8c07c\"/><rect x=\"294\" y=\"41\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#2c0a0d\"/><rect x=\"294\" y=\"88\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#2c0a0d\"/><rect x=\"294\" y=\"128\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#2c0a0d\"/><rect x=\"18\" y=\"150\" width=\"290\" height=\"58\" rx=\"8\" fill=\"#1c0608\" opacity=\"0.88\"/><text x=\"30\" y=\"182\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#f4f4f0\">Skip the Group</text><text x=\"30\" y=\"200\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">Broadcast lists keep numbers private</text></svg>",
+  "sources": [
+    {
+      "id": "whatsapp-broadcast-help",
+      "label": "WhatsApp Help Center: How to use broadcast lists on the WhatsApp Business app",
+      "url": "https://faq.whatsapp.com/653415899610349/?helpref=faq_content&cms_platform=android",
+      "kind": "vendor"
+    },
+    {
+      "id": "whatsapp-business-platform",
+      "label": "WhatsApp Business Platform (Meta)",
+      "url": "https://business.whatsapp.com",
+      "kind": "vendor"
+    },
+    {
+      "id": "muscat-daily-tra-rules",
+      "label": "Muscat Daily: TRA sets time limits, tougher safeguards for marketing calls, SMS",
+      "url": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/",
+      "kind": "media"
+    },
+    {
+      "id": "times-of-oman-tra-rules",
+      "label": "Times of Oman: New telecommunications regulation protects consumer data and limits promotional messages",
+      "url": "https://timesofoman.com/article/175719-new-telecommunications-regulation-protects-consumer-data-and-limits-promotional-messages-in-oman",
+      "kind": "media"
+    },
+    {
+      "id": "tra-oman",
+      "label": "Telecommunications Regulatory Authority (TRA Oman)",
+      "url": "https://tra.gov.om",
+      "kind": "oman-official"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A WhatsApp group feels like the fast way to tell forty customers about tomorrow's offer. It also hands every one of those forty people everyone else's phone number, and lets a stranger's reply about a refund land in front of the whole list. WhatsApp already built the tool for this job, and it is not the group."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-group-chat-every-customer-wants-to-leave",
+      "text": "The group chat every customer wants to leave"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Add a customer to a WhatsApp group and you have quietly given them a new problem. Everyone in that group can see their number, their profile photo and every message they send. A private question about a wedding order or a dress size becomes visible to forty strangers."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Groups were built for people who already know each other: a family, a football team, a work crew. They were never built for a business and its customers, who usually have nothing in common except that they once messaged the same boutique or gym."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Everyone sees everyone else's number and photo, whether they agreed to that or not"
+          }
+        ],
+        [
+          {
+            "text": "One customer's stray reply about a refund reaches the whole group instantly"
+          }
+        ],
+        [
+          {
+            "text": "Anyone can add a friend, or leave and take the conversation with them"
+          }
+        ],
+        [
+          {
+            "text": "You cannot send a different price or offer to different customers in the same group"
+          }
+        ],
+        [
+          {
+            "text": "Once someone leaves after a bad experience, there is no way back to them"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-broadcast-list-actually-does",
+      "text": "What a broadcast list actually does"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A broadcast list looks similar from your side: you write one message, pick a list of contacts, and send. The difference is what the customer sees. Each person receives your message as an ordinary private chat from you. Nobody else's name, number or reply shows up anywhere. If they reply, only you see it."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "On the free WhatsApp Business app, one broadcast list holds up to 256 contacts, and you can build several lists (regulars, one time enquirers, a specific branch) so the same offer never goes out to everyone at once."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-catch-that-makes-broadcasts-work",
+      "text": "The catch that makes broadcasts work"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is the part most owners find out the hard way. A broadcast only reaches someone who already has your business number saved as a contact in their phone. If they have not saved you, the message never lands, however many times you send it. WhatsApp built this in on purpose, as its own spam brake."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That single rule does something useful for you too: it turns saving your number into the moment a customer actually agrees to hear from you again. A group adds people without asking. A broadcast list only works on people who chose you first."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A WhatsApp group hands every customer everyone else's phone number, whether they agreed to that or not."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-boutiques-september-push",
+      "text": "One boutique's September push, in numbers"
+    },
+    {
+      "type": "table",
+      "caption": "Aysha's boutique, Al Mouj: 180 customers, one offer, two ways to send it",
+      "headers": [
+        "Step",
+        "Group (180 members)",
+        "Broadcast list (180 saved contacts)"
+      ],
+      "rows": [
+        [
+          "Time to send the offer",
+          "2 minutes",
+          "2 minutes"
+        ],
+        [
+          "Replies Aysha had to read and answer",
+          "31, visible to everyone in the group",
+          "6, private, to her only"
+        ],
+        [
+          "Customers who left that evening",
+          "14",
+          "0 (they can mute you, not expose themselves by leaving)"
+        ],
+        [
+          "Her time spent on replies, at roughly OMR 3 an hour",
+          "OMR 2.250 (45 minutes)",
+          "OMR 0.300 (6 minutes)"
+        ],
+        [
+          "Customers she can still reach next month",
+          "166",
+          "180"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I put my customers in one group for a sale and lost fourteen of them by evening.",
+      "attribution": "Aysha, boutique owner, Al Mouj",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-consent-habit-that-keeps-broadcasts-welcome",
+      "text": "The consent habit that keeps broadcasts welcome"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A saved number is a start, not a blank cheque. The habit that keeps a broadcast list working long after the first offer is asking plainly: can I message you here with offers and updates? Add someone to the list only when the answer is yes, and only for the kind of message they agreed to."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Ask once, in plain words, before the first promotional message, not buried in small print"
+          }
+        ],
+        [
+          {
+            "text": "Split lists by what customers actually agreed to: bookings and reminders in one list, offers in another"
+          }
+        ],
+        [
+          {
+            "text": "Tell people how to stop, and stop the moment they ask, rather than hoping they mute you instead"
+          }
+        ],
+        [
+          {
+            "text": "Keep sends occasional. A list that only hears from you during a genuine sale stays welcome; one that pings weekly gets muted or deleted"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's telecom regulator has been tightening the rules around unwanted marketing calls and texts generally, with new rules in 2026 limiting the hours promotional messages can be sent and requiring an easy way to opt out. WhatsApp broadcasts sit outside that specific rulebook, but the direction is the same: ask first, and make leaving easy."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "We covered the fuller consent story, including how long a customer's yes should last, in an earlier piece on asking before you broadcast.",
+          "href": "/blog/ask-before-you-broadcast/"
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The customers who saved your number already said yes; the broadcast list just remembers it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are currently running offers through a customer group, stop adding new customers to it today and start a broadcast list instead. Save every enquiry that turns into a sale as a contact, and ask the plain question about offers while the conversation is fresh. Move existing group members over gradually: message each one privately, confirm they still want offers, and add only the ones who say yes."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If replies still pile up once the broadcast goes out, a WhatsApp tool that answers around the clock and turns each reply into a saved lead can carry that load without adding staff.",
+          "href": "/product/whatsapp-ai-chatbot/"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open WhatsApp Business now and check three things: do you have a customer group with more than a handful of members, have you built even one broadcast list, and does your welcome message ever ask customers if they want offers?",
+        "If the answer to the first is yes and the other two are no, today is the day to switch."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can I turn my customer group straight into a broadcast list?",
+          "a": "Not directly. WhatsApp does not convert one into the other, so you save each number as a contact and build the list fresh. It is worth the half hour."
+        },
+        {
+          "q": "How many customers can one broadcast list hold?",
+          "a": "Up to 256 on the free WhatsApp Business app. Businesses sending to more customers usually move to the WhatsApp Business Platform, where approved template messages replace lists."
+        },
+        {
+          "q": "What if a customer never saved my number?",
+          "a": "Your broadcast will not reach them. Ask them to save it. That request is your real consent moment, not an afterthought."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A group chat trades your customers' privacy for two minutes of convenience, and it usually costs you some of them by evening. A broadcast list, built on numbers customers chose to save, keeps every message private and keeps the door open for the next one. Oman's marketing rules are only getting stricter about consent; a business that already asks first will not need to change a thing."
+        }
+      ]
+    }
+  ]
+}
