@@ -1,0 +1,321 @@
+{
+  "id": "article-2026-09-23-found-on-google-lost-on-site",
+  "taskId": "2026-09-23-found-on-google-lost-on-site",
+  "slug": "found-on-google-lost-at-the-website",
+  "title": "Found on Google, Lost at the Website",
+  "seoTitle": "Found on Google, Lost at the Website",
+  "excerpt": "Google already convinced them to visit. One wrong hour or dead number on your website convinces them to leave. Here's the fifteen-minute fix that closes the gap.",
+  "seoDescription": "Your Google Business Profile brings the visit. If hours, numbers and links don't match your website, it ends there. Here's the fifteen-minute fix.",
+  "series": "Your Website, Working",
+  "category": "Websites & Conversion",
+  "topic": "Found on Google, Lost at the Website",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-23",
+  "modifiedDate": "2026-09-23",
+  "reviewedDate": "2026-09-23",
+  "reviewBy": "2026-12-22",
+  "status": "published",
+  "tags": [
+    "Google Business Profile",
+    "local SEO",
+    "website conversion",
+    "small business",
+    "WhatsApp",
+    "Your Website Working"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n <defs>\n  <linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n   <stop offset=\"0%\" stop-color=\"#062e2b\"/>\n   <stop offset=\"55%\" stop-color=\"#0f4c4c\"/>\n   <stop offset=\"100%\" stop-color=\"#79e0c8\"/>\n  </linearGradient>\n </defs>\n <rect width=\"400\" height=\"225\" fill=\"url(#g)\"/>\n <path d=\"M200 58 C232 58 258 84 258 116 C258 152 200 198 200 198 C200 198 142 152 142 116 C142 84 168 58 200 58 Z\" fill=\"#d4ff4f\"/>\n <circle cx=\"200\" cy=\"114\" r=\"22\" fill=\"#062e2b\"/>\n <path d=\"M172 92 L196 120 L182 138 L206 172\" stroke=\"#0f4c4c\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>\n <text x=\"200\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\" text-anchor=\"middle\">OPEN</text>\n <rect x=\"52\" y=\"191\" width=\"296\" height=\"27\" rx=\"6\" fill=\"#062e2b\" opacity=\"0.88\"/>\n <text x=\"200\" y=\"209\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#f4f4f0\" text-anchor=\"middle\">...but is your website?</text>\n</svg>",
+  "sources": [
+    {
+      "id": "google-gbp-playbook",
+      "label": "Google Business Profile Best Practices Playbook (2026)",
+      "url": "https://services.google.com/fh/files/helpcenter/1_official_gbp_best_practices_playbook_2026.pdf",
+      "kind": "vendor"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Type a business name into Google and the map card answers first: hours, photos, a green 'Open' badge, and a button to call or message right under your thumb. That card already did the hard work of bringing someone to you. If the website behind it shows different hours, a dead phone number or no way to ask a question, the visit ends there before it ever becomes a booking."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-map-brings-them-the-site-loses-them",
+      "text": "The map brings them, the site loses them"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Google Business Profile is the free listing that shows your hours, photos, reviews and location whenever someone searches your name, or types something like 'salon near me' or 'car hire Seeb'. For a lot of small businesses here, more people see that card in a single week than ever open the website on purpose."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The trouble starts when the two disagree. Someone sees 'Open until 10pm' on Google at quarter past nine on a Thursday, taps through to check a price or a menu, and lands on a homepage that still says 'Sunday to Thursday, 9 to 6', left over from whenever the site was built. They don't call to check which one is true. They just leave."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "four-things-that-have-to-match",
+      "text": "Four things that have to match"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A visitor rarely reads a whole website before deciding whether to trust it. They check a handful of facts against what Google already told them, and one mismatch is reason enough to close the tab."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Hours: the exact opening and closing time, including Friday, Ramadan and any holiday note, not a vague 'open daily'."
+          }
+        ],
+        [
+          {
+            "text": "Phone or WhatsApp number: the same number in both places, and one that actually gets answered when someone taps it."
+          }
+        ],
+        [
+          {
+            "text": "Photos: what Google shows should look like what the website and the shopfront show, not old stock images from a launch three years ago."
+          }
+        ],
+        [
+          {
+            "text": "The website link itself: does it drop a visitor on a generic homepage, or on a page that lets them book, message or ask something straight away?"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That last point matters more than it sounds. The link Google shows next to 'Website' should land somewhere a visitor can act immediately; a "
+        },
+        {
+          "text": "WhatsApp button",
+          "href": "/blog/whatsapp-button-best-salesperson/"
+        },
+        {
+          "text": " placed on that first screen usually does more of that work than a contact page buried three clicks deep."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-mismatch-actually-costs",
+      "text": "What a mismatch actually costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this shows up as a complaint. It shows up as a quieter month with no obvious reason. Latifa, who runs a boutique in Al Mouj, only noticed after checking her Google Business Profile's own performance numbers against her website analytics, side by side."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Latifa's boutique, one month (composite example, redo it with your own numbers)",
+      "headers": [
+        "What happened",
+        "Number",
+        "How to read it"
+      ],
+      "rows": [
+        [
+          "Profile views on Google",
+          "900",
+          "free, visible in the profile's own Performance tab"
+        ],
+        [
+          "Clicked through to the website",
+          "135 (15%)",
+          "a typical click-through rate for a well-filled profile"
+        ],
+        [
+          "Left within seconds",
+          "68 (about half)",
+          "hours or the phone number didn't match what Google showed"
+        ],
+        [
+          "Stayed and messaged or called",
+          "67",
+          "the other half, who found the page matched"
+        ],
+        [
+          "Became a booking or sale",
+          "24 (36%)",
+          "a fair conversion rate once someone actually asks"
+        ],
+        [
+          "Estimated sales lost to the mismatch",
+          "about 12, roughly OMR 336",
+          "if the 68 who left had converted at the same 36%, at an OMR 28 average sale"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Google says we're open till midnight. Our website still said nine. Guests were messaging to ask which one was true.",
+      "attribution": "Nasser, restaurant manager, Seeb",
+      "persona": true
+    },
+    {
+      "type": "highlight",
+      "text": "Google already made your best sales pitch. Your website's only job now is not to contradict it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-fifteen-minute-fix",
+      "text": "The fifteen-minute fix"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Fixing this doesn't need a redesign. It needs fifteen minutes, twice: once to fix what's wrong today, and once every time a holiday or Ramadan changes your hours."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Open your Google Business Profile and your website side by side."
+          }
+        ],
+        [
+          {
+            "text": "Match the hours exactly, including today, Friday and any holiday note."
+          }
+        ],
+        [
+          {
+            "text": "Check the phone or WhatsApp number is the same in both places, and test it yourself."
+          }
+        ],
+        [
+          {
+            "text": "Point the website link at a page that lets someone act, book, message or see the menu, not just the homepage."
+          }
+        ],
+        [
+          {
+            "text": "Add or refresh four to six real photos on both, the same ones if you can."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some businesses stop the daily juggling altogether. Chatbot.OM answers the "
+        },
+        {
+          "text": "website chat",
+          "href": "/features/website-chat-widget/"
+        },
+        {
+          "text": " and WhatsApp instantly, day or night, so the hours posted on Google are never the only thing standing between a visitor and an answer."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Check your Google Business Profile against your website this week, not next month. Every day they disagree is a day of visits that never turn into a message, a table or a sale. Start with hours and the phone number; they change most often and cost the most when they're wrong."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Hours first. They change the most and lose the most customers when they're wrong."
+          }
+        ],
+        [
+          {
+            "text": "The number second. A visitor who reaches a dead line rarely tries a second time."
+          }
+        ],
+        [
+          {
+            "text": "The first screen third. It should answer 'are you open, where are you, can I message you' without scrolling."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Search your own business name on Google, on your phone, right now.",
+        "Check today's hours on the card against today's hours on your website.",
+        "Tap the phone or WhatsApp number Google shows and see who, or what, answers.",
+        "Tap 'Website' and check whether the first screen lets you ask a question, or just looks nice."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How often should I update my Google Business Profile hours?",
+          "a": "Every time they actually change, including Ramadan and holiday hours, and on the same day as your website."
+        },
+        {
+          "q": "Does the website need to match Google's design, or just the facts?",
+          "a": "Just the facts: hours, phone or WhatsApp number, address and what you sell. The look can differ."
+        },
+        {
+          "q": "What if most visits come from the Google listing, not the website itself?",
+          "a": "That's normal for a small business. Treat the listing as the real front door and design the site's first screen to answer instantly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Google Business Profile is already doing the selling for you; it just needs the website to agree with it. Fifteen minutes spent matching hours, numbers, photos and links keeps a visit from ending in a closed tab, and lets a search turn into the conversation it was always meant to become."
+        }
+      ]
+    }
+  ]
+}
