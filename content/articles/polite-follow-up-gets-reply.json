@@ -1,0 +1,340 @@
+{
+  "id": "article-2026-09-27-polite-follow-up",
+  "taskId": "2026-09-27-polite-follow-up",
+  "slug": "polite-follow-up-gets-reply",
+  "title": "The Polite Follow-Up That Gets You a Reply",
+  "seoTitle": "The Polite Follow-Up That Gets You a Reply",
+  "excerpt": "One follow-up rarely gets a reply. Three feels like nagging. Here is the two-touch rule that turns silence into a booking, with scripts you can copy today.",
+  "seoDescription": "How small business teams in Oman can follow up on WhatsApp enquiries without pestering: timing, the two-touch rule, and scripts in Arabic and English.",
+  "series": "Chats Into Customers",
+  "category": "Leads & Sales",
+  "topic": "The Polite Follow-Up That Doubles Replies",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-27",
+  "modifiedDate": "2026-09-27",
+  "reviewedDate": "2026-09-27",
+  "reviewBy": "2026-12-26",
+  "status": "published",
+  "tags": [
+    "follow-up messages",
+    "WhatsApp for business",
+    "lead management",
+    "sales scripts",
+    "customer replies",
+    "two-touch rule"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<radialGradient id=\"bg\" cx=\"50%\" cy=\"50%\" r=\"75%\">\n<stop offset=\"0%\" stop-color=\"#1c1408\"/>\n<stop offset=\"55%\" stop-color=\"#6b4d12\"/>\n<stop offset=\"100%\" stop-color=\"#ffd166\"/>\n</radialGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"238\" y=\"34\" width=\"150\" height=\"100\" rx=\"22\" fill=\"#1c1408\" opacity=\"0.92\"/>\n<path d=\"M258 132 L242 158 L278 132 Z\" fill=\"#1c1408\" opacity=\"0.92\"/>\n<polyline points=\"252,88 264,100 290,68\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<polyline points=\"266,88 278,100 304,68\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<rect x=\"14\" y=\"62\" width=\"216\" height=\"84\" rx=\"8\" fill=\"#1c1408\" opacity=\"0.55\"/>\n<text x=\"26\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\">TWO TOUCHES</text>\n<text x=\"26\" y=\"130\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#e8c07c\">then stop, no third chase</text>\n</svg>",
+  "sources": [
+    {
+      "id": "muscat-daily-tra-rules",
+      "label": "Muscat Daily: TRA sets time limits, tougher safeguards for marketing calls, SMS",
+      "url": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/",
+      "kind": "media"
+    },
+    {
+      "id": "oman-observer-tra-unsolicited",
+      "label": "Oman Observer: Oman's TRA steps in to regulate unsolicited calls",
+      "url": "https://www.omanobserver.om/article/1194611/oman/community/omans-tra-steps-in-to-regulate-unsolicited-calls",
+      "kind": "media"
+    },
+    {
+      "id": "decree-om-tra-decision",
+      "label": "Decree.om: TRA Decision on the Regulation Governing Promotional and Service Calls and Messages",
+      "url": "https://decree.om/2026/tra20269902/",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "An enquiry that goes quiet for a week did not disappear. Most of the time the customer got busy, forgot to reply, or found another business willing to answer sooner. The difference between losing that booking and winning it back is not messaging more, it is messaging exactly twice, at the right time, in words that do not feel like a chase."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-enquiry-that-goes-cold",
+      "text": "The enquiry that goes cold"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Picture a customer messaging a rental office on WhatsApp on a Wednesday morning, asking if a cement mixer is free for the weekend. The owner is halfway through a delivery and means to reply at lunch. Lunch becomes the afternoon, the afternoon becomes evening, and by Friday the customer has already rented from the shop that answered in twenty minutes. Nobody did anything wrong. The enquiry just went cold before anyone noticed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-silence-does-not-mean-no",
+      "text": "Why silence does not mean no"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "We have looked before at "
+        },
+        {
+          "text": "why customers go quiet mid-chat",
+          "href": "/blog/why-customers-go-quiet-mid-chat/"
+        },
+        {
+          "text": ", and it is almost never personal. A quiet enquiry is not a rejection, it is usually a customer distracted by work, comparing prices, or waiting for a good moment to reply. Silence only turns into a real no if you never check back at all, or if you check back so often it starts to feel like pressure."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Comparing your price against two other shops before deciding"
+          }
+        ],
+        [
+          {
+            "text": "Waiting for a salary or payment to clear before spending"
+          }
+        ],
+        [
+          {
+            "text": "Your message got buried under a hundred others in the same chat"
+          }
+        ],
+        [
+          {
+            "text": "They needed to check with a partner, parent or manager first"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-two-touch-rule",
+      "text": "The two-touch rule"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The two-touch rule keeps a follow-up from turning into pestering. It has a beginning, a middle and a clear end, so the customer always knows where they stand, and so do you."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Touch one, sent within the same working day or the next morning: a short, specific message that repeats exactly what they asked about."
+          }
+        ],
+        [
+          {
+            "text": "Touch two, sent two to three days later if touch one got no reply: a closing message that makes it easy to say yes, no, or not yet."
+          }
+        ],
+        [
+          {
+            "text": "After touch two, stop. Mark the enquiry cold, or move it to a list you only revisit when you have real news, like new stock or a genuine discount."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A follow-up stops being a courtesy and starts being pestering the moment it reaches a third message."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "timing-that-does-not-feel-like-pestering",
+      "text": "Timing that does not feel like pestering"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's telecoms regulator issued a rule this year setting out that promotional calls and messages may only be sent "
+        },
+        {
+          "text": "between 8am and 9pm",
+          "href": "https://www.omanobserver.om/article/1194611/oman/community/omans-tra-steps-in-to-regulate-unsolicited-calls"
+        },
+        {
+          "text": ", with businesses given until early 2027 to fully comply. A follow-up on an enquiry someone already started is not the same as a marketing blast, but the same window is decent manners: send touch one and touch two inside the working day, not right after Friday prayers, and not late at night."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "wording-in-arabic-and-english",
+      "text": "Wording in Arabic and English"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Keep both touches short, specific and easy to answer. Match the language the customer used first. If they wrote in Arabic, reply in Arabic; if they mixed English and Arabic, mixing back is completely natural."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Touch one, English: Hi Fatma, just checking the mixer is still needed for Friday and Saturday. It is free, happy to hold it if you confirm today."
+          }
+        ],
+        [
+          {
+            "text": "Touch one, Arabic: مرحبا فاطمة، بس أتأكد إذا لسه محتاجة الخلاطة ليوم الجمعة والسبت. متوفرة عندنا، أقدر أحجزها لج اليوم إذا تأكدين."
+          }
+        ],
+        [
+          {
+            "text": "Touch two, English: Hi Fatma, last check on the mixer for this weekend. If the timing changed, no problem at all, just let me know and I will check back closer to your next job."
+          }
+        ],
+        [
+          {
+            "text": "Touch two, Arabic: مرحبا فاطمة، هذا آخر تذكير بخصوص الخلاطة لهذا الأسبوع. إذا تغيّر الموعد ما فيه مشكلة، خبريني بس ونتواصل قريب من شغلتج الجاية."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "before-and-after-a-rental-office",
+      "text": "Before and after: a rental office's two threads"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Badr runs a small equipment rental office in Ghala, hiring out generators, scaffolding and cement mixers to contractors and homeowners. This composite example shows the same Wednesday enquiry handled two different ways, with the two-touch rule as the only change."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Timeline",
+        "Without a follow-up",
+        "With the two-touch rule"
+      ],
+      "rows": [
+        [
+          "Wednesday, 10am",
+          "Customer asks about a cement mixer for the weekend, worth about OMR 75 for three days. Badr is on a delivery and cannot reply straight away.",
+          "Same enquiry arrives. Badr is still on a delivery and cannot reply straight away."
+        ],
+        [
+          "Wednesday, 4pm",
+          "Still no reply sent.",
+          "Touch one sent: confirms the mixer is free and asks for a same day yes."
+        ],
+        [
+          "Friday, 9am",
+          "Customer has already rented from a shop that replied faster. Enquiry is lost.",
+          "No reply yet, so touch two is sent: a polite last check, easy to answer either way."
+        ],
+        [
+          "Friday, 11am",
+          "OMR 75 booking gone for good.",
+          "Customer replies yes, books the mixer, and adds two days of scaffolding at OMR 20 a day. Total booking: OMR 115."
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "One polite reminder brought back a customer who had simply forgotten to reply. A third message would only have annoyed him.",
+      "attribution": "Badr, equipment rental office owner, Ghala",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Open your WhatsApp, website and Instagram enquiries right now and sort the ones with no reply in the last day. If nobody has followed up yet, send touch one today, mentioning exactly what the customer asked about. If touch one already went out two or three days ago with nothing back, send touch two, and make it painless for them to say no."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Keeping track of who is on touch one and who is on touch two gets hard once WhatsApp, the website and Instagram are all landing in the same busy day. Chatbot.OM's "
+        },
+        {
+          "text": "Smart Follow-Ups",
+          "href": "/product/smart-follow-ups/"
+        },
+        {
+          "text": " feature keeps that schedule running in the background: it sends touch one and touch two on time, in the language the customer used, then stops, so nobody gets chased a third time by accident. Get Chatbot.OM if you would rather spend that time with the customers who already said yes."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Two well timed messages will win back more bookings than an inbox full of unanswered chasers."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Try this today",
+      "paragraphs": [
+        "Scan every enquiry from the last five days that has no reply.",
+        "If nothing has been sent yet, send touch one now, mentioning exactly what they asked.",
+        "If touch one already went out two or three days ago, send touch two, then stop either way.",
+        "Never send an unprompted third message on the same enquiry."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How many times should I follow up on one enquiry?",
+          "a": "Twice. Send touch one soon after they go quiet, then touch two a few days later. After that, stop unless they reply."
+        },
+        {
+          "q": "What if neither message gets a reply?",
+          "a": "Mark the enquiry cold. You can still reach out later with real news, like new stock or a genuine discount."
+        },
+        {
+          "q": "Does the two-touch rule work on Instagram too?",
+          "a": "Yes. Keep the same timing and reply inside the same thread the customer messaged from."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A quiet enquiry is not a lost one yet. Two well timed, well worded messages give a customer a fair chance to come back, and stopping there keeps your number, and your reputation, exactly as trustworthy on message two hundred as it was on message one."
+        }
+      ]
+    }
+  ]
+}
