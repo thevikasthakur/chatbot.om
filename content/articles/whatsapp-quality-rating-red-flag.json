@@ -1,0 +1,288 @@
+{
+  "id": "article-2026-09-14-whatsapp-policy-watch",
+  "taskId": "2026-09-14-whatsapp-policy-watch",
+  "slug": "whatsapp-quality-rating-red-flag",
+  "title": "What Happens When WhatsApp Rates Your Number Red?",
+  "seoTitle": "What Happens When WhatsApp Rates Your Number Red?",
+  "excerpt": "A green tick does not mean your WhatsApp number is safe. Here is what actually turns it red, and the two-minute check that keeps it live.",
+  "seoDescription": "WhatsApp's quality rating, 24-hour window and template rules can quietly limit a small business number. Here's what changed and what to check this week.",
+  "series": "Oman Digital Pulse",
+  "category": "Rules & Updates",
+  "topic": "When WhatsApp Changes the Rules on Businesses",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-14",
+  "modifiedDate": "2026-09-14",
+  "reviewedDate": "2026-09-14",
+  "reviewBy": "2026-12-13",
+  "status": "published",
+  "tags": [
+    "WhatsApp Business",
+    "quality rating",
+    "WhatsApp rules",
+    "small business Oman",
+    "template messages",
+    "24-hour window",
+    "Oman Digital Pulse"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<radialGradient id=\"bg\" cx=\"50%\" cy=\"40%\" r=\"75%\">\n<stop offset=\"0%\" stop-color=\"#ffd166\"/>\n<stop offset=\"45%\" stop-color=\"#6b4d12\"/>\n<stop offset=\"100%\" stop-color=\"#1c1408\"/>\n</radialGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"40\" y=\"28\" width=\"120\" height=\"170\" rx=\"20\" fill=\"#1c1408\" stroke=\"#e8c07c\" stroke-width=\"3\"/>\n<rect x=\"54\" y=\"46\" width=\"92\" height=\"120\" rx=\"6\" fill=\"#3a2a10\"/>\n<circle cx=\"100\" cy=\"72\" r=\"14\" fill=\"#d4ff4f\"/>\n<circle cx=\"100\" cy=\"106\" r=\"14\" fill=\"#e8c07c\"/>\n<circle cx=\"100\" cy=\"140\" r=\"14\" fill=\"#1c1408\" stroke=\"#f4f4f0\" stroke-width=\"3\"/>\n<text x=\"100\" y=\"146\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"16\" fill=\"#f4f4f0\" text-anchor=\"middle\">!</text>\n<rect x=\"168\" y=\"112\" width=\"212\" height=\"54\" rx=\"8\" fill=\"#1c1408\" opacity=\"0.85\"/>\n<text x=\"180\" y=\"146\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"32\" fill=\"#f4f4f0\">RED FLAG</text>\n<rect x=\"168\" y=\"172\" width=\"212\" height=\"26\" rx=\"6\" fill=\"#1c1408\" opacity=\"0.8\"/>\n<text x=\"180\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#e8c07c\">The rules behind your number</text>\n</svg>",
+  "sources": [
+    {
+      "id": "whatsapp-business-policy",
+      "label": "WhatsApp Business Platform Policy (Meta)",
+      "url": "https://business.whatsapp.com/policy",
+      "kind": "vendor"
+    },
+    {
+      "id": "meta-quality-rating-help",
+      "label": "About Your WhatsApp Business Phone Number's Quality Rating (Meta Business Help Center)",
+      "url": "https://www.facebook.com/business/help/896873687365001",
+      "kind": "vendor"
+    },
+    {
+      "id": "tra-oman-consumer-protection",
+      "label": "Telecommunications Regulatory Authority (TRA) Oman, Consumer Protection and Complaints",
+      "url": "https://tra.gov.om/En/Consumer.jsp",
+      "kind": "oman-official"
+    },
+    {
+      "id": "techcrunch-chatbot-ban",
+      "label": "WhatsApp changes its terms to bar general-purpose chatbots from its platform (TechCrunch)",
+      "url": "https://techcrunch.com/2025/10/18/whatssapp-changes-its-terms-to-bar-general-purpose-chatbots-from-its-platform/",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Your WhatsApp number can slide from working fine to seriously limited without you ever sending a broadcast yourself. Meta watches every business number for a quality signal most owners never check, and a bad reading quietly caps how many people you can message, or shuts the number down. If a boutique, salon or restaurant runs on WhatsApp, this is the part of the rulebook that actually bites."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-quality-signal-nobody-checks",
+      "text": "The quality signal nobody checks"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Inside WhatsApp Manager, the dashboard every WhatsApp Business Platform number lives in, each number carries a quality rating: green, yellow or red. It moves with recent customer behaviour, blocks, reports and how many people actually reply to messages you started, and it is rechecked every few hours rather than judged on your whole history."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Green means people are responding the way you would hope. Yellow is an early warning worth a look. Red means enough people blocked or reported the number lately that Meta has noticed, and because it refreshes so often, one badly aimed batch of messages can shift the colour within a day."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-red-rating-actually-costs",
+      "text": "What a red rating actually costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A red rating does not erase anything you already sent, and it never touches a customer writing to you first: replying to your own customers is always allowed, whatever the colour. What it stops is growth. A newly verified number usually starts around 1,000 fresh conversations it can begin in a day, then earns its way up to 10,000, then 100,000, then no limit at all, as trust builds. A number stuck on red cannot move up, and if it stays red across several checks in a row, Meta can cut that daily allowance or suspend the number altogether."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For a business with five or ten people on the team, hitting that ceiling through sheer volume almost never happens. What actually triggers a drop is messaging people who never asked: an old list, a number passed on by a friend, one broadcast to every saved contact for a sale. A handful of blocks from a list like that is enough to turn the light yellow within a day."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A single broadcast sent to people who never agreed to hear from you can turn a healthy number into a restricted one within days."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-24-hour-window-and-the-template-gate",
+      "text": "The 24-hour window and the template gate"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Separate from the quality rating, WhatsApp only lets a business write freely for 24 hours after a customer's last message; after that, only a pre-approved template gets through. "
+        },
+        {
+          "text": "An earlier post on this blog walks through that window in full",
+          "href": "/blog/whatsapp-24-hour-rule-explained/"
+        },
+        {
+          "text": ". Meta can review, pause or reject any template before it ever reaches a customer, and a rejected template's wording cannot simply be retyped as an ordinary message."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The two rules feed each other. A business that tries to dodge the window with off-template messages, or resends rejected wording as free text, is exactly the kind of account that picks up blocks and reports, and that is what drags the quality rating down in the first place."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-good-news-from-january",
+      "text": "The good news from January"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "One change actually protects small businesses. Since 15 January 2026, WhatsApp's business terms ban general-purpose AI chatbots, stand-alone AI assistants that answer anything on any topic and use WhatsApp as their own front door. That rule targets apps built to compete with WhatsApp itself, not a business's own customer tools."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Structured automation for one job, answering prices, taking a booking, sharing opening hours, stays fully allowed, as long as a human is easy to reach when a customer needs one. "
+        },
+        {
+          "text": "Chatbot.OM, for instance, connects through the official WhatsApp Business Platform channel",
+          "href": "/features/whatsapp-business-channel/"
+        },
+        {
+          "text": " and only ever handles the jobs its business owner sets it up for, never open-ended chat with strangers."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "How Khalid, who manages a restaurant in Seeb, sized up one bad broadcast (composite example)",
+      "headers": [
+        "What to check",
+        "Khalid's numbers"
+      ],
+      "rows": [
+        [
+          "WhatsApp enquiries per day",
+          "40"
+        ],
+        [
+          "Typical order value",
+          "OMR 12"
+        ],
+        [
+          "Conversion rate to a paid order",
+          "35%"
+        ],
+        [
+          "Daily revenue riding on WhatsApp (40 x 35% x OMR 12)",
+          "OMR 168"
+        ],
+        [
+          "Days the number stayed limited after one bulk send",
+          "3"
+        ],
+        [
+          "Revenue at risk during the limit (OMR 168 x 3)",
+          "OMR 504"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I check the little quality dot before I check my own messages now. It decides if customers can reach us at all.",
+      "attribution": "Aisha, gym coordinator, Qurum",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this needs a technical team. It needs a weekly habit and a clear line on who you message."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Check your number's quality rating once a week, not only when something breaks."
+          }
+        ],
+        [
+          {
+            "text": "Message only people who wrote to you first or clearly opted in, every time, with no 'just this once' exceptions."
+          }
+        ],
+        [
+          {
+            "text": "Keep automation to structured jobs, prices, hours, bookings, and always leave a plain way to reach a person."
+          }
+        ],
+        [
+          {
+            "text": "Submit new templates a few days before a season or holiday push, not the night before."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open WhatsApp Manager and note your number's colour today: green, yellow or red.",
+        "Scroll your last broadcast list and check that every name on it messaged you first.",
+        "Confirm your templates show 'approved', not 'pending', before you lean on them next week."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need an approved template to reply within 24 hours?",
+          "a": "No. Inside the 24-hour window after a customer's last message, you can write freely. Templates are only required once that window closes."
+        },
+        {
+          "q": "Can one bad broadcast really turn my number red?",
+          "a": "Yes. Enough blocks or reports in a short time drop the rating, and a red rating held across several checks risks a lower message limit or suspension."
+        },
+        {
+          "q": "Does a booking or price-answering bot count as a banned chatbot?",
+          "a": "No. The January 2026 rule targets stand-alone AI apps acting as a general assistant, not tools handling a business's own bookings, prices or hours."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "WhatsApp's rules are not really written against small, honest businesses; they are written against spam and stand-alone AI apps riding its network for free. Check your number's colour the way you check the till, message only the people who said yes, and the platform mostly stays out of your way."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "id": "article-2026-09-15-templates-without-headache",
+  "taskId": "2026-09-15-templates-without-headache",
+  "slug": "six-whatsapp-templates",
+  "title": "Six WhatsApp Templates You Can Copy Today",
+  "seoTitle": "WhatsApp Message Templates: What Gets Approved",
+  "excerpt": "The reminder gets rejected. The sales message slips through as a reminder. Here is what WhatsApp actually approves, plus six templates ready to copy.",
+  "seoDescription": "What WhatsApp actually approves for reminders and confirmations, why templates get rejected, and six ready to adapt in Arabic and English.",
+  "series": "WhatsApp at Work",
+  "category": "WhatsApp Business",
+  "topic": "Pre-Approved Templates Without the Headache",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-15",
+  "modifiedDate": "2026-09-15",
+  "reviewedDate": "2026-09-15",
+  "reviewBy": "2026-12-14",
+  "status": "published",
+  "tags": [
+    "WhatsApp Business",
+    "message templates",
+    "WhatsApp Business Platform",
+    "customer reminders",
+    "small business Oman",
+    "Arabic templates",
+    "WhatsApp at Work"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"225\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0\" stop-color=\"#181109\"/>\n<stop offset=\"0.55\" stop-color=\"#54371a\"/>\n<stop offset=\"1\" stop-color=\"#e8c07c\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"34\" y=\"34\" width=\"230\" height=\"108\" rx=\"20\" fill=\"#0f0b06\" opacity=\"0.6\"/>\n<path d=\"M62 142 L90 142 L62 168 Z\" fill=\"#0f0b06\" opacity=\"0.6\"/>\n<rect x=\"54\" y=\"56\" width=\"150\" height=\"9\" rx=\"4.5\" fill=\"#f4f4f0\" opacity=\"0.4\"/>\n<rect x=\"54\" y=\"76\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#f4f4f0\" opacity=\"0.4\"/>\n<rect x=\"54\" y=\"96\" width=\"90\" height=\"9\" rx=\"4.5\" fill=\"#f4f4f0\" opacity=\"0.4\"/>\n<g transform=\"translate(258,110) rotate(-13)\">\n<circle cx=\"0\" cy=\"0\" r=\"76\" fill=\"#14100a\" opacity=\"0.72\"/>\n<circle cx=\"0\" cy=\"0\" r=\"76\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"5\"/>\n<text x=\"0\" y=\"10\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"27\" fill=\"#d4ff4f\" text-anchor=\"middle\">APPROVED</text>\n</g>\n<text x=\"34\" y=\"192\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#f4f4f0\">Six WhatsApp templates,</text>\n<text x=\"34\" y=\"211\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#e8c07c\">ready to send</text>\n</svg>",
+  "sources": [
+    {
+      "id": "whatsapp-business-platform",
+      "label": "WhatsApp Business Platform (Meta)",
+      "url": "https://business.whatsapp.com",
+      "kind": "vendor"
+    },
+    {
+      "id": "meta-template-categorization",
+      "label": "Meta: WhatsApp template categorization",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/template-categorization",
+      "kind": "vendor"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A WhatsApp message template you send after the first day of a chat needs Meta's approval, word for word, before it reaches a single customer. Get the category wrong and it gets rejected, sometimes over one misplaced variable. Here is what usually clears review, what usually bounces back, and six templates in Arabic and English you can adapt this week."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-templates-need-approval",
+      "text": "Why templates need approval at all"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "WhatsApp lets a business reply freely for 24 hours after a customer's last message. Once that window closes, you can only send a message built from a template Meta has already reviewed, a rule we walked through in "
+        },
+        {
+          "text": "our piece on the 24 hour rule",
+          "href": "/blog/whatsapp-24-hour-rule-explained/"
+        },
+        {
+          "text": ". This is what lets a salon confirm tomorrow's appointment three days after the customer last wrote in, without it landing like an unsolicited message."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every template goes through review before you can use it, and the review reads the wording, not your intention. A perfectly reasonable reminder gets rejected if it reads like an advert. A genuinely promotional message gets rejected if you label it a reminder to dodge the stricter review. Knowing the difference before you submit saves the two or three days a resubmission usually takes."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "three-categories-one-decision",
+      "text": "Three categories decide everything"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Meta sorts every template into one of three categories, and it is the category that gets checked, not the name you put on it."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Utility: tied to something the customer already did, a booking, an order, a payment, an account. Reminders, confirmations and status updates belong here."
+          }
+        ],
+        [
+          {
+            "text": "Marketing: anything promotional, even dressed up as a reminder. Discounts, new arrivals, event invites and 'book now' nudges fall here, and they need the customer's earlier consent."
+          }
+        ],
+        [
+          {
+            "text": "Authentication: one time codes only, with tightly restricted wording. Most small businesses without app logins never need this category."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-gets-approved-almost-every-time",
+      "text": "What gets approved almost every time"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Utility templates that read like they were written for one customer, not a mailing list, clear review fastest."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "The message ties to a specific action: this order, this appointment, this date."
+          }
+        ],
+        [
+          {
+            "text": "No promotional words, no sale, off, free, limited time or book now, even as a passing word in a reminder."
+          }
+        ],
+        [
+          {
+            "text": "Every variable sits inside a full sentence, never stacked next to another variable and never opening or closing the message."
+          }
+        ],
+        [
+          {
+            "text": "A sample value is filled in for every variable before submission, showing Meta what the finished message will actually look like."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A reminder that reads like it was written for one customer, not a mailing list, is the one that gets approved fastest."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-gets-bounced-back",
+      "text": "What gets bounced back"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Rejections cluster around a handful of habits, and most are easy to fix once you know to look for them."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Promotional language slipped into a Utility template, even a single word like 'special'."
+          }
+        ],
+        [
+          {
+            "text": "Variables placed back to back, such as two placeholders with nothing separating them."
+          }
+        ],
+        [
+          {
+            "text": "A template that opens or closes on a variable instead of a full word."
+          }
+        ],
+        [
+          {
+            "text": "Missing sample text for a variable, the single most common rejection Meta cites."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "six-templates-to-adapt-this-week",
+      "text": "Six WhatsApp message templates to adapt this week"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "All six below are written as Utility templates, since that is what a small business sends most and what clears review fastest. Swap in your own business name and keep the variables exactly as shown. Register the English and Arabic wording as two separate submissions."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Starter set: adapt the wording, keep the variables in place",
+      "headers": [
+        "Purpose",
+        "English (Utility)",
+        "Arabic (Utility)"
+      ],
+      "rows": [
+        [
+          "Appointment reminder",
+          "Hi {{1}}, this is a reminder for your appointment at {{2}} on {{3}}. Reply YES to confirm.",
+          "مرحبا {{1}}، هذا تذكير بموعدك في {{2}} يوم {{3}}. الرجاء الرد بكلمة نعم للتأكيد."
+        ],
+        [
+          "Order confirmation",
+          "Hi {{1}}, your order #{{2}} is confirmed. Total: OMR {{3}}. We will message you when it is ready.",
+          "مرحبا {{1}}، تم تأكيد طلبك رقم {{2}}. المجموع {{3}} ريال عماني. سنراسلكم عند جهوزيته."
+        ],
+        [
+          "Ready for pickup",
+          "Hi {{1}}, your order #{{2}} is ready for pickup at {{3}}. Our hours today: {{4}}.",
+          "مرحبا {{1}}، طلبك رقم {{2}} جاهز للاستلام من {{3}}. ساعات العمل اليوم: {{4}}."
+        ],
+        [
+          "Renewal reminder",
+          "Hi {{1}}, your membership at {{2}} expires on {{3}}. Renew before then to keep your current rate.",
+          "مرحبا {{1}}، اشتراكك في {{2}} ينتهي بتاريخ {{3}}. جددوه قبل ذلك للحفاظ على نفس السعر."
+        ],
+        [
+          "Reschedule update",
+          "Hi {{1}}, your appointment on {{2}} has been moved to {{3}}. Reply if this new time does not suit you.",
+          "مرحبا {{1}}، تم تعديل موعدكم من {{2}} إلى {{3}}. الرجاء الرد إذا لم يناسبكم هذا الوقت."
+        ],
+        [
+          "Feedback request",
+          "Hi {{1}}, thank you for visiting {{2}} on {{3}}. How was your experience? Reply with a number from 1 to 5.",
+          "مرحبا {{1}}، شكرا لزيارتكم {{2}} بتاريخ {{3}}. كيف كانت تجربتكم؟ الرجاء الرد برقم من 1 إلى 5."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-reminder-that-pays-for-itself",
+      "text": "The reminder that pays for itself"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Maha runs a four chair beauty salon in Al Khoud and books everything through WhatsApp. This composite example shows what one Utility reminder template changed in a typical month, using rough, redoable numbers."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Appointments booked in a month: 220."
+          }
+        ],
+        [
+          {
+            "text": "No shows before automatic reminders, at 15 percent: 33 appointments, each worth about OMR 12, for OMR 396 in lost chair time."
+          }
+        ],
+        [
+          {
+            "text": "No shows after a reminder template sent the evening before, at 6 percent: 13 appointments, for OMR 156 lost."
+          }
+        ],
+        [
+          {
+            "text": "Revenue recovered from the reminder template alone: about OMR 240 a month, before counting the time nobody spent making reminder calls."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "The reminder template does the phone call I never had time to make anyway.",
+      "attribution": "Maha, salon owner, Al Khoud",
+      "persona": true
+    },
+    {
+      "type": "highlight",
+      "text": "A template rejected once for the wrong reason usually gets rejected again for the same reason, so it pays to read the rule before the second try."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Before you submit a template, read it as if you were the customer receiving it. If it only makes sense with your business name and this specific booking, order or date in it, it is probably Utility and will clear review quickly."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If the same wording would work equally well sent to every customer on your list, whether or not they have an open order with you, it is Marketing, and it needs their earlier consent, not just an approved template. Register both languages you actually use, since Meta reviews each language version on its own."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Chatbot.OM's "
+        },
+        {
+          "text": "WhatsApp Business Channel",
+          "href": "/features/whatsapp-business-channel/"
+        },
+        {
+          "text": " keeps your approved templates on file and sends the right one automatically when a booking is made or an order is ready, so nobody on the team has to remember the exact approved wording."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Does this message only make sense for one customer, with their name, date or order number in it?",
+        "Have I avoided sale, discount, free, off, book now and limited time, even as a passing word?",
+        "Does every variable sit inside a full sentence, never first, last or next to another variable?",
+        "Did I fill in a sample value for every variable before submitting?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How long does template review take?",
+          "a": "Usually minutes to a day, though busy periods can stretch it longer. Keep using your existing approved templates while a new one is under review."
+        },
+        {
+          "q": "Can I edit an approved template later?",
+          "a": "No. You submit a new version for its own review, and the old template keeps working until the new one clears."
+        },
+        {
+          "q": "Do I need a separate template for every appointment time?",
+          "a": "No. Use variables for the details that change, name, date, time, and register the template once."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Template approval is not really a wording game, it is a test of whether a message could only be for the one customer receiving it. Get that right and reminders, confirmations and updates clear review fast enough to feel automatic, which is the whole point of sending them by template in the first place."
+        }
+      ]
+    }
+  ]
+}

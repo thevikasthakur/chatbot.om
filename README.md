@@ -32,6 +32,9 @@ npm install
 npm run dev
 ```
 
+The local app runs at `http://localhost:3401` in both development and
+production start modes.
+
 Create `.env.local` from `.env.example` before testing the CTA email flow.
 
 `npm run lint` runs ESLint and `tsc --noEmit`. `npm test` covers the
@@ -113,6 +116,7 @@ CTA_OWNER_EMAILS
 `CTA_OWNER_EMAILS` accepts one address or a comma-separated list. Keep
 `NEXT_PUBLIC_API_URL` unset so the form calls the same Netlify origin; only set
 it when intentionally hosting the API on a different domain.
+
 
 After deployment, submit the install form once and confirm that the Netlify
 function logs show a successful request and that the owner email arrives.

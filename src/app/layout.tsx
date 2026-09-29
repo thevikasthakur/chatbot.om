@@ -76,7 +76,9 @@ export const metadata: Metadata = {
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon.ico", sizes: "any" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
   manifest: "/site.webmanifest",
   openGraph: {
@@ -95,14 +97,21 @@ export const viewport: Viewport = {
   themeColor: "#0a0b0f",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     // The next/font variable classes belong on <html>, not <body>: the theme
     // declares --font-display as var(--font-fraunces) at :root, and a custom
     // property is resolved where it is declared. Defining the font variables
     // one level lower leaves --font-display, --font-sans and --font-mono
     // empty, so every font-family rule falls back to system sans.
-    <html lang="en-OM" className={`${inter.variable} ${fraunces.variable} ${jetbrains.variable}`}>
+    <html
+      lang="en-OM"
+      className={`${inter.variable} ${fraunces.variable} ${jetbrains.variable}`}
+    >
       <head>
         <JsonLd data={organisation} />
         <JsonLd data={website} />

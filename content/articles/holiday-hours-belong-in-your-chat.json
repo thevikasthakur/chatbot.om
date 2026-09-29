@@ -1,0 +1,311 @@
+{
+  "id": "article-2026-09-12-holiday-hours-in-chat",
+  "taskId": "2026-09-12-holiday-hours-in-chat",
+  "slug": "holiday-hours-belong-in-your-chat",
+  "title": "Holiday Hours Belong in Your Chat, Not Just the Door",
+  "seoTitle": "Holiday Hours Belong in Your Chat, Not Just the Door",
+  "excerpt": "National Day was confirmed months ago. Most business chats still have not caught up, and that gap is costing real sales.",
+  "seoDescription": "National Day is already confirmed for 25 and 26 November. Here is the fifteen-minute drill to update your chat, catalogue and calendar before customers ask.",
+  "series": "Ready for the Rush",
+  "category": "Oman Seasons & Peaks",
+  "topic": "Holiday Hours Belong in Your Chat, Not Just the Door",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-12",
+  "modifiedDate": "2026-09-12",
+  "reviewedDate": "2026-09-12",
+  "reviewBy": "2026-12-11",
+  "status": "published",
+  "tags": [
+    "holiday hours",
+    "National Day",
+    "WhatsApp Business",
+    "Google Business Profile",
+    "booking calendar",
+    "small business Oman",
+    "chatbot"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<radialGradient id=\"bg\" cx=\"50%\" cy=\"42%\" r=\"75%\">\n<stop offset=\"0%\" stop-color=\"#ffd166\"/>\n<stop offset=\"45%\" stop-color=\"#6b4d12\"/>\n<stop offset=\"100%\" stop-color=\"#1c1408\"/>\n</radialGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<path d=\"M120 165 L150 165 L150 192 Z\" fill=\"#f4f4f0\"/>\n<rect x=\"100\" y=\"46\" width=\"200\" height=\"120\" rx=\"14\" fill=\"#f4f4f0\"/>\n<rect x=\"100\" y=\"46\" width=\"200\" height=\"32\" rx=\"14\" fill=\"#d4ff4f\"/>\n<rect x=\"100\" y=\"60\" width=\"200\" height=\"18\" fill=\"#d4ff4f\"/>\n<text x=\"200\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#1c1408\" text-anchor=\"middle\">NOVEMBER</text>\n<text x=\"200\" y=\"137\" font-family=\"Arial, sans-serif\" font-size=\"36\" font-weight=\"bold\" fill=\"#1c1408\" text-anchor=\"middle\">25-26</text>\n<text x=\"200\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#f4f4f0\" text-anchor=\"middle\">UPDATE YOUR CHAT IN 15 MINUTES</text>\n</svg>",
+  "sources": [
+    {
+      "id": "oman-observer-holidays-2026",
+      "label": "Oman Observer: Except for Eids, Oman announces public holidays for 2026",
+      "url": "https://www.omanobserver.om/article/1181777/oman/labour/except-for-eids-oman-announces-public-holidays-for-2026",
+      "kind": "media"
+    },
+    {
+      "id": "times-of-oman-holidays-2026",
+      "label": "Times of Oman: Oman declares holiday calendar for 2026",
+      "url": "https://timesofoman.com/article/166620-oman-declares-holiday-calendar-for-2026",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Oman confirmed National Day for this year back in January: Wednesday and Thursday, 25 and 26 November. Yet every confirmed holiday still plays out the same way in a hundred small business chats. A customer asks if you are open, your greeting message says nothing about it, and you are typing the same answer by hand for the fortieth time that day."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "same-question-a-hundred-times",
+      "text": "The same question, a hundred times"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Ask Fatma, who runs a boutique in Al Mouj, what a confirmed holiday actually feels like. The messages start weeks early: are you open on National Day, what are your hours that week, is delivery still running. Most land on WhatsApp, a few on Instagram, one or two through the website chat."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The question itself never changes. What changes is whether the answer is already sitting in your chat, or whether you are retyping it between customers at the till, one conversation at a time."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "your-calendar-already-has-the-date",
+      "text": "Your calendar already has the date"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The Ministry of Labour now publishes national and religious holiday dates at the start of each Gregorian year, precisely so businesses can plan ahead instead of scrambling the week before. National Day is a good example of how that plays out. The statutory date falls on 20 and 21 November, a Friday and Saturday, so this year's observed holiday moves to Wednesday and Thursday, 25 and 26 November instead."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Religious holidays such as Eid al Fitr and Eid al Adha still depend on the moon sighting announcement closer to the date, so treat those as expected around a date rather than fixed until the announcement lands. A confirmed date like National Day, though, gives you roughly ten weeks of lead time from today. There is no reason your greeting message should still be catching up the week of."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The government told everyone the date back in January. Your chat is still telling customers the wrong one in September."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-fifteen-minute-drill",
+      "text": "The fifteen-minute drill"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Once a holiday is confirmed, work through five places before you close the laptop for the day. None of them takes long alone, and together they stop the same question from repeating itself for the next ten weeks."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Greeting message (2 minutes): ",
+            "strong": true
+          },
+          {
+            "text": "update the first automatic reply on WhatsApp and the website chat with the exact dates you are closed, open shorter hours, or trading as normal."
+          }
+        ],
+        [
+          {
+            "text": "Catalogue note (3 minutes): ",
+            "strong": true
+          },
+          {
+            "text": "if orders or bookings pause over the holiday, say so on the product list or menu itself, not only inside chat replies."
+          }
+        ],
+        [
+          {
+            "text": "Status line (2 minutes): ",
+            "strong": true
+          },
+          {
+            "text": "change the WhatsApp Business away message and away hours so they match what the greeting now says."
+          }
+        ],
+        [
+          {
+            "text": "Google Business Profile (5 minutes): ",
+            "strong": true
+          },
+          {
+            "text": "add special hours for the exact dates. This is what a customer sees before they even open a chat."
+          }
+        ],
+        [
+          {
+            "text": "Booking calendar (3 minutes): ",
+            "strong": true
+          },
+          {
+            "text": "block the holiday dates in whichever "
+          },
+          {
+            "text": "calendar",
+            "href": "/features/appointment-booking/"
+          },
+          {
+            "text": " takes your appointments or tables, so nobody books a slot you cannot honour."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A chat tool built to hold this kind of update, such as Chatbot.OM, can switch a holiday greeting on and off on a schedule. A phone, five open tabs and fifteen minutes get you there just as well."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-one-skipped-update-costs",
+      "text": "What one skipped update costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is how Fatma sized it up for one three-day weekend. Run the same shape of numbers with your own message count and average sale, and the fifteen minutes explains itself."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "What happens",
+        "Without the update",
+        "With it"
+      ],
+      "rows": [
+        [
+          "Messages asking about holiday hours",
+          "30",
+          "30"
+        ],
+        [
+          "Answered before the customer has to wait",
+          "0",
+          "30"
+        ],
+        [
+          "Customers who give up and do not come back",
+          "15",
+          "2"
+        ],
+        [
+          "Average sale value",
+          "OMR 22",
+          "OMR 22"
+        ],
+        [
+          "Sales lost to the wait",
+          "OMR 330",
+          "OMR 44"
+        ],
+        [
+          "Time spent typing the same reply by hand",
+          "About 45 minutes",
+          "0 minutes"
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "OMR 330 walked out the door over one weekend because a greeting message never got updated."
+    },
+    {
+      "type": "quote",
+      "quote": "One line in the greeting stops me answering the same question forty times before lunch.",
+      "attribution": "Badr, gym coordinator, Al Khuwair",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need to wait for the week of a holiday to run this drill. The moment a date is confirmed, whether that is a government announcement in January or a moon sighting update a day or two out, the same five checks apply."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A customer who asks twice about your holiday hours and gets nothing back rarely asks a third time. They "
+        },
+        {
+          "text": "go quiet",
+          "href": "/blog/why-customers-go-quiet-mid-chat/"
+        },
+        {
+          "text": ", and you never find out why the chat ended. Build the fifteen-minute habit now, and by 25 and 26 November your chat, your catalogue and your calendar will already agree with each other."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open WhatsApp Business now and read your own greeting out loud. Does it already mention the next confirmed holiday date?",
+        "Search your own business name on Google. Do the listed hours match what you actually plan to do on 25 and 26 November?",
+        "If either answer is no, you have just found today's fifteen minutes."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What if I am open as normal through National Day?",
+          "a": "Say so anyway. One line, such as open as usual on 25 and 26 November, stops the question before it starts."
+        },
+        {
+          "q": "Eid dates are not announced yet. What do I write now?",
+          "a": "Use expected wording: Eid Al Fitr is expected around a certain month, subject to the official moon sighting. Update it properly once the date is confirmed."
+        },
+        {
+          "q": "Do I need to touch my WhatsApp catalogue too?",
+          "a": "Only if orders, delivery or bookings actually pause. If nothing changes, leave the catalogue and update the hours only."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman already tells you the holiday dates months ahead. The only gap left is between the ministry's announcement and your own greeting message. Close that gap once for every confirmed holiday, in about fifteen minutes, and the same question stops costing you customers, one hundred messages at a time."
+        }
+      ]
+    }
+  ]
+}

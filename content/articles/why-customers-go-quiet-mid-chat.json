@@ -1,0 +1,284 @@
+{
+  "id": "article-2026-09-06-silent-enquiries",
+  "taskId": "2026-09-06-silent-enquiries",
+  "slug": "why-customers-go-quiet-mid-chat",
+  "title": "Why Do Customers Go Quiet Mid-Chat?",
+  "seoTitle": "Why Do Customers Go Quiet Mid-Chat on WhatsApp?",
+  "excerpt": "One hundred chats came in. Eighteen became sales. Here is exactly where the other 82 went quiet, and the one change that revives each stage.",
+  "seoDescription": "A worked WhatsApp funnel shows where small business chats die: slow replies, long texts, no next step, price shock, and the fix for each stage.",
+  "series": "Chats Into Customers",
+  "category": "Leads & Sales",
+  "topic": "The Enquiries That Stop Replying, and Why",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-06",
+  "modifiedDate": "2026-09-06",
+  "reviewedDate": "2026-09-06",
+  "reviewBy": "2026-12-05",
+  "status": "published",
+  "tags": [
+    "whatsapp sales",
+    "chat leads",
+    "small business",
+    "customer replies",
+    "conversion funnel",
+    "leads and sales",
+    "chats into customers"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#062e2b\"/><stop offset=\"0.5\" stop-color=\"#0f4c4c\"/><stop offset=\"1\" stop-color=\"#79e0c8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><g><rect x=\"70\" y=\"118\" width=\"190\" height=\"72\" rx=\"20\" fill=\"#062e2b\" opacity=\"0.9\"/><polygon points=\"92,190 92,212 120,190\" fill=\"#062e2b\" opacity=\"0.9\"/><circle cx=\"115\" cy=\"154\" r=\"10\" fill=\"#d4ff4f\"/><circle cx=\"152\" cy=\"154\" r=\"10\" fill=\"#d4ff4f\" opacity=\"0.5\"/><circle cx=\"189\" cy=\"154\" r=\"10\" fill=\"#d4ff4f\" opacity=\"0.2\"/><circle cx=\"226\" cy=\"154\" r=\"7\" fill=\"#f4f4f0\" opacity=\"0.08\"/></g><text x=\"28\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\">82 go quiet</text><text x=\"28\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#79e0c8\">out of every 100 chats, and why</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A customer messages your boutique at 8:40 pm, asks about a dress in her size, and then goes quiet forever. No goodbye, no 'not interested', just silence. That silence almost always starts with something inside the chat itself, not a customer who simply changed her mind. Four moments kill most conversations before they become a sale, and each one has a fix you can use the same morning."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "four-ways-a-chat-dies",
+      "text": "Four ways a chat dies"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every enquiry that goes nowhere fails at one of four points: the first reply, the length of that reply, what happens after it, or the price. Line your last week of WhatsApp chats up against these four and you will usually find where yours are dying too. The fix for the first one is quick to explain. The rest take a little longer, and the last one surprises most owners the most."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-slow-first-reply",
+      "text": "The slow first reply"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A customer messaging at night is usually comparing you to two or three other places at the same time, on the same phone, in the same five minutes. If your reply lands after half an hour, in Al Mouj or in Seeb, the sale has often already gone to whoever answered first, not whoever would have answered best. This site has written before about the "
+        },
+        {
+          "text": "five minute rule",
+          "href": "/blog/reply-in-five-minutes-or-lose-the-lead/"
+        },
+        {
+          "text": ", and it still holds: speed is the cheapest fix on this list, because it costs nothing except attention, or something that pays attention for you overnight."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The customer who left three hours ago has already spent that money somewhere else."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-wall-of-text",
+      "text": "The wall of text"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The second death is the opposite problem. You finally reply, but with one long message answering everything at once: sizes, colours, delivery, returns, all in a single paragraph. On a phone screen at night that reads like homework, not an answer. Most customers skim the first line, see no clear yes or no, and put the phone down instead of replying."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Answer the question that was actually asked, not the five you imagine coming next"
+          }
+        ],
+        [
+          {
+            "text": "Send one idea per message, as two or three short bubbles instead of one block"
+          }
+        ],
+        [
+          {
+            "text": "Keep the full size chart, menu or price list for when it is actually asked for"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "no-next-step",
+      "text": "No next step"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The third death is quieter. The customer gets a perfectly good answer, yes we have it in medium, and then the chat just stops, because nobody said what happens next. A reply with no next step hands the whole decision back to a tired customer at 9 pm, and tired customers close the app rather than decide anything. Even an enquiry that is not ready to buy today is worth "
+        },
+        {
+          "text": "saving as a lead and following up on later",
+          "href": "/product/automated-lead-pipeline/"
+        },
+        {
+          "text": ", instead of letting a good conversation go cold."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "price-shock",
+      "text": "Price shock"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fourth death catches even the good conversations. 'OMR 45' after four friendly messages can land like a wall, because it arrives with no sense of what it buys or why it is fair. Customers who ask 'how much' are usually asking 'is this worth it', and a bare number never answers that. Say what the price includes in the same message, and offer a smaller first step, a deposit, a trial, a smaller size, so the number has somewhere softer to land."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-week-one-hundred-chats",
+      "text": "One week, one hundred chats"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Fatma, who runs a boutique in Al Mouj, is a composite example built from typical small shop numbers, not one real shop. Her week shows where the same hundred enquiries die, and what changed once each stage was fixed."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Stage",
+        "Chats remaining",
+        "Lost here",
+        "The fix that saves them"
+      ],
+      "rows": [
+        [
+          "Enquiry arrives",
+          "100",
+          "Nothing lost yet",
+          "Reply within five minutes, any hour"
+        ],
+        [
+          "First reply lands",
+          "65",
+          "35 leave before any reply comes",
+          "Even a quick 'checking now, one moment' holds them"
+        ],
+        [
+          "Answer given",
+          "50",
+          "15 stop reading a long, all at once reply",
+          "One idea per message, two or three short bubbles"
+        ],
+        [
+          "Next step offered",
+          "30",
+          "20 get a good answer with nothing to do next",
+          "End every reply with a time, a link or a booking"
+        ],
+        [
+          "Price shared",
+          "18",
+          "12 vanish after a bare number",
+          "State what it includes, then offer a smaller first step"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "At an average sale of OMR 25, 18 sales out of 100 enquiries brought in about OMR 450 that week. After Fatma started replying inside five minutes past 6 pm and cut her answers to two short messages each, the same hundred enquiries produced 34 sales, about OMR 850, without spending a rial on advertising or hiring anyone new."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "By the time I write the perfect answer, they've already booked at the gym down the road.",
+      "attribution": "Rashid, gym coordinator, Al Khuwair",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-fix-for-each-stage",
+      "text": "The fix for each stage"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Put together, the four fixes are small: reply inside five minutes at any hour, split long answers into short messages, end every reply with one concrete next step, and price with context before you price with a number. None of them need new staff or a new system. Tools like Chatbot.OM can hold the five minute promise overnight on the website and WhatsApp without anyone standing over the phone, which removes the single hardest fix on this list for a team of two or ten people already doing everything else."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pull up your last ten WhatsApp chats tonight. Time your first reply on each one, and mark where the conversation actually stopped: after the greeting, after a long message, after a good answer with no next step, or after a price. Whichever stage shows up most is the one costing you the most, and it is also the cheapest one to fix, since none of these four require spending money before you spend a few minutes of attention."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Time your last five WhatsApp replies. Any slower than five minutes after 6 pm?",
+        "Count the words in your longest reply. Over forty? Split it into two messages.",
+        "Check your last ten closed chats. Did each one end with a time, a link or a booking, not just an answer?",
+        "Read your last price message on its own, with no context above it. Would that message alone explain why it costs that?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How fast is fast enough for a first reply on WhatsApp?",
+          "a": "Under five minutes is the number worth aiming for. Even a short 'checking now, one moment' holds the customer while you find the real answer."
+        },
+        {
+          "q": "Is it wrong to just answer 'how much' directly?",
+          "a": "No, but a bare number invites a comparison on price alone. Say what it includes in the same message, and the same number reads differently."
+        },
+        {
+          "q": "What if I genuinely cannot reply within five minutes at night?",
+          "a": "That is normal for a small team. An automatic first reply, even a simple one, holds the place until you or a tool can answer properly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most enquiries that go quiet were never lost to a change of mind. They were lost to a slow reply, a wall of text, a missing next step or a bare price. Fix the one costing you the most this week, and the same chats that used to disappear start turning into bookings and sales."
+        }
+      ]
+    }
+  ]
+}

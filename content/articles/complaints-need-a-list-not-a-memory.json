@@ -1,0 +1,315 @@
+{
+  "id": "article-2026-09-17-complaints-need-a-list",
+  "taskId": "2026-09-17-complaints-need-a-list",
+  "slug": "complaints-need-a-list-not-a-memory",
+  "title": "Complaints Need a List, Not a Memory",
+  "seoTitle": "Complaints Need a List, Not a Memory",
+  "excerpt": "A complaint that only lives in someone's memory isn't closed, it's just waiting to resurface as a bad review. Here's the simple fix for a small team.",
+  "seoDescription": "How small teams running shops, salons and restaurants can track every customer complaint from first message to closed, without enterprise software.",
+  "series": "Small Team Playbook",
+  "category": "Running a Small Team",
+  "topic": "Complaints Need a List, Not a Memory",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-17",
+  "modifiedDate": "2026-09-17",
+  "reviewedDate": "2026-09-17",
+  "reviewBy": "2026-12-16",
+  "status": "published",
+  "tags": [
+    "complaints",
+    "customer service",
+    "small business",
+    "tickets",
+    "WhatsApp",
+    "customer care",
+    "Oman business"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><radialGradient id=\"dawn\" cx=\"50%\" cy=\"45%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#1c1408\"/><stop offset=\"50%\" stop-color=\"#6b4d12\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/></radialGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#dawn)\"/><g transform=\"rotate(-5 200 95)\"><rect x=\"130\" y=\"15\" width=\"140\" height=\"150\" rx=\"8\" fill=\"#f4f4f0\"/><rect x=\"130\" y=\"15\" width=\"140\" height=\"18\" rx=\"8\" fill=\"#e8c07c\"/><circle cx=\"150\" cy=\"24\" r=\"4\" fill=\"#1c1408\"/><circle cx=\"200\" cy=\"24\" r=\"4\" fill=\"#1c1408\"/><circle cx=\"250\" cy=\"24\" r=\"4\" fill=\"#1c1408\"/><rect x=\"148\" y=\"48\" width=\"16\" height=\"16\" rx=\"3\" fill=\"none\" stroke=\"#1c1408\" stroke-width=\"2\"/><rect x=\"172\" y=\"52\" width=\"80\" height=\"8\" rx=\"3\" fill=\"#1c1408\" opacity=\"0.55\"/><rect x=\"148\" y=\"78\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#d4ff4f\"/><path d=\"M151 86 l4 4 l8 -9\" stroke=\"#1c1408\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"172\" y=\"82\" width=\"80\" height=\"8\" rx=\"3\" fill=\"#1c1408\" opacity=\"0.55\"/><rect x=\"148\" y=\"108\" width=\"16\" height=\"16\" rx=\"3\" fill=\"none\" stroke=\"#1c1408\" stroke-width=\"2\"/><rect x=\"172\" y=\"112\" width=\"80\" height=\"8\" rx=\"3\" fill=\"#1c1408\" opacity=\"0.55\"/><rect x=\"148\" y=\"138\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#79e0c8\"/><path d=\"M151 146 l4 4 l8 -9\" stroke=\"#1c1408\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"172\" y=\"142\" width=\"80\" height=\"8\" rx=\"3\" fill=\"#1c1408\" opacity=\"0.55\"/></g><rect x=\"20\" y=\"168\" width=\"360\" height=\"46\" rx=\"8\" fill=\"#1c1408\" opacity=\"0.85\"/><text x=\"200\" y=\"194\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#f4f4f0\">ON THE LIST</text><text x=\"200\" y=\"209\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">not just in someone's memory</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A customer messages your boutique about a torn dress, on Instagram, at nine at night. Someone replies \"sorry, we will check\", and the thread goes quiet: no name recorded, no promise kept, nothing anyone else on your team could pick up if she writes again. Three weeks later she messages your website chat asking why nobody ever got back to her, and the honest answer is that the complaint never lived anywhere except one person's memory."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "complaint-that-lives-in-one-head",
+      "text": "The Complaint That Lives in One Head"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most small teams handle complaints the same way they handle everything else: by memory and goodwill. Someone reads the message, feels bad, promises to sort it, and moves on to the next chat. That works fine when exactly one person answers every message, every day, forever."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "It stops working the moment a second person joins the WhatsApp, a shift changes, or the same customer writes back three weeks later on a different app. Nobody lied when they said \"I didn't know about that\". In a very real sense, they didn't, because the complaint never existed anywhere except inside one person's head."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-it-falls-through",
+      "text": "Why It Falls Through"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Enquiries rarely arrive in one place. The same complaint can start on WhatsApp, continue as an Instagram direct message, and finish as a comment under a post, each one answered by whoever happened to be free at the time."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Staff turnover makes it worse. A weekend hire who replies to a complaint on a Friday might not be on shift when the customer follows up on Monday. If the note only lived in her head, the business loses the whole thread the moment she clocks off."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Answered once, then forgotten as soon as the chat moves on"
+          }
+        ],
+        [
+          {
+            "text": "Split across WhatsApp, Instagram and the website with no shared record"
+          }
+        ],
+        [
+          {
+            "text": "Picked up by whoever is free, not whoever can actually fix it"
+          }
+        ],
+        [
+          {
+            "text": "Never followed up once the first apology is sent"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If a complaint is really just a question nobody finished answering, the arithmetic looks a lot like a "
+        },
+        {
+          "text": "missed WhatsApp enquiry",
+          "href": "/blog/missed-whatsapp-enquiry-cost/"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A complaint you can't find again is a complaint you haven't actually closed, no matter how sorry you were in the moment."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-one-lost-complaint-costs",
+      "text": "What One Lost Complaint Actually Costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take Hanan, who runs a salon with four staff in Qurum (a composite example). A customer had a mild allergic reaction to a hair dye and messaged on Instagram. Two different staff replied over three days, neither aware the other had answered, and nobody logged a follow up call. The customer left a public review before anyone rang her back."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "What actually broke that pattern for Hanan is simpler than it sounds, and it comes a little further down. First, the honest cost of what happened before she fixed it."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Redo this table with your own average spend and visit count.",
+      "headers": [
+        "What it cost",
+        "Hanan's salon (composite example)"
+      ],
+      "rows": [
+        [
+          "Average spend per visit",
+          "OMR 18"
+        ],
+        [
+          "Visits she would likely have kept this year",
+          "5"
+        ],
+        [
+          "Lifetime value that walked away",
+          "OMR 90"
+        ],
+        [
+          "Refund issued after the public review",
+          "OMR 15"
+        ],
+        [
+          "Staff hours spent firefighting the review",
+          "2 hours"
+        ],
+        [
+          "Total visible cost",
+          "OMR 105, plus 2 hours, before counting the review itself"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "four-things-every-complaint-needs",
+      "text": "Four Things Every Complaint Needs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Once you accept a complaint is a job and not just a chat, the fix is almost boring. It needs four things, and none of them require new software."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Captured: written down somewhere the whole team can see, not just remembered by whoever replied first."
+          }
+        ],
+        [
+          {
+            "text": "Owned: one name attached to it, even if that name is just \"whoever answers WhatsApp today\"."
+          }
+        ],
+        [
+          {
+            "text": "Closed: someone actively marks it done, instead of letting the thread go quiet."
+          }
+        ],
+        [
+          {
+            "text": "Told: the customer hears the outcome, even when the outcome is \"we can't refund it, but here's what we can do\"."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Now every complaint has a name attached to it, and it doesn't disappear just because the shift changed.",
+      "attribution": "Hanan, salon owner, Qurum",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "you-do-not-need-enterprise-software",
+      "text": "You Do Not Need Enterprise Software"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this needs a helpdesk built for a call centre floor. For a two or three person team, a shared note, a WhatsApp group with one line per complaint, or a plain spreadsheet with four columns (who, what, owner, status) covers it completely. The habit matters more than the tool."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Where it gets harder is once complaints arrive across three different apps and nobody remembers to check the spreadsheet at eleven at night. That is the point where turning the chat itself into a ticket, the moment it is raised, closes a gap a shared note cannot. Chatbot.OM's "
+        },
+        {
+          "text": "Automated Support Tickets",
+          "href": "/product/automated-support-tickets/"
+        },
+        {
+          "text": " do exactly that, on WhatsApp and the website, so a complaint is logged and tracked to closure without anyone typing it in twice."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What This Means for You"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pick one place, today, where every complaint gets written down: a notebook by the till, a shared note on your phone, anything that is not one person's memory. Decide who owns a complaint the moment it lands, and agree that \"closed\" means the customer actually heard back, not just that an apology was sent."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If complaints keep arriving on channels nobody is watching at night, that is your cue to look at something that catches them automatically, rather than hoping everyone remembers to check."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your Two-Minute Check",
+      "paragraphs": [
+        "Ask your team right now: where would I find every complaint from the last two weeks?",
+        "If the honest answer is \"ask so-and-so\" or \"scroll back through WhatsApp\", you don't have a system yet, you have a memory.",
+        "Write four columns, who, what, owner, status, on paper today, and use them on the next complaint that comes in."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need real ticketing software for a two person team?",
+          "a": "No. A shared note or a simple spreadsheet with four columns does the job until you are handling more than a handful of complaints a week."
+        },
+        {
+          "q": "Who should own a complaint if there is no manager on shift?",
+          "a": "Whoever answers it first, until they hand it to someone with the authority to close it. The point is that one name is always attached, never nobody."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The Bottom Line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A complaint that only lives in someone's head is a complaint you will end up solving twice: once for the customer, and once for your own reputation. Writing it down costs two minutes. Not writing it down can cost the customer, and sometimes the next ten who read her review."
+        }
+      ]
+    }
+  ]
+}

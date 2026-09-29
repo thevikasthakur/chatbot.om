@@ -1,0 +1,297 @@
+{
+  "id": "article-2026-09-09-ten-questions-every-site",
+  "taskId": "2026-09-09-ten-questions-every-site",
+  "slug": "ten-questions-every-website-gets-asked",
+  "title": "The Ten Questions Every Website Gets Asked",
+  "seoTitle": "The Ten Questions Every Website Gets Asked",
+  "excerpt": "A customer checks your website at night with one question in mind. If the page doesn't answer it, they leave without asking, and message someone whose site already did.",
+  "seoDescription": "Hours, price, location, delivery, booking: the ten questions most website visitors have before they buy. Audit your page in five minutes and close the gaps.",
+  "series": "Your Website, Working",
+  "category": "Websites & Conversion",
+  "topic": "The Ten Questions Every Website Gets Asked",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-09",
+  "modifiedDate": "2026-09-09",
+  "reviewedDate": "2026-09-09",
+  "reviewBy": "2026-12-08",
+  "status": "published",
+  "tags": [
+    "website content",
+    "small business",
+    "customer questions",
+    "website audit",
+    "WhatsApp",
+    "conversion",
+    "Oman business"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg width=\"400\" height=\"225\" viewBox=\"0 0 400 225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0\" stop-color=\"#062e2b\"/>\n<stop offset=\"0.5\" stop-color=\"#0f4c4c\"/>\n<stop offset=\"1\" stop-color=\"#79e0c8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"60\" y=\"26\" width=\"280\" height=\"122\" rx=\"10\" fill=\"#0a3a37\" stroke=\"#79e0c8\" stroke-width=\"2\"/>\n<circle cx=\"78\" cy=\"42\" r=\"4\" fill=\"#e8c07c\"/>\n<circle cx=\"92\" cy=\"42\" r=\"4\" fill=\"#e8c07c\"/>\n<circle cx=\"106\" cy=\"42\" r=\"4\" fill=\"#e8c07c\"/>\n<text x=\"200\" y=\"112\" font-family=\"Arial, sans-serif\" font-size=\"66\" font-weight=\"bold\" fill=\"#d4ff4f\" text-anchor=\"middle\">?</text>\n<rect x=\"30\" y=\"153\" width=\"340\" height=\"62\" rx=\"8\" fill=\"#062e2b\" opacity=\"0.92\"/>\n<text x=\"200\" y=\"186\" font-family=\"Arial, sans-serif\" font-size=\"30\" font-weight=\"bold\" fill=\"#d4ff4f\" text-anchor=\"middle\">10 QUESTIONS</text>\n<text x=\"200\" y=\"206\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#f4f4f0\" text-anchor=\"middle\">Does your site answer them?</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A customer looks at your website at nine at night with one question in mind: are you open right now, and how much will this cost? If the page does not say, they will not email to find out. They close the tab and message the next business whose site already answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-question-behind-every-visit",
+      "text": "The question behind every visit"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Almost every visitor to a small business site is asking one of a handful of things. Are you open, what does it cost, where exactly are you, do you deliver, how do I book. Nothing exotic, nothing that needs a lawyer or a web designer, just plain answers that are easy to forget once you know them by heart."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That's the trap. You know your hours, your prices and your delivery radius so well that you stop noticing they're missing from the page. The customer doesn't have that memory. They have a phone in hand at night, deciding in about ten seconds whether to type a message or scroll past you to the next result. That's the quiet reason most "
+        },
+        {
+          "text": "visitors leave without asking anything",
+          "href": "/blog/visitors-leave-without-asking/"
+        },
+        {
+          "text": " at all."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "If the answer isn't on the page, the customer doesn't ask. They just leave."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-ten-questions-worth-answering",
+      "text": "The ten questions worth answering"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Look at almost any small business site in Oman, a boutique, a gym, a clinic, a guesthouse, and the same ten questions come up before anything else. Check your own homepage against this list today."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Are you open right now, not just what a normal week looks like"
+          }
+        ],
+        [
+          {
+            "text": "What does it actually cost, even a rough range"
+          }
+        ],
+        [
+          {
+            "text": "Where exactly are you, with a landmark or a map link"
+          }
+        ],
+        [
+          {
+            "text": "Do you deliver, and what does that cost"
+          }
+        ],
+        [
+          {
+            "text": "Is this in stock or available today"
+          }
+        ],
+        [
+          {
+            "text": "How do I book, and through which channel"
+          }
+        ],
+        [
+          {
+            "text": "Do you take card, or is it cash only"
+          }
+        ],
+        [
+          {
+            "text": "Is there parking, and is it family friendly"
+          }
+        ],
+        [
+          {
+            "text": "What happens on Friday and on public holidays"
+          }
+        ],
+        [
+          {
+            "text": "How do I reach a person, not just a form"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "run-the-audit-on-your-own-site",
+      "text": "Run the audit on your own site"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is how one composite boutique owner, Fatma, who runs a shop in Al Mouj, put a number on the gap last month. She counted her own WhatsApp messages for a week instead of guessing."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Redo this with your own weekly message count and average sale.",
+      "headers": [
+        "Step",
+        "Her number",
+        "What it means"
+      ],
+      "rows": [
+        [
+          "Messages asking something the homepage should already answer",
+          "22",
+          "nearly all of last week's incoming chats"
+        ],
+        [
+          "Of those, arrived after 8 pm or on Friday",
+          "9",
+          "nobody typed a reply for hours"
+        ],
+        [
+          "Average sale when someone actually books",
+          "OMR 8",
+          "a scarf and an alteration, roughly"
+        ],
+        [
+          "Bookings she'd likely keep with an instant answer (about one in three)",
+          "3",
+          "a conservative estimate"
+        ],
+        [
+          "Revenue sitting in that gap",
+          "OMR 24 a week",
+          "close to OMR 100 a month"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The point isn't the exact number, yours will be different. It's that the gap between a question and an answer has a price, and you can measure it in a week without buying anything."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-gap-between-a-page-and-a-conversation",
+      "text": "The gap between a page and a conversation"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A page is frozen the day you publish it. Hours shift when working hours shorten in Ramadan, khareef season pulls in visitors asking about rooms and rates in two languages at once, and the new school term brings parents messaging about pickup times between lessons. None of that fits neatly on a static page, and updating ten pages every season is not how a two-person team wants to spend an evening."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Half our WhatsApp messages ask if we're open on Friday. It's on the door, just not on the website.",
+      "attribution": "Nasser, gym coordinator, Al Khuwair",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-changes-when-chat-fills-the-gap",
+      "text": "What changes when chat fills the gap"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix isn't a redesign. It's giving the ten answers somewhere that updates as fast as your hours do: a pinned WhatsApp message, a saved quick reply, or a "
+        },
+        {
+          "text": "chat tool on the site itself",
+          "href": "/product/ai-chatbot-for-websites/"
+        },
+        {
+          "text": " that never sleeps. A tool like Chatbot.OM can hold all ten answers and adjust the moment you tell it hours have changed, answering the website and WhatsApp the same way at 2am as it does at 2pm."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A website that only sells is a website that answers nothing."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Open your own homepage tonight, on your phone, the way a customer would. Go through the ten questions one by one and note which ones are missing, which are buried three clicks in, and which ones you keep answering the same way every day in WhatsApp. Those repeat answers are your shortlist: write each one as one plain sentence, put it where people already look, and hand the after-hours version to whatever answers your messages when you can't."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open your site on your phone right now.",
+        "Can a stranger find today's hours, a price range, your location and how to book, all in ten seconds, without scrolling twice?",
+        "If any answer is missing, that's this week's one-line fix."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need a new website to fix this?",
+          "a": "No. Most gaps close with one added sentence or a pinned WhatsApp message, not a redesign."
+        },
+        {
+          "q": "What if my hours change every season?",
+          "a": "Say it in one line wherever customers already look, and update that one line each time hours shift, rather than a whole page."
+        },
+        {
+          "q": "Should the answers live on the homepage or in chat?",
+          "a": "Both. The homepage catches the browser, chat catches everyone who messages instead of reading."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Ten questions cover almost everything a stranger wants to know before they buy from you. Answer them in one plain sentence each, wherever the customer already is, and most of the messages you dread answering at midnight stop needing a reply from you at all."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "article-2026-09-07-chats-are-personal-data",
+  "taskId": "2026-09-07-chats-are-personal-data",
+  "slug": "whatsapp-automatic-messages-cost-more",
+  "title": "Your Automatic WhatsApp Messages Are About to Cost More",
+  "seoTitle": "Your Automatic WhatsApp Messages Cost More From Oct 1",
+  "excerpt": "Booking confirmations, order receipts and verification codes on WhatsApp are about to carry a price tag from 1 October. Here is who pays, and who does not.",
+  "seoDescription": "From 1 October, Meta changes WhatsApp Business Platform pricing and Oman gets its own higher rate. Here is what changes for small businesses, and who pays.",
+  "series": "Oman Digital Pulse",
+  "category": "Rules & Updates",
+  "topic": "Your Chats Are Personal Data Too",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-07",
+  "modifiedDate": "2026-09-07",
+  "reviewedDate": "2026-09-07",
+  "reviewBy": "2026-12-06",
+  "status": "published",
+  "tags": [
+    "WhatsApp Business",
+    "WhatsApp Business Platform",
+    "Meta pricing",
+    "small business Oman",
+    "Oman Digital Pulse",
+    "Rules & Updates"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<radialGradient id=\"bg\" cx=\"50%\" cy=\"35%\" r=\"75%\">\n<stop offset=\"0%\" stop-color=\"#ffd166\"/>\n<stop offset=\"50%\" stop-color=\"#6b4d12\"/>\n<stop offset=\"100%\" stop-color=\"#1c1408\"/>\n</radialGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"28\" y=\"52\" width=\"152\" height=\"98\" rx=\"24\" fill=\"#1c1408\" opacity=\"0.88\"/>\n<polygon points=\"55,150 78,150 55,178\" fill=\"#1c1408\" opacity=\"0.88\"/>\n<circle cx=\"72\" cy=\"101\" r=\"7\" fill=\"#d4ff4f\"/>\n<circle cx=\"104\" cy=\"101\" r=\"7\" fill=\"#d4ff4f\"/>\n<circle cx=\"136\" cy=\"101\" r=\"7\" fill=\"#d4ff4f\"/>\n<g transform=\"translate(148,118) rotate(18)\">\n<rect x=\"0\" y=\"0\" width=\"36\" height=\"24\" rx=\"5\" fill=\"#79e0c8\"/>\n<circle cx=\"9\" cy=\"12\" r=\"3.5\" fill=\"#1c1408\"/>\n</g>\n<rect x=\"185\" y=\"66\" width=\"196\" height=\"56\" rx=\"10\" fill=\"#1c1408\" opacity=\"0.82\"/>\n<text x=\"198\" y=\"106\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"34\" fill=\"#f4f4f0\">NOT FREE</text>\n<rect x=\"185\" y=\"130\" width=\"196\" height=\"24\" rx=\"6\" fill=\"#1c1408\" opacity=\"0.65\"/>\n<text x=\"198\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#e8c07c\">WhatsApp fees change 1 Oct</text>\n</svg>",
+  "sources": [
+    {
+      "id": "meta-pricing-docs",
+      "label": "Pricing on the WhatsApp Business Platform, Meta for Developers",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "kind": "vendor"
+    },
+    {
+      "id": "meta-service-message-pricing",
+      "label": "Upcoming pricing updates for service messages, Meta for Developers",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/non-template-messages",
+      "kind": "vendor"
+    },
+    {
+      "id": "ycloud-rate-tracker",
+      "label": "WhatsApp API Pricing Update: Effective October 1, 2026, YCloud",
+      "url": "https://www.ycloud.com/blog/whatsapp-api-message-pricing-update-effective-october-1-2026",
+      "kind": "vendor"
+    },
+    {
+      "id": "tra-oman-official",
+      "label": "Telecommunications Regulatory Authority (TRA), Sultanate of Oman, official regulator of telecom and messaging services",
+      "url": "https://www.tra.gov.om/",
+      "kind": "oman-official"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "From 1 October, a WhatsApp message that has always been free for your business could start costing money, even when no one typed it. Meta is changing how it prices the WhatsApp Business Platform, the automated layer behind booking confirmations, order receipts and verification codes, and Oman is one of the markets facing the steepest rise. If anything sends WhatsApp messages for you automatically, this week is the week to find out what you are about to pay."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "two-whatsapps-one-price-change",
+      "text": "Two WhatsApps, One Price Change"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "There are really two different WhatsApps for a small business, and only one of them is changing. The free WhatsApp Business app, the one most teams use to chat with customers straight from an owner's phone, stays exactly as it is. This change only touches the WhatsApp Business Platform, the version that booking software, online stores and automated chat tools connect to when they send a message without a person typing it in that moment."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-changes-on-1-october",
+      "text": "What Changes on 1 October"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Since November 2024, an ordinary automatic reply sent inside the 24-hour window after a customer messages first, known as a service message, has cost nothing on the Business Platform. From 1 October 2026, Meta starts charging for every one of those replies. The appointment reminders, order confirmations and receipts that also used to be free inside that same window, called utility messages, lose their free status too."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Ordinary automatic replies (service messages): free since 2024, priced from 1 October."
+          }
+        ],
+        [
+          {
+            "text": "Reminders, confirmations and receipts (utility messages): free inside the 24-hour reply window, now priced every time."
+          }
+        ],
+        [
+          {
+            "text": "Verification codes (authentication messages): already priced, and the rate for Oman is going up."
+          }
+        ],
+        [
+          {
+            "text": "Verification codes sent to a customer travelling abroad: a brand new, higher price tier just for that."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman is also moving off the regional price list it shared with neighbouring markets onto its own rate card, alongside places such as Kuwait and Morocco. Pricing trackers that follow Meta's published rate card put Oman's per message utility and authentication charge rising from roughly 3.5 baisa to about 9.5 baisa, with the new tier for codes sent abroad priced near 23 baisa a message. Meta had not published a plain public summary page for Oman specifically when this article was written, so treat these as reported figures rather than a fixed promise."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Every automatic message that used to be free on WhatsApp now costs something, even a simple appointment reminder."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "who-this-touches",
+      "text": "Who This Touches, and Who It Does Not"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Online stores",
+            "strong": true
+          },
+          {
+            "text": " sending a verification code by WhatsApp at checkout."
+          }
+        ],
+        [
+          {
+            "text": "Salons, gyms and clinics",
+            "strong": true
+          },
+          {
+            "text": " using booking software that sends automatic appointment reminders."
+          }
+        ],
+        [
+          {
+            "text": "Tuition centres and rental offices",
+            "strong": true
+          },
+          {
+            "text": " with automatic fee or renewal reminders."
+          }
+        ],
+        [
+          {
+            "text": "Any chat tool that answers WhatsApp automatically",
+            "strong": true
+          },
+          {
+            "text": ", including tools such as Chatbot.OM."
+          }
+        ],
+        [
+          {
+            "text": "Not touched",
+            "strong": true
+          },
+          {
+            "text": ": you, personally, replying from the free WhatsApp Business app on your own phone."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The free WhatsApp Business app on your phone is not part of this change: only the automated tools plugged into it are."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this is dramatic per message. What changes is that a habit built on the idea that a reply is free once the customer messages first no longer holds, and every automated message now adds up somewhere on a bill."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-it-could-cost-you",
+      "text": "What It Could Cost You"
+    },
+    {
+      "type": "table",
+      "caption": "Estimated using reported Oman rates of about 9.5 baisa per utility or authentication message from 1 October 2026, rounded for clarity.",
+      "headers": [
+        "Business",
+        "Automatic WhatsApp messages a month",
+        "Cost before 1 October",
+        "Cost from 1 October"
+      ],
+      "rows": [
+        [
+          "Hanan's gym, Qurum (appointment reminders)",
+          "500",
+          "Free (inside the reply window)",
+          "About OMR 4.75"
+        ],
+        [
+          "Rashid's online store, Barka (checkout codes)",
+          "2,000",
+          "About OMR 7.00",
+          "About OMR 19.00"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "persona": true,
+      "quote": "My booking app sends reminders by itself. I did not know each message now has a price tag.",
+      "attribution": "Hanan, gym coordinator, Qurum"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Start with your own tools, not with panic. Open every app or service that sends a WhatsApp message on your behalf without you typing it, a booking system, an online store, a delivery tracker, a chat tool, and check which one runs on the Business Platform rather than the free app."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Ask each provider plainly whether Meta's 1 October change is passed on to you, and how much it adds to your monthly bill."
+          }
+        ],
+        [
+          {
+            "text": "Count roughly how many automatic WhatsApp messages you send in a normal month: reminders, confirmations, receipts, codes."
+          }
+        ],
+        [
+          {
+            "text": "If you only chat manually from the WhatsApp Business app on your own phone, this specific change does not touch you today."
+          }
+        ],
+        [
+          {
+            "text": "Budget a small, real increase rather than being surprised by it on an invoice in October."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "List every tool that messages customers on WhatsApp without you typing it.",
+        "For each one, ask: is this the free app, or does it run on the Business Platform?",
+        "If it is the Platform, ask the provider for the new per message rate before 1 October."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "quick-answers",
+      "text": "Quick Answers"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does this affect the free WhatsApp Business app on my phone?",
+          "a": "No. Manual chatting from the free app is not part of this change. Only the Business Platform that automated tools connect to is affected."
+        },
+        {
+          "q": "When exactly does the new pricing start?",
+          "a": "From 1 October 2026, based on Meta's rate card for Oman."
+        },
+        {
+          "q": "Who actually pays the new fee, me or my software provider?",
+          "a": "Meta bills whoever holds the Business Platform account, usually your provider or messaging partner, who then decides whether to pass the cost on. Ask them directly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The Bottom Line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this closes WhatsApp as a way to reach customers, and the free app most small teams use for everyday chatting is untouched. But if any part of your business now runs on autopilot over WhatsApp, from October it runs on a small, real bill, and the only way to know the size of it is to ask your provider this week, not in October."
+        }
+      ]
+    }
+  ]
+}

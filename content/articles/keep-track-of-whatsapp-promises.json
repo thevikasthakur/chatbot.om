@@ -1,0 +1,319 @@
+{
+  "id": "article-2026-09-24-promise-tracking",
+  "taskId": "2026-09-24-promise-tracking",
+  "slug": "keep-track-of-whatsapp-promises",
+  "title": "You Promised It by Tuesday. Who Followed Up?",
+  "seoTitle": "WhatsApp Follow-Up Systems Small Teams Will Keep",
+  "excerpt": "You promised to send the price list Tuesday. It's Thursday. Here's the system that remembers when you don't.",
+  "seoDescription": "Promises made in WhatsApp chats vanish fast. Compare chat labels, shared sheets and automated nudges, ranked by effort, so nothing slips again.",
+  "series": "Small Team Playbook",
+  "category": "Running a Small Team",
+  "topic": "You Promised to Send It Tuesday. Did Anyone Write That Down?",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-24",
+  "modifiedDate": "2026-09-24",
+  "reviewedDate": "2026-09-24",
+  "reviewBy": "2026-12-23",
+  "status": "published",
+  "tags": [
+    "follow-up systems",
+    "WhatsApp Business",
+    "small team habits",
+    "chat labels",
+    "customer service Oman",
+    "Smart Follow-Ups",
+    "running a small team"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<radialGradient id=\"bg\" cx=\"50%\" cy=\"35%\" r=\"85%\">\n<stop offset=\"0%\" stop-color=\"#ffd166\"/>\n<stop offset=\"50%\" stop-color=\"#6b4d12\"/>\n<stop offset=\"100%\" stop-color=\"#1c1408\"/>\n</radialGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<path d=\"M70 45 h170 a18 18 0 0 1 18 18 v58 a18 18 0 0 1 -18 18 h-110 l-32 30 v-30 h-28 a18 18 0 0 1 -18 -18 v-58 a18 18 0 0 1 18 -18 z\" fill=\"#f4f4f0\"/>\n<circle cx=\"155\" cy=\"98\" r=\"30\" fill=\"none\" stroke=\"#1c1408\" stroke-width=\"5\"/>\n<line x1=\"155\" y1=\"98\" x2=\"155\" y2=\"78\" stroke=\"#1c1408\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"155\" y1=\"98\" x2=\"171\" y2=\"108\" stroke=\"#1c1408\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<circle cx=\"155\" cy=\"98\" r=\"4\" fill=\"#1c1408\"/>\n<rect x=\"55\" y=\"163\" width=\"290\" height=\"42\" rx=\"6\" fill=\"#1c1408\" opacity=\"0.88\"/>\n<text x=\"200\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"30\" font-weight=\"bold\" fill=\"#d4ff4f\" text-anchor=\"middle\">TUESDAY?</text>\n<text x=\"200\" y=\"216\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\" text-anchor=\"middle\">the promise nobody wrote down</text>\n</svg>",
+  "sources": [
+    {
+      "id": "whatsapp-labels",
+      "label": "WhatsApp Help Center: How to use labels",
+      "url": "https://faq.whatsapp.com/3398508707096369/?cms_platform=android",
+      "kind": "vendor"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "You told a customer, \"I'll send it Tuesday.\" Tuesday came and went, buried under forty other chats, and she quietly booked with the shop down the road instead. Nobody did anything wrong. Nobody wrote it down."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-promise-problem",
+      "text": "The promise problem"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every small business running on WhatsApp makes dozens of small promises a day. \"I'll check and confirm.\" \"Let me ask the tailor.\" \"I'll send you the price list.\" \"Give me an hour, I'll call the supplier.\" None of these feel like commitments. They are."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A promise made in chat has no reminder attached to it. Email at least sits in an inbox, unread and visible. A WhatsApp promise scrolls upward the moment the next customer messages, and on a busy day that can happen within minutes. The customer remembers exactly what you said. You are the one who forgets, because you never wrote it anywhere except the chat itself."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A promise you forget is a sale someone else keeps."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "three-ways-to-remember-ranked-by-effort",
+      "text": "Three ways to remember, ranked by effort"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Not every business needs the same fix. What matters is picking a system your team will actually use on a bad day, not just a good one. Here are three, from the one you can start in five minutes to the one that needs no memory at all."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Chat labels inside WhatsApp Business: five minutes to set up, needs daily discipline to keep working."
+          }
+        ],
+        [
+          {
+            "text": "A shared sheet everyone can see: thirty minutes to set up, needs a habit of logging every promise."
+          }
+        ],
+        [
+          {
+            "text": "Automated nudges that create their own reminder: more setup once, then needs nothing from you."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "chat-labels-the-fix-already-on-your-phone",
+      "text": "Chat labels: the fix already on your phone"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The WhatsApp Business app has a free "
+        },
+        {
+          "text": "labels feature",
+          "href": "https://faq.whatsapp.com/3398508707096369/?cms_platform=android"
+        },
+        {
+          "text": " built in. You can create up to twenty labels, in different colours, and attach one to any chat. Tag a conversation \"Promised Today\" or \"Promised This Week\" the moment you say it, then filter by that label each morning to see exactly who is waiting."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "It costs nothing and takes five minutes to set up. The catch is that it only works if you remember to label the chat in the first place, and remember to check the label later. For one person answering their own phone, that discipline is realistic. For a team of five sharing one number, chats slip through because only the person who tagged it ever thinks to look."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "a-shared-sheet-everyone-sees-the-same-list",
+      "text": "A shared sheet: everyone sees the same list"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A simple spreadsheet, shared with the whole team, fixes the visibility problem labels cannot. Columns: customer name, what you promised, the date, who owns it, done or not. Anyone can add a row from their phone, and anyone can check it before messaging a customer twice with two different answers."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The setup takes about half an hour. The weakness is the same as any manual system: someone still has to remember to open it, update it and check it every single day. On a quiet week it works well. On the week your gym runs a promotion and enquiries triple, the sheet is usually the first thing to fall behind."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "automated-nudges-the-system-that-remembers",
+      "text": "Automated nudges: the system that remembers when you don't"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The stickiest fix removes memory from the equation entirely. A system that turns a chat into a ticket the moment you write something that sounds like a promise, sets a due date, and pings you if it is still open the next day, works even on the night you are too tired to check anything yourself."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is what "
+        },
+        {
+          "text": "Chatbot.OM's Smart Follow-Ups",
+          "href": "/product/smart-follow-ups/"
+        },
+        {
+          "text": " does with the enquiries it handles: it keeps the promise on record, chases politely once it is assigned, and updates the customer without you lifting a finger. You do not need every enquiry running through automation for the idea to help. Even copying the habit, one due date per promise and one nudge if it slips, into whatever tool you already use will catch most of what currently falls through."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The system that remembers when you don't is the one that actually lasts."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-true-cost-of-a-forgotten-promise",
+      "text": "The true cost of a forgotten promise"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "We've looked before at "
+        },
+        {
+          "text": "what a missed WhatsApp enquiry costs",
+          "href": "/blog/missed-whatsapp-enquiry-cost/"
+        },
+        {
+          "text": "; a forgotten promise is the same problem wearing a different hat. Here is how to put a number on it, using a composite boutique in Ruwi as the example. Run the same four rows with your own figures."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "What to count",
+        "Hanan's numbers",
+        "Your numbers"
+      ],
+      "rows": [
+        [
+          "Promises made in chat, one week",
+          "12",
+          "___"
+        ],
+        [
+          "Promises kept without a chase",
+          "8",
+          "___"
+        ],
+        [
+          "Promises forgotten or chased by the customer",
+          "4",
+          "___"
+        ],
+        [
+          "Average order value",
+          "OMR 35",
+          "___"
+        ],
+        [
+          "Value at risk in one week (forgotten x average)",
+          "OMR 140",
+          "___"
+        ],
+        [
+          "Value at risk in one month (x4)",
+          "OMR 560",
+          "___"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I didn't lose customers. I lost track of what I told them.",
+      "attribution": "Hanan, boutique owner, Ruwi",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are one person answering your own phone, start with labels tonight. They cost nothing and take five minutes. If two or three of you share the enquiries, move to a shared sheet before someone gets promised the same slot twice. If you are already stretched thin, or promises keep slipping even with a sheet, the honest answer is to stop relying on memory altogether and let a system hold the due dates for you."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Whichever you choose, the test is the same: could a customer catch you out next Tuesday? If the answer is yes, the system is not sticky enough yet."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Try this today",
+      "paragraphs": [
+        "Open your WhatsApp Business chats from the last three days.",
+        "Count how many messages said \"I'll send\", \"let me check\" or \"I'll confirm\".",
+        "For each one, ask honestly: did that happen without the customer chasing you first?",
+        "If more than one answer is no, pick one system from this article and start it before you close up today."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need paid software to track promises?",
+          "a": "No. A free WhatsApp label or a shared sheet works fine, as long as your team actually opens it every day."
+        },
+        {
+          "q": "What if my team keeps forgetting to update the sheet?",
+          "a": "That is usually the sign to move to an automated nudge, since it does not depend on anyone remembering to check."
+        },
+        {
+          "q": "Does this work for Instagram messages too?",
+          "a": "Yes, the same labelling or logging habit works across any chat channel, though each app's labels work a little differently."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A promise made in chat is still a promise. The business that tracks what it said, even with a five minute label, ends up trusted. The business that tracks what it said with a system that never forgets ends up busier, because trust like that gets forwarded to friends."
+        }
+      ]
+    }
+  ]
+}

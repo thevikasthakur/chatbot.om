@@ -7,9 +7,9 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "next dev -H 0.0.0.0",
+    "dev": "next dev -H 0.0.0.0 -p 3401",
     "build": "next build && node scripts/ai-readability.mjs",
-    "start": "next start",
+    "start": "next start -p 3401",
     "lint": "eslint . && tsc --noEmit",
     "typecheck": "tsc --noEmit",
     "test": "node --test --experimental-strip-types \"src/**/*.test.ts\"",

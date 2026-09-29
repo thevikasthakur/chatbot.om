@@ -1,0 +1,328 @@
+{
+  "id": "article-2026-09-28-selling-online-rules",
+  "taskId": "2026-09-28-selling-online-rules",
+  "slug": "no-returns-sign",
+  "title": "Your 'No Returns' Sign Doesn't Hold Up Here",
+  "seoTitle": "Your 'No Returns' Sign Doesn't Hold Up Here",
+  "excerpt": "Your bio says \"no returns\". Oman's consumer law says otherwise. Here's the fifteen day rule, the licence you need, and where a dispute actually goes.",
+  "seoDescription": "Oman's Consumer Protection Law voids \"no returns\" policies for online sellers. Here's the 15 day rule, the licence you need, and where complaints go.",
+  "series": "Oman Digital Pulse",
+  "category": "Rules & Updates",
+  "topic": "Selling Online in Oman: the Rules That Apply to You",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-28",
+  "modifiedDate": "2026-09-28",
+  "reviewedDate": "2026-09-28",
+  "reviewBy": "2026-12-27",
+  "status": "published",
+  "tags": [
+    "consumer protection",
+    "e-commerce",
+    "online selling",
+    "returns and refunds",
+    "Ministry of Commerce",
+    "Tejarah",
+    "Maroof platform",
+    "small business"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg width=\"400\" height=\"225\" viewBox=\"0 0 400 225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"225\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0%\" stop-color=\"#181109\"/>\n<stop offset=\"50%\" stop-color=\"#54371a\"/>\n<stop offset=\"100%\" stop-color=\"#e8c07c\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g transform=\"translate(300,72) rotate(18)\">\n<rect x=\"-58\" y=\"-34\" width=\"116\" height=\"68\" rx=\"10\" fill=\"#181109\" stroke=\"#e8c07c\" stroke-width=\"3\"/>\n<circle cx=\"-38\" cy=\"-16\" r=\"6\" fill=\"#e8c07c\"/>\n<text x=\"2\" y=\"8\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#f4f4f0\" text-anchor=\"middle\">NO RETURNS</text>\n<line x1=\"-52\" y1=\"-27\" x2=\"52\" y2=\"27\" stroke=\"#d4ff4f\" stroke-width=\"6\"/>\n</g>\n<rect x=\"14\" y=\"136\" width=\"232\" height=\"76\" rx=\"10\" fill=\"#181109\" opacity=\"0.6\"/>\n<text x=\"26\" y=\"175\" font-family=\"Arial, sans-serif\" font-size=\"36\" font-weight=\"bold\" fill=\"#d4ff4f\">15 DAYS</text>\n<text x=\"26\" y=\"200\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">the window your sign can't cancel</text>\n</svg>",
+  "sources": [
+    {
+      "id": "consumer-protection-law",
+      "label": "Consumer Protection Law, Royal Decree 66/2014 (official text)",
+      "url": "https://oman.om/docs/default-source/default-document-library/consumer-protection-law.pdf?sfvrsn=fab6f8d1_2",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cpa-complaint",
+      "label": "Submit a Complaint to the Consumer Protection Authority, Gov.om",
+      "url": "https://gov.om/en/w/submit-a-complaint-to-the-consumer-protection-authority",
+      "kind": "oman-official"
+    },
+    {
+      "id": "tejarah",
+      "label": "Ministry of Commerce, Industry and Investment Promotion (Tejarah portal)",
+      "url": "https://tejarah.gov.om/en",
+      "kind": "oman-official"
+    },
+    {
+      "id": "maroof-article",
+      "label": "Ma'roof platform strengthens trust in Oman's e-commerce, Oman Observer",
+      "url": "https://www.omanobserver.om/article/1184786/business/maroof-platform-strengthens-trust-in-omans-e-commerce",
+      "kind": "media"
+    },
+    {
+      "id": "consumer-rights-explainer",
+      "label": "Understanding Consumer Rights Under Oman's Consumer Protection Law, Times of Oman",
+      "url": "https://timesofoman.com/article/167260-understanding-consumer-rights-under-omans-consumer-protection-law",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Your Instagram bio says \"no returns, no exchanges, final sale\". Under Oman's Consumer Protection Law, that sentence carries no legal weight at all. What actually decides whether you owe a customer a repair, a replacement or a refund is what the law says about the item, not what you wrote in the caption, and getting it wrong can cost more than the price of the item itself."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-listing-owes",
+      "text": "what a listing actually owes a customer"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every price, photo and description you post online counts as part of the deal you're making, whether it's a full website product page or a message in a WhatsApp catalogue."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's Consumer Protection Law requires sellers to give truthful information about what they're selling, in whatever language they sell it in. A photo that doesn't match what ships, a price that changes at checkout, or leaving out that an item is a display piece and not new: all of that counts as misleading advertising, whether you run a mall storefront or an Instagram page with forty followers."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "The photo matches what actually ships, not a supplier's stock image."
+          }
+        ],
+        [
+          {
+            "text": "The price shown is the price charged, including anything added for delivery."
+          }
+        ],
+        [
+          {
+            "text": "You only take an order for stock you genuinely have on hand."
+          }
+        ],
+        [
+          {
+            "text": "Any condition, used, display piece, factory second, is stated up front."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-fifteen-day-rule",
+      "text": "the fifteen-day rule most sellers haven't read"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If an item arrives faulty or doesn't match what was advertised, the law gives the customer the right to ask for a repair, a replacement or a refund. A request for replacement or refund has to be made within "
+        },
+        {
+          "text": "fifteen days",
+          "strong": true
+        },
+        {
+          "text": " of receiving the goods; the right to a repair runs for as long as the warranty lasts."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A seller can't write that right away with a caption or a counter sign. Any term that tries to remove a customer's statutory rights, including a blanket \"no returns, no exchanges\" line, simply has no legal effect. What decides the outcome is the condition of the item and how it was described, not what the bio says."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A \"no returns\" sign taped to your counter carries less legal weight than the flaw in the item you sold."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "licence-first-sign-later",
+      "text": "licence first, sign later"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Selling for payment online is itself a licensed activity in Oman, whether that's a full website, an Instagram shop or a WhatsApp catalogue. The Ministry of Commerce, Industry and Investment Promotion issues that licence through its "
+        },
+        {
+          "text": "Tejarah portal",
+          "href": "https://tejarah.gov.om/en"
+        },
+        {
+          "text": ", and pairs it with a verification badge on the Ma'roof platform that buyers are increasingly told to check before they pay."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If your shop lives only on Instagram and WhatsApp, the licence still applies. The Ministry has repeatedly warned shoppers about unregistered sellers and fake circulars trading on its name, and an unverified store is exactly where that warning is aimed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "when-a-deal-goes-wrong",
+      "text": "when a deal goes wrong, where it lands"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If a customer and a seller can't agree on a refund or a replacement, the dispute doesn't go to the Ministry of Commerce directly. It goes to the "
+        },
+        {
+          "text": "Public Authority for Consumer Protection",
+          "href": "https://gov.om/en/w/submit-a-complaint-to-the-consumer-protection-authority"
+        },
+        {
+          "text": ", the government body set up to handle exactly this kind of complaint, and filing costs nothing."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A customer can file through the CPA app, the CPA website, the 1222 hotline, or by visiting an office in person. Licensing problems, an unverified store, a missing e-commerce licence, a fake ministry document, stay the Ministry of Commerce's own lane instead."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Farida's boutique, worked through",
+      "headers": [
+        "Day",
+        "What happens",
+        "What the law says"
+      ],
+      "rows": [
+        [
+          "Day 0",
+          "A customer buys an abaya for OMR 24.500 through Farida's WhatsApp catalogue.",
+          "A truthful listing and an honest price are already legal duties, not extras."
+        ],
+        [
+          "Day 4",
+          "The customer sends photos of a torn seam.",
+          "Still inside the fifteen day window to ask for a repair, replacement or refund."
+        ],
+        [
+          "Day 4",
+          "Farida's Instagram bio reads \"no exchange, no refund, final sale\".",
+          "That line has no legal effect on a defective item."
+        ],
+        [
+          "Day 5",
+          "Farida offers a replacement in the next size at no extra charge.",
+          "This matches her actual obligation under the law."
+        ],
+        [
+          "If refused",
+          "The customer could file a free complaint with the Public Authority for Consumer Protection.",
+          "The CPA can investigate the dispute and rule on it."
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I used to think 'final sale' protected my shop. Turns out the law never agreed with me.",
+      "attribution": "Farida, online boutique owner, Seeb",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Check every product listing against what actually ships: the photo, the price, the stock status, and the condition. If a customer flags a fault or a wrong item within fifteen days of delivery, you owe a repair, a replacement or a refund, and your \"no returns\" line doesn't change that."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Get your e-commerce licence through Tejarah and your Ma'roof verification badge if you take payment online, even if the only storefront you have is a WhatsApp number. If a dispute won't settle between you and the customer, the free complaint route runs through the Public Authority for Consumer Protection, not silence and not your Instagram DMs."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Keeping the return policy correct and ready to send is also a chat problem, not just a legal one. Chatbot.OM can hold that exact line ready on "
+        },
+        {
+          "text": "your website and WhatsApp",
+          "href": "/industries/ecommerce-and-retail-ai-chatbot/"
+        },
+        {
+          "text": ", so it answers a customer at midnight instead of waiting for you to retype it three days later."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Read your own bio or return policy right now: if it says \"no returns\" anywhere, rewrite it around the fifteen day rule instead of cancelling a customer's rights.",
+        "Confirm the photo, the price and the stock status on your page match exactly what you'd ship today.",
+        "Check you're licensed through Tejarah and verified on Ma'roof if you take payment online, WhatsApp included.",
+        "Save the CPA's app, website and 1222 hotline somewhere your team can find them before a dispute needs them."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need a licence just to sell through Instagram and WhatsApp?",
+          "a": "Yes. Taking payment for goods online counts as e-commerce activity, so the licence through Tejarah and a Ma'roof verification badge apply even without a website."
+        },
+        {
+          "q": "What if the customer just changed their mind, not a fault?",
+          "a": "The fifteen day rule is built around defective or misdescribed goods. A simple change of mind isn't automatically covered, though many sellers offer it anyway as goodwill."
+        },
+        {
+          "q": "Is a complaint to the Consumer Protection Authority expensive for the customer?",
+          "a": "No. Filing is free through the CPA app, website, hotline or in person, which is exactly why ignoring a fair return request rarely stays a private matter."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Selling online in Oman carries the same customer rights as selling from a shopfront, whatever the caption says. Get the listing honest, the fifteen day window right, and the licence in place, and the only messages left in your inbox will be orders."
+        }
+      ]
+    }
+  ]
+}
