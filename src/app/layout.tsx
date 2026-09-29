@@ -6,7 +6,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/data/site";
-import ChatWidget from "@/components/ChatWidget";
 
 const organisation = {
   "@context": "https://schema.org",
@@ -123,7 +122,6 @@ export default function RootLayout({
             several sections rely on position: sticky, which hidden would break */}
         <main className="overflow-x-clip">{children}</main>
         <Footer />
-        <ChatWidget/>
       </body>
     </html>
   );
