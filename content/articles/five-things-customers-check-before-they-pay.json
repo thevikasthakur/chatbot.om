@@ -1,0 +1,293 @@
+{
+  "id": "article-2026-09-30-trust-signals-oman",
+  "taskId": "2026-09-30-trust-signals-oman",
+  "slug": "five-things-customers-check-before-they-pay",
+  "title": "Five Things a New Customer Checks Before They Pay You",
+  "seoTitle": "Five Things a New Customer Checks Before They Pay You",
+  "excerpt": "A stranger decides in under a minute whether your shop is real enough to pay. Here's exactly what they check first.",
+  "seoDescription": "The five trust signals a first-time buyer checks before paying a small business online: a real address, CR number, .om domain, live replies and reviews.",
+  "series": "Your Website, Working",
+  "category": "Websites & Conversion",
+  "topic": "Why Customers Check Before They Pay a Stranger Online",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-09-30",
+  "modifiedDate": "2026-09-30",
+  "reviewedDate": "2026-09-30",
+  "reviewBy": "2026-12-29",
+  "status": "published",
+  "tags": [
+    "trust signals",
+    "commercial registration",
+    "CR number",
+    "om domain",
+    "small business",
+    "online payments",
+    "customer trust",
+    "online reviews"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#0d1f16\"/>\n      <stop offset=\"0.5\" stop-color=\"#1e4634\"/>\n      <stop offset=\"1\" stop-color=\"#8fd3a8\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n  <rect x=\"253\" y=\"50\" width=\"112\" height=\"152\" rx=\"16\" fill=\"#0d1f16\" stroke=\"#79e0c8\" stroke-width=\"3\"/>\n  <rect x=\"267\" y=\"68\" width=\"84\" height=\"9\" rx=\"3\" fill=\"#79e0c8\" opacity=\"0.55\"/>\n  <g stroke=\"#d4ff4f\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\">\n    <path d=\"M271 98 l6 6 l13 -15\"/>\n    <path d=\"M271 122 l6 6 l13 -15\"/>\n    <path d=\"M271 146 l6 6 l13 -15\"/>\n  </g>\n  <rect x=\"298\" y=\"96\" width=\"44\" height=\"6\" rx=\"3\" fill=\"#f4f4f0\"/>\n  <rect x=\"298\" y=\"120\" width=\"44\" height=\"6\" rx=\"3\" fill=\"#f4f4f0\"/>\n  <rect x=\"298\" y=\"144\" width=\"44\" height=\"6\" rx=\"3\" fill=\"#f4f4f0\"/>\n  <rect x=\"271\" y=\"166\" width=\"71\" height=\"6\" rx=\"3\" fill=\"#e8c07c\" opacity=\"0.75\"/>\n  <rect x=\"18\" y=\"66\" width=\"192\" height=\"46\" rx=\"8\" fill=\"#0d1f16\" opacity=\"0.88\"/>\n  <text x=\"28\" y=\"100\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"34\" fill=\"#f4f4f0\">5 SIGNS</text>\n  <rect x=\"18\" y=\"120\" width=\"224\" height=\"26\" rx=\"6\" fill=\"#0d1f16\" opacity=\"0.8\"/>\n  <text x=\"28\" y=\"138\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#e8c07c\">before a stranger pays you</text>\n</svg>",
+  "sources": [
+    {
+      "id": "moc-cr-search",
+      "label": "Search Commercial Registrations, Invest Easy portal (Ministry of Commerce, Industry and Investment Promotion)",
+      "url": "https://www.business.gov.om/ieasy/wp/en/services/search-commercial-registrations/",
+      "kind": "oman-official"
+    },
+    {
+      "id": "tra-om-domain",
+      "label": ".om domain registration, Telecommunications Regulatory Authority",
+      "url": "https://tra.gov.om/telecom?tab=domain",
+      "kind": "oman-official"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A stranger scrolling your Instagram page or website decides in under a minute whether you are a real business, or a way to lose OMR 45. They will not call to ask first. They check five small things, and if two are missing, they close the chat and buy from someone else."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-a-stranger-hesitates",
+      "text": "why a stranger hesitates before paying"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every day, small businesses lose a sale not because the price was wrong, but because the buyer could not confirm the business was real before sending money. Online scams and copycat shop pages have made people careful, especially when there is no shopfront to walk into and no face to recognise. A buyer who wonders "
+        },
+        {
+          "text": "\"is this legit?\"",
+          "emphasis": true
+        },
+        {
+          "text": " is not being difficult. They are protecting their own OMR 45, or their OMR 450."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-five-things-they-actually-check",
+      "text": "the five things they actually check"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Before a first-time customer pays a business they only found online, most run through the same short mental list. None of the five takes long to fix once you know it's being checked."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "A real address.",
+            "strong": true
+          },
+          {
+            "text": " Not just \"Muscat\", but a wilayat or area a customer could actually picture, shown on the website, the WhatsApp Business profile or the Instagram bio."
+          }
+        ],
+        [
+          {
+            "text": "A CR number.",
+            "strong": true
+          },
+          {
+            "text": " The commercial registration number, visible somewhere, that a buyer can search on the ",
+            "strong": false
+          },
+          {
+            "text": "Invest Easy portal",
+            "href": "https://www.business.gov.om/ieasy/wp/en/services/search-commercial-registrations/"
+          },
+          {
+            "text": " to see the business is registered and active."
+          }
+        ],
+        [
+          {
+            "text": "A .om domain.",
+            "strong": true
+          },
+          {
+            "text": " A website ending in .om signals the business went through Oman's domain registry, run by the ",
+            "strong": false
+          },
+          {
+            "text": "Telecommunications Regulatory Authority",
+            "href": "https://tra.gov.om/telecom?tab=domain"
+          },
+          {
+            "text": ", not a page put up overnight."
+          }
+        ],
+        [
+          {
+            "text": "A live reply.",
+            "strong": true
+          },
+          {
+            "text": " A message answered within minutes, not a blue tick sitting unread for two days."
+          }
+        ],
+        [
+          {
+            "text": "A visible review.",
+            "strong": true
+          },
+          {
+            "text": " A handful of recent comments from other buyers, proof that someone paid before and actually received something."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A customer who cannot find your address will assume you might disappear with their money tomorrow."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-skipping-one-costs-you",
+      "text": "what skipping even one costs you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The cost is not abstract. It shows up as enquiries that go quiet right before payment. Huda, who runs a boutique in Al Mouj, tracked what changed in one month after she added her CR number, three customer reviews and faster replies to her Instagram page."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example: Huda's boutique, Al Mouj. Same 40 enquiries, same products, the only change was what a first-time buyer could verify.",
+      "headers": [
+        "Month",
+        "Enquiries",
+        "Asked \"is this real?\"",
+        "Orders completed",
+        "Revenue at OMR 45 average"
+      ],
+      "rows": [
+        [
+          "Before: no CR number, no reviews shown",
+          "40",
+          "14",
+          "22",
+          "OMR 990"
+        ],
+        [
+          "After: CR number, reviews and faster replies added",
+          "40",
+          "4",
+          "31",
+          "OMR 1,395"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The difference, OMR 405 in a single month, came from buyers who already wanted to order. They just needed a way to check before they paid."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Once my CR number was on the page, people stopped asking if I was a real shop and just paid.",
+      "attribution": "Huda, boutique owner, Al Mouj",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "live-replies-do-the-heaviest-lifting",
+      "text": "live replies do the heaviest lifting"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "An address and a CR number are a one-time fix. A live reply has to happen every single day, including the night a tourist messages from a different time zone, or a customer writes at 11pm after work. Some small businesses keep that reply live around the clock with a "
+        },
+        {
+          "text": "website chat widget",
+          "href": "/features/website-chat-widget/"
+        },
+        {
+          "text": " or a chatbot such as Chatbot.OM, so the first message never waits until morning."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The five habits that build trust cost you almost nothing: an address, a CR number, a .om domain, a live reply and a visible review."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Put your CR number where a first-time buyer can actually see it: your website footer, your WhatsApp Business profile, your Instagram bio. Answer messages within minutes when you can, and say so plainly when you cannot, for example \"we reply by 6pm daily\". Ask three happy customers this month for a two-line review you can screenshot and pin to your page. None of this needs a redesign or a budget. It needs five things made visible in the next hour."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "key",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Can a stranger find your CR number in under ten seconds on your page?",
+        "Does your address name an actual area, not just \"Muscat\"?",
+        "If your website ends in .om, is that mentioned anywhere in your bio?",
+        "When did you last reply to a new enquiry in under 30 minutes?",
+        "Do you have at least three visible reviews from the last two months?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need a website to show these trust signals?",
+          "a": "No. Most of them work on WhatsApp Business and Instagram too. A website just gathers them in one place a buyer can check quickly."
+        },
+        {
+          "q": "What if I trade under a name different from my CR?",
+          "a": "Show both names together, so a customer's search on the government portal actually matches what they see on your page."
+        },
+        {
+          "q": "Are Instagram comments enough as reviews?",
+          "a": "Yes, if they are visible and recent. A handful of genuine comments works better than a rating with nothing behind it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "the bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of the five signs cost much: an address you already have, a CR number you already own, a domain fee, a faster reply, a customer willing to say a good word. The businesses that show all five are not lucky. They just made it easy for a stranger to say yes."
+        }
+      ]
+    }
+  ]
+}
