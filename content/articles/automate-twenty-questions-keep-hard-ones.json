@@ -1,0 +1,313 @@
+{
+  "id": "article-2026-10-01-automate-the-twenty",
+  "taskId": "2026-10-01-automate-the-twenty",
+  "slug": "automate-twenty-questions-keep-hard-ones",
+  "title": "Automate the Twenty Questions, Keep the Hard Ones",
+  "seoTitle": "Automate the Twenty Questions, Keep the Hard Ones",
+  "excerpt": "Twenty questions repeat on your WhatsApp every week. Here is exactly which ones a chatbot can own from day one, and which ones still need you.",
+  "seoDescription": "A small business owner's plain guide to splitting WhatsApp and website chats: which questions a chatbot should answer alone, and which need you.",
+  "series": "Small Team Playbook",
+  "category": "Running a Small Team",
+  "topic": "Automate the Twenty Questions, Keep the Hard Ones",
+  "author": "Chatbot.OM Editorial Team",
+  "publishDate": "2026-10-01",
+  "modifiedDate": "2026-10-01",
+  "reviewedDate": "2026-10-01",
+  "reviewBy": "2026-12-30",
+  "status": "published",
+  "tags": [
+    "small business",
+    "whatsapp automation",
+    "customer service",
+    "chatbot handover",
+    "time management",
+    "running a small team"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"225\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#14121c\"/><stop offset=\"0.5\" stop-color=\"#3a3554\"/><stop offset=\"1\" stop-color=\"#a8a8f8\"/></linearGradient></defs><rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#bg)\"/><path d=\"M30 63 a18 18 0 0 1 18 -18 h304 a18 18 0 0 1 18 18 v74 a18 18 0 0 1 -18 18 h-230 l-42 34 l6 -34 h-50 a18 18 0 0 1 -18 -18 z\" fill=\"#14121c\" opacity=\"0.93\"/><text x=\"56\" y=\"100\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#d4ff4f\">Automate 20.</text><text x=\"56\" y=\"136\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#f4f4f0\">Keep 1 human.</text><text x=\"56\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">The hard question still needs you</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Every message that lands on your phone fits into one of two piles: the question you have answered a hundred times before, and the one that actually needs you to think. Most small businesses never sort the pile, so routine questions eat the time the hard ones deserve. Split them properly, with a clean handover between the two, and no customer ever feels passed to a stranger."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-questions-you-know-by-heart",
+      "text": "the questions you already know by heart"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pull up your last week of WhatsApp chats and you will see the same handful of questions on repeat. Are you open today. How much is the small size. Do you deliver to Madinat Sultan Qaboos. Is there parking. Can I pay by card. These are not hard questions. You already know the answer before you finish reading them, which is exactly why they are worth automating first."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Opening hours, holiday hours, and whether you are open right now"
+          }
+        ],
+        [
+          {
+            "text": "The price of your cheapest item, service, or starting package"
+          }
+        ],
+        [
+          {
+            "text": "Delivery area, home visits, or whether you serve a particular neighbourhood"
+          }
+        ],
+        [
+          {
+            "text": "Location, directions, and parking"
+          }
+        ],
+        [
+          {
+            "text": "Payment methods and whether a deposit is required"
+          }
+        ],
+        [
+          {
+            "text": "Whether a specific size, colour, date or time slot is still available"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-you-keep-answering-them-anyway",
+      "text": "why you keep answering them anyway"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "At eleven at night, a repeat question and a genuine problem look the same on your screen: a notification, a red dot, a customer waiting. So you answer both with the same urgency, even though one of them took thirty seconds of thinking and the other took three. Over a month that adds up to hours spent re-explaining your opening hours to people who would have found the answer in two seconds if it had been waiting for them."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The twenty questions cost you nothing to answer twice. The one you get wrong costs you a customer."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-questions-that-should-stay-human",
+      "text": "the questions that should stay human"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Not every message belongs on the automated pile. Some need a person who can read tone, bend a rule, or simply apologise properly. Hand these off, every time:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "A price negotiation on a large or unusual order"
+          }
+        ],
+        [
+          {
+            "text": "A complaint about something that went wrong"
+          }
+        ],
+        [
+          {
+            "text": "A refund or cancellation tied to money already paid"
+          }
+        ],
+        [
+          {
+            "text": "Anything mentioning a health condition, an allergy, or an injury"
+          }
+        ],
+        [
+          {
+            "text": "A custom request that does not fit your usual options"
+          }
+        ],
+        [
+          {
+            "text": "A message that sounds upset before the customer has finished typing"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "These are judgment calls, not information lookups. Automating the policy answer is fine. Automating the apology is how you turn one annoyed customer into a customer you have lost for good."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-the-handover-should-feel",
+      "text": "how the handover should feel"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The whole idea fails if the customer has to repeat themselves. A bad handover drops a bare phone number into the chat and leaves the customer to explain everything again from scratch. A good one carries the whole conversation across: what was asked, what was already answered, what is still unresolved. A tool like Chatbot.OM can own the repeat questions on your website and WhatsApp, then pass anything harder to you with "
+        },
+        {
+          "text": "the full conversation attached",
+          "href": "/features/human-handover/"
+        },
+        {
+          "text": ", not a bare phone number and a guess at what the customer wants."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "The bot takes every membership price question. I only see the ones where someone wants to pause for an injury.",
+      "attribution": "Khalid, gym coordinator, Ghala",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-maths-for-a-small-guesthouse",
+      "text": "the maths for a small guesthouse"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Composite example: Thuraya runs a nine-room guesthouse off the Nizwa road. In a normal week she gets about 140 messages across WhatsApp and her website chat. Here is what splitting them changed, using a conservative OMR 5 an hour as the value of her own time."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Measure",
+        "Before the split",
+        "After the split"
+      ],
+      "rows": [
+        [
+          "Messages per week",
+          "140",
+          "140"
+        ],
+        [
+          "Answered by Thuraya herself",
+          "140, all of them",
+          "40, only the judgment calls"
+        ],
+        [
+          "Average minutes per reply",
+          "3 minutes",
+          "5 minutes (dates and contact details already captured)"
+        ],
+        [
+          "Owner's time spent per week",
+          "about 7 hours",
+          "about 3.3 hours"
+        ],
+        [
+          "Value of time freed monthly (at OMR 5/hour)",
+          "OMR 0",
+          "around OMR 79"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That is before counting the messages that used to wait until morning. A booking question answered at 2am instead of 9am is a booking that did not go to the guesthouse down the road."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Pull your last 50 chats and sort them into two piles: repeat questions and judgment calls."
+          }
+        ],
+        [
+          {
+            "text": "Write down the answer to every repeat question once, in plain language, so it is ready to hand to a chatbot or a new staff member."
+          }
+        ],
+        [
+          {
+            "text": "Set your handover rule in writing: any message mentioning money back, a health detail, or visible frustration skips straight to a person."
+          }
+        ],
+        [
+          {
+            "text": "Test it from the customer's side. Send yourself a hard question and see whether you get dumped on a stranger or picked up with the context intact."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "key",
+      "title": "Try this today",
+      "paragraphs": [
+        "Open your last 20 WhatsApp chats. Circle every question you have already answered in exactly the same words before.",
+        "That circled pile is your automation list. Everything else, the ones with no circle, stays with you."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What if the chatbot gets a question wrong?",
+          "a": "Good handover design lets a customer ask for a person at any point. The bot should recognise phrases like 'I want to talk to someone' and route the chat immediately, with the history attached."
+        },
+        {
+          "q": "Should I automate complaints too?",
+          "a": "No. A complaint needs someone who can bend a policy or apologise properly. Automating the apology usually makes an unhappy customer angrier, not calmer."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Twenty questions a week do not need your judgment, only your patience, and patience is exactly what a chatbot has in unlimited supply. Spend your own patience on the handful that genuinely need it, and make sure the handover between the two never makes a customer repeat their story."
+        }
+      ]
+    }
+  ]
+}
